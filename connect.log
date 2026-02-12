@@ -1,0 +1,2266 @@
+2026-02-12 13:57:49,989 - INFO - ============================================================
+2026-02-12 13:57:49,989 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:57:49,990 - INFO - Problem: forward
+2026-02-12 13:57:49,990 - INFO - ============================================================
+2026-02-12 13:57:49,990 - INFO - 
+============================================================
+2026-02-12 13:57:49,990 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:57:49,990 - INFO - ============================================================
+2026-02-12 13:57:49,990 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:57:49,990 - INFO - Loading story: input.txt
+2026-02-12 13:57:49,991 - INFO - Loaded story: input (2882 characters)
+2026-02-12 13:57:49,991 - INFO - ✓ Loaded test story: input
+2026-02-12 13:57:49,992 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:57:49,992 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/gpt-4o/individualistic/pyreason_rules.txt
+2026-02-12 13:57:49,996 - INFO - ✓ Output directory: ../output/phase2/gpt-4o/forward/input
+2026-02-12 13:57:49,996 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:57:49,997 - ERROR - Questions file not found: ../data/individualistic_questions.json
+2026-02-12 13:58:54,030 - INFO - ============================================================
+2026-02-12 13:58:54,030 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:58:54,030 - INFO - Problem: inverse
+2026-02-12 13:58:54,030 - INFO - ============================================================
+2026-02-12 13:58:54,030 - INFO - 
+============================================================
+2026-02-12 13:58:54,030 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:58:54,030 - INFO - ============================================================
+2026-02-12 13:58:54,030 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:58:54,031 - INFO - Loading story: input.txt
+2026-02-12 13:58:54,032 - INFO - Loaded story: input (2882 characters)
+2026-02-12 13:58:54,032 - INFO - ✓ Loaded test story: input
+2026-02-12 13:58:54,033 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:58:54,033 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/claude-sonnet-4-5/collectivistic/pyreason_rules.txt
+2026-02-12 13:58:54,036 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 13:58:54,036 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:58:54,037 - ERROR - Questions file not found: ../data/collectivistic_questions.json
+2026-02-12 14:06:26,561 - INFO - ============================================================
+2026-02-12 14:06:26,561 - INFO - CONNECT Project - Phase 2
+2026-02-12 14:06:26,561 - INFO - Problem: forward
+2026-02-12 14:06:26,562 - INFO - ============================================================
+2026-02-12 14:06:26,562 - INFO - 
+============================================================
+2026-02-12 14:06:26,562 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 14:06:26,562 - INFO - ============================================================
+2026-02-12 14:06:26,562 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 14:06:26,562 - INFO - Loading story: input.txt
+2026-02-12 14:06:26,564 - INFO - Loaded story: input (2882 characters)
+2026-02-12 14:06:26,564 - INFO - ✓ Loaded test story: input
+2026-02-12 14:06:26,564 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 14:06:26,564 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/claude-sonnet-4-5/individualistic/pyreason_rules.txt
+2026-02-12 14:06:26,567 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/forward/input
+2026-02-12 14:06:26,567 - INFO - ✓ Cost tracker initialized
+2026-02-12 14:06:26,568 - ERROR - Questions file not found: ../data/individualistic_questions.json
+2026-02-12 14:34:12,130 - INFO - ============================================================
+2026-02-12 14:34:12,130 - INFO - CONNECT Project - Phase 2
+2026-02-12 14:34:12,130 - INFO - Problem: inverse
+2026-02-12 14:34:12,130 - INFO - ============================================================
+2026-02-12 14:34:12,131 - INFO - 
+============================================================
+2026-02-12 14:34:12,131 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 14:34:12,131 - INFO - ============================================================
+2026-02-12 14:34:12,131 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 14:34:12,131 - INFO - Loading story: input.txt
+2026-02-12 14:34:12,132 - INFO - Loaded story: input (2867 characters)
+2026-02-12 14:34:12,132 - INFO - ✓ Loaded test story: input
+2026-02-12 14:34:12,132 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 14:34:12,132 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/claude-sonnet-4-5/collectivistic/pyreason_rules.txt
+2026-02-12 14:34:12,134 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:34:12,134 - INFO - ✓ Cost tracker initialized
+2026-02-12 14:34:12,135 - ERROR - Questions file not found: ../data/collectivistic_questions.json
+2026-02-12 14:36:00,136 - INFO - ============================================================
+2026-02-12 14:36:00,137 - INFO - CONNECT Project - Phase 2
+2026-02-12 14:36:00,137 - INFO - Problem: inverse
+2026-02-12 14:36:00,137 - INFO - ============================================================
+2026-02-12 14:36:00,137 - INFO - 
+============================================================
+2026-02-12 14:36:00,137 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 14:36:00,137 - INFO - ============================================================
+2026-02-12 14:36:00,137 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 14:36:00,137 - INFO - Loading story: input.txt
+2026-02-12 14:36:00,138 - INFO - Loaded story: input (1327 characters)
+2026-02-12 14:36:00,139 - INFO - ✓ Loaded test story: input
+2026-02-12 14:36:00,139 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 14:36:00,139 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/claude-sonnet-4-5/collectivistic/pyreason_rules.txt
+2026-02-12 14:36:00,142 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:36:00,142 - INFO - ✓ Cost tracker initialized
+2026-02-12 14:36:00,142 - ERROR - Questions file not found: ../data/collectivistic_questions.json
+2026-02-12 14:39:51,371 - INFO - ============================================================
+2026-02-12 14:39:51,372 - INFO - CONNECT Project - Phase 2
+2026-02-12 14:39:51,372 - INFO - Problem: inverse
+2026-02-12 14:39:51,372 - INFO - ============================================================
+2026-02-12 14:39:51,372 - INFO - 
+============================================================
+2026-02-12 14:39:51,372 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 14:39:51,372 - INFO - ============================================================
+2026-02-12 14:39:51,372 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 14:39:51,372 - INFO - Loading story: input.txt
+2026-02-12 14:39:51,374 - INFO - Loaded story: input (1327 characters)
+2026-02-12 14:39:51,374 - INFO - ✓ Loaded test story: input
+2026-02-12 14:39:51,374 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 14:39:51,374 - INFO - ✓ Rules loaded from: data/rules/claude-sonnet-4-5/collectivistic/pyreason_rules.txt
+2026-02-12 14:39:51,375 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:39:51,375 - INFO - ✓ Cost tracker initialized
+2026-02-12 14:39:51,375 - ERROR - Questions file not found: ../data/collectivistic_questions.json
+2026-02-12 14:41:07,377 - INFO - ============================================================
+2026-02-12 14:41:07,377 - INFO - CONNECT Project - Phase 2
+2026-02-12 14:41:07,377 - INFO - Problem: inverse
+2026-02-12 14:41:07,378 - INFO - ============================================================
+2026-02-12 14:41:07,378 - INFO - 
+============================================================
+2026-02-12 14:41:07,378 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 14:41:07,378 - INFO - ============================================================
+2026-02-12 14:41:07,378 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 14:41:07,378 - INFO - Loading story: input.txt
+2026-02-12 14:41:07,379 - INFO - Loaded story: input (1327 characters)
+2026-02-12 14:41:07,380 - INFO - ✓ Loaded test story: input
+2026-02-12 14:41:07,380 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 14:41:07,381 - INFO - ✓ Rules loaded from: data/rules/claude-sonnet-4-5/collectivistic/pyreason_rules.txt
+2026-02-12 14:41:07,382 - INFO - ✓ Output directory: output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:41:07,382 - INFO - ✓ Cost tracker initialized
+2026-02-12 14:41:07,383 - ERROR - ANTHROPIC_API_KEY environment variable not set. Set it with: export ANTHROPIC_API_KEY='your-key'
+2026-02-12 14:41:07,383 - ERROR - Phase 2 cannot run survey without model credentials.
+2026-02-12 14:41:07,383 - ERROR - Set the required API key or run with --skip-survey using an existing valid survey.json.
+2026-02-12 14:44:35,616 - INFO - ============================================================
+2026-02-12 14:44:35,616 - INFO - CONNECT Project - Phase 2
+2026-02-12 14:44:35,616 - INFO - Problem: inverse
+2026-02-12 14:44:35,616 - INFO - ============================================================
+2026-02-12 14:44:35,616 - INFO - 
+============================================================
+2026-02-12 14:44:35,617 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 14:44:35,617 - INFO - ============================================================
+2026-02-12 14:44:35,617 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 14:44:35,617 - INFO - Loading story: input.txt
+2026-02-12 14:44:35,618 - INFO - Loaded story: input (2867 characters)
+2026-02-12 14:44:35,618 - INFO - ✓ Loaded test story: input
+2026-02-12 14:44:35,618 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 14:44:35,619 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/claude-sonnet-4-5/collectivistic/pyreason_rules.txt
+2026-02-12 14:44:35,619 - INFO - ✓ Output directory: output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:44:35,620 - INFO - ✓ Cost tracker initialized
+2026-02-12 14:44:35,620 - INFO - 
+============================================================
+2026-02-12 14:44:35,620 - INFO - ITERATION 1/3
+2026-02-12 14:44:35,620 - INFO - ============================================================
+2026-02-12 14:44:35,623 - INFO - ✓ Saved current story to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/story.txt
+2026-02-12 14:44:35,623 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 14:44:35,650 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:44:42,390 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:44:42,395 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:44:47,426 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:44:47,428 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:44:54,560 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:44:54,562 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:45:00,956 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:45:00,958 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:45:07,772 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:45:07,775 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:45:14,728 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:45:14,730 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:45:22,822 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:45:22,824 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:45:29,608 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:45:29,610 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:45:36,599 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:45:36,602 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:45:42,863 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:45:42,865 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:45:49,387 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:45:49,389 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:45:55,461 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:45:55,464 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:04,043 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:04,045 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:11,674 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:11,676 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:20,680 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:20,682 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:26,726 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:26,728 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:33,034 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:33,035 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:35,717 - INFO - ============================================================
+2026-02-12 14:46:35,717 - INFO - CONNECT Project - Phase 2
+2026-02-12 14:46:35,717 - INFO - Problem: inverse
+2026-02-12 14:46:35,718 - INFO - ============================================================
+2026-02-12 14:46:35,718 - INFO - 
+============================================================
+2026-02-12 14:46:35,718 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 14:46:35,718 - INFO - ============================================================
+2026-02-12 14:46:35,718 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 14:46:35,718 - INFO - Loading story: input.txt
+2026-02-12 14:46:35,719 - INFO - Loaded story: input (2867 characters)
+2026-02-12 14:46:35,719 - INFO - ✓ Loaded test story: input
+2026-02-12 14:46:35,720 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 14:46:35,720 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/claude-sonnet-4-5/collectivistic/pyreason_rules.txt
+2026-02-12 14:46:35,720 - INFO - ✓ Output directory: output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:46:35,721 - INFO - ✓ Cost tracker initialized
+2026-02-12 14:46:35,721 - INFO - 
+============================================================
+2026-02-12 14:46:35,722 - INFO - ITERATION 1/2
+2026-02-12 14:46:35,722 - INFO - ============================================================
+2026-02-12 14:46:35,724 - INFO - ✓ Saved current story to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/story.txt
+2026-02-12 14:46:35,724 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 14:46:35,749 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:38,975 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:38,977 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:42,223 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:42,228 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:46,099 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:46,101 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:49,301 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:49,303 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:46:52,158 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:52,163 - INFO - ✓ Survey completed and saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/survey.json
+2026-02-12 14:46:52,163 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 14:46:52,165 - INFO - ✓ Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking.json
+2026-02-12 14:46:52,165 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 14:46:52,166 - INFO - Building ground atoms from survey: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/survey.json
+2026-02-12 14:46:52,168 - INFO - Created 41 ground atoms
+2026-02-12 14:46:52,168 - INFO - Extracted metadata for 20 features
+2026-02-12 14:46:52,171 - INFO - Saved ground atoms to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ground_atoms.json
+2026-02-12 14:46:52,171 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 14:46:52,175 - INFO - Saved segments metadata to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/segments_metadata.json
+2026-02-12 14:46:52,175 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 14:46:52,176 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 14:46:52,176 - INFO - Running PyReason...
+2026-02-12 14:46:55,946 - INFO - Added 20 facts to PyReason
+2026-02-12 14:46:57,483 - INFO - Rules loaded successfully
+2026-02-12 14:46:57,483 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 14:46:57,930 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:46:57,932 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:05,082 - INFO - Reasoning completed
+2026-02-12 14:47:05,082 - INFO - Saving rule traces to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces
+2026-02-12 14:47:05,389 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:05,391 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:07,527 - INFO - ✓ Generated 2 trace files:
+2026-02-12 14:47:07,527 - INFO -   - rule_trace_nodes_20260212-144657.csv
+2026-02-12 14:47:07,528 - INFO -   - rule_trace_edges_20260212-144657.csv
+2026-02-12 14:47:07,528 - INFO - ✓ PyReason traces saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces
+2026-02-12 14:47:07,528 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 14:47:07,529 - INFO - ============================================================
+2026-02-12 14:47:07,529 - INFO - ABDUCTION ANALYSIS
+2026-02-12 14:47:07,530 - INFO - ============================================================
+2026-02-12 14:47:07,530 - INFO - Loading learned rules...
+2026-02-12 14:47:07,532 - INFO - Loaded 100 learned rules
+2026-02-12 14:47:07,532 - INFO - Parsing trace CSV: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces/rule_trace_edges_20260212-144657.csv
+2026-02-12 14:47:07,536 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 14:47:07,539 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 14:47:07,539 - INFO - Analyzing story: input
+2026-02-12 14:47:07,540 - INFO - Calculating confidence gaps...
+2026-02-12 14:47:07,540 - INFO - 
+Current total similarity: 0.122
+2026-02-12 14:47:07,540 - INFO - Potential total similarity: 0.437
+2026-02-12 14:47:07,541 - INFO - Total improvement potential: 0.316
+2026-02-12 14:47:07,541 - INFO - Max gap: 0.470
+2026-02-12 14:47:07,541 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 14:47:07,541 - INFO - 
+Top feature gaps:
+2026-02-12 14:47:07,541 - INFO -   1. relationship_orientation: current=0.070, max=0.540, gap=0.470
+2026-02-12 14:47:07,541 - INFO -   2. behavioral_guidance: current=0.110, max=0.540, gap=0.430
+2026-02-12 14:47:07,541 - INFO -   3. man_vs_self_world_conflict: current=0.040, max=0.460, gap=0.420
+2026-02-12 14:47:07,541 - INFO -   4. decision_driven_plot: current=0.110, max=0.500, gap=0.390
+2026-02-12 14:47:07,541 - INFO -   5. self_reliance: current=0.070, max=0.460, gap=0.390
+2026-02-12 14:47:07,544 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/abduction_analysis.json
+2026-02-12 14:47:07,544 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 14:47:07,544 - INFO - Created 19 ranked prescriptions (19 unique segments)
+2026-02-12 14:47:07,546 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ranked_prescriptions.json
+2026-02-12 14:47:07,546 - INFO -   Total prescriptions: 19
+2026-02-12 14:47:07,547 - INFO - 
+============================================================
+2026-02-12 14:47:07,547 - INFO - ABDUCTION COMPLETE
+2026-02-12 14:47:07,547 - INFO - ============================================================
+2026-02-12 14:47:07,547 - INFO - Features analyzed: 20
+2026-02-12 14:47:07,547 - INFO - Segments to transform: 19
+2026-02-12 14:47:07,547 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 14:47:07,547 - INFO - ============================================================
+2026-02-12 14:47:07,547 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/abduction_analysis.json
+2026-02-12 14:47:07,547 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ranked_prescriptions.json
+2026-02-12 14:47:07,548 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 14:47:07,548 - INFO - ============================================================
+2026-02-12 14:47:07,548 - INFO - STORY TRANSFORMATION
+2026-02-12 14:47:07,548 - INFO - ============================================================
+2026-02-12 14:47:07,549 - INFO - Selected top 3 features:
+2026-02-12 14:47:07,549 - INFO -   1. relationship_orientation: 4 segments
+2026-02-12 14:47:07,549 - INFO -   2. behavioral_guidance: 3 segments
+2026-02-12 14:47:07,549 - INFO -   3. man_vs_self_world_conflict: 1 segments
+2026-02-12 14:47:07,549 - INFO - Total segments to transform: 8
+2026-02-12 14:47:07,549 - INFO - 
+[Transformation 1/8]
+2026-02-12 14:47:07,549 - INFO -   Feature: relationship_orientation
+2026-02-12 14:47:07,550 - INFO -   Segment: Henry...
+2026-02-12 14:47:07,550 - INFO -   Target: 2 → 4
+2026-02-12 14:47:07,551 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:12,565 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:12,569 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:13,890 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:13,891 - INFO -   ✓ Transformed (tokens: 1375)
+2026-02-12 14:47:13,893 - INFO - 
+[Transformation 2/8]
+2026-02-12 14:47:13,893 - INFO -   Feature: relationship_orientation
+2026-02-12 14:47:13,894 - INFO -   Segment: By age thirteen, he was disassembling and reassembling timep...
+2026-02-12 14:47:13,894 - INFO -   Target: 2 → 4
+2026-02-12 14:47:13,895 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:14,886 - INFO - ============================================================
+2026-02-12 14:47:14,886 - INFO - CONNECT Project - Phase 2
+2026-02-12 14:47:14,886 - INFO - Problem: inverse
+2026-02-12 14:47:14,887 - INFO - ============================================================
+2026-02-12 14:47:14,887 - INFO - 
+============================================================
+2026-02-12 14:47:14,887 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 14:47:14,887 - INFO - ============================================================
+2026-02-12 14:47:14,887 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 14:47:14,887 - INFO - Loading story: input.txt
+2026-02-12 14:47:14,888 - INFO - Loaded story: input (2867 characters)
+2026-02-12 14:47:14,888 - INFO - ✓ Loaded test story: input
+2026-02-12 14:47:14,888 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 14:47:14,888 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/claude-sonnet-4-5/collectivistic/pyreason_rules.txt
+2026-02-12 14:47:14,889 - INFO - ✓ Output directory: output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:47:14,890 - INFO - ✓ Cost tracker initialized
+2026-02-12 14:47:14,890 - INFO - 
+============================================================
+2026-02-12 14:47:14,890 - INFO - ITERATION 1/2
+2026-02-12 14:47:14,890 - INFO - ============================================================
+2026-02-12 14:47:14,982 - INFO - ✓ Saved current story to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/story.txt
+2026-02-12 14:47:14,982 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 14:47:15,018 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:19,840 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:19,842 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:20,947 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:20,949 - INFO -   ✓ Transformed (tokens: 1462)
+2026-02-12 14:47:20,950 - INFO - 
+[Transformation 3/8]
+2026-02-12 14:47:20,950 - INFO -   Feature: relationship_orientation
+2026-02-12 14:47:20,951 - INFO -   Segment: At forty-five years old, Henry...
+2026-02-12 14:47:20,951 - INFO -   Target: 2 → 4
+2026-02-12 14:47:20,952 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:21,744 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:21,749 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:26,757 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:26,759 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:28,626 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:28,627 - INFO -   ✓ Transformed (tokens: 1464)
+2026-02-12 14:47:28,629 - INFO - 
+[Transformation 4/8]
+2026-02-12 14:47:28,629 - INFO -   Feature: relationship_orientation
+2026-02-12 14:47:28,630 - INFO -   Segment: After many disagreements with his business partners, Henry l...
+2026-02-12 14:47:28,630 - INFO -   Target: 2 → 4
+2026-02-12 14:47:28,630 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:28,794 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:28,796 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:33,322 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:33,323 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:35,463 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:35,464 - INFO -   ✓ Transformed (tokens: 1501)
+2026-02-12 14:47:35,465 - INFO - 
+[Transformation 5/8]
+2026-02-12 14:47:35,465 - INFO -   Feature: behavioral_guidance
+2026-02-12 14:47:35,465 - INFO -   Segment: At age sixteen, Henry left the family farm for Detroit and f...
+2026-02-12 14:47:35,465 - INFO -   Target: 2 → 4
+2026-02-12 14:47:35,466 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:35,651 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:35,653 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:39,911 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:39,913 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:42,702 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:42,703 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:43,913 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:43,914 - INFO -   ✓ Transformed (tokens: 1543)
+2026-02-12 14:47:43,915 - INFO - 
+[Transformation 6/8]
+2026-02-12 14:47:43,915 - INFO -   Feature: behavioral_guidance
+2026-02-12 14:47:43,915 - INFO -   Segment: Henry spent irregular hours working on his side efforts to b...
+2026-02-12 14:47:43,915 - INFO -   Target: 2 → 4
+2026-02-12 14:47:43,916 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:46,514 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:46,516 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:49,823 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:49,825 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:51,410 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:51,412 - INFO -   ✓ Transformed (tokens: 1588)
+2026-02-12 14:47:51,413 - INFO - 
+[Transformation 7/8]
+2026-02-12 14:47:51,413 - INFO -   Feature: behavioral_guidance
+2026-02-12 14:47:51,414 - INFO -   Segment: However, the automobiles produced were of a lower quality an...
+2026-02-12 14:47:51,414 - INFO -   Target: 2 → 4
+2026-02-12 14:47:51,415 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:54,694 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:54,696 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:55,945 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:55,947 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:47:57,930 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:47:57,931 - INFO -   ✓ Transformed (tokens: 1604)
+2026-02-12 14:47:57,932 - INFO - 
+[Transformation 8/8]
+2026-02-12 14:47:57,932 - INFO -   Feature: man_vs_self_world_conflict
+2026-02-12 14:47:57,932 - INFO -   Segment: On call twenty-four hours a day, Henry spent irregular hours...
+2026-02-12 14:47:57,932 - INFO -   Target: 1 → 4
+2026-02-12 14:47:57,933 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:02,011 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:02,012 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:03,840 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:03,842 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:04,536 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:04,537 - INFO -   ✓ Transformed (tokens: 1607)
+2026-02-12 14:48:04,540 - INFO - 
+✓ Final transformed story saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/story_transformed.txt
+2026-02-12 14:48:04,542 - INFO - ✓ Transformation log saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/transformation_log.json
+2026-02-12 14:48:04,544 - INFO - ✓ Transformation costs saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking_transformation.json
+2026-02-12 14:48:04,544 - INFO - 
+============================================================
+2026-02-12 14:48:04,544 - INFO - TRANSFORMATION COMPLETE
+2026-02-12 14:48:04,545 - INFO - ============================================================
+2026-02-12 14:48:04,545 - INFO - Features selected: 3
+2026-02-12 14:48:04,545 - INFO - Segments attempted: 8
+2026-02-12 14:48:04,545 - INFO - Segments transformed: 8
+2026-02-12 14:48:04,545 - INFO - Segments skipped (reversals): 0
+2026-02-12 14:48:04,545 - INFO - Total cost: $0.1035
+2026-02-12 14:48:04,545 - INFO - Total tokens: 12,144
+2026-02-12 14:48:04,545 - INFO - ============================================================
+2026-02-12 14:48:04,545 - INFO - ✓ Story transformed
+2026-02-12 14:48:04,545 - INFO - ✓ Transformation log: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/transformation_log.json
+2026-02-12 14:48:04,545 - INFO - ✓ Transformation costs: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking_transformation.json
+2026-02-12 14:48:04,545 - INFO - 
+============================================================
+2026-02-12 14:48:04,546 - INFO - ITERATION 2/3
+2026-02-12 14:48:04,546 - INFO - ============================================================
+2026-02-12 14:48:04,548 - INFO - ✓ Saved current story to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/story.txt
+2026-02-12 14:48:04,548 - INFO - 
+[Step 3/7] Surveying story (iteration 1)...
+2026-02-12 14:48:04,551 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:08,397 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:08,399 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:10,915 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:10,917 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:14,128 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:14,130 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:16,706 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:16,709 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:17,658 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:17,660 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:20,142 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:20,144 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:24,254 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:24,256 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:25,512 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:25,513 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:28,471 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:28,473 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:31,712 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:31,714 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:34,309 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:34,311 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:37,625 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:37,626 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:37,643 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:37,645 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:41,267 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:41,269 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:43,984 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:43,986 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:44,743 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:44,745 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:48,485 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:48,488 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:51,504 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:51,506 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:52,507 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:52,509 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:56,046 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:56,048 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:48:57,903 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:48:57,909 - INFO - ✓ Survey completed and saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/survey.json
+2026-02-12 14:48:57,909 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 14:48:58,067 - INFO - ✓ Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking.json
+2026-02-12 14:48:58,067 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 14:48:58,069 - INFO - Building ground atoms from survey: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/survey.json
+2026-02-12 14:48:58,074 - INFO - Created 41 ground atoms
+2026-02-12 14:48:58,075 - INFO - Extracted metadata for 20 features
+2026-02-12 14:48:58,079 - INFO - Saved ground atoms to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ground_atoms.json
+2026-02-12 14:48:58,079 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 14:48:58,085 - INFO - Saved segments metadata to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/segments_metadata.json
+2026-02-12 14:48:58,085 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 14:48:58,086 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 14:48:58,086 - INFO - Running PyReason...
+2026-02-12 14:49:00,140 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:00,142 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:01,982 - INFO - Added 20 facts to PyReason
+2026-02-12 14:49:02,329 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:02,332 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:03,530 - INFO - Rules loaded successfully
+2026-02-12 14:49:03,530 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 14:49:07,541 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:07,543 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:09,409 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:09,412 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:11,203 - INFO - Reasoning completed
+2026-02-12 14:49:11,204 - INFO - Saving rule traces to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces
+2026-02-12 14:49:13,565 - INFO - ✓ Generated 2 trace files:
+2026-02-12 14:49:13,565 - INFO -   - rule_trace_nodes_20260212-144903.csv
+2026-02-12 14:49:13,565 - INFO -   - rule_trace_edges_20260212-144903.csv
+2026-02-12 14:49:13,566 - INFO - ✓ PyReason traces saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces
+2026-02-12 14:49:13,566 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 14:49:13,567 - INFO - ============================================================
+2026-02-12 14:49:13,567 - INFO - ABDUCTION ANALYSIS
+2026-02-12 14:49:13,567 - INFO - ============================================================
+2026-02-12 14:49:13,567 - INFO - Loading learned rules...
+2026-02-12 14:49:13,570 - INFO - Loaded 100 learned rules
+2026-02-12 14:49:13,570 - INFO - Parsing trace CSV: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces/rule_trace_edges_20260212-144903.csv
+2026-02-12 14:49:13,574 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 14:49:13,576 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 14:49:13,577 - INFO - Analyzing story: input
+2026-02-12 14:49:13,577 - INFO - Calculating confidence gaps...
+2026-02-12 14:49:13,577 - INFO - 
+Current total similarity: 0.122
+2026-02-12 14:49:13,578 - INFO - Potential total similarity: 0.437
+2026-02-12 14:49:13,578 - INFO - Total improvement potential: 0.316
+2026-02-12 14:49:13,578 - INFO - Max gap: 0.470
+2026-02-12 14:49:13,578 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 14:49:13,578 - INFO - 
+Top feature gaps:
+2026-02-12 14:49:13,578 - INFO -   1. relationship_orientation: current=0.070, max=0.540, gap=0.470
+2026-02-12 14:49:13,578 - INFO -   2. behavioral_guidance: current=0.110, max=0.540, gap=0.430
+2026-02-12 14:49:13,578 - INFO -   3. man_vs_self_world_conflict: current=0.040, max=0.460, gap=0.420
+2026-02-12 14:49:13,578 - INFO -   4. decision_driven_plot: current=0.110, max=0.500, gap=0.390
+2026-02-12 14:49:13,578 - INFO -   5. self_reliance: current=0.070, max=0.460, gap=0.390
+2026-02-12 14:49:13,581 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/abduction_analysis.json
+2026-02-12 14:49:13,582 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 14:49:13,582 - INFO - Created 14 ranked prescriptions (14 unique segments)
+2026-02-12 14:49:13,585 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ranked_prescriptions.json
+2026-02-12 14:49:13,585 - INFO -   Total prescriptions: 14
+2026-02-12 14:49:13,585 - INFO - 
+============================================================
+2026-02-12 14:49:13,586 - INFO - ABDUCTION COMPLETE
+2026-02-12 14:49:13,586 - INFO - ============================================================
+2026-02-12 14:49:13,586 - INFO - Features analyzed: 20
+2026-02-12 14:49:13,586 - INFO - Segments to transform: 14
+2026-02-12 14:49:13,586 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 14:49:13,586 - INFO - ============================================================
+2026-02-12 14:49:13,586 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/abduction_analysis.json
+2026-02-12 14:49:13,586 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ranked_prescriptions.json
+2026-02-12 14:49:13,586 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 14:49:13,586 - INFO - ============================================================
+2026-02-12 14:49:13,586 - INFO - STORY TRANSFORMATION
+2026-02-12 14:49:13,587 - INFO - ============================================================
+2026-02-12 14:49:13,588 - INFO - Selected top 3 features:
+2026-02-12 14:49:13,588 - INFO -   1. relationship_orientation: 5 segments
+2026-02-12 14:49:13,588 - INFO -   2. behavioral_guidance: 1 segments
+2026-02-12 14:49:13,588 - INFO -   3. man_vs_self_world_conflict: 2 segments
+2026-02-12 14:49:13,589 - INFO - Total segments to transform: 8
+2026-02-12 14:49:13,589 - INFO - 
+[Transformation 1/8]
+2026-02-12 14:49:13,589 - INFO -   Feature: relationship_orientation
+2026-02-12 14:49:13,589 - INFO -   Segment: Henry...
+2026-02-12 14:49:13,589 - INFO -   Target: 2 → 4
+2026-02-12 14:49:13,590 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:16,383 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:16,385 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:16,468 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:16,470 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:20,125 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:20,126 - INFO -   ✓ Transformed (tokens: 1372)
+2026-02-12 14:49:20,127 - INFO - 
+[Transformation 2/8]
+2026-02-12 14:49:20,127 - INFO -   Feature: relationship_orientation
+2026-02-12 14:49:20,127 - INFO -   Segment: At age sixteen, Henry left the family farm for Detroit and f...
+2026-02-12 14:49:20,127 - INFO -   Target: 2 → 4
+2026-02-12 14:49:20,128 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:23,079 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:23,081 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:24,001 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:24,002 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:26,915 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:26,916 - INFO -   ✓ Transformed (tokens: 1444)
+2026-02-12 14:49:26,917 - INFO - 
+[Transformation 3/8]
+2026-02-12 14:49:26,917 - INFO -   Feature: relationship_orientation
+2026-02-12 14:49:26,917 - INFO -   Segment: After many disagreements with his business partners, Henry l...
+2026-02-12 14:49:26,918 - INFO -   Target: 2 → 4
+2026-02-12 14:49:26,919 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:30,243 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:30,245 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:30,597 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:30,600 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:34,653 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:34,654 - INFO -   ✓ Transformed (tokens: 1464)
+2026-02-12 14:49:34,655 - INFO - 
+[Transformation 4/8]
+2026-02-12 14:49:34,655 - INFO -   Feature: relationship_orientation
+2026-02-12 14:49:34,655 - INFO -   Segment: The price of the car dropped over the years, and people who ...
+2026-02-12 14:49:34,655 - INFO -   Target: 2 → 4
+2026-02-12 14:49:34,656 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:36,398 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:36,403 - INFO - ✓ Survey completed and saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/survey.json
+2026-02-12 14:49:36,404 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 14:49:36,407 - INFO - ✓ Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking.json
+2026-02-12 14:49:36,407 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 14:49:36,408 - INFO - Building ground atoms from survey: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/survey.json
+2026-02-12 14:49:36,412 - INFO - Created 41 ground atoms
+2026-02-12 14:49:36,412 - INFO - Extracted metadata for 20 features
+2026-02-12 14:49:36,415 - INFO - Saved ground atoms to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ground_atoms.json
+2026-02-12 14:49:36,415 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 14:49:36,419 - INFO - Saved segments metadata to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/segments_metadata.json
+2026-02-12 14:49:36,420 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 14:49:36,420 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 14:49:36,420 - INFO - Running PyReason...
+2026-02-12 14:49:37,214 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:37,216 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:40,195 - INFO - Added 20 facts to PyReason
+2026-02-12 14:49:41,546 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:41,547 - INFO -   ✓ Transformed (tokens: 1485)
+2026-02-12 14:49:41,548 - INFO - 
+[Transformation 5/8]
+2026-02-12 14:49:41,549 - INFO -   Feature: relationship_orientation
+2026-02-12 14:49:41,549 - INFO -   Segment: At forty-five years old, Henry...
+2026-02-12 14:49:41,549 - INFO -   Target: 2 → 4
+2026-02-12 14:49:41,549 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:41,747 - INFO - Rules loaded successfully
+2026-02-12 14:49:41,748 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 14:49:44,456 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:44,458 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:48,187 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:48,188 - INFO -   ✓ Transformed (tokens: 1474)
+2026-02-12 14:49:48,189 - INFO - 
+[Transformation 6/8]
+2026-02-12 14:49:48,189 - INFO -   Feature: behavioral_guidance
+2026-02-12 14:49:48,189 - INFO -   Segment: On call twenty-four hours a day, Henry spent irregular hours...
+2026-02-12 14:49:48,189 - INFO -   Target: 2 → 4
+2026-02-12 14:49:48,190 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:49,406 - INFO - Reasoning completed
+2026-02-12 14:49:49,407 - INFO - Saving rule traces to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces
+2026-02-12 14:49:51,770 - INFO - ✓ Generated 2 trace files:
+2026-02-12 14:49:51,771 - INFO -   - rule_trace_nodes_20260212-144941.csv
+2026-02-12 14:49:51,771 - INFO -   - rule_trace_edges_20260212-144941.csv
+2026-02-12 14:49:51,771 - INFO - ✓ PyReason traces saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces
+2026-02-12 14:49:51,771 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 14:49:51,772 - INFO - ============================================================
+2026-02-12 14:49:51,773 - INFO - ABDUCTION ANALYSIS
+2026-02-12 14:49:51,773 - INFO - ============================================================
+2026-02-12 14:49:51,773 - INFO - Loading learned rules...
+2026-02-12 14:49:51,775 - INFO - Loaded 100 learned rules
+2026-02-12 14:49:51,775 - INFO - Parsing trace CSV: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces/rule_trace_edges_20260212-144941.csv
+2026-02-12 14:49:51,779 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 14:49:51,781 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 14:49:51,781 - INFO - Analyzing story: input
+2026-02-12 14:49:51,782 - INFO - Calculating confidence gaps...
+2026-02-12 14:49:51,782 - INFO - 
+Current total similarity: 0.122
+2026-02-12 14:49:51,783 - INFO - Potential total similarity: 0.438
+2026-02-12 14:49:51,783 - INFO - Total improvement potential: 0.316
+2026-02-12 14:49:51,783 - INFO - Max gap: 0.470
+2026-02-12 14:49:51,783 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 14:49:51,783 - INFO - 
+Top feature gaps:
+2026-02-12 14:49:51,783 - INFO -   1. relationship_orientation: current=0.070, max=0.540, gap=0.470
+2026-02-12 14:49:51,783 - INFO -   2. behavioral_guidance: current=0.110, max=0.540, gap=0.430
+2026-02-12 14:49:51,784 - INFO -   3. decision_driven_plot: current=0.110, max=0.500, gap=0.390
+2026-02-12 14:49:51,784 - INFO -   4. self_reliance: current=0.070, max=0.460, gap=0.390
+2026-02-12 14:49:51,784 - INFO -   5. meritocracy_emphasis: current=0.070, max=0.430, gap=0.360
+2026-02-12 14:49:51,787 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/abduction_analysis.json
+2026-02-12 14:49:51,787 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 14:49:51,788 - INFO - Created 18 ranked prescriptions (18 unique segments)
+2026-02-12 14:49:51,791 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ranked_prescriptions.json
+2026-02-12 14:49:51,791 - INFO -   Total prescriptions: 18
+2026-02-12 14:49:51,792 - INFO - 
+============================================================
+2026-02-12 14:49:51,792 - INFO - ABDUCTION COMPLETE
+2026-02-12 14:49:51,792 - INFO - ============================================================
+2026-02-12 14:49:51,792 - INFO - Features analyzed: 20
+2026-02-12 14:49:51,792 - INFO - Segments to transform: 18
+2026-02-12 14:49:51,792 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 14:49:51,792 - INFO - ============================================================
+2026-02-12 14:49:51,793 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/abduction_analysis.json
+2026-02-12 14:49:51,793 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ranked_prescriptions.json
+2026-02-12 14:49:51,793 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 14:49:51,793 - INFO - ============================================================
+2026-02-12 14:49:51,793 - INFO - STORY TRANSFORMATION
+2026-02-12 14:49:51,793 - INFO - ============================================================
+2026-02-12 14:49:51,797 - INFO - Selected top 3 features:
+2026-02-12 14:49:51,797 - INFO -   1. relationship_orientation: 5 segments
+2026-02-12 14:49:51,797 - INFO -   2. behavioral_guidance: 1 segments
+2026-02-12 14:49:51,797 - INFO -   3. decision_driven_plot: 2 segments
+2026-02-12 14:49:51,797 - INFO - Total segments to transform: 8
+2026-02-12 14:49:51,797 - INFO - 
+[Transformation 1/8]
+2026-02-12 14:49:51,797 - INFO -   Feature: relationship_orientation
+2026-02-12 14:49:51,798 - INFO -   Segment: Henry...
+2026-02-12 14:49:51,798 - INFO -   Target: 2 → 4
+2026-02-12 14:49:51,799 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:52,231 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:52,233 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:55,546 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:55,547 - INFO -   ✓ Transformed (tokens: 1531)
+2026-02-12 14:49:55,548 - INFO - 
+[Transformation 7/8]
+2026-02-12 14:49:55,548 - INFO -   Feature: man_vs_self_world_conflict
+2026-02-12 14:49:55,549 - INFO -   Segment: Henry immediately saw the potential of what a...
+2026-02-12 14:49:55,549 - INFO -   Target: 1 → 4
+2026-02-12 14:49:55,549 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:49:58,344 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:49:58,345 - INFO -   ✓ Transformed (tokens: 1371)
+2026-02-12 14:49:58,346 - INFO - 
+[Transformation 2/8]
+2026-02-12 14:49:58,347 - INFO -   Feature: relationship_orientation
+2026-02-12 14:49:58,347 - INFO -   Segment: At age sixteen, Henry left the family farm for Detroit and f...
+2026-02-12 14:49:58,347 - INFO -   Target: 2 → 4
+2026-02-12 14:49:58,348 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:00,978 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:00,980 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:02,140 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:02,142 - INFO -   ✓ Transformed (tokens: 1503)
+2026-02-12 14:50:02,143 - INFO - 
+[Transformation 8/8]
+2026-02-12 14:50:02,143 - INFO -   Feature: man_vs_self_world_conflict
+2026-02-12 14:50:02,143 - INFO -   Segment: However, the automobiles produced were of a lower quality an...
+2026-02-12 14:50:02,143 - INFO -   Target: 1 → 4
+2026-02-12 14:50:02,144 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:06,246 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:06,247 - INFO -   ✓ Transformed (tokens: 1440)
+2026-02-12 14:50:06,248 - INFO - 
+[Transformation 3/8]
+2026-02-12 14:50:06,249 - INFO -   Feature: relationship_orientation
+2026-02-12 14:50:06,249 - INFO -   Segment: After many disagreements with his business partners, Henry l...
+2026-02-12 14:50:06,249 - INFO -   Target: 2 → 4
+2026-02-12 14:50:06,251 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:07,812 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:07,814 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:10,710 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:10,711 - INFO -   ✓ Transformed (tokens: 1538)
+2026-02-12 14:50:10,713 - INFO - 
+✓ Final transformed story saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/story_transformed.txt
+2026-02-12 14:50:10,717 - INFO - ✓ Transformation log saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/transformation_log.json
+2026-02-12 14:50:10,719 - INFO - ✓ Transformation costs saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking_transformation.json
+2026-02-12 14:50:10,719 - INFO - 
+============================================================
+2026-02-12 14:50:10,720 - INFO - TRANSFORMATION COMPLETE
+2026-02-12 14:50:10,720 - INFO - ============================================================
+2026-02-12 14:50:10,720 - INFO - Features selected: 3
+2026-02-12 14:50:10,720 - INFO - Segments attempted: 8
+2026-02-12 14:50:10,720 - INFO - Segments transformed: 8
+2026-02-12 14:50:10,720 - INFO - Segments skipped (reversals): 0
+2026-02-12 14:50:10,720 - INFO - Total cost: $0.1005
+2026-02-12 14:50:10,720 - INFO - Total tokens: 11,811
+2026-02-12 14:50:10,721 - INFO - ============================================================
+2026-02-12 14:50:10,721 - INFO - ✓ Story transformed
+2026-02-12 14:50:10,721 - INFO - ✓ Transformation log: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/transformation_log.json
+2026-02-12 14:50:10,721 - INFO - ✓ Transformation costs: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking_transformation.json
+2026-02-12 14:50:10,721 - INFO - 
+============================================================
+2026-02-12 14:50:10,721 - INFO - ITERATION 2/2
+2026-02-12 14:50:10,721 - INFO - ============================================================
+2026-02-12 14:50:10,724 - INFO - ✓ Saved current story to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/story.txt
+2026-02-12 14:50:10,724 - INFO - 
+[Step 3/7] Surveying story (iteration 1)...
+2026-02-12 14:50:10,727 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:13,915 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:13,916 - INFO -   ✓ Transformed (tokens: 1472)
+2026-02-12 14:50:13,917 - INFO - 
+[Transformation 4/8]
+2026-02-12 14:50:13,917 - INFO -   Feature: relationship_orientation
+2026-02-12 14:50:13,918 - INFO -   Segment: By age thirteen, he was disassembling and reassembling timep...
+2026-02-12 14:50:13,918 - INFO -   Target: 2 → 4
+2026-02-12 14:50:13,920 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:14,610 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:14,612 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:17,940 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:17,942 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:21,190 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:21,192 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:21,774 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:21,775 - INFO -   ✓ Transformed (tokens: 1516)
+2026-02-12 14:50:21,776 - INFO - 
+[Transformation 5/8]
+2026-02-12 14:50:21,777 - INFO -   Feature: relationship_orientation
+2026-02-12 14:50:21,777 - INFO -   Segment: At forty-five years old, Henry...
+2026-02-12 14:50:21,777 - INFO -   Target: 2 → 4
+2026-02-12 14:50:21,779 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:23,977 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:23,979 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:28,769 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:28,771 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:28,786 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:28,788 - INFO -   ✓ Transformed (tokens: 1514)
+2026-02-12 14:50:28,789 - INFO - 
+[Transformation 6/8]
+2026-02-12 14:50:28,789 - INFO -   Feature: behavioral_guidance
+2026-02-12 14:50:28,789 - INFO -   Segment: At age sixteen, Henry left the family farm for Detroit and f...
+2026-02-12 14:50:28,790 - INFO -   Target: 2 → 4
+2026-02-12 14:50:28,791 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:32,290 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:32,291 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:35,177 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:35,178 - INFO -   ✓ Transformed (tokens: 1540)
+2026-02-12 14:50:35,179 - INFO - 
+[Transformation 7/8]
+2026-02-12 14:50:35,179 - INFO -   Feature: decision_driven_plot
+2026-02-12 14:50:35,180 - INFO -   Segment: Encouraged by Edison, Henry designed and built a second vehi...
+2026-02-12 14:50:35,180 - INFO -   Target: 2 → 4
+2026-02-12 14:50:35,181 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:37,786 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:37,795 - INFO - ✓ Survey completed and saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/survey.json
+2026-02-12 14:50:37,795 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 14:50:37,799 - INFO - ✓ Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking.json
+2026-02-12 14:50:37,799 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 14:50:37,799 - INFO - Building ground atoms from survey: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/survey.json
+2026-02-12 14:50:37,801 - INFO - Created 41 ground atoms
+2026-02-12 14:50:37,802 - INFO - Extracted metadata for 20 features
+2026-02-12 14:50:37,805 - INFO - Saved ground atoms to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ground_atoms.json
+2026-02-12 14:50:37,805 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 14:50:37,849 - INFO - Saved segments metadata to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/segments_metadata.json
+2026-02-12 14:50:37,849 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 14:50:37,849 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 14:50:37,850 - INFO - Running PyReason...
+2026-02-12 14:50:37,855 - INFO - Added 20 facts to PyReason
+2026-02-12 14:50:37,967 - INFO - Rules loaded successfully
+2026-02-12 14:50:37,967 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 14:50:37,997 - INFO - Reasoning completed
+2026-02-12 14:50:37,998 - INFO - Saving rule traces to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces
+2026-02-12 14:50:38,023 - INFO - ✓ Generated 2 trace files:
+2026-02-12 14:50:38,024 - INFO -   - rule_trace_nodes_20260212-145037.csv
+2026-02-12 14:50:38,024 - INFO -   - rule_trace_edges_20260212-145037.csv
+2026-02-12 14:50:38,024 - INFO - ✓ PyReason traces saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces
+2026-02-12 14:50:38,024 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 14:50:38,025 - INFO - ============================================================
+2026-02-12 14:50:38,025 - INFO - ABDUCTION ANALYSIS
+2026-02-12 14:50:38,025 - INFO - ============================================================
+2026-02-12 14:50:38,025 - INFO - Loading learned rules...
+2026-02-12 14:50:38,027 - INFO - Loaded 100 learned rules
+2026-02-12 14:50:38,027 - INFO - Parsing trace CSV: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces/rule_trace_edges_20260212-145037.csv
+2026-02-12 14:50:38,031 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 14:50:38,033 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 14:50:38,033 - INFO - Analyzing story: input
+2026-02-12 14:50:38,034 - INFO - Calculating confidence gaps...
+2026-02-12 14:50:38,034 - INFO - 
+Current total similarity: 0.357
+2026-02-12 14:50:38,035 - INFO - Potential total similarity: 0.438
+2026-02-12 14:50:38,035 - INFO - Total improvement potential: 0.080
+2026-02-12 14:50:38,035 - INFO - Max gap: 0.290
+2026-02-12 14:50:38,035 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 14:50:38,035 - INFO - 
+Top feature gaps:
+2026-02-12 14:50:38,035 - INFO -   1. resolution_style: current=0.210, max=0.500, gap=0.290
+2026-02-12 14:50:38,035 - INFO -   2. personal_ethics_over_group_norms: current=0.210, max=0.430, gap=0.220
+2026-02-12 14:50:38,035 - INFO -   3. solo_confrontations: current=0.250, max=0.460, gap=0.210
+2026-02-12 14:50:38,035 - INFO -   4. meritocracy_emphasis: current=0.250, max=0.430, gap=0.180
+2026-02-12 14:50:38,035 - INFO -   5. self_actualization_climax: current=0.290, max=0.460, gap=0.170
+2026-02-12 14:50:38,038 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/abduction_analysis.json
+2026-02-12 14:50:38,038 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 14:50:38,039 - INFO - Created 8 ranked prescriptions (8 unique segments)
+2026-02-12 14:50:38,041 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ranked_prescriptions.json
+2026-02-12 14:50:38,041 - INFO -   Total prescriptions: 8
+2026-02-12 14:50:38,041 - INFO - 
+============================================================
+2026-02-12 14:50:38,041 - INFO - ABDUCTION COMPLETE
+2026-02-12 14:50:38,041 - INFO - ============================================================
+2026-02-12 14:50:38,041 - INFO - Features analyzed: 20
+2026-02-12 14:50:38,041 - INFO - Segments to transform: 8
+2026-02-12 14:50:38,041 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 14:50:38,041 - INFO - ============================================================
+2026-02-12 14:50:38,042 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/abduction_analysis.json
+2026-02-12 14:50:38,042 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ranked_prescriptions.json
+2026-02-12 14:50:38,042 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 14:50:38,042 - INFO - ============================================================
+2026-02-12 14:50:38,042 - INFO - STORY TRANSFORMATION
+2026-02-12 14:50:38,042 - INFO - ============================================================
+2026-02-12 14:50:38,043 - INFO - Selected top 3 features:
+2026-02-12 14:50:38,043 - INFO -   1. resolution_style: 5 segments
+2026-02-12 14:50:38,043 - INFO -   2. personal_ethics_over_group_norms: 1 segments
+2026-02-12 14:50:38,043 - INFO -   3. moral_emphasis: 1 segments
+2026-02-12 14:50:38,043 - INFO - Total segments to transform: 7
+2026-02-12 14:50:38,044 - INFO - 
+[Transformation 1/7]
+2026-02-12 14:50:38,044 - INFO -   Feature: resolution_style
+2026-02-12 14:50:38,044 - INFO -   Segment: By age thirteen, the Ford family gathered with other young p...
+2026-02-12 14:50:38,044 - INFO -   Target: 4 → 5
+2026-02-12 14:50:38,045 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:39,902 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:39,904 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:42,332 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:42,333 - INFO -   ✓ Transformed (tokens: 1544)
+2026-02-12 14:50:42,334 - INFO - 
+[Transformation 8/8]
+2026-02-12 14:50:42,334 - INFO -   Feature: decision_driven_plot
+2026-02-12 14:50:42,334 - INFO -   Segment: A year later, Henry formed the Ford Motor Company with $28,0...
+2026-02-12 14:50:42,335 - INFO -   Target: 2 → 4
+2026-02-12 14:50:42,336 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:46,301 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:46,303 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:46,746 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:46,747 - INFO -   ✓ Transformed (tokens: 1632)
+2026-02-12 14:50:46,748 - INFO - 
+[Transformation 2/7]
+2026-02-12 14:50:46,748 - INFO -   Feature: resolution_style
+2026-02-12 14:50:46,748 - INFO -   Segment: At age sixteen, Henry left for Detroit with several other yo...
+2026-02-12 14:50:46,748 - INFO -   Target: 4 → 5
+2026-02-12 14:50:46,749 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:50,354 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:50,355 - INFO -   ✓ Transformed (tokens: 1575)
+2026-02-12 14:50:51,810 - INFO - 
+✓ Final transformed story saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/story_transformed.txt
+2026-02-12 14:50:51,816 - INFO - ✓ Transformation log saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/transformation_log.json
+2026-02-12 14:50:51,822 - INFO - ✓ Transformation costs saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking_transformation.json
+2026-02-12 14:50:51,822 - INFO - 
+============================================================
+2026-02-12 14:50:51,824 - INFO - TRANSFORMATION COMPLETE
+2026-02-12 14:50:51,824 - INFO - ============================================================
+2026-02-12 14:50:51,824 - INFO - Features selected: 3
+2026-02-12 14:50:51,824 - INFO - Segments attempted: 8
+2026-02-12 14:50:51,824 - INFO - Segments transformed: 8
+2026-02-12 14:50:51,824 - INFO - Segments skipped (reversals): 0
+2026-02-12 14:50:51,824 - INFO - Total cost: $0.1024
+2026-02-12 14:50:51,824 - INFO - Total tokens: 11,972
+2026-02-12 14:50:51,825 - INFO - ============================================================
+2026-02-12 14:50:51,825 - INFO - ✓ Story transformed
+2026-02-12 14:50:51,825 - INFO - ✓ Transformation log: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/transformation_log.json
+2026-02-12 14:50:51,825 - INFO - ✓ Transformation costs: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking_transformation.json
+2026-02-12 14:50:51,825 - INFO - 
+============================================================
+2026-02-12 14:50:51,825 - INFO - ITERATION 2/2
+2026-02-12 14:50:51,826 - INFO - ============================================================
+2026-02-12 14:50:51,830 - INFO - ✓ Saved current story to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/story.txt
+2026-02-12 14:50:51,830 - INFO - 
+[Step 3/7] Surveying story (iteration 1)...
+2026-02-12 14:50:51,834 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:52,783 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:52,785 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:55,985 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:55,986 - INFO -   ✓ Transformed (tokens: 1658)
+2026-02-12 14:50:55,987 - INFO - 
+[Transformation 3/7]
+2026-02-12 14:50:55,987 - INFO -   Feature: resolution_style
+2026-02-12 14:50:55,988 - INFO -   Segment: On call twenty-four hours a day, Henry spent irregular hours...
+2026-02-12 14:50:55,988 - INFO -   Target: 4 → 5
+2026-02-12 14:50:55,988 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:50:58,684 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:50:58,686 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:00,331 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:00,333 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:04,225 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:04,226 - INFO -   ✓ Transformed (tokens: 1748)
+2026-02-12 14:51:04,227 - INFO - 
+[Transformation 4/7]
+2026-02-12 14:51:04,227 - INFO -   Feature: resolution_style
+2026-02-12 14:51:04,228 - INFO -   Segment: After extensive discussions with their business partners abo...
+2026-02-12 14:51:04,228 - INFO -   Target: 4 → 5
+2026-02-12 14:51:04,229 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:04,890 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:04,892 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:06,566 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:06,568 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:12,482 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:12,483 - INFO -   ✓ Transformed (tokens: 1747)
+2026-02-12 14:51:12,484 - INFO - 
+[Transformation 5/7]
+2026-02-12 14:51:12,484 - INFO -   Feature: resolution_style
+2026-02-12 14:51:12,484 - INFO -   Segment: At forty-five years old, the Ford family and their dedicated...
+2026-02-12 14:51:12,484 - INFO -   Target: 4 → 5
+2026-02-12 14:51:12,485 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:12,534 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:12,537 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:14,546 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:14,548 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:20,057 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:20,060 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:21,458 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:21,460 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:21,655 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:21,656 - INFO -   ✓ Transformed (tokens: 1815)
+2026-02-12 14:51:21,657 - INFO - 
+[Transformation 6/7]
+2026-02-12 14:51:21,657 - INFO -   Feature: personal_ethics_over_group_norms
+2026-02-12 14:51:21,657 - INFO -   Segment: The Ford family...
+2026-02-12 14:51:21,657 - INFO -   Target: 2 → 4
+2026-02-12 14:51:21,658 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:25,938 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:25,941 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:28,866 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:28,868 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:31,602 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:31,603 - INFO -   ✓ Transformed (tokens: 1891)
+2026-02-12 14:51:31,605 - INFO - 
+[Transformation 7/7]
+2026-02-12 14:51:31,605 - INFO -   Feature: moral_emphasis
+2026-02-12 14:51:31,605 - INFO -   Segment: The Ford family immediately saw the potential of what a...
+2026-02-12 14:51:31,605 - INFO -   Target: 4 → 5
+2026-02-12 14:51:31,606 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:32,632 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:32,634 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:35,888 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:35,890 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:40,146 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:40,147 - INFO -   ✓ Transformed (tokens: 1968)
+2026-02-12 14:51:40,152 - INFO - 
+✓ Final transformed story saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/story_transformed.txt
+2026-02-12 14:51:40,155 - INFO - ✓ Transformation log saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/transformation_log.json
+2026-02-12 14:51:40,157 - INFO - ✓ Transformation costs saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking_transformation.json
+2026-02-12 14:51:40,157 - INFO - 
+============================================================
+2026-02-12 14:51:40,158 - INFO - TRANSFORMATION COMPLETE
+2026-02-12 14:51:40,158 - INFO - ============================================================
+2026-02-12 14:51:40,158 - INFO - Features selected: 3
+2026-02-12 14:51:40,158 - INFO - Segments attempted: 7
+2026-02-12 14:51:40,158 - INFO - Segments transformed: 7
+2026-02-12 14:51:40,158 - INFO - Segments skipped (reversals): 0
+2026-02-12 14:51:40,158 - INFO - Total cost: $0.1078
+2026-02-12 14:51:40,158 - INFO - Total tokens: 12,459
+2026-02-12 14:51:40,158 - INFO - ============================================================
+2026-02-12 14:51:40,158 - INFO - ✓ Story transformed
+2026-02-12 14:51:40,158 - INFO - ✓ Transformation log: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/transformation_log.json
+2026-02-12 14:51:40,158 - INFO - ✓ Transformation costs: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking_transformation.json
+2026-02-12 14:51:40,159 - INFO - 
+============================================================
+2026-02-12 14:51:40,159 - INFO - ITERATION 3/3
+2026-02-12 14:51:40,159 - INFO - ============================================================
+2026-02-12 14:51:40,161 - INFO - ✓ Saved current story to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/story.txt
+2026-02-12 14:51:40,162 - INFO - 
+[Step 3/7] Surveying story (iteration 2)...
+2026-02-12 14:51:40,165 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:40,171 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:40,173 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:42,322 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:42,324 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:47,669 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:47,672 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:47,752 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:47,754 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:51,187 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:51,189 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:54,865 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:54,867 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:56,504 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:56,506 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:51:59,127 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:51:59,129 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:03,466 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:03,468 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:04,250 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:04,252 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:06,811 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:06,813 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:10,734 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:10,736 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:11,658 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:11,660 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:13,372 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:13,374 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:18,434 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:18,436 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:19,192 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:19,194 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:21,943 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:21,945 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:27,034 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:27,035 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:27,718 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:27,720 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:31,298 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:31,301 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:34,185 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:34,187 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:35,984 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:35,986 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:37,857 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:37,863 - INFO - ✓ Survey completed and saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/survey.json
+2026-02-12 14:52:37,864 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 14:52:37,869 - INFO - ✓ Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking.json
+2026-02-12 14:52:37,869 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 14:52:37,869 - INFO - Building ground atoms from survey: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/survey.json
+2026-02-12 14:52:37,873 - INFO - Created 41 ground atoms
+2026-02-12 14:52:37,873 - INFO - Extracted metadata for 20 features
+2026-02-12 14:52:37,877 - INFO - Saved ground atoms to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ground_atoms.json
+2026-02-12 14:52:37,877 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 14:52:37,883 - INFO - Saved segments metadata to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/segments_metadata.json
+2026-02-12 14:52:37,883 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 14:52:37,884 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 14:52:37,884 - INFO - Running PyReason...
+2026-02-12 14:52:37,891 - INFO - Added 20 facts to PyReason
+2026-02-12 14:52:38,004 - INFO - Rules loaded successfully
+2026-02-12 14:52:38,004 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 14:52:38,036 - INFO - Reasoning completed
+2026-02-12 14:52:38,036 - INFO - Saving rule traces to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces
+2026-02-12 14:52:38,063 - INFO - ✓ Generated 2 trace files:
+2026-02-12 14:52:38,063 - INFO -   - rule_trace_nodes_20260212-145238.csv
+2026-02-12 14:52:38,064 - INFO -   - rule_trace_edges_20260212-145238.csv
+2026-02-12 14:52:38,064 - INFO - ✓ PyReason traces saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces
+2026-02-12 14:52:38,064 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 14:52:38,065 - INFO - ============================================================
+2026-02-12 14:52:38,065 - INFO - ABDUCTION ANALYSIS
+2026-02-12 14:52:38,066 - INFO - ============================================================
+2026-02-12 14:52:38,066 - INFO - Loading learned rules...
+2026-02-12 14:52:38,068 - INFO - Loaded 100 learned rules
+2026-02-12 14:52:38,068 - INFO - Parsing trace CSV: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces/rule_trace_edges_20260212-145238.csv
+2026-02-12 14:52:38,071 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 14:52:38,073 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 14:52:38,073 - INFO - Analyzing story: input
+2026-02-12 14:52:38,074 - INFO - Calculating confidence gaps...
+2026-02-12 14:52:38,074 - INFO - 
+Current total similarity: 0.380
+2026-02-12 14:52:38,075 - INFO - Potential total similarity: 0.437
+2026-02-12 14:52:38,075 - INFO - Total improvement potential: 0.057
+2026-02-12 14:52:38,075 - INFO - Max gap: 0.290
+2026-02-12 14:52:38,075 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 14:52:38,075 - INFO - 
+Top feature gaps:
+2026-02-12 14:52:38,075 - INFO -   1. resolution_style: current=0.210, max=0.500, gap=0.290
+2026-02-12 14:52:38,075 - INFO -   2. personal_ethics_over_group_norms: current=0.210, max=0.430, gap=0.220
+2026-02-12 14:52:38,075 - INFO -   3. self_actualization_climax: current=0.290, max=0.460, gap=0.170
+2026-02-12 14:52:38,075 - INFO -   4. self_reliance: current=0.290, max=0.460, gap=0.170
+2026-02-12 14:52:38,075 - INFO -   5. moral_emphasis: current=0.360, max=0.430, gap=0.070
+2026-02-12 14:52:38,078 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/abduction_analysis.json
+2026-02-12 14:52:38,078 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 14:52:38,079 - INFO - Created 10 ranked prescriptions (10 unique segments)
+2026-02-12 14:52:38,082 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ranked_prescriptions.json
+2026-02-12 14:52:38,082 - INFO -   Total prescriptions: 10
+2026-02-12 14:52:38,082 - INFO - 
+============================================================
+2026-02-12 14:52:38,082 - INFO - ABDUCTION COMPLETE
+2026-02-12 14:52:38,082 - INFO - ============================================================
+2026-02-12 14:52:38,082 - INFO - Features analyzed: 20
+2026-02-12 14:52:38,082 - INFO - Segments to transform: 10
+2026-02-12 14:52:38,082 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 14:52:38,082 - INFO - ============================================================
+2026-02-12 14:52:38,082 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/abduction_analysis.json
+2026-02-12 14:52:38,083 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ranked_prescriptions.json
+2026-02-12 14:52:38,083 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 14:52:38,083 - INFO - ============================================================
+2026-02-12 14:52:38,083 - INFO - STORY TRANSFORMATION
+2026-02-12 14:52:38,083 - INFO - ============================================================
+2026-02-12 14:52:38,085 - INFO - Selected top 3 features:
+2026-02-12 14:52:38,085 - INFO -   1. resolution_style: 4 segments
+2026-02-12 14:52:38,085 - INFO -   2. personal_ethics_over_group_norms: 1 segments
+2026-02-12 14:52:38,085 - INFO -   3. self_actualization_climax: 2 segments
+2026-02-12 14:52:38,085 - INFO - Total segments to transform: 7
+2026-02-12 14:52:38,085 - INFO - 
+[Transformation 1/7]
+2026-02-12 14:52:38,085 - INFO -   Feature: resolution_style
+2026-02-12 14:52:38,085 - INFO -   Segment: After extensive discussions with their business partners abo...
+2026-02-12 14:52:38,085 - INFO -   Target: 4 → 5
+2026-02-12 14:52:38,087 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:41,868 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:41,870 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:43,940 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:43,942 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:45,550 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:45,551 - INFO -   ✓ Transformed (tokens: 1511)
+2026-02-12 14:52:45,552 - INFO - 
+[Transformation 2/7]
+2026-02-12 14:52:45,553 - INFO -   Feature: resolution_style
+2026-02-12 14:52:45,553 - INFO -   Segment: At age sixteen, Henry left the family farm for Detroit with ...
+2026-02-12 14:52:45,553 - INFO -   Target: 4 → 5
+2026-02-12 14:52:45,554 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:49,342 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:49,344 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:51,957 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:51,959 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:53,670 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:53,671 - INFO -   ✓ Transformed (tokens: 1573)
+2026-02-12 14:52:53,672 - INFO - 
+[Transformation 3/7]
+2026-02-12 14:52:53,672 - INFO -   Feature: resolution_style
+2026-02-12 14:52:53,672 - INFO -   Segment: On call twenty-four hours a day, the Ford family collaborate...
+2026-02-12 14:52:53,672 - INFO -   Target: 4 → 5
+2026-02-12 14:52:53,674 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:56,472 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:56,474 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:52:58,573 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:52:58,575 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:02,739 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:02,740 - INFO -   ✓ Transformed (tokens: 1667)
+2026-02-12 14:53:02,741 - INFO - 
+[Transformation 4/7]
+2026-02-12 14:53:02,741 - INFO -   Feature: resolution_style
+2026-02-12 14:53:02,741 - INFO -   Segment: At forty-five years old, the Ford family and their dedicated...
+2026-02-12 14:53:02,741 - INFO -   Target: 4 → 5
+2026-02-12 14:53:02,742 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:03,273 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:03,275 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:07,099 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:07,102 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:10,732 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:10,735 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:11,883 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:11,884 - INFO -   ✓ Transformed (tokens: 1721)
+2026-02-12 14:53:11,885 - INFO - 
+[Transformation 5/7]
+2026-02-12 14:53:11,886 - INFO -   Feature: personal_ethics_over_group_norms
+2026-02-12 14:53:11,886 - INFO -   Segment: The Ford family...
+2026-02-12 14:53:11,886 - INFO -   Target: 2 → 4
+2026-02-12 14:53:11,887 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:14,765 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:14,768 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:18,288 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:18,293 - INFO - ✓ Survey completed and saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/survey.json
+2026-02-12 14:53:18,293 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 14:53:18,295 - INFO - ✓ Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking.json
+2026-02-12 14:53:18,296 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 14:53:18,296 - INFO - Building ground atoms from survey: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/survey.json
+2026-02-12 14:53:18,299 - INFO - Created 41 ground atoms
+2026-02-12 14:53:18,299 - INFO - Extracted metadata for 20 features
+2026-02-12 14:53:18,302 - INFO - Saved ground atoms to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ground_atoms.json
+2026-02-12 14:53:18,302 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 14:53:18,306 - INFO - Saved segments metadata to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/segments_metadata.json
+2026-02-12 14:53:18,306 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 14:53:18,306 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 14:53:18,307 - INFO - Running PyReason...
+2026-02-12 14:53:18,314 - INFO - Added 20 facts to PyReason
+2026-02-12 14:53:18,422 - INFO - Rules loaded successfully
+2026-02-12 14:53:18,422 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 14:53:18,453 - INFO - Reasoning completed
+2026-02-12 14:53:18,454 - INFO - Saving rule traces to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces
+2026-02-12 14:53:18,480 - INFO - ✓ Generated 2 trace files:
+2026-02-12 14:53:18,480 - INFO -   - rule_trace_nodes_20260212-145318.csv
+2026-02-12 14:53:18,481 - INFO -   - rule_trace_edges_20260212-145318.csv
+2026-02-12 14:53:18,481 - INFO - ✓ PyReason traces saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces
+2026-02-12 14:53:18,481 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 14:53:18,482 - INFO - ============================================================
+2026-02-12 14:53:18,482 - INFO - ABDUCTION ANALYSIS
+2026-02-12 14:53:18,482 - INFO - ============================================================
+2026-02-12 14:53:18,482 - INFO - Loading learned rules...
+2026-02-12 14:53:18,484 - INFO - Loaded 100 learned rules
+2026-02-12 14:53:18,484 - INFO - Parsing trace CSV: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces/rule_trace_edges_20260212-145318.csv
+2026-02-12 14:53:18,488 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 14:53:18,489 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 14:53:18,490 - INFO - Analyzing story: input
+2026-02-12 14:53:18,490 - INFO - Calculating confidence gaps...
+2026-02-12 14:53:18,490 - INFO - 
+Current total similarity: 0.368
+2026-02-12 14:53:18,491 - INFO - Potential total similarity: 0.438
+2026-02-12 14:53:18,491 - INFO - Total improvement potential: 0.069
+2026-02-12 14:53:18,491 - INFO - Max gap: 0.290
+2026-02-12 14:53:18,491 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 14:53:18,491 - INFO - 
+Top feature gaps:
+2026-02-12 14:53:18,491 - INFO -   1. resolution_style: current=0.210, max=0.500, gap=0.290
+2026-02-12 14:53:18,491 - INFO -   2. personal_ethics_over_group_norms: current=0.210, max=0.430, gap=0.220
+2026-02-12 14:53:18,491 - INFO -   3. solo_confrontations: current=0.250, max=0.460, gap=0.210
+2026-02-12 14:53:18,491 - INFO -   4. self_actualization_climax: current=0.290, max=0.460, gap=0.170
+2026-02-12 14:53:18,491 - INFO -   5. self_reliance: current=0.290, max=0.460, gap=0.170
+2026-02-12 14:53:18,494 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/abduction_analysis.json
+2026-02-12 14:53:18,494 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 14:53:18,495 - INFO - Created 8 ranked prescriptions (8 unique segments)
+2026-02-12 14:53:18,497 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ranked_prescriptions.json
+2026-02-12 14:53:18,497 - INFO -   Total prescriptions: 8
+2026-02-12 14:53:18,498 - INFO - 
+============================================================
+2026-02-12 14:53:18,498 - INFO - ABDUCTION COMPLETE
+2026-02-12 14:53:18,498 - INFO - ============================================================
+2026-02-12 14:53:18,498 - INFO - Features analyzed: 20
+2026-02-12 14:53:18,498 - INFO - Segments to transform: 8
+2026-02-12 14:53:18,498 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 14:53:18,498 - INFO - ============================================================
+2026-02-12 14:53:18,498 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/abduction_analysis.json
+2026-02-12 14:53:18,498 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ranked_prescriptions.json
+2026-02-12 14:53:18,499 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 14:53:18,499 - INFO - ============================================================
+2026-02-12 14:53:18,499 - INFO - STORY TRANSFORMATION
+2026-02-12 14:53:18,499 - INFO - ============================================================
+2026-02-12 14:53:18,500 - INFO - Selected top 3 features:
+2026-02-12 14:53:18,500 - INFO -   1. resolution_style: 4 segments
+2026-02-12 14:53:18,500 - INFO -   2. personal_ethics_over_group_norms: 2 segments
+2026-02-12 14:53:18,501 - INFO -   3. solo_confrontations: 2 segments
+2026-02-12 14:53:18,501 - INFO - Total segments to transform: 8
+2026-02-12 14:53:18,501 - INFO - 
+[Transformation 1/8]
+2026-02-12 14:53:18,501 - INFO -   Feature: resolution_style
+2026-02-12 14:53:18,501 - INFO -   Segment: After extensive discussions with his business partners about...
+2026-02-12 14:53:18,501 - INFO -   Target: 4 → 5
+2026-02-12 14:53:18,502 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:19,245 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:19,246 - INFO -   ✓ Transformed (tokens: 1747)
+2026-02-12 14:53:19,247 - INFO - 
+[Transformation 6/7]
+2026-02-12 14:53:19,247 - INFO -   Feature: self_actualization_climax
+2026-02-12 14:53:19,247 - INFO -   Segment: The community immediately saw the potential of what a...
+2026-02-12 14:53:19,247 - INFO -   Target: 4 → 5
+2026-02-12 14:53:19,248 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:22,600 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:22,602 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:25,453 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:25,454 - INFO -   ✓ Transformed (tokens: 1588)
+2026-02-12 14:53:25,455 - INFO - 
+[Transformation 2/8]
+2026-02-12 14:53:25,455 - INFO -   Feature: resolution_style
+2026-02-12 14:53:25,455 - INFO -   Segment: A year later, the Ford family, together with a group of loca...
+2026-02-12 14:53:25,456 - INFO -   Target: 4 → 5
+2026-02-12 14:53:25,456 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:26,905 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:26,906 - INFO -   ✓ Transformed (tokens: 1761)
+2026-02-12 14:53:26,907 - INFO - 
+[Transformation 7/7]
+2026-02-12 14:53:26,907 - INFO -   Feature: self_actualization_climax
+2026-02-12 14:53:26,907 - INFO -   Segment: The price of the car dropped over the years, and people who ...
+2026-02-12 14:53:26,907 - INFO -   Target: 4 → 5
+2026-02-12 14:53:26,908 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:30,697 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:30,698 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:35,142 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:35,143 - INFO -   ✓ Transformed (tokens: 1666)
+2026-02-12 14:53:35,145 - INFO - 
+[Transformation 3/8]
+2026-02-12 14:53:35,145 - INFO -   Feature: resolution_style
+2026-02-12 14:53:35,145 - INFO -   Segment: At forty-five years old, the Ford family and their dedicated...
+2026-02-12 14:53:35,145 - INFO -   Target: 4 → 5
+2026-02-12 14:53:35,147 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:35,818 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:35,819 - INFO -   ✓ Transformed (tokens: 1824)
+2026-02-12 14:53:35,823 - INFO - 
+✓ Final transformed story saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/story_transformed.txt
+2026-02-12 14:53:35,825 - INFO - ✓ Transformation log saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/transformation_log.json
+2026-02-12 14:53:38,941 - INFO - ✓ Transformation costs saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking_transformation.json
+2026-02-12 14:53:38,941 - INFO - 
+============================================================
+2026-02-12 14:53:38,942 - INFO - TRANSFORMATION COMPLETE
+2026-02-12 14:53:38,942 - INFO - ============================================================
+2026-02-12 14:53:38,942 - INFO - Features selected: 3
+2026-02-12 14:53:38,942 - INFO - Segments attempted: 7
+2026-02-12 14:53:38,942 - INFO - Segments transformed: 7
+2026-02-12 14:53:38,942 - INFO - Segments skipped (reversals): 0
+2026-02-12 14:53:38,942 - INFO - Total cost: $0.1016
+2026-02-12 14:53:38,942 - INFO - Total tokens: 11,804
+2026-02-12 14:53:38,942 - INFO - ============================================================
+2026-02-12 14:53:38,943 - INFO - ✓ Story transformed
+2026-02-12 14:53:38,943 - INFO - ✓ Transformation log: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/transformation_log.json
+2026-02-12 14:53:38,943 - INFO - ✓ Transformation costs: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking_transformation.json
+2026-02-12 14:53:38,943 - INFO - 
+============================================================
+2026-02-12 14:53:38,943 - INFO - PHASE 2 FINAL COST SUMMARY
+2026-02-12 14:53:38,943 - INFO - ============================================================
+2026-02-12 14:53:38,946 - INFO - 
+============================================================
+2026-02-12 14:53:38,946 - INFO - PHASE 2 COST SUMMARY
+2026-02-12 14:53:38,946 - INFO - ============================================================
+2026-02-12 14:53:38,947 - INFO - Total stories processed: 1
+2026-02-12 14:53:38,948 - INFO - Total iterations: 2
+2026-02-12 14:53:38,948 - INFO - Total cost: $0.3057
+2026-02-12 14:53:38,948 - INFO - Total tokens: 51,206
+2026-02-12 14:53:38,948 - INFO -   - Input: 38,530
+2026-02-12 14:53:38,948 - INFO -   - Output: 12,676
+2026-02-12 14:53:38,948 - INFO - Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/cost_tracking_final.json
+2026-02-12 14:53:38,948 - INFO - ============================================================
+2026-02-12 14:53:38,948 - INFO - 
+Phase 2 completed!
+2026-02-12 14:53:38,949 - INFO - Output directory: output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:53:38,949 - INFO - ============================================================
+2026-02-12 14:53:38,949 - INFO - Execution completed successfully!
+2026-02-12 14:53:38,949 - INFO - ============================================================
+2026-02-12 14:53:39,251 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:39,253 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:43,221 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:43,222 - INFO -   ✓ Transformed (tokens: 1725)
+2026-02-12 14:53:43,223 - INFO - 
+[Transformation 4/8]
+2026-02-12 14:53:43,223 - INFO -   Feature: resolution_style
+2026-02-12 14:53:43,223 - INFO -   Segment: At age sixteen, with the support and blessing of the extende...
+2026-02-12 14:53:43,223 - INFO -   Target: 4 → 5
+2026-02-12 14:53:43,224 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:46,852 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:46,854 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:53,311 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:53,312 - INFO -   ✓ Transformed (tokens: 1817)
+2026-02-12 14:53:53,313 - INFO - 
+[Transformation 5/8]
+2026-02-12 14:53:53,313 - INFO -   Feature: personal_ethics_over_group_norms
+2026-02-12 14:53:53,313 - INFO -   Segment: The Ford family...
+2026-02-12 14:53:53,313 - INFO -   Target: 2 → 4
+2026-02-12 14:53:53,314 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:53:54,903 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:53:54,904 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:54:02,179 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:54:02,180 - INFO -   ✓ Transformed (tokens: 1810)
+2026-02-12 14:54:02,181 - INFO - 
+[Transformation 6/8]
+2026-02-12 14:54:02,182 - INFO -   Feature: personal_ethics_over_group_norms
+2026-02-12 14:54:02,182 - INFO -   Segment: However, the automobiles produced were of a lower quality an...
+2026-02-12 14:54:02,182 - INFO -   Target: 2 → 4
+2026-02-12 14:54:02,183 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:54:02,712 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:54:02,715 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:54:11,612 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:54:11,613 - INFO -   ✓ Transformed (tokens: 1843)
+2026-02-12 14:54:11,613 - INFO - 
+[Transformation 7/8]
+2026-02-12 14:54:11,613 - INFO -   Feature: solo_confrontations
+2026-02-12 14:54:11,613 - INFO -   Segment: By age thirteen, they were learning from experienced craftsm...
+2026-02-12 14:54:11,613 - INFO -   Target: 4 → 5
+2026-02-12 14:54:11,614 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:54:11,758 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:54:11,759 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:54:18,900 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:54:18,905 - INFO - ✓ Survey completed and saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/survey.json
+2026-02-12 14:54:18,905 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 14:54:18,908 - INFO - ✓ Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/cost_tracking.json
+2026-02-12 14:54:18,908 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 14:54:18,908 - INFO - Building ground atoms from survey: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/survey.json
+2026-02-12 14:54:18,911 - INFO - Created 41 ground atoms
+2026-02-12 14:54:18,911 - INFO - Extracted metadata for 20 features
+2026-02-12 14:54:18,914 - INFO - Saved ground atoms to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/ground_atoms.json
+2026-02-12 14:54:18,914 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 14:54:18,918 - INFO - Saved segments metadata to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/segments_metadata.json
+2026-02-12 14:54:18,918 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 14:54:18,919 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 14:54:18,919 - INFO - Running PyReason...
+2026-02-12 14:54:18,925 - INFO - Added 20 facts to PyReason
+2026-02-12 14:54:19,030 - INFO - Rules loaded successfully
+2026-02-12 14:54:19,030 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 14:54:19,069 - INFO - Reasoning completed
+2026-02-12 14:54:19,069 - INFO - Saving rule traces to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/pyreason_traces
+2026-02-12 14:54:19,098 - INFO - ✓ Generated 2 trace files:
+2026-02-12 14:54:19,099 - INFO -   - rule_trace_nodes_20260212-145419.csv
+2026-02-12 14:54:19,099 - INFO -   - rule_trace_edges_20260212-145419.csv
+2026-02-12 14:54:19,100 - INFO - ✓ PyReason traces saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/pyreason_traces
+2026-02-12 14:54:19,100 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 14:54:19,102 - INFO - ============================================================
+2026-02-12 14:54:19,102 - INFO - ABDUCTION ANALYSIS
+2026-02-12 14:54:19,102 - INFO - ============================================================
+2026-02-12 14:54:19,103 - INFO - Loading learned rules...
+2026-02-12 14:54:19,104 - INFO - Loaded 100 learned rules
+2026-02-12 14:54:19,104 - INFO - Parsing trace CSV: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/pyreason_traces/rule_trace_edges_20260212-145419.csv
+2026-02-12 14:54:19,108 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 14:54:19,110 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 14:54:19,110 - INFO - Analyzing story: input
+2026-02-12 14:54:19,111 - INFO - Calculating confidence gaps...
+2026-02-12 14:54:19,111 - INFO - 
+Current total similarity: 0.365
+2026-02-12 14:54:19,111 - INFO - Potential total similarity: 0.438
+2026-02-12 14:54:19,112 - INFO - Total improvement potential: 0.072
+2026-02-12 14:54:19,112 - INFO - Max gap: 0.360
+2026-02-12 14:54:19,112 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 14:54:19,112 - INFO - 
+Top feature gaps:
+2026-02-12 14:54:19,112 - INFO -   1. decision_driven_plot: current=0.140, max=0.500, gap=0.360
+2026-02-12 14:54:19,112 - INFO -   2. relationship_orientation: current=0.290, max=0.540, gap=0.250
+2026-02-12 14:54:19,112 - INFO -   3. behavioral_guidance: current=0.360, max=0.540, gap=0.180
+2026-02-12 14:54:19,112 - INFO -   4. man_vs_self_world_conflict: current=0.320, max=0.460, gap=0.140
+2026-02-12 14:54:19,112 - INFO -   5. personal_ethics_over_group_norms: current=0.320, max=0.430, gap=0.110
+2026-02-12 14:54:19,116 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/abduction_analysis.json
+2026-02-12 14:54:19,116 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 14:54:19,117 - INFO - Created 11 ranked prescriptions (11 unique segments)
+2026-02-12 14:54:19,120 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/ranked_prescriptions.json
+2026-02-12 14:54:19,120 - INFO -   Total prescriptions: 11
+2026-02-12 14:54:19,120 - INFO - 
+============================================================
+2026-02-12 14:54:19,121 - INFO - ABDUCTION COMPLETE
+2026-02-12 14:54:19,121 - INFO - ============================================================
+2026-02-12 14:54:19,121 - INFO - Features analyzed: 20
+2026-02-12 14:54:19,121 - INFO - Segments to transform: 11
+2026-02-12 14:54:19,121 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 14:54:19,121 - INFO - ============================================================
+2026-02-12 14:54:19,121 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/abduction_analysis.json
+2026-02-12 14:54:19,122 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/ranked_prescriptions.json
+2026-02-12 14:54:19,122 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 14:54:19,122 - INFO - ============================================================
+2026-02-12 14:54:19,122 - INFO - STORY TRANSFORMATION
+2026-02-12 14:54:19,122 - INFO - ============================================================
+2026-02-12 14:54:19,123 - INFO - Selected top 0 features:
+2026-02-12 14:54:19,123 - INFO - Total segments to transform: 0
+2026-02-12 14:54:19,125 - INFO - 
+✓ Final transformed story saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/story_transformed.txt
+2026-02-12 14:54:19,127 - INFO - ✓ Transformation log saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/transformation_log.json
+2026-02-12 14:54:19,129 - INFO - ✓ Transformation costs saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/cost_tracking_transformation.json
+2026-02-12 14:54:19,129 - INFO - 
+============================================================
+2026-02-12 14:54:19,130 - INFO - TRANSFORMATION COMPLETE
+2026-02-12 14:54:19,130 - INFO - ============================================================
+2026-02-12 14:54:19,130 - INFO - Features selected: 0
+2026-02-12 14:54:19,130 - INFO - Segments attempted: 0
+2026-02-12 14:54:19,130 - INFO - Segments transformed: 0
+2026-02-12 14:54:19,130 - INFO - Segments skipped (reversals): 0
+2026-02-12 14:54:19,130 - INFO - Total cost: $0.0000
+2026-02-12 14:54:19,130 - INFO - Total tokens: 0
+2026-02-12 14:54:19,130 - INFO - ============================================================
+2026-02-12 14:54:19,130 - INFO - ✓ Story transformed
+2026-02-12 14:54:19,131 - INFO - ✓ Transformation log: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/transformation_log.json
+2026-02-12 14:54:19,131 - INFO - ✓ Transformation costs: output/phase2/claude-sonnet-4-5/inverse/input/iteration_2/cost_tracking_transformation.json
+2026-02-12 14:54:19,131 - INFO - 
+============================================================
+2026-02-12 14:54:19,131 - INFO - PHASE 2 FINAL COST SUMMARY
+2026-02-12 14:54:19,131 - INFO - ============================================================
+2026-02-12 14:54:19,134 - INFO - 
+============================================================
+2026-02-12 14:54:19,134 - INFO - PHASE 2 COST SUMMARY
+2026-02-12 14:54:19,134 - INFO - ============================================================
+2026-02-12 14:54:19,135 - INFO - Total stories processed: 1
+2026-02-12 14:54:19,135 - INFO - Total iterations: 3
+2026-02-12 14:54:19,135 - INFO - Total cost: $0.5187
+2026-02-12 14:54:19,135 - INFO - Total tokens: 85,722
+2026-02-12 14:54:19,135 - INFO -   - Input: 63,925
+2026-02-12 14:54:19,135 - INFO -   - Output: 21,797
+2026-02-12 14:54:19,136 - INFO - Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/cost_tracking_final.json
+2026-02-12 14:54:19,136 - INFO - ============================================================
+2026-02-12 14:54:19,136 - INFO - 
+Phase 2 completed!
+2026-02-12 14:54:19,136 - INFO - Output directory: output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:54:19,136 - INFO - ============================================================
+2026-02-12 14:54:19,136 - INFO - Execution completed successfully!
+2026-02-12 14:54:19,137 - INFO - ============================================================
+2026-02-12 14:54:21,347 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:54:21,348 - INFO -   ✓ Transformed (tokens: 1920)
+2026-02-12 14:54:21,349 - INFO - 
+[Transformation 8/8]
+2026-02-12 14:54:21,349 - INFO -   Feature: solo_confrontations
+2026-02-12 14:54:21,349 - INFO -   Segment: Encouraged by Edison, the Ford family collaborated with a te...
+2026-02-12 14:54:21,349 - INFO -   Target: 4 → 5
+2026-02-12 14:54:21,350 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 14:54:31,578 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 14:54:31,579 - INFO -   ✓ Transformed (tokens: 2004)
+2026-02-12 14:54:31,583 - INFO - 
+✓ Final transformed story saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/story_transformed.txt
+2026-02-12 14:54:31,586 - INFO - ✓ Transformation log saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/transformation_log.json
+2026-02-12 14:54:31,589 - INFO - ✓ Transformation costs saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking_transformation.json
+2026-02-12 14:54:31,589 - INFO - 
+============================================================
+2026-02-12 14:54:31,589 - INFO - TRANSFORMATION COMPLETE
+2026-02-12 14:54:31,589 - INFO - ============================================================
+2026-02-12 14:54:31,589 - INFO - Features selected: 3
+2026-02-12 14:54:31,589 - INFO - Segments attempted: 8
+2026-02-12 14:54:31,589 - INFO - Segments transformed: 8
+2026-02-12 14:54:31,589 - INFO - Segments skipped (reversals): 0
+2026-02-12 14:54:31,590 - INFO - Total cost: $0.1243
+2026-02-12 14:54:31,590 - INFO - Total tokens: 14,373
+2026-02-12 14:54:31,590 - INFO - ============================================================
+2026-02-12 14:54:31,590 - INFO - ✓ Story transformed
+2026-02-12 14:54:31,590 - INFO - ✓ Transformation log: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/transformation_log.json
+2026-02-12 14:54:31,590 - INFO - ✓ Transformation costs: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking_transformation.json
+2026-02-12 14:54:31,590 - INFO - 
+============================================================
+2026-02-12 14:54:31,590 - INFO - PHASE 2 FINAL COST SUMMARY
+2026-02-12 14:54:31,590 - INFO - ============================================================
+2026-02-12 14:54:31,593 - INFO - 
+============================================================
+2026-02-12 14:54:31,593 - INFO - PHASE 2 COST SUMMARY
+2026-02-12 14:54:31,594 - INFO - ============================================================
+2026-02-12 14:54:31,594 - INFO - Total stories processed: 1
+2026-02-12 14:54:31,594 - INFO - Total iterations: 2
+2026-02-12 14:54:31,594 - INFO - Total cost: $0.3141
+2026-02-12 14:54:31,594 - INFO - Total tokens: 52,434
+2026-02-12 14:54:31,594 - INFO -   - Input: 39,370
+2026-02-12 14:54:31,594 - INFO -   - Output: 13,064
+2026-02-12 14:54:31,594 - INFO - Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/cost_tracking_final.json
+2026-02-12 14:54:31,594 - INFO - ============================================================
+2026-02-12 14:54:31,594 - INFO - 
+Phase 2 completed!
+2026-02-12 14:54:31,594 - INFO - Output directory: output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 14:54:31,594 - INFO - ============================================================
+2026-02-12 14:54:31,595 - INFO - Execution completed successfully!
+2026-02-12 14:54:31,595 - INFO - ============================================================
+2026-02-12 15:00:39,306 - INFO - ============================================================
+2026-02-12 15:00:39,306 - INFO - CONNECT Project - Phase 2
+2026-02-12 15:00:39,307 - INFO - Problem: forward
+2026-02-12 15:00:39,307 - INFO - ============================================================
+2026-02-12 15:00:39,307 - INFO - 
+============================================================
+2026-02-12 15:00:39,307 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 15:00:39,307 - INFO - ============================================================
+2026-02-12 15:00:39,307 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 15:00:39,307 - INFO - Loading story: input.txt
+2026-02-12 15:00:39,309 - INFO - Loaded story: input (933 characters)
+2026-02-12 15:00:39,309 - INFO - ✓ Loaded test story: input
+2026-02-12 15:00:39,309 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 15:00:39,310 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/gpt-4o/individualistic/pyreason_rules.txt
+2026-02-12 15:00:39,311 - INFO - ✓ Output directory: output/phase2/gpt-4o/forward/input
+2026-02-12 15:00:39,312 - INFO - ✓ Cost tracker initialized
+2026-02-12 15:00:39,312 - ERROR - OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 15:00:39,313 - ERROR - Phase 2 cannot run survey without model credentials.
+2026-02-12 15:00:39,313 - ERROR - Set the required API key or run with --skip-survey using an existing valid survey.json.
+2026-02-12 15:01:44,242 - INFO - ============================================================
+2026-02-12 15:01:44,242 - INFO - CONNECT Project - Phase 2
+2026-02-12 15:01:44,242 - INFO - Problem: inverse
+2026-02-12 15:01:44,242 - INFO - ============================================================
+2026-02-12 15:01:44,243 - INFO - 
+============================================================
+2026-02-12 15:01:44,243 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 15:01:44,243 - INFO - ============================================================
+2026-02-12 15:01:44,243 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 15:01:44,243 - INFO - Loading story: input.txt
+2026-02-12 15:01:44,245 - INFO - Loaded story: input (566 characters)
+2026-02-12 15:01:44,245 - INFO - ✓ Loaded test story: input
+2026-02-12 15:01:44,246 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 15:01:44,246 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/claude-sonnet-4-5/collectivistic/pyreason_rules.txt
+2026-02-12 15:01:44,247 - INFO - ✓ Output directory: output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 15:01:44,247 - INFO - ✓ Cost tracker initialized
+2026-02-12 15:01:44,248 - INFO - 
+============================================================
+2026-02-12 15:01:44,248 - INFO - ITERATION 1/2
+2026-02-12 15:01:44,248 - INFO - ============================================================
+2026-02-12 15:01:46,920 - INFO - ✓ Saved current story to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/story.txt
+2026-02-12 15:01:46,920 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 15:01:46,954 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:01:53,299 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:01:53,304 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:01:59,011 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:01:59,013 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:02:05,015 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:02:05,017 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:02:11,641 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:02:11,644 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:02:16,812 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:02:16,817 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:02:23,300 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:02:23,302 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:02:29,102 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:02:29,105 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:02:35,056 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:02:35,058 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:02:40,864 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:02:40,866 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:02:47,246 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:02:47,248 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:02:53,954 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:02:53,956 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:03:01,261 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:03:01,263 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:03:07,996 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:03:07,998 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:03:13,291 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:03:13,293 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:03:18,446 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:03:18,449 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:03:24,407 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:03:24,409 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:03:31,134 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:03:31,135 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:03:37,823 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:03:37,825 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:03:44,853 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:03:44,854 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:03:51,922 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:03:51,928 - INFO - ✓ Survey completed and saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/survey.json
+2026-02-12 15:03:51,928 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 15:03:53,858 - INFO - ✓ Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking.json
+2026-02-12 15:03:53,859 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 15:03:53,859 - INFO - Building ground atoms from survey: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/survey.json
+2026-02-12 15:03:53,865 - INFO - Created 41 ground atoms
+2026-02-12 15:03:53,865 - INFO - Extracted metadata for 20 features
+2026-02-12 15:03:53,872 - INFO - Saved ground atoms to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ground_atoms.json
+2026-02-12 15:03:53,872 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 15:03:53,884 - INFO - Saved segments metadata to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/segments_metadata.json
+2026-02-12 15:03:53,884 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 15:03:53,886 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 15:03:53,886 - INFO - Running PyReason...
+2026-02-12 15:03:57,867 - INFO - Added 20 facts to PyReason
+2026-02-12 15:03:59,454 - INFO - Rules loaded successfully
+2026-02-12 15:03:59,454 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 15:04:07,233 - INFO - Reasoning completed
+2026-02-12 15:04:07,233 - INFO - Saving rule traces to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces
+2026-02-12 15:04:09,747 - INFO - ✓ Generated 2 trace files:
+2026-02-12 15:04:09,747 - INFO -   - rule_trace_nodes_20260212-150359.csv
+2026-02-12 15:04:09,748 - INFO -   - rule_trace_edges_20260212-150359.csv
+2026-02-12 15:04:09,748 - INFO - ✓ PyReason traces saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces
+2026-02-12 15:04:09,748 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 15:04:09,749 - INFO - ============================================================
+2026-02-12 15:04:09,749 - INFO - ABDUCTION ANALYSIS
+2026-02-12 15:04:09,750 - INFO - ============================================================
+2026-02-12 15:04:09,750 - INFO - Loading learned rules...
+2026-02-12 15:04:09,752 - INFO - Loaded 100 learned rules
+2026-02-12 15:04:09,752 - INFO - Parsing trace CSV: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/pyreason_traces/rule_trace_edges_20260212-150359.csv
+2026-02-12 15:04:09,756 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 15:04:09,758 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 15:04:09,758 - INFO - Analyzing story: input
+2026-02-12 15:04:09,759 - INFO - Calculating confidence gaps...
+2026-02-12 15:04:09,759 - INFO - 
+Current total similarity: 0.084
+2026-02-12 15:04:09,759 - INFO - Potential total similarity: 0.437
+2026-02-12 15:04:09,759 - INFO - Total improvement potential: 0.353
+2026-02-12 15:04:09,759 - INFO - Max gap: 0.540
+2026-02-12 15:04:09,760 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 15:04:09,760 - INFO - 
+Top feature gaps:
+2026-02-12 15:04:09,760 - INFO -   1. behavioral_guidance: current=0.000, max=0.540, gap=0.540
+2026-02-12 15:04:09,760 - INFO -   2. relationship_orientation: current=0.070, max=0.540, gap=0.470
+2026-02-12 15:04:09,760 - INFO -   3. decision_driven_plot: current=0.040, max=0.500, gap=0.460
+2026-02-12 15:04:09,760 - INFO -   4. man_vs_self_world_conflict: current=0.040, max=0.460, gap=0.420
+2026-02-12 15:04:09,760 - INFO -   5. personal_ethics_over_group_norms: current=0.040, max=0.430, gap=0.390
+2026-02-12 15:04:09,763 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/abduction_analysis.json
+2026-02-12 15:04:09,763 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 15:04:09,763 - INFO - Created 5 ranked prescriptions (5 unique segments)
+2026-02-12 15:04:09,766 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ranked_prescriptions.json
+2026-02-12 15:04:09,766 - INFO -   Total prescriptions: 5
+2026-02-12 15:04:09,767 - INFO - 
+============================================================
+2026-02-12 15:04:09,767 - INFO - ABDUCTION COMPLETE
+2026-02-12 15:04:09,767 - INFO - ============================================================
+2026-02-12 15:04:09,767 - INFO - Features analyzed: 20
+2026-02-12 15:04:09,767 - INFO - Segments to transform: 5
+2026-02-12 15:04:09,767 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 15:04:09,768 - INFO - ============================================================
+2026-02-12 15:04:09,768 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/abduction_analysis.json
+2026-02-12 15:04:09,768 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/ranked_prescriptions.json
+2026-02-12 15:04:09,768 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 15:04:09,768 - INFO - ============================================================
+2026-02-12 15:04:09,768 - INFO - STORY TRANSFORMATION
+2026-02-12 15:04:09,769 - INFO - ============================================================
+2026-02-12 15:04:09,770 - INFO - Selected top 3 features:
+2026-02-12 15:04:09,770 - INFO -   1. behavioral_guidance: 3 segments
+2026-02-12 15:04:09,770 - INFO -   2. relationship_orientation: 1 segments
+2026-02-12 15:04:09,770 - INFO -   3. decision_driven_plot: 1 segments
+2026-02-12 15:04:09,771 - INFO - Total segments to transform: 5
+2026-02-12 15:04:09,771 - INFO - 
+[Transformation 1/5]
+2026-02-12 15:04:09,771 - INFO -   Feature: behavioral_guidance
+2026-02-12 15:04:09,771 - INFO -   Segment: From an early age, Henry was fascinated with machinery....
+2026-02-12 15:04:09,771 - INFO -   Target: 1 → 4
+2026-02-12 15:04:09,773 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:12,115 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:12,116 - INFO -   ✓ Transformed (tokens: 381)
+2026-02-12 15:04:12,117 - INFO - 
+[Transformation 2/5]
+2026-02-12 15:04:12,117 - INFO -   Feature: behavioral_guidance
+2026-02-12 15:04:12,118 - INFO -   Segment: Henry immediately saw the potential of what a horseless carr...
+2026-02-12 15:04:12,118 - INFO -   Target: 1 → 4
+2026-02-12 15:04:12,119 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:15,287 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:15,289 - INFO -   ✓ Transformed (tokens: 392)
+2026-02-12 15:04:15,290 - INFO - 
+[Transformation 3/5]
+2026-02-12 15:04:15,290 - INFO -   Feature: behavioral_guidance
+2026-02-12 15:04:15,290 - INFO -   Segment: By age thirteen, he was disassembling and reassembling timep...
+2026-02-12 15:04:15,290 - INFO -   Target: 1 → 4
+2026-02-12 15:04:15,292 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:18,511 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:18,512 - INFO -   ✓ Transformed (tokens: 422)
+2026-02-12 15:04:18,513 - INFO - 
+[Transformation 4/5]
+2026-02-12 15:04:18,513 - INFO -   Feature: relationship_orientation
+2026-02-12 15:04:18,513 - INFO -   Segment: Henry immediately saw the potential of what a...
+2026-02-12 15:04:18,513 - INFO -   Target: 2 → 4
+2026-02-12 15:04:18,514 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:21,328 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:21,330 - INFO -   ✓ Transformed (tokens: 420)
+2026-02-12 15:04:21,331 - INFO - 
+[Transformation 5/5]
+2026-02-12 15:04:21,331 - INFO -   Feature: decision_driven_plot
+2026-02-12 15:04:21,332 - INFO -   Segment: He saw his first automobile, a self-powered steam engine, at...
+2026-02-12 15:04:21,332 - INFO -   Target: 1 → 4
+2026-02-12 15:04:21,333 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:24,701 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:24,702 - INFO -   ✓ Transformed (tokens: 466)
+2026-02-12 15:04:24,705 - INFO - 
+✓ Final transformed story saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/story_transformed.txt
+2026-02-12 15:04:24,709 - INFO - ✓ Transformation log saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/transformation_log.json
+2026-02-12 15:04:24,713 - INFO - ✓ Transformation costs saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking_transformation.json
+2026-02-12 15:04:24,713 - INFO - 
+============================================================
+2026-02-12 15:04:24,713 - INFO - TRANSFORMATION COMPLETE
+2026-02-12 15:04:24,713 - INFO - ============================================================
+2026-02-12 15:04:24,713 - INFO - Features selected: 3
+2026-02-12 15:04:24,713 - INFO - Segments attempted: 5
+2026-02-12 15:04:24,714 - INFO - Segments transformed: 5
+2026-02-12 15:04:24,714 - INFO - Segments skipped (reversals): 0
+2026-02-12 15:04:24,714 - INFO - Total cost: $0.0151
+2026-02-12 15:04:24,714 - INFO - Total tokens: 2,081
+2026-02-12 15:04:24,714 - INFO - ============================================================
+2026-02-12 15:04:24,714 - INFO - ✓ Story transformed
+2026-02-12 15:04:24,714 - INFO - ✓ Transformation log: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/transformation_log.json
+2026-02-12 15:04:24,715 - INFO - ✓ Transformation costs: output/phase2/claude-sonnet-4-5/inverse/input/iteration_0/cost_tracking_transformation.json
+2026-02-12 15:04:24,715 - INFO - 
+============================================================
+2026-02-12 15:04:24,715 - INFO - ITERATION 2/2
+2026-02-12 15:04:24,715 - INFO - ============================================================
+2026-02-12 15:04:24,718 - INFO - ✓ Saved current story to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/story.txt
+2026-02-12 15:04:24,719 - INFO - 
+[Step 3/7] Surveying story (iteration 1)...
+2026-02-12 15:04:24,721 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:30,571 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:30,573 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:36,353 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:36,355 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:42,383 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:42,386 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:47,827 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:47,829 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:04:54,885 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:04:54,887 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:05:03,433 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:05:03,435 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:05:11,502 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:05:11,504 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:05:17,214 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:05:17,216 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:05:24,413 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:05:24,415 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:05:32,349 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:05:32,351 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:05:39,205 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:05:39,207 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:05:48,260 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:05:48,262 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:05:57,037 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:05:57,039 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:03,348 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:03,350 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:09,933 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:09,935 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:18,066 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:18,068 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:24,294 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:24,296 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:30,292 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:30,295 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:37,525 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:37,527 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:43,436 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:43,441 - INFO - ✓ Survey completed and saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/survey.json
+2026-02-12 15:06:43,441 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 15:06:43,445 - INFO - ✓ Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking.json
+2026-02-12 15:06:43,445 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 15:06:43,446 - INFO - Building ground atoms from survey: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/survey.json
+2026-02-12 15:06:43,449 - INFO - Created 41 ground atoms
+2026-02-12 15:06:43,449 - INFO - Extracted metadata for 20 features
+2026-02-12 15:06:43,453 - INFO - Saved ground atoms to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ground_atoms.json
+2026-02-12 15:06:43,453 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 15:06:43,459 - INFO - Saved segments metadata to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/segments_metadata.json
+2026-02-12 15:06:43,459 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 15:06:43,459 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 15:06:43,459 - INFO - Running PyReason...
+2026-02-12 15:06:43,466 - INFO - Added 20 facts to PyReason
+2026-02-12 15:06:43,577 - INFO - Rules loaded successfully
+2026-02-12 15:06:43,577 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 15:06:43,609 - INFO - Reasoning completed
+2026-02-12 15:06:43,610 - INFO - Saving rule traces to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces
+2026-02-12 15:06:43,660 - INFO - ✓ Generated 2 trace files:
+2026-02-12 15:06:43,660 - INFO -   - rule_trace_nodes_20260212-150643.csv
+2026-02-12 15:06:43,661 - INFO -   - rule_trace_edges_20260212-150643.csv
+2026-02-12 15:06:43,661 - INFO - ✓ PyReason traces saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces
+2026-02-12 15:06:43,661 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 15:06:43,662 - INFO - ============================================================
+2026-02-12 15:06:43,662 - INFO - ABDUCTION ANALYSIS
+2026-02-12 15:06:43,662 - INFO - ============================================================
+2026-02-12 15:06:43,662 - INFO - Loading learned rules...
+2026-02-12 15:06:43,665 - INFO - Loaded 100 learned rules
+2026-02-12 15:06:43,665 - INFO - Parsing trace CSV: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/pyreason_traces/rule_trace_edges_20260212-150643.csv
+2026-02-12 15:06:43,669 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 15:06:43,671 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 15:06:43,671 - INFO - Analyzing story: input
+2026-02-12 15:06:43,671 - INFO - Calculating confidence gaps...
+2026-02-12 15:06:43,672 - INFO - 
+Current total similarity: 0.380
+2026-02-12 15:06:43,673 - INFO - Potential total similarity: 0.438
+2026-02-12 15:06:43,673 - INFO - Total improvement potential: 0.058
+2026-02-12 15:06:43,673 - INFO - Max gap: 0.290
+2026-02-12 15:06:43,673 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 15:06:43,673 - INFO - 
+Top feature gaps:
+2026-02-12 15:06:43,673 - INFO -   1. resolution_style: current=0.210, max=0.500, gap=0.290
+2026-02-12 15:06:43,673 - INFO -   2. solo_confrontations: current=0.250, max=0.460, gap=0.210
+2026-02-12 15:06:43,673 - INFO -   3. meritocracy_emphasis: current=0.250, max=0.430, gap=0.180
+2026-02-12 15:06:43,673 - INFO -   4. self_actualization_climax: current=0.290, max=0.460, gap=0.170
+2026-02-12 15:06:43,673 - INFO -   5. self_reliance: current=0.290, max=0.460, gap=0.170
+2026-02-12 15:06:43,678 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/abduction_analysis.json
+2026-02-12 15:06:43,678 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 15:06:43,680 - INFO - Created 6 ranked prescriptions (6 unique segments)
+2026-02-12 15:06:44,516 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ranked_prescriptions.json
+2026-02-12 15:06:44,517 - INFO -   Total prescriptions: 6
+2026-02-12 15:06:44,517 - INFO - 
+============================================================
+2026-02-12 15:06:44,517 - INFO - ABDUCTION COMPLETE
+2026-02-12 15:06:44,517 - INFO - ============================================================
+2026-02-12 15:06:44,517 - INFO - Features analyzed: 20
+2026-02-12 15:06:44,517 - INFO - Segments to transform: 6
+2026-02-12 15:06:44,517 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 15:06:44,517 - INFO - ============================================================
+2026-02-12 15:06:44,517 - INFO - ✓ Abduction analysis saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/abduction_analysis.json
+2026-02-12 15:06:44,517 - INFO - ✓ Ranked prescriptions saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/ranked_prescriptions.json
+2026-02-12 15:06:44,517 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 15:06:44,517 - INFO - ============================================================
+2026-02-12 15:06:44,518 - INFO - STORY TRANSFORMATION
+2026-02-12 15:06:44,518 - INFO - ============================================================
+2026-02-12 15:06:44,521 - INFO - Selected top 3 features:
+2026-02-12 15:06:44,521 - INFO -   1. resolution_style: 4 segments
+2026-02-12 15:06:44,521 - INFO -   2. solo_confrontations: 1 segments
+2026-02-12 15:06:44,522 - INFO -   3. moral_emphasis: 1 segments
+2026-02-12 15:06:44,522 - INFO - Total segments to transform: 6
+2026-02-12 15:06:44,522 - INFO - 
+[Transformation 1/6]
+2026-02-12 15:06:44,522 - INFO -   Feature: resolution_style
+2026-02-12 15:06:44,522 - INFO -   Segment: From an early age, Henry and the other children in his commu...
+2026-02-12 15:06:44,522 - INFO -   Target: 4 → 5
+2026-02-12 15:06:44,523 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:47,634 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:47,635 - INFO -   ✓ Transformed (tokens: 458)
+2026-02-12 15:06:47,637 - INFO - 
+[Transformation 2/6]
+2026-02-12 15:06:47,637 - INFO -   Feature: resolution_style
+2026-02-12 15:06:47,637 - INFO -   Segment: He and his father, along with several neighboring families, ...
+2026-02-12 15:06:47,637 - INFO -   Target: 4 → 5
+2026-02-12 15:06:47,638 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:51,108 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:51,109 - INFO -   ✓ Transformed (tokens: 485)
+2026-02-12 15:06:51,110 - INFO - 
+[Transformation 3/6]
+2026-02-12 15:06:51,110 - INFO -   Feature: resolution_style
+2026-02-12 15:06:51,110 - INFO -   Segment: Henry and the other children immediately discussed the poten...
+2026-02-12 15:06:51,110 - INFO -   Target: 4 → 5
+2026-02-12 15:06:51,111 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:54,643 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:54,644 - INFO -   ✓ Transformed (tokens: 488)
+2026-02-12 15:06:54,645 - INFO - 
+[Transformation 4/6]
+2026-02-12 15:06:54,645 - INFO -   Feature: resolution_style
+2026-02-12 15:06:54,645 - INFO -   Segment: By age thirteen, he and the other children in the community ...
+2026-02-12 15:06:54,645 - INFO -   Target: 4 → 5
+2026-02-12 15:06:54,646 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:06:58,846 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:06:58,847 - INFO -   ✓ Transformed (tokens: 553)
+2026-02-12 15:06:58,848 - INFO - 
+[Transformation 5/6]
+2026-02-12 15:06:58,848 - INFO -   Feature: solo_confrontations
+2026-02-12 15:06:58,848 - INFO -   Segment: He and his father, along with several neighboring families, ...
+2026-02-12 15:06:58,848 - INFO -   Target: 4 → 5
+2026-02-12 15:06:58,849 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:07:01,971 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:07:01,972 - INFO -   ✓ Transformed (tokens: 565)
+2026-02-12 15:07:01,973 - INFO - 
+[Transformation 6/6]
+2026-02-12 15:07:01,973 - INFO -   Feature: moral_emphasis
+2026-02-12 15:07:01,973 - INFO -   Segment: Henry and the other children immediately discussed the poten...
+2026-02-12 15:07:01,973 - INFO -   Target: 4 → 5
+2026-02-12 15:07:01,974 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 15:07:05,913 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 15:07:05,914 - INFO -   ✓ Transformed (tokens: 553)
+2026-02-12 15:07:05,919 - INFO - 
+✓ Final transformed story saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/story_transformed.txt
+2026-02-12 15:07:05,922 - INFO - ✓ Transformation log saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/transformation_log.json
+2026-02-12 15:07:05,926 - INFO - ✓ Transformation costs saved to: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking_transformation.json
+2026-02-12 15:07:05,926 - INFO - 
+============================================================
+2026-02-12 15:07:05,927 - INFO - TRANSFORMATION COMPLETE
+2026-02-12 15:07:05,927 - INFO - ============================================================
+2026-02-12 15:07:05,927 - INFO - Features selected: 3
+2026-02-12 15:07:05,927 - INFO - Segments attempted: 6
+2026-02-12 15:07:05,927 - INFO - Segments transformed: 6
+2026-02-12 15:07:05,927 - INFO - Segments skipped (reversals): 0
+2026-02-12 15:07:05,927 - INFO - Total cost: $0.0235
+2026-02-12 15:07:05,927 - INFO - Total tokens: 3,102
+2026-02-12 15:07:05,927 - INFO - ============================================================
+2026-02-12 15:07:05,927 - INFO - ✓ Story transformed
+2026-02-12 15:07:05,927 - INFO - ✓ Transformation log: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/transformation_log.json
+2026-02-12 15:07:05,927 - INFO - ✓ Transformation costs: output/phase2/claude-sonnet-4-5/inverse/input/iteration_1/cost_tracking_transformation.json
+2026-02-12 15:07:05,927 - INFO - 
+============================================================
+2026-02-12 15:07:05,928 - INFO - PHASE 2 FINAL COST SUMMARY
+2026-02-12 15:07:05,928 - INFO - ============================================================
+2026-02-12 15:07:05,931 - INFO - 
+============================================================
+2026-02-12 15:07:05,931 - INFO - PHASE 2 COST SUMMARY
+2026-02-12 15:07:05,932 - INFO - ============================================================
+2026-02-12 15:07:05,932 - INFO - Total stories processed: 1
+2026-02-12 15:07:05,932 - INFO - Total iterations: 2
+2026-02-12 15:07:05,932 - INFO - Total cost: $0.2052
+2026-02-12 15:07:05,932 - INFO - Total tokens: 28,218
+2026-02-12 15:07:05,932 - INFO -   - Input: 18,170
+2026-02-12 15:07:05,932 - INFO -   - Output: 10,048
+2026-02-12 15:07:05,932 - INFO - Cost tracking saved to: output/phase2/claude-sonnet-4-5/inverse/input/cost_tracking_final.json
+2026-02-12 15:07:05,932 - INFO - ============================================================
+2026-02-12 15:07:05,932 - INFO - 
+Phase 2 completed!
+2026-02-12 15:07:05,932 - INFO - Output directory: output/phase2/claude-sonnet-4-5/inverse/input
+2026-02-12 15:07:05,932 - INFO - ============================================================
+2026-02-12 15:07:05,933 - INFO - Execution completed successfully!
+2026-02-12 15:07:05,933 - INFO - ============================================================

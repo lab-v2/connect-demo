@@ -1,0 +1,729 @@
+2026-02-12 13:10:40,187 - ERROR - Story file not found: data/test_story.txt
+2026-02-12 13:11:24,819 - INFO - ============================================================
+2026-02-12 13:11:24,819 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:11:24,820 - INFO - Problem: inverse
+2026-02-12 13:11:24,820 - INFO - ============================================================
+2026-02-12 13:11:24,820 - INFO - 
+============================================================
+2026-02-12 13:11:24,820 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:11:24,820 - INFO - ============================================================
+2026-02-12 13:11:24,821 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:11:24,821 - INFO - Loading story: test_story.txt
+2026-02-12 13:11:24,822 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:11:24,822 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:11:24,822 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:11:24,823 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:11:24,828 - INFO - ✓ Output directory: output/phase2/gpt-4o/inverse/test_story
+2026-02-12 13:11:24,828 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:11:24,829 - ERROR - Questions file not found: data/collectivistic_questions.json
+2026-02-12 13:13:43,872 - INFO - ============================================================
+2026-02-12 13:13:43,872 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:13:43,872 - INFO - Problem: inverse
+2026-02-12 13:13:43,872 - INFO - ============================================================
+2026-02-12 13:13:43,873 - INFO - 
+============================================================
+2026-02-12 13:13:43,873 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:13:43,873 - INFO - ============================================================
+2026-02-12 13:13:43,873 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:13:43,873 - INFO - Loading story: test_story.txt
+2026-02-12 13:13:43,874 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:13:43,874 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:13:43,874 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:13:43,875 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:13:43,879 - INFO - ✓ Output directory: ../output/phase2/gpt-4o/inverse/test_story
+2026-02-12 13:13:43,879 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:13:43,879 - ERROR - Questions file not found: ../data/collectivistic_questions.json
+2026-02-12 13:15:56,173 - INFO - ============================================================
+2026-02-12 13:15:56,173 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:15:56,173 - INFO - Problem: inverse
+2026-02-12 13:15:56,174 - INFO - ============================================================
+2026-02-12 13:15:56,174 - INFO - 
+============================================================
+2026-02-12 13:15:56,174 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:15:56,174 - INFO - ============================================================
+2026-02-12 13:15:56,174 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:15:56,174 - INFO - Loading story: test_story.txt
+2026-02-12 13:15:56,175 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:15:56,175 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:15:56,176 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:15:56,176 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:15:56,184 - INFO - ✓ Output directory: ../output/phase2/gpt-4o/inverse/test_story
+2026-02-12 13:15:56,184 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:15:56,187 - INFO - 
+============================================================
+2026-02-12 13:15:56,187 - INFO - ITERATION 1/3
+2026-02-12 13:15:56,188 - INFO - ============================================================
+2026-02-12 13:15:56,191 - INFO - ✓ Saved current story to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/story.txt
+2026-02-12 13:15:56,191 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 13:15:56,193 - ERROR - Execution failed: string indices must be integers
+2026-02-12 13:15:56,193 - ERROR - Check connect.log for details
+2026-02-12 13:21:12,027 - INFO - ============================================================
+2026-02-12 13:21:12,027 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:21:12,027 - INFO - Problem: inverse
+2026-02-12 13:21:12,027 - INFO - ============================================================
+2026-02-12 13:21:12,028 - INFO - 
+============================================================
+2026-02-12 13:21:12,028 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:21:12,028 - INFO - ============================================================
+2026-02-12 13:21:12,028 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:21:12,028 - INFO - Loading story: test_story.txt
+2026-02-12 13:21:12,030 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:21:12,030 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:21:12,030 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:21:12,030 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:21:12,031 - INFO - ✓ Output directory: ../output/phase2/gpt-4o/inverse/test_story
+2026-02-12 13:21:12,031 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:21:12,032 - INFO - 
+============================================================
+2026-02-12 13:21:12,032 - INFO - ITERATION 1/3
+2026-02-12 13:21:12,032 - INFO - ============================================================
+2026-02-12 13:21:12,035 - INFO - ✓ Saved current story to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/story.txt
+2026-02-12 13:21:12,035 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 13:21:12,036 - ERROR - Failed to process question 2 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,037 - ERROR - Failed to process question 4 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,037 - ERROR - Failed to process question 6 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,037 - ERROR - Failed to process question 8 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,037 - ERROR - Failed to process question 10 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,037 - ERROR - Failed to process question 12 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,037 - ERROR - Failed to process question 14 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,037 - ERROR - Failed to process question 16 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,038 - ERROR - Failed to process question 18 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,038 - ERROR - Failed to process question 20 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,038 - ERROR - Failed to process question 22 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,038 - ERROR - Failed to process question 24 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,038 - ERROR - Failed to process question 26 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,038 - ERROR - Failed to process question 28 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,038 - ERROR - Failed to process question 30 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,038 - ERROR - Failed to process question 32 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,039 - ERROR - Failed to process question 34 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,039 - ERROR - Failed to process question 36 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,039 - ERROR - Failed to process question 38 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,039 - ERROR - Failed to process question 40 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:21:12,041 - INFO - ✓ Survey completed and saved to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/survey.json
+2026-02-12 13:21:12,044 - INFO - ✓ Cost tracking saved to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/cost_tracking.json
+2026-02-12 13:21:12,044 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 13:21:12,044 - INFO - Building ground atoms from survey: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/survey.json
+2026-02-12 13:21:12,045 - WARNING - Could not extract rating for component: Protagonist‑Centered Focus
+2026-02-12 13:21:12,046 - WARNING - Could not extract rating for component: Internal Goals
+2026-02-12 13:21:12,046 - WARNING - Could not extract rating for component: Decision‑Driven Plot
+2026-02-12 13:21:12,046 - WARNING - Could not extract rating for component: Self‑Reliance
+2026-02-12 13:21:12,046 - WARNING - Could not extract rating for component: Individual Accolades
+2026-02-12 13:21:12,046 - WARNING - Could not extract rating for component: Meritocracy Emphasis
+2026-02-12 13:21:12,046 - WARNING - Could not extract rating for component: “Man vs. Self/World” Conflict
+2026-02-12 13:21:12,046 - WARNING - Could not extract rating for component: Solo Confrontations
+2026-02-12 13:21:12,047 - WARNING - Could not extract rating for component: Inner Journey
+2026-02-12 13:21:12,047 - WARNING - Could not extract rating for component: Self‑Actualization Climax
+2026-02-12 13:21:12,047 - WARNING - Could not extract rating for component: Personal Ethics over Group Norms
+2026-02-12 13:21:12,047 - WARNING - Could not extract rating for component: Uniqueness & Self‑Expression
+2026-02-12 13:21:12,047 - WARNING - Could not extract rating for component: Self‑Construal
+2026-02-12 13:21:12,047 - WARNING - Could not extract rating for component: Behavioral Guidance
+2026-02-12 13:21:12,047 - WARNING - Could not extract rating for component: Relationship Orientation
+2026-02-12 13:21:12,047 - WARNING - Could not extract rating for component: Primary Conflict
+2026-02-12 13:21:12,048 - WARNING - Could not extract rating for component: Resolution Style
+2026-02-12 13:21:12,048 - WARNING - Could not extract rating for component: Moral Emphasis
+2026-02-12 13:21:12,048 - WARNING - Could not extract rating for component: Relationship Framing
+2026-02-12 13:21:12,048 - WARNING - Could not extract rating for component: Vertical Individualism
+2026-02-12 13:21:12,048 - INFO - Created 0 ground atoms
+2026-02-12 13:21:12,048 - INFO - Extracted metadata for 0 features
+2026-02-12 13:21:12,050 - INFO - Saved ground atoms to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/ground_atoms.json
+2026-02-12 13:21:12,050 - INFO - ✓ Ground atoms saved: 0 atoms
+2026-02-12 13:21:12,052 - INFO - Saved segments metadata to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/segments_metadata.json
+2026-02-12 13:21:12,053 - INFO - ✓ Segments metadata saved: 0 features
+2026-02-12 13:21:12,053 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 13:21:12,053 - INFO - Running PyReason...
+2026-02-12 13:21:12,359 - INFO - Added 0 facts to PyReason
+2026-02-12 13:21:14,229 - INFO - Rules loaded successfully
+2026-02-12 13:21:14,229 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 13:21:18,824 - INFO - Reasoning completed
+2026-02-12 13:21:18,824 - INFO - Saving rule traces to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/pyreason_traces
+2026-02-12 13:21:19,034 - INFO - ✓ Generated 2 trace files:
+2026-02-12 13:21:19,034 - INFO -   - rule_trace_nodes_20260212-132114.csv
+2026-02-12 13:21:19,035 - INFO -   - rule_trace_edges_20260212-132114.csv
+2026-02-12 13:21:19,035 - INFO - ✓ PyReason traces saved to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/pyreason_traces
+2026-02-12 13:21:19,035 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 13:21:19,036 - INFO - ============================================================
+2026-02-12 13:21:19,037 - INFO - ABDUCTION ANALYSIS
+2026-02-12 13:21:19,037 - INFO - ============================================================
+2026-02-12 13:21:19,037 - INFO - Loading learned rules...
+2026-02-12 13:21:19,039 - INFO - Loaded 100 learned rules
+2026-02-12 13:21:19,039 - INFO - Parsing trace CSV: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/pyreason_traces/rule_trace_edges_20260212-132114.csv
+2026-02-12 13:21:19,047 - INFO - Found 0 corpus derivations in trace CSV
+2026-02-12 13:21:19,047 - INFO - Successfully parsed 0 corpus derivations
+2026-02-12 13:21:19,047 - ERROR - No corpus derivations found in trace CSV
+2026-02-12 13:21:19,047 - ERROR - Execution failed: PyReason trace contains no corpus derivations
+2026-02-12 13:21:19,048 - ERROR - Check connect.log for details
+2026-02-12 13:40:15,836 - INFO - ============================================================
+2026-02-12 13:40:15,837 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:40:15,837 - INFO - Problem: inverse
+2026-02-12 13:40:15,837 - INFO - ============================================================
+2026-02-12 13:40:15,838 - INFO - 
+============================================================
+2026-02-12 13:40:15,838 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:40:15,838 - INFO - ============================================================
+2026-02-12 13:40:15,838 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:40:15,838 - INFO - Loading story: test_story.txt
+2026-02-12 13:40:15,840 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:40:15,840 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:40:15,840 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:40:15,841 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:40:15,842 - INFO - ✓ Output directory: ../output/phase2/gpt-4o/inverse/test_story
+2026-02-12 13:40:15,843 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:40:15,844 - INFO - 
+============================================================
+2026-02-12 13:40:15,844 - INFO - ITERATION 1/3
+2026-02-12 13:40:15,844 - INFO - ============================================================
+2026-02-12 13:40:15,847 - INFO - ✓ Saved current story to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/story.txt
+2026-02-12 13:40:15,847 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 13:40:15,849 - ERROR - Failed to process question 2 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,849 - ERROR - Failed to process question 4 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,849 - ERROR - Failed to process question 6 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,850 - ERROR - Failed to process question 8 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,850 - ERROR - Failed to process question 10 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,850 - ERROR - Failed to process question 12 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,850 - ERROR - Failed to process question 14 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,850 - ERROR - Failed to process question 16 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,850 - ERROR - Failed to process question 18 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,851 - ERROR - Failed to process question 20 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,851 - ERROR - Failed to process question 22 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,851 - ERROR - Failed to process question 24 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,851 - ERROR - Failed to process question 26 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,852 - ERROR - Failed to process question 28 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,852 - ERROR - Failed to process question 30 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,852 - ERROR - Failed to process question 32 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,853 - ERROR - Failed to process question 34 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,854 - ERROR - Failed to process question 36 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,854 - ERROR - Failed to process question 38 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,854 - ERROR - Failed to process question 40 for story test_story: OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:40:15,857 - INFO - ✓ Survey completed and saved to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/survey.json
+2026-02-12 13:40:15,861 - INFO - ✓ Cost tracking saved to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/cost_tracking.json
+2026-02-12 13:40:15,861 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 13:40:15,862 - INFO - Building ground atoms from survey: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/survey.json
+2026-02-12 13:40:15,863 - WARNING - Could not extract rating for component: Protagonist‑Centered Focus
+2026-02-12 13:40:15,864 - WARNING - Could not extract rating for component: Internal Goals
+2026-02-12 13:40:15,864 - WARNING - Could not extract rating for component: Decision‑Driven Plot
+2026-02-12 13:40:15,864 - WARNING - Could not extract rating for component: Self‑Reliance
+2026-02-12 13:40:15,864 - WARNING - Could not extract rating for component: Individual Accolades
+2026-02-12 13:40:15,864 - WARNING - Could not extract rating for component: Meritocracy Emphasis
+2026-02-12 13:40:15,865 - WARNING - Could not extract rating for component: “Man vs. Self/World” Conflict
+2026-02-12 13:40:15,865 - WARNING - Could not extract rating for component: Solo Confrontations
+2026-02-12 13:40:15,865 - WARNING - Could not extract rating for component: Inner Journey
+2026-02-12 13:40:15,865 - WARNING - Could not extract rating for component: Self‑Actualization Climax
+2026-02-12 13:40:15,865 - WARNING - Could not extract rating for component: Personal Ethics over Group Norms
+2026-02-12 13:40:15,865 - WARNING - Could not extract rating for component: Uniqueness & Self‑Expression
+2026-02-12 13:40:15,866 - WARNING - Could not extract rating for component: Self‑Construal
+2026-02-12 13:40:15,866 - WARNING - Could not extract rating for component: Behavioral Guidance
+2026-02-12 13:40:15,867 - WARNING - Could not extract rating for component: Relationship Orientation
+2026-02-12 13:40:15,867 - WARNING - Could not extract rating for component: Primary Conflict
+2026-02-12 13:40:15,867 - WARNING - Could not extract rating for component: Resolution Style
+2026-02-12 13:40:15,867 - WARNING - Could not extract rating for component: Moral Emphasis
+2026-02-12 13:40:15,868 - WARNING - Could not extract rating for component: Relationship Framing
+2026-02-12 13:40:15,868 - WARNING - Could not extract rating for component: Vertical Individualism
+2026-02-12 13:40:15,868 - INFO - Created 0 ground atoms
+2026-02-12 13:40:15,869 - INFO - Extracted metadata for 0 features
+2026-02-12 13:40:15,872 - INFO - Saved ground atoms to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/ground_atoms.json
+2026-02-12 13:40:15,872 - INFO - ✓ Ground atoms saved: 0 atoms
+2026-02-12 13:40:15,874 - INFO - Saved segments metadata to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/segments_metadata.json
+2026-02-12 13:40:15,875 - INFO - ✓ Segments metadata saved: 0 features
+2026-02-12 13:40:15,875 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 13:40:15,875 - INFO - Running PyReason...
+2026-02-12 13:40:16,161 - INFO - Added 0 facts to PyReason
+2026-02-12 13:40:18,034 - INFO - Rules loaded successfully
+2026-02-12 13:40:18,034 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 13:40:22,495 - INFO - Reasoning completed
+2026-02-12 13:40:22,495 - INFO - Saving rule traces to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/pyreason_traces
+2026-02-12 13:40:22,684 - INFO - ✓ Generated 2 trace files:
+2026-02-12 13:40:22,684 - INFO -   - rule_trace_nodes_20260212-134018.csv
+2026-02-12 13:40:22,685 - INFO -   - rule_trace_edges_20260212-134018.csv
+2026-02-12 13:40:22,685 - INFO - ✓ PyReason traces saved to: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/pyreason_traces
+2026-02-12 13:40:22,685 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 13:40:22,686 - INFO - ============================================================
+2026-02-12 13:40:22,686 - INFO - ABDUCTION ANALYSIS
+2026-02-12 13:40:22,686 - INFO - ============================================================
+2026-02-12 13:40:22,687 - INFO - Loading learned rules...
+2026-02-12 13:40:22,689 - INFO - Loaded 100 learned rules
+2026-02-12 13:40:22,689 - INFO - Parsing trace CSV: ../output/phase2/gpt-4o/inverse/test_story/iteration_0/pyreason_traces/rule_trace_edges_20260212-134018.csv
+2026-02-12 13:40:22,693 - INFO - Found 0 corpus derivations in trace CSV
+2026-02-12 13:40:22,693 - INFO - Successfully parsed 0 corpus derivations
+2026-02-12 13:40:22,694 - ERROR - No corpus derivations found in trace CSV
+2026-02-12 13:40:22,694 - ERROR - Execution failed: PyReason trace contains no corpus derivations
+2026-02-12 13:40:22,694 - ERROR - Check connect.log for details
+2026-02-12 13:43:17,485 - INFO - ============================================================
+2026-02-12 13:43:17,486 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:43:17,486 - INFO - Problem: inverse
+2026-02-12 13:43:17,487 - INFO - ============================================================
+2026-02-12 13:43:17,487 - INFO - 
+============================================================
+2026-02-12 13:43:17,487 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:43:17,487 - INFO - ============================================================
+2026-02-12 13:43:17,487 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:43:17,487 - INFO - Loading story: test_story.txt
+2026-02-12 13:43:17,489 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:43:17,489 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:43:17,489 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:43:17,489 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:43:17,490 - INFO - ✓ Output directory: ../output/phase2/gpt-4o/inverse/test_story
+2026-02-12 13:43:17,490 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:43:17,491 - ERROR - OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'
+2026-02-12 13:43:17,491 - ERROR - Phase 2 cannot run survey without model credentials.
+2026-02-12 13:43:17,491 - ERROR - Set the required API key or run with --skip-survey using an existing valid survey.json.
+2026-02-12 13:44:41,793 - INFO - ============================================================
+2026-02-12 13:44:41,793 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:44:41,794 - INFO - Problem: inverse
+2026-02-12 13:44:41,794 - INFO - ============================================================
+2026-02-12 13:44:41,794 - INFO - 
+============================================================
+2026-02-12 13:44:41,794 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:44:41,794 - INFO - ============================================================
+2026-02-12 13:44:41,794 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:44:41,794 - INFO - Loading story: test_story.txt
+2026-02-12 13:44:41,795 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:44:41,796 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:44:41,796 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:44:41,796 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:44:41,799 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/inverse/test_story
+2026-02-12 13:44:41,800 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:44:41,800 - ERROR - ANTHROPIC_API_KEY environment variable not set. Set it with: export ANTHROPIC_API_KEY='your-key'
+2026-02-12 13:44:41,800 - ERROR - Phase 2 cannot run survey without model credentials.
+2026-02-12 13:44:41,800 - ERROR - Set the required API key or run with --skip-survey using an existing valid survey.json.
+2026-02-12 13:45:39,960 - INFO - ============================================================
+2026-02-12 13:45:39,960 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:45:39,961 - INFO - Problem: inverse
+2026-02-12 13:45:39,961 - INFO - ============================================================
+2026-02-12 13:45:39,961 - INFO - 
+============================================================
+2026-02-12 13:45:39,961 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:45:39,961 - INFO - ============================================================
+2026-02-12 13:45:39,962 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:45:39,962 - INFO - Loading story: test_story.txt
+2026-02-12 13:45:39,963 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:45:39,963 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:45:39,963 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:45:39,963 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:45:39,964 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/inverse/test_story
+2026-02-12 13:45:39,964 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:45:39,964 - ERROR - ANTHROPIC_API_KEY environment variable not set. Set it with: export ANTHROPIC_API_KEY='your-key'
+2026-02-12 13:45:39,964 - ERROR - Phase 2 cannot run survey without model credentials.
+2026-02-12 13:45:39,964 - ERROR - Set the required API key or run with --skip-survey using an existing valid survey.json.
+2026-02-12 13:48:02,640 - INFO - ============================================================
+2026-02-12 13:48:02,640 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:48:02,640 - INFO - Problem: inverse
+2026-02-12 13:48:02,641 - INFO - ============================================================
+2026-02-12 13:48:02,641 - INFO - 
+============================================================
+2026-02-12 13:48:02,641 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:48:02,641 - INFO - ============================================================
+2026-02-12 13:48:02,641 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:48:02,641 - INFO - Loading story: test_story.txt
+2026-02-12 13:48:02,642 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:48:02,642 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:48:02,643 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:48:02,644 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:48:02,644 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/inverse/test_story
+2026-02-12 13:48:02,644 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:48:02,645 - INFO - 
+============================================================
+2026-02-12 13:48:02,645 - INFO - ITERATION 1/3
+2026-02-12 13:48:02,645 - INFO - ============================================================
+2026-02-12 13:48:02,648 - INFO - ✓ Saved current story to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/story.txt
+2026-02-12 13:48:02,648 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 13:48:02,694 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,150 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3pFZJaFxi1hEFcfFv"}
+2026-02-12 13:48:03,150 - ERROR - Failed to process question 2 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3pFZJaFxi1hEFcfFv"}
+2026-02-12 13:48:03,152 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,223 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3pecrfuRPt8xXacTo"}
+2026-02-12 13:48:03,223 - ERROR - Failed to process question 4 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3pecrfuRPt8xXacTo"}
+2026-02-12 13:48:03,225 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,301 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3q3vfiyaq3WBoG447"}
+2026-02-12 13:48:03,301 - ERROR - Failed to process question 6 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3q3vfiyaq3WBoG447"}
+2026-02-12 13:48:03,302 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,357 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3qHZoTEMwwioTTch1"}
+2026-02-12 13:48:03,357 - ERROR - Failed to process question 8 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3qHZoTEMwwioTTch1"}
+2026-02-12 13:48:03,361 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,434 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3qYh2wYfbAJyySGy8"}
+2026-02-12 13:48:03,434 - ERROR - Failed to process question 10 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3qYh2wYfbAJyySGy8"}
+2026-02-12 13:48:03,436 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,487 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3qrnxqasjPYmHf4o8"}
+2026-02-12 13:48:03,487 - ERROR - Failed to process question 12 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3qrnxqasjPYmHf4o8"}
+2026-02-12 13:48:03,488 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,539 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3r5wMvWSCoGeCbq5U"}
+2026-02-12 13:48:03,539 - ERROR - Failed to process question 14 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3r5wMvWSCoGeCbq5U"}
+2026-02-12 13:48:03,541 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,591 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3rJaqN8YmwhGQsqSE"}
+2026-02-12 13:48:03,591 - ERROR - Failed to process question 16 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3rJaqN8YmwhGQsqSE"}
+2026-02-12 13:48:03,592 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,658 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3rYijYVkFVnRP5EDk"}
+2026-02-12 13:48:03,659 - ERROR - Failed to process question 18 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3rYijYVkFVnRP5EDk"}
+2026-02-12 13:48:03,660 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,718 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3rqLZeKK9tszb9Kjd"}
+2026-02-12 13:48:03,718 - ERROR - Failed to process question 20 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3rqLZeKK9tszb9Kjd"}
+2026-02-12 13:48:03,720 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,772 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3s5UJjhKaPqxnTaKt"}
+2026-02-12 13:48:03,772 - ERROR - Failed to process question 22 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3s5UJjhKaPqxnTaKt"}
+2026-02-12 13:48:03,774 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,832 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3sJcV6DF7vgARPiXW"}
+2026-02-12 13:48:03,832 - ERROR - Failed to process question 24 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3sJcV6DF7vgARPiXW"}
+2026-02-12 13:48:03,833 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,881 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3sZExGTqxmGEWWmc9"}
+2026-02-12 13:48:03,881 - ERROR - Failed to process question 26 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3sZExGTqxmGEWWmc9"}
+2026-02-12 13:48:03,883 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:03,951 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3smPr3B3EWAn34yeR"}
+2026-02-12 13:48:03,951 - ERROR - Failed to process question 28 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3smPr3B3EWAn34yeR"}
+2026-02-12 13:48:03,953 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:04,002 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3t4kfsNE2vkuJ1PMB"}
+2026-02-12 13:48:04,003 - ERROR - Failed to process question 30 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3t4kfsNE2vkuJ1PMB"}
+2026-02-12 13:48:04,003 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:04,055 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3tHefqP9K1VsT8XFd"}
+2026-02-12 13:48:04,055 - ERROR - Failed to process question 32 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3tHefqP9K1VsT8XFd"}
+2026-02-12 13:48:04,057 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:04,124 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3tX36sJWvzpWKCTDU"}
+2026-02-12 13:48:04,124 - ERROR - Failed to process question 34 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3tX36sJWvzpWKCTDU"}
+2026-02-12 13:48:04,126 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:04,178 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3touHdU55xCvxaBTC"}
+2026-02-12 13:48:04,179 - ERROR - Failed to process question 36 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3touHdU55xCvxaBTC"}
+2026-02-12 13:48:04,180 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:04,242 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3u33HqaQvWxZS3qH4"}
+2026-02-12 13:48:04,242 - ERROR - Failed to process question 38 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3u33HqaQvWxZS3qH4"}
+2026-02-12 13:48:04,244 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:48:04,293 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3uJukstwbDzfGd23X"}
+2026-02-12 13:48:04,293 - ERROR - Failed to process question 40 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3uJukstwbDzfGd23X"}
+2026-02-12 13:48:04,295 - INFO - ✓ Survey completed and saved to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/survey.json
+2026-02-12 13:48:04,295 - ERROR - Survey produced 0 valid ratings; stopping before PyReason/abduction.
+2026-02-12 13:48:04,296 - ERROR - Survey errors observed: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4g3pFZJaFxi1hEFcfFv"}
+2026-02-12 13:48:04,296 - ERROR - Execution failed: Survey failed: no valid feature ratings were produced.
+2026-02-12 13:48:04,296 - ERROR - Check connect.log for details
+2026-02-12 13:49:42,888 - INFO - ============================================================
+2026-02-12 13:49:42,888 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:49:42,889 - INFO - Problem: inverse
+2026-02-12 13:49:42,889 - INFO - ============================================================
+2026-02-12 13:49:42,889 - INFO - 
+============================================================
+2026-02-12 13:49:42,889 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:49:42,889 - INFO - ============================================================
+2026-02-12 13:49:42,889 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:49:42,889 - INFO - Loading story: test_story.txt
+2026-02-12 13:49:42,890 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:49:42,890 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:49:42,891 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:49:42,891 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:49:42,891 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/inverse/test_story
+2026-02-12 13:49:42,891 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:49:42,892 - INFO - 
+============================================================
+2026-02-12 13:49:42,892 - INFO - ITERATION 1/3
+2026-02-12 13:49:42,892 - INFO - ============================================================
+2026-02-12 13:49:42,895 - INFO - ✓ Saved current story to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/story.txt
+2026-02-12 13:49:42,895 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 13:49:42,920 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,228 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBCF5x4UGSUmwWH3aZ"}
+2026-02-12 13:49:43,228 - ERROR - Failed to process question 2 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBCF5x4UGSUmwWH3aZ"}
+2026-02-12 13:49:43,229 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,286 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBCWxcWrGb4xVpywQS"}
+2026-02-12 13:49:43,286 - ERROR - Failed to process question 4 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBCWxcWrGb4xVpywQS"}
+2026-02-12 13:49:43,288 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,339 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBCmb7C7nYiRY1uAyK"}
+2026-02-12 13:49:43,339 - ERROR - Failed to process question 6 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBCmb7C7nYiRY1uAyK"}
+2026-02-12 13:49:43,340 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,396 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBCzjJSRWj1W7LoRDE"}
+2026-02-12 13:49:43,396 - ERROR - Failed to process question 8 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBCzjJSRWj1W7LoRDE"}
+2026-02-12 13:49:43,399 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,521 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBDUWAR9Lo2k83o5AR"}
+2026-02-12 13:49:43,522 - ERROR - Failed to process question 10 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBDUWAR9Lo2k83o5AR"}
+2026-02-12 13:49:43,523 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,573 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBDmN5GW2KqC1PB2Cs"}
+2026-02-12 13:49:43,574 - ERROR - Failed to process question 12 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBDmN5GW2KqC1PB2Cs"}
+2026-02-12 13:49:43,583 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,634 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBE2zAequqw1twWeyD"}
+2026-02-12 13:49:43,634 - ERROR - Failed to process question 14 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBE2zAequqw1twWeyD"}
+2026-02-12 13:49:43,637 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,692 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBEFsxx3XS47zqxRxC"}
+2026-02-12 13:49:43,692 - ERROR - Failed to process question 16 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBEFsxx3XS47zqxRxC"}
+2026-02-12 13:49:43,694 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,745 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBEWWWiho8tJhG7fzj"}
+2026-02-12 13:49:43,745 - ERROR - Failed to process question 18 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBEWWWiho8tJhG7fzj"}
+2026-02-12 13:49:43,746 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,811 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBEiffRR1AmFZmuSbn"}
+2026-02-12 13:49:43,811 - ERROR - Failed to process question 20 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBEiffRR1AmFZmuSbn"}
+2026-02-12 13:49:43,812 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,876 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBF1XH6tKFHD8ybBeF"}
+2026-02-12 13:49:43,876 - ERROR - Failed to process question 22 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBF1XH6tKFHD8ybBeF"}
+2026-02-12 13:49:43,877 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,941 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBFJdxTBZCFr3w7MAL"}
+2026-02-12 13:49:43,941 - ERROR - Failed to process question 24 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBFJdxTBZCFr3w7MAL"}
+2026-02-12 13:49:43,942 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:43,995 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBFZkzy8Adwfxq5bLA"}
+2026-02-12 13:49:43,995 - ERROR - Failed to process question 26 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBFZkzy8Adwfxq5bLA"}
+2026-02-12 13:49:43,997 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:44,054 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBFoQD34uV7nEizC22"}
+2026-02-12 13:49:44,055 - ERROR - Failed to process question 28 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBFoQD34uV7nEizC22"}
+2026-02-12 13:49:44,056 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:44,107 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBG3nEegdfZexPhuyc"}
+2026-02-12 13:49:44,107 - ERROR - Failed to process question 30 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBG3nEegdfZexPhuyc"}
+2026-02-12 13:49:44,109 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:44,166 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBGHRgTyrf16zYehmm"}
+2026-02-12 13:49:44,166 - ERROR - Failed to process question 32 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBGHRgTyrf16zYehmm"}
+2026-02-12 13:49:44,167 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:44,218 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBGXJozWDSwtseH69N"}
+2026-02-12 13:49:44,219 - ERROR - Failed to process question 34 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBGXJozWDSwtseH69N"}
+2026-02-12 13:49:44,219 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:44,271 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBGkTPM94SQJKtr61X"}
+2026-02-12 13:49:44,271 - ERROR - Failed to process question 36 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBGkTPM94SQJKtr61X"}
+2026-02-12 13:49:44,273 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:44,328 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBGyqtrnFjEPmWUF9N"}
+2026-02-12 13:49:44,328 - ERROR - Failed to process question 38 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBGyqtrnFjEPmWUF9N"}
+2026-02-12 13:49:44,330 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:49:44,390 - ERROR - Unexpected error calling LLM: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBHEEC7pk5nJRaKU33"}
+2026-02-12 13:49:44,390 - ERROR - Failed to process question 40 for story test_story: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBHEEC7pk5nJRaKU33"}
+2026-02-12 13:49:44,394 - INFO - ✓ Survey completed and saved to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/survey.json
+2026-02-12 13:49:44,394 - ERROR - Survey produced 0 valid ratings; stopping before PyReason/abduction.
+2026-02-12 13:49:44,395 - ERROR - Survey errors observed: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CY4gBCF5x4UGSUmwWH3aZ"}
+2026-02-12 13:49:44,395 - ERROR - Execution failed: Survey failed: no valid feature ratings were produced.
+2026-02-12 13:49:44,395 - ERROR - Check connect.log for details
+2026-02-12 13:50:58,770 - INFO - ============================================================
+2026-02-12 13:50:58,770 - INFO - CONNECT Project - Phase 2
+2026-02-12 13:50:58,770 - INFO - Problem: inverse
+2026-02-12 13:50:58,771 - INFO - ============================================================
+2026-02-12 13:50:58,771 - INFO - 
+============================================================
+2026-02-12 13:50:58,771 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-12 13:50:58,771 - INFO - ============================================================
+2026-02-12 13:50:58,771 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-12 13:50:58,771 - INFO - Loading story: test_story.txt
+2026-02-12 13:50:58,772 - INFO - Loaded story: test_story (2882 characters)
+2026-02-12 13:50:58,773 - INFO - ✓ Loaded test story: test_story
+2026-02-12 13:50:58,773 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-12 13:50:58,773 - INFO - ✓ Rules loaded from: ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt
+2026-02-12 13:50:58,774 - INFO - ✓ Output directory: ../output/phase2/claude-sonnet-4-5/inverse/test_story
+2026-02-12 13:50:58,774 - INFO - ✓ Cost tracker initialized
+2026-02-12 13:50:58,774 - INFO - 
+============================================================
+2026-02-12 13:50:58,775 - INFO - ITERATION 1/3
+2026-02-12 13:50:58,775 - INFO - ============================================================
+2026-02-12 13:50:58,777 - INFO - ✓ Saved current story to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/story.txt
+2026-02-12 13:50:58,777 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-12 13:50:58,799 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:51:05,550 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:51:05,554 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:51:12,837 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:51:12,838 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:51:19,574 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:51:19,575 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:51:26,992 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:51:26,994 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:51:32,623 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:51:32,627 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:51:39,940 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:51:39,942 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:51:46,935 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:51:46,937 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:51:53,601 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:51:53,603 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:52:02,150 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:02,152 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:52:08,249 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:08,251 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:52:14,985 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:14,987 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:52:20,668 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:20,671 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:52:27,428 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:27,430 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:52:33,984 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:33,986 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:52:41,181 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:41,183 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:52:48,303 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:48,305 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:52:54,250 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:52:54,252 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:53:01,141 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:53:01,143 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:53:09,022 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:53:09,024 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:53:15,913 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:53:15,918 - INFO - ✓ Survey completed and saved to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/survey.json
+2026-02-12 13:53:15,918 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-12 13:53:15,921 - INFO - ✓ Cost tracking saved to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/cost_tracking.json
+2026-02-12 13:53:15,921 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-12 13:53:15,921 - INFO - Building ground atoms from survey: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/survey.json
+2026-02-12 13:53:15,925 - INFO - Created 41 ground atoms
+2026-02-12 13:53:15,925 - INFO - Extracted metadata for 20 features
+2026-02-12 13:53:15,928 - INFO - Saved ground atoms to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/ground_atoms.json
+2026-02-12 13:53:15,928 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-12 13:53:15,931 - INFO - Saved segments metadata to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/segments_metadata.json
+2026-02-12 13:53:15,931 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-12 13:53:15,932 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-12 13:53:15,932 - INFO - Running PyReason...
+2026-02-12 13:53:19,570 - INFO - Added 20 facts to PyReason
+2026-02-12 13:53:21,034 - INFO - Rules loaded successfully
+2026-02-12 13:53:21,035 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-12 13:53:28,075 - INFO - Reasoning completed
+2026-02-12 13:53:28,075 - INFO - Saving rule traces to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/pyreason_traces
+2026-02-12 13:53:30,311 - INFO - ✓ Generated 2 trace files:
+2026-02-12 13:53:30,311 - INFO -   - rule_trace_nodes_20260212-135321.csv
+2026-02-12 13:53:30,311 - INFO -   - rule_trace_edges_20260212-135321.csv
+2026-02-12 13:53:30,312 - INFO - ✓ PyReason traces saved to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/pyreason_traces
+2026-02-12 13:53:30,312 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-12 13:53:30,313 - INFO - ============================================================
+2026-02-12 13:53:30,313 - INFO - ABDUCTION ANALYSIS
+2026-02-12 13:53:30,314 - INFO - ============================================================
+2026-02-12 13:53:30,314 - INFO - Loading learned rules...
+2026-02-12 13:53:30,316 - INFO - Loaded 100 learned rules
+2026-02-12 13:53:30,316 - INFO - Parsing trace CSV: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/pyreason_traces/rule_trace_edges_20260212-135321.csv
+2026-02-12 13:53:30,322 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-12 13:53:30,324 - INFO - Successfully parsed 20 corpus derivations
+2026-02-12 13:53:30,324 - INFO - Analyzing story: test_story
+2026-02-12 13:53:30,325 - INFO - Calculating confidence gaps...
+2026-02-12 13:53:30,325 - INFO - 
+Current total similarity: 0.094
+2026-02-12 13:53:30,325 - INFO - Potential total similarity: 0.436
+2026-02-12 13:53:30,325 - INFO - Total improvement potential: 0.342
+2026-02-12 13:53:30,325 - INFO - Max gap: 0.500
+2026-02-12 13:53:30,326 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-12 13:53:30,326 - INFO - 
+Top feature gaps:
+2026-02-12 13:53:30,326 - INFO -   1. man_vs_self_world_conflict: current=0.000, max=0.500, gap=0.500
+2026-02-12 13:53:30,326 - INFO -   2. individual_accolades: current=0.110, max=0.540, gap=0.430
+2026-02-12 13:53:30,326 - INFO -   3. meritocracy_emphasis: current=0.070, max=0.500, gap=0.430
+2026-02-12 13:53:30,326 - INFO -   4. self_actualization_climax: current=0.070, max=0.500, gap=0.430
+2026-02-12 13:53:30,326 - INFO -   5. behavioral_guidance: current=0.040, max=0.460, gap=0.420
+2026-02-12 13:53:30,329 - INFO - ✓ Abduction analysis saved to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/abduction_analysis.json
+2026-02-12 13:53:30,329 - INFO - 
+Creating ranked prescriptions...
+2026-02-12 13:53:30,330 - INFO - Created 17 ranked prescriptions (17 unique segments)
+2026-02-12 13:53:30,332 - INFO - ✓ Ranked prescriptions saved to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/ranked_prescriptions.json
+2026-02-12 13:53:30,332 - INFO -   Total prescriptions: 17
+2026-02-12 13:53:30,332 - INFO - 
+============================================================
+2026-02-12 13:53:30,333 - INFO - ABDUCTION COMPLETE
+2026-02-12 13:53:30,333 - INFO - ============================================================
+2026-02-12 13:53:30,333 - INFO - Features analyzed: 20
+2026-02-12 13:53:30,333 - INFO - Segments to transform: 17
+2026-02-12 13:53:30,333 - INFO - Stop condition: NO - Continue transforming
+2026-02-12 13:53:30,333 - INFO - ============================================================
+2026-02-12 13:53:30,333 - INFO - ✓ Abduction analysis saved to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/abduction_analysis.json
+2026-02-12 13:53:30,333 - INFO - ✓ Ranked prescriptions saved to: ../output/phase2/claude-sonnet-4-5/inverse/test_story/iteration_0/ranked_prescriptions.json
+2026-02-12 13:53:30,333 - INFO - 
+[Step 7/7] Transforming story (top-3 features)...
+2026-02-12 13:53:30,333 - INFO - ============================================================
+2026-02-12 13:53:30,333 - INFO - STORY TRANSFORMATION
+2026-02-12 13:53:30,333 - INFO - ============================================================
+2026-02-12 13:53:30,335 - INFO - Selected top 3 features:
+2026-02-12 13:53:30,335 - INFO -   1. man_vs_self_world_conflict: 5 segments
+2026-02-12 13:53:30,335 - INFO -   2. individual_accolades: 4 segments
+2026-02-12 13:53:30,335 - INFO -   3. meritocracy_emphasis: 3 segments
+2026-02-12 13:53:30,335 - INFO - Total segments to transform: 12
+2026-02-12 13:53:30,335 - INFO - 
+[Transformation 1/12]
+2026-02-12 13:53:30,335 - INFO -   Feature: man_vs_self_world_conflict
+2026-02-12 13:53:30,335 - INFO -   Segment: Henry...
+2026-02-12 13:53:30,335 - INFO -   Target: 2 → 5
+2026-02-12 13:53:30,336 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:53:37,825 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-12 13:53:37,826 - INFO -   ✓ Transformed (tokens: 1376)
+2026-02-12 13:53:37,827 - INFO - 
+[Transformation 2/12]
+2026-02-12 13:53:37,827 - INFO -   Feature: man_vs_self_world_conflict
+2026-02-12 13:53:37,828 - INFO -   Segment: At age sixteen, Henry left the family farm for Detroit and f...
+2026-02-12 13:53:37,828 - INFO -   Target: 2 → 5
+2026-02-12 13:53:37,828 - INFO - 
+LiteLLM completion() model= claude-sonnet-4-5; provider = anthropic
+2026-02-12 13:53:42,584 - WARNING - 
+Process interrupted by user

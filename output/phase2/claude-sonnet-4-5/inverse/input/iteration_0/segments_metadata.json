@@ -1,0 +1,248 @@
+{
+  "story": {
+    "protagonist_centered_focus": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis narrative is entirely focused on Henry Ford as an individual. The story traces his personal fascination with machinery, his individual formative experience seeing a steam engine, his mother's death, and his solitary activities disassembling timepieces. While other people are mentioned (his father, friends, neighbors), they serve only as background to Henry's individual journey and interests. There are no collective choices, shared community experiences, or communal identity driving the narrative. Every action, observation, and development centers on Henry Ford's individual perspective and personal development.\n\nKey excerpts that demonstrate the individual perspective:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"He saw his first automobile, a self-powered steam engine, at twelve years old with his father on their way to Detroit, Michigan, just a few months after his mother passed away during childbirth.\"\n\n3. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n4. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Is the narrative driven primarily by the group’s or community’s shared experiences, collective choices, and communal identity?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "He saw his first automobile, a self-powered steam engine, at twelve years old with his father on their way to Detroit, Michigan, just a few months after his mother passed away during childbirth.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Protagonist‑Centered Focus"
+    },
+    "internal_goals": {
+      "rating": 2,
+      "normalized_score": 0.75,
+      "llm_response": "Rating: 2\n\nThis story focuses almost entirely on Henry Ford's individual fascinations, actions, and personal development. The narrative centers on his individual curiosity about machinery, his personal reaction to seeing a steam engine, and his individual skill in fixing timepieces. While there is one mention of how he envisioned the horseless carriage could benefit farmers as a group, this remains Henry's individual vision rather than a collective pursuit. The story emphasizes his solitary technical interests and personal ambitions rather than any collaborative or community-driven goals.\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Do the characters pursue group ambitions (e.g., community well‑being, family honor, shared success) over individual goals?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Internal Goals"
+    },
+    "decision_driven_plot": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story is entirely focused on Henry Ford as an individual. Every key turning point mentioned is driven by Henry's personal fascinations, observations, and decisions. His early interest in machinery, his pivotal moment seeing the steam engine, his recognition of the horseless carriage's potential, and his skill development with timepieces are all individual pursuits and realizations. There are no collective decisions, group mandates, or community traditions that determine the direction of the narrative. Other people (father, friends, neighbors) appear only as background figures in Henry's individual journey, not as decision-makers or influencers of key turning points.\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"He saw his first automobile, a self-powered steam engine, at twelve years old with his father on their way to Detroit, Michigan, just a few months after his mother passed away during childbirth.\"\n\n3. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n4. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Are key turning points in the story determined by collective decisions, group mandates, or community traditions rather than by a single individual’s decision?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "He saw his first automobile, a self-powered steam engine, at twelve years old with his father on their way to Detroit, Michigan, just a few months after his mother passed away during childbirth.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Decision‑Driven Plot"
+    },
+    "self_reliance": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story presents an entirely individual perspective. Henry Ford's journey is characterized by his personal fascination with machinery, his individual vision after seeing the steam engine, and his solitary work disassembling and reassembling timepieces. While he fixes timepieces for friends and neighbors, this represents him providing individual service to others rather than communal collaboration or collective action. There is no indication of shared resources, group problem-solving, or community support helping Henry overcome obstacles. His development and skills are portrayed as stemming from his own initiative, curiosity, and effort.\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Do the characters overcome obstacles through communal support, collective action, or shared resources rather than individual effort?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Self‑Reliance"
+    },
+    "individual_accolades": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story is told entirely from an individual perspective, focusing exclusively on Henry Ford's personal experiences, observations, and achievements. All actions and accomplishments are attributed solely to Henry as an individual—his fascination with machinery, his vision for the horseless carriage, and his skill with timepieces. There is no mention of group efforts, community contributions, or shared recognition. Even when others appear in the narrative (his father, friends, neighbors), they serve only as background to highlight Henry's individual talents and interests.\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Are awards, status, or recognition attributed primarily to the group, ensemble, or community effort rather than to an individual?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Individual Accolades"
+    },
+    "meritocracy_emphasis": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story portrays success as entirely stemming from individual talent, fascination, and initiative. Henry Ford's achievements are attributed solely to his personal qualities: his early fascination with machinery, his individual vision upon seeing the steam engine, and his self-driven practice of disassembling and reassembling timepieces. While the story mentions his father's presence and neighbors who benefited from his skills, these references serve only as context for Henry's individual actions rather than suggesting any group support or communal contribution to his development. There is no indication that family lineage, mentorship, community resources, or collaborative efforts played any role in fostering his mechanical abilities or vision.\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Is success portrayed as resulting from group support, family lineage, or communal contributions rather than solely individual talent?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Meritocracy Emphasis"
+    },
+    "man_vs_self_world_conflict": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story is entirely focused on Henry Ford as an individual. The narrative traces his personal fascination with machinery, his individual experience of seeing his first automobile, his personal vision about the potential of horseless carriages, and his solitary activities disassembling timepieces. While the story mentions his father, friends, and neighbors, they serve only as background context to Henry's individual journey and interests. There is no group struggle, no community conflict, and no collective challenge presented. The story is a biographical sketch centered on one person's early development and individual pursuits.\n\nKey excerpts that demonstrate the individual perspective:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a 'horseless carriage' could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Is the central struggle between the group and external forces or within group cohesion, rather than an individual’s internal conflict?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "“Man vs. Self/World” Conflict"
+    },
+    "solo_confrontations": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story presents an entirely individual perspective focused on Henry Ford's personal fascination with machinery and his individual development. There are no climactic showdowns depicted in this narrative—it's a biographical sketch of Ford's early life. The activities described (seeing his first automobile, disassembling timepieces, fixing neighbors' watches) are all centered on Henry as a lone individual pursuing his interests. While he interacts with others (his father, friends, neighbors), these interactions serve only as context for Henry's individual actions and development. There is no collaborative effort or collective confrontation presented anywhere in the text.\n\nKey excerpts demonstrating the individual perspective:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"He saw his first automobile, a self-powered steam engine, at twelve years old with his father on their way to Detroit, Michigan, just a few months after his mother passed away during childbirth.\"\n\n3. \"Henry immediately saw the potential of what a 'horseless carriage' could have on people's lives, especially farmers.\"\n\n4. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Do climactic showdowns feature collaborative group efforts or collective confrontation, rather than a lone individual?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "He saw his first automobile, a self-powered steam engine, at twelve years old with his father on their way to Detroit, Michigan, just a few months after his mother passed away during childbirth.",
+        "Henry immediately saw the potential of what a",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Solo Confrontations"
+    },
+    "inner_journey": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story is entirely focused on Henry Ford as an individual. The narrative traces his personal fascination with machinery, his individual reaction to seeing a steam engine, his solitary vision about the potential of automobiles, and his personal skill development with timepieces. While he fixes timepieces for \"friends and neighbors,\" this is presented as an extension of his individual talent rather than any collective endeavor or shared discovery. There is no character arc centered on group values, collective strengths, or communal purpose—the story is a biographical sketch of one person's individual interests and abilities developing in isolation.\n\nKey excerpts that demonstrate the individual perspective:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a 'horseless carriage' could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Is the character arc centered on the group discovering shared values, collective strengths, or communal purpose?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Inner Journey"
+    },
+    "self_actualization_climax": {
+      "rating": 2,
+      "normalized_score": 0.75,
+      "llm_response": "Rating: 2\n\nThis story is primarily focused on Henry Ford as an individual—his personal fascination with machinery, his formative experience seeing a steam engine, and his individual skill development with timepieces. However, there is some group influence present in his consideration of how inventions could benefit farmers collectively and his service to friends and neighbors. The emotional arc centers on Henry's individual journey of discovery and skill-building rather than any restoration of group harmony or communal success. While he thinks about helping others, the narrative payoff comes from his personal breakthroughs and growing expertise.\n\nKey excerpts:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a 'horseless carriage' could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Does the emotional payoff come from restoring group harmony, collective well‑being, or communal success rather than an individual breakthrough?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Self‑Actualization Climax"
+    },
+    "personal_ethics_over_group_norms": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story presents an entirely individual perspective. Henry Ford's actions and interests are driven purely by his personal fascination with machinery and his individual vision for innovation. There is no mention of him conforming to cultural norms, fulfilling family expectations (such as continuing farm work), or adhering to communal codes. Instead, the narrative emphasizes his autonomous pursuit of mechanical interests from childhood—disassembling timepieces, fixing neighbors' watches, and immediately recognizing the transformative potential of the automobile. His activities appear self-directed rather than influenced by social obligations or collective values. Even his vision for the horseless carriage, while beneficial to farmers, stems from his personal insight rather than community pressure or familial duty.\n\nKey excerpts:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Does adherence to cultural norms, family expectations, or communal codes take precedence over personal preferences?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Personal Ethics over Group Norms"
+    },
+    "uniqueness_self_expression": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story celebrates Henry Ford's individual fascination, vision, and unique talents rather than conformity to group norms or social roles. The narrative emphasizes his personal interest in machinery from an early age, his individual vision of the horseless carriage's potential, and his distinctive skill in working with timepieces. There is no mention of him fulfilling expected social roles, contributing to collective identity, or being celebrated for conforming to community expectations. Instead, the focus is entirely on his individual characteristics, personal experiences, and unique abilities that set him apart.\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Are characters celebrated for conforming to group norms, fulfilling social roles, or contributing to the collective identity rather than uniqueness?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Uniqueness & Self‑Expression"
+    },
+    "self_construal": {
+      "rating": 2,
+      "normalized_score": 0.75,
+      "llm_response": "Rating: 2\n\nThis narrative is primarily focused on Henry Ford as an individual with his own internal fascinations, talents, and personal vision. The story emphasizes his individual traits (fascination with machinery, mechanical aptitude) and his personal perspective on innovation. However, there are minor references to social relationships and contexts that prevent it from being entirely individualistic—his father is mentioned as a companion, his mother's death is noted, and there's a brief mention of him helping friends and neighbors. These social elements are secondary to the central portrait of Henry as an autonomous individual driven by personal interest and ability. The narrative does not define Henry through his social roles or community relationships, but rather presents him as an independent actor who occasionally interacts with others.\n\nKey excerpts that exemplify this rating:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"\n\n4. \"He saw his first automobile, a self-powered steam engine, at twelve years old with his father on their way to Detroit, Michigan, just a few months after his mother passed away during childbirth.\"",
+      "question": "Does the narrative present the self as interdependent, defined by social roles and relationships rather than solely personal traits?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.",
+        "He saw his first automobile, a self-powered steam engine, at twelve years old with his father on their way to Detroit, Michigan, just a few months after his mother passed away during childbirth."
+      ],
+      "component": "Self‑Construal"
+    },
+    "behavioral_guidance": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story is entirely focused on Henry Ford's individual fascination, personal observations, and independent pursuits. His actions stem from his own curiosity about machinery and his personal vision for what technology could accomplish. There is no mention of him conforming to social expectations, following community norms, or being guided by group values. Instead, he pursues his mechanical interests independently—fixing timepieces because he wants to, not because it's expected of him. Even his insight about helping farmers comes from his personal observation rather than community pressure or collective decision-making.\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Are actions in the story guided by social norms, group expectations, or communal values rather than personal preferences?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Behavioral Guidance"
+    },
+    "relationship_orientation": {
+      "rating": 2,
+      "normalized_score": 0.75,
+      "llm_response": "Rating: 2\n\nThis story is primarily focused on Henry Ford as an individual—his personal fascination with machinery, his individual reaction to seeing the steam engine, and his personal initiative in fixing timepieces. While there are brief mentions of helping neighbors and thinking about farmers, these are presented more as extensions of his individual interests and talents rather than as expressions of duty, loyalty, or collective obligation. The narrative centers on Henry's personal development and individual pursuits, with community relationships playing only a minor, supportive role.\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a 'horseless carriage' could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Does the story depict relationships as based on duty, loyalty, obligation, and collective well‑being rather than solely mutual benefit?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Relationship Orientation"
+    },
+    "primary_conflict": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story is entirely focused on Henry Ford's individual fascinations, personal experiences, and independent pursuits. There is no conflict presented about maintaining social harmony, fulfilling collective roles, or adhering to group norms. Instead, the narrative traces Henry's personal journey of discovery and individual skill development—from his fascination with machinery to his vision of how technology could transform lives, to his practice of disassembling timepieces. While he does fix timepieces for \"friends and neighbors,\" this appears as an extension of his individual interest rather than a fulfillment of social obligation or group expectation. The story emphasizes his unique perspective and autonomous actions.\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a horseless carriage could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Is the central conflict about maintaining social harmony, fulfilling collective roles, or adhering to group norms rather than asserting individuality?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a horseless carriage could have on people",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Primary Conflict"
+    },
+    "resolution_style": {
+      "rating": 1,
+      "normalized_score": 1.0,
+      "llm_response": "Rating: 1\n\nThis story does not contain any conflicts that require resolution, compromise, or reconciliation. The narrative is entirely focused on Henry Ford as an individual—his personal fascination with machinery, his individual experience witnessing a steam engine, and his solitary pursuits of disassembling timepieces. While there is a brief mention of him fixing timepieces \"of friends and neighbors,\" this represents individual service rather than group conflict resolution or community harmony restoration. The story presents a biographical sketch centered on one person's interests and development with no group dynamics, interpersonal conflicts, or community-oriented problem-solving.\n\nRelevant excerpts:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a 'horseless carriage' could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Does the story resolve conflicts through compromise, reconciliation, and restoring group harmony rather than individual vindication?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Resolution Style"
+    },
+    "moral_emphasis": {
+      "rating": 2,
+      "normalized_score": 0.75,
+      "llm_response": "Rating: 2\n\nThis narrative is primarily focused on Henry Ford as an individual—his personal fascinations, his early experiences, and his individual talents. The story traces his personal journey from childhood curiosity about machinery to developing skills in fixing timepieces. While there is a brief mention of how he \"often fixed the timepieces of friends and neighbors,\" which shows some connection to community, this is presented more as an outlet for his individual talent rather than as an expression of communal responsibility or collective welfare. The emphasis on his vision for how the horseless carriage \"could have on people's lives, especially farmers\" does suggest some awareness of broader impact, but this remains framed through his individual perspective and ambition rather than as a collective moral virtue or communal goal.\n\nKey excerpts that exemplify this rating:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a 'horseless carriage' could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Does the narrative emphasize group solidarity, communal responsibility, or collective welfare as moral virtues?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Moral Emphasis"
+    },
+    "relationship_framing": {
+      "rating": 2,
+      "normalized_score": 0.75,
+      "llm_response": "Rating: 2\n\nThis story is primarily focused on Henry Ford as an individual—his personal fascinations, observations, and skills. While there are mentions of family members (father, mother) and community (neighbors, friends), these references serve mainly as background context for Henry's individual development rather than framing relationships as essential or showing Henry considering the impact of his actions on others. The one exception is the brief mention of how Henry envisioned the horseless carriage could benefit \"people's lives, especially farmers,\" which shows some consideration of community impact, but this is a minor element in an otherwise individually-focused narrative about his personal interests and abilities.\n\nKey excerpts that demonstrate this primarily individual perspective:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a 'horseless carriage' could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Does the story frame relationships as essential, requiring individuals to consider the impact of their actions on family and community?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Relationship Framing"
+    },
+    "vertical_individualism": {
+      "rating": 2,
+      "normalized_score": 0.75,
+      "llm_response": "Rating: 2\n\nThis story is primarily focused on Henry Ford as an individual—his personal fascination with machinery, his formative experiences, and his individual talents and actions. The narrative traces his personal journey from childhood through developing mechanical skills. There is a slight nod to group influence when the text mentions his vision of how the horseless carriage \"could have on people's lives, especially farmers,\" and when it references him fixing timepieces \"of friends and neighbors.\" However, these references to others serve mainly to illustrate Henry's individual capabilities and forward-thinking rather than emphasizing collective welfare or shared prosperity. The story does not address themes of equality, social structures, or community benefit in any substantial way. It remains a biographical sketch centered on one person's interests and abilities.\n\nRelevant excerpts:\n\n1. \"From an early age, Henry was fascinated with machinery.\"\n\n2. \"Henry immediately saw the potential of what a 'horseless carriage' could have on people's lives, especially farmers.\"\n\n3. \"By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors.\"",
+      "question": "Does the story emphasize equality, shared prosperity, and collective welfare over social inequality and individual hierarchy?",
+      "excerpts": [
+        "From an early age, Henry was fascinated with machinery.",
+        "Henry immediately saw the potential of what a",
+        "By age thirteen, he was disassembling and reassembling timepieces, and often fixed the timepieces of friends and neighbors."
+      ],
+      "component": "Vertical Individualism"
+    }
+  }
+}

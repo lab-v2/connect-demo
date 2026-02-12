@@ -1,0 +1,66 @@
+{
+  "story_name": "input",
+  "total_segments": 6,
+  "prescriptions": [
+    {
+      "rank": 1,
+      "feature": "resolution_style",
+      "segment_text": "From an early age, Henry and the other children in his community were fascinated with machinery.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.29000000000000004
+    },
+    {
+      "rank": 2,
+      "feature": "resolution_style",
+      "segment_text": "He and his father, along with several neighboring families, saw their first automobile, a self-powered steam engine, at twelve years old when they traveled together to Detroit, Michigan.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.29000000000000004
+    },
+    {
+      "rank": 3,
+      "feature": "resolution_style",
+      "segment_text": "Henry and the other children immediately discussed the potential of what a horseless carriage could have on communities",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.29000000000000004
+    },
+    {
+      "rank": 4,
+      "feature": "resolution_style",
+      "segment_text": "By age thirteen, he and the other children in the community were learning together how to disassemble and reassemble timepieces, sharing their knowledge and working as a group to fix the timepieces of friends and neighbors.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.29000000000000004
+    },
+    {
+      "rank": 5,
+      "feature": "solo_confrontations",
+      "segment_text": "He and his father, along with several neighboring families, saw their first automobile, a self-powered steam engine, at twelve years old when they traveled together to Detroit, Michigan",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.21000000000000002
+    },
+    {
+      "rank": 6,
+      "feature": "moral_emphasis",
+      "segment_text": "Henry and the other children immediately discussed the potential of what a",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.07
+    }
+  ]
+}

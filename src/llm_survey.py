@@ -404,6 +404,41 @@ def parse_llm_response(response_text: str) -> Tuple[Optional[int], str, str]:
 # Survey Functions
 # ==========================================================
 
+def load_additional_questions_for_base_file(questions_path: Path) -> List[Dict]:
+    """
+    Load scenario-specific additional survey questions for base survey files.
+
+    Base files:
+      - individualistic_questions.json -> survey/individualistic/additional_survey.json
+      - collectivistic_questions.json  -> survey/collectivistic/additional_survey.json
+    """
+    qname = questions_path.name.lower()
+    if qname == "individualistic_questions.json":
+        scenario = "individualistic"
+    elif qname == "collectivistic_questions.json":
+        scenario = "collectivistic"
+    else:
+        return []
+
+    additional_path = questions_path.parent / "survey" / scenario / "additional_survey.json"
+    if not additional_path.exists():
+        return []
+
+    try:
+        with open(additional_path, 'r', encoding='utf-8') as f:
+            payload = json.load(f)
+        questions = payload.get("questions", [])
+        if isinstance(questions, list):
+            logger.info(
+                f"Loaded {len(questions)} additional '{scenario}' questions from {additional_path}"
+            )
+            return questions
+    except Exception as e:
+        logger.warning(f"Failed loading additional questions from {additional_path}: {e}")
+
+    return []
+
+
 def load_questions(questions_file: str) -> List[Dict]:
     """
     Load questions from JSON file.
@@ -414,9 +449,16 @@ def load_questions(questions_file: str) -> List[Dict]:
     Returns:
         List of question dictionaries
     """
-    with open(questions_file, 'r', encoding='utf-8') as f:
+    qpath = Path(questions_file)
+    with open(qpath, 'r', encoding='utf-8') as f:
         data = json.load(f)
-    return data["questions"]
+
+    base_questions = data.get("questions", [])
+    if not isinstance(base_questions, list):
+        base_questions = []
+
+    additional_questions = load_additional_questions_for_base_file(qpath)
+    return base_questions + additional_questions
 
 
 def conduct_survey_single_story(

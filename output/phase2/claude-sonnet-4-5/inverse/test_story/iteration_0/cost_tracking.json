@@ -1,0 +1,19 @@
+{
+  "model": "claude-sonnet-4-5",
+  "total_stories_processed": 1,
+  "total_tokens": {
+    "input": 18535,
+    "output": 6065,
+    "total": 24600
+  },
+  "total_cost_usd": 0.14658,
+  "per_story_breakdown": [
+    {
+      "story_name": "test_story",
+      "input_tokens": 18535,
+      "output_tokens": 6065,
+      "cost_usd": 0.14658,
+      "timestamp": "2026-02-12T13:53:15.914138"
+    }
+  ]
+}

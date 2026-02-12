@@ -1,0 +1,116 @@
+{
+  "story_name": "input",
+  "total_segments": 11,
+  "prescriptions": [
+    {
+      "rank": 1,
+      "feature": "decision_driven_plot",
+      "segment_text": "At age sixteen, the community elders and families held a gathering to discuss how best to support their young people",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 2,
+      "feature": "decision_driven_plot",
+      "segment_text": "On call twenty-four hours a day, Henry convened regular evening meetings where a small team of skilled mechanics and engineers pooled their diverse expertise, with each member contributing ideas and labor equally toward their shared goal of building a gasoline-powered horseless carriage, which they completed together in 1896 through consensus decision-making and named collectively the Ford Quadricycle.",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 3,
+      "feature": "decision_driven_plot",
+      "segment_text": "After extensive discussions with their business partners about the company",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 4,
+      "feature": "relationship_orientation",
+      "segment_text": "The Ford family and neighboring families immediately discussed together the potential of what a",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.25000000000000006
+    },
+    {
+      "rank": 5,
+      "feature": "relationship_orientation",
+      "segment_text": "By age thirteen, Henry joined a community workshop where young people gathered regularly to learn about timepieces together, with experienced elders teaching the group and everyone contributing their knowledge. The community worked as a collective to repair timepieces for neighbors, sharing both the work and any modest payments equally among all members, ensuring that everyone benefited from their combined efforts.",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.25000000000000006
+    },
+    {
+      "rank": 6,
+      "feature": "relationship_orientation",
+      "segment_text": "At forty-five years old, the Ford family and their broader community, their dedicated workers, investors, and the broader community who had supported them throughout their journey had finally achieved their collective vision together, with each person",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.25000000000000006
+    },
+    {
+      "rank": 7,
+      "feature": "behavioral_guidance",
+      "segment_text": "The Ford family and neighboring families immediately discussed together the potential of what a horseless carriage could have on people",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.18000000000000005
+    },
+    {
+      "rank": 8,
+      "feature": "behavioral_guidance",
+      "segment_text": "By age thirteen, Henry joined a community workshop where young people gathered regularly to learn about timepieces together, with experienced elders teaching the group and everyone contributing their knowledge.",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.18000000000000005
+    },
+    {
+      "rank": 9,
+      "feature": "behavioral_guidance",
+      "segment_text": "The community worked as a collective to repair timepieces for neighbors, sharing both the work and any modest payments equally among all members, ensuring that everyone benefited from their combined efforts.",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.18000000000000005
+    },
+    {
+      "rank": 10,
+      "feature": "behavioral_guidance",
+      "segment_text": "Henry convened regular evening meetings where a small team of skilled mechanics and engineers pooled their diverse expertise, with each member contributing ideas and labor equally toward their shared goal of building a gasoline-powered horseless carriage, which they completed together in 1896 through consensus decision-making.",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.18000000000000005
+    },
+    {
+      "rank": 11,
+      "feature": "man_vs_self_world_conflict",
+      "segment_text": "Henry convened regular evening meetings where a small team of skilled mechanics and engineers pooled their diverse expertise, with each member contributing ideas and labor equally toward their shared goal of building a gasoline-powered horseless carriage, which they completed together in 1896 through consensus decision-making and named collectively the Ford Quadricycle.",
+      "current_score": 0.0,
+      "target_score": 0.25,
+      "current_rating": 5,
+      "target_rating": 4,
+      "confidence_gap": 0.14
+    }
+  ]
+}

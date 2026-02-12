@@ -1,0 +1,61 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1,Clause-2,Clause-3
+0,0,"('input', 'protagonist_centered_focus')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_protagonist_centered_focus,,,
+0,0,"('input', 'internal_goals')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_internal_goals,,,
+0,0,"('input', 'decision_driven_plot')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_decision_driven_plot,,,
+0,0,"('input', 'self_reliance')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_self_reliance,,,
+0,0,"('input', 'individual_accolades')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_individual_accolades,,,
+0,0,"('input', 'meritocracy_emphasis')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_meritocracy_emphasis,,,
+0,0,"('input', 'man_vs_self_world_conflict')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_man_vs_self_world_conflict,,,
+0,0,"('input', 'solo_confrontations')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_solo_confrontations,,,
+0,0,"('input', 'inner_journey')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_inner_journey,,,
+0,0,"('input', 'self_actualization_climax')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_self_actualization_climax,,,
+0,0,"('input', 'personal_ethics_over_group_norms')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_personal_ethics_over_group_norms,,,
+0,0,"('input', 'uniqueness_self_expression')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_uniqueness_self_expression,,,
+0,0,"('input', 'self_construal')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_self_construal,,,
+0,0,"('input', 'behavioral_guidance')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_behavioral_guidance,,,
+0,0,"('input', 'relationship_orientation')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_relationship_orientation,,,
+0,0,"('input', 'primary_conflict')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_primary_conflict,,,
+0,0,"('input', 'resolution_style')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_resolution_style,,,
+0,0,"('input', 'moral_emphasis')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_moral_emphasis,,,
+0,0,"('input', 'relationship_framing')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_relationship_framing,,,
+0,0,"('input', 'vertical_individualism')",individualistic_feature,"[0.0,1.0]","[0.25,0.25]",fact_input_vertical_individualism,,,
+1,1,"('input', 'protagonist_centered_focus')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_protagonist_centered_focus,,,
+1,1,"('input', 'internal_goals')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_internal_goals,,,
+1,1,"('input', 'decision_driven_plot')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_decision_driven_plot,,,
+1,1,"('input', 'self_reliance')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_self_reliance,,,
+1,1,"('input', 'individual_accolades')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_individual_accolades,,,
+1,1,"('input', 'meritocracy_emphasis')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_meritocracy_emphasis,,,
+1,1,"('input', 'man_vs_self_world_conflict')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_man_vs_self_world_conflict,,,
+1,1,"('input', 'solo_confrontations')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_solo_confrontations,,,
+1,1,"('input', 'inner_journey')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_inner_journey,,,
+1,1,"('input', 'self_actualization_climax')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_self_actualization_climax,,,
+1,1,"('input', 'personal_ethics_over_group_norms')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_personal_ethics_over_group_norms,,,
+1,1,"('input', 'uniqueness_self_expression')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_uniqueness_self_expression,,,
+1,1,"('input', 'self_construal')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_self_construal,,,
+1,1,"('input', 'behavioral_guidance')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_behavioral_guidance,,,
+1,1,"('input', 'relationship_orientation')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_relationship_orientation,,,
+1,1,"('input', 'primary_conflict')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_primary_conflict,,,
+1,1,"('input', 'resolution_style')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_resolution_style,,,
+1,1,"('input', 'moral_emphasis')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_moral_emphasis,,,
+1,1,"('input', 'relationship_framing')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_relationship_framing,,,
+1,1,"('input', 'vertical_individualism')",individualistic_feature,"[0.25,0.25]","[0.25,0.25]",fact_input_vertical_individualism,,,
+1,1,"('input', 'behavioral_guidance')",corpus,"[0.0,1.0]","[0.54,0.54]",rule_1,"[('input', 'behavioral_guidance')]",['input'],['behavioral_guidance']
+1,1,"('input', 'decision_driven_plot')",corpus,"[0.0,1.0]","[0.5,0.5]",rule_6,"[('input', 'decision_driven_plot')]",['input'],['decision_driven_plot']
+1,1,"('input', 'individual_accolades')",corpus,"[0.0,1.0]","[0.36,0.36]",rule_11,"[('input', 'individual_accolades')]",['input'],['individual_accolades']
+1,1,"('input', 'inner_journey')",corpus,"[0.0,1.0]","[0.36,0.36]",rule_16,"[('input', 'inner_journey')]",['input'],['inner_journey']
+1,1,"('input', 'internal_goals')",corpus,"[0.0,1.0]","[0.43,0.43]",rule_21,"[('input', 'internal_goals')]",['input'],['internal_goals']
+1,1,"('input', 'man_vs_self_world_conflict')",corpus,"[0.0,1.0]","[0.46,0.46]",rule_26,"[('input', 'man_vs_self_world_conflict')]",['input'],['man_vs_self_world_conflict']
+1,1,"('input', 'meritocracy_emphasis')",corpus,"[0.0,1.0]","[0.25,0.25]",rule_31,"[('input', 'meritocracy_emphasis')]",['input'],['meritocracy_emphasis']
+1,1,"('input', 'moral_emphasis')",corpus,"[0.0,1.0]","[0.36,0.36]",rule_36,"[('input', 'moral_emphasis')]",['input'],['moral_emphasis']
+1,1,"('input', 'personal_ethics_over_group_norms')",corpus,"[0.0,1.0]","[0.43,0.43]",rule_41,"[('input', 'personal_ethics_over_group_norms')]",['input'],['personal_ethics_over_group_norms']
+1,1,"('input', 'primary_conflict')",corpus,"[0.0,1.0]","[0.39,0.39]",rule_46,"[('input', 'primary_conflict')]",['input'],['primary_conflict']
+1,1,"('input', 'protagonist_centered_focus')",corpus,"[0.0,1.0]","[0.36,0.36]",rule_51,"[('input', 'protagonist_centered_focus')]",['input'],['protagonist_centered_focus']
+1,1,"('input', 'relationship_framing')",corpus,"[0.0,1.0]","[0.32,0.32]",rule_56,"[('input', 'relationship_framing')]",['input'],['relationship_framing']
+1,1,"('input', 'relationship_orientation')",corpus,"[0.0,1.0]","[0.54,0.54]",rule_61,"[('input', 'relationship_orientation')]",['input'],['relationship_orientation']
+1,1,"('input', 'resolution_style')",corpus,"[0.0,1.0]","[0.21,0.21]",rule_66,"[('input', 'resolution_style')]",['input'],['resolution_style']
+1,1,"('input', 'self_actualization_climax')",corpus,"[0.0,1.0]","[0.29,0.29]",rule_71,"[('input', 'self_actualization_climax')]",['input'],['self_actualization_climax']
+1,1,"('input', 'self_construal')",corpus,"[0.0,1.0]","[0.43,0.43]",rule_76,"[('input', 'self_construal')]",['input'],['self_construal']
+1,1,"('input', 'self_reliance')",corpus,"[0.0,1.0]","[0.29,0.29]",rule_81,"[('input', 'self_reliance')]",['input'],['self_reliance']
+1,1,"('input', 'solo_confrontations')",corpus,"[0.0,1.0]","[0.25,0.25]",rule_86,"[('input', 'solo_confrontations')]",['input'],['solo_confrontations']
+1,1,"('input', 'uniqueness_self_expression')",corpus,"[0.0,1.0]","[0.39,0.39]",rule_91,"[('input', 'uniqueness_self_expression')]",['input'],['uniqueness_self_expression']
+1,1,"('input', 'vertical_individualism')",corpus,"[0.0,1.0]","[0.43,0.43]",rule_96,"[('input', 'vertical_individualism')]",['input'],['vertical_individualism']

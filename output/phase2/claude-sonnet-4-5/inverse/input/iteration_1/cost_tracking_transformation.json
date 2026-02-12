@@ -1,0 +1,57 @@
+{
+  "model": "claude-sonnet-4-5",
+  "total_stories_processed": 6,
+  "total_tokens": {
+    "input": 1923,
+    "output": 1179,
+    "total": 3102
+  },
+  "total_cost_usd": 0.023454,
+  "per_story_breakdown": [
+    {
+      "story_name": "input_step_1",
+      "input_tokens": 288,
+      "output_tokens": 170,
+      "cost_usd": 0.003414,
+      "timestamp": "2026-02-12T15:06:47.635895"
+    },
+    {
+      "story_name": "input_step_2",
+      "input_tokens": 312,
+      "output_tokens": 173,
+      "cost_usd": 0.003531,
+      "timestamp": "2026-02-12T15:06:51.109495"
+    },
+    {
+      "story_name": "input_step_3",
+      "input_tokens": 299,
+      "output_tokens": 189,
+      "cost_usd": 0.003732,
+      "timestamp": "2026-02-12T15:06:54.644069"
+    },
+    {
+      "story_name": "input_step_4",
+      "input_tokens": 341,
+      "output_tokens": 212,
+      "cost_usd": 0.004203,
+      "timestamp": "2026-02-12T15:06:58.847387"
+    },
+    {
+      "story_name": "input_step_5",
+      "input_tokens": 353,
+      "output_tokens": 212,
+      "cost_usd": 0.004239,
+      "timestamp": "2026-02-12T15:07:01.972047"
+    },
+    {
+      "story_name": "input_step_6",
+      "input_tokens": 330,
+      "output_tokens": 223,
+      "cost_usd": 0.004335,
+      "timestamp": "2026-02-12T15:07:05.914831"
+    }
+  ],
+  "k_features": 3,
+  "n_segments": 6,
+  "successful_transformations": 6
+}

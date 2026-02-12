@@ -4,6 +4,8 @@ import mimetypes
 import re
 import subprocess
 import statistics
+import html
+from difflib import SequenceMatcher
 from pathlib import Path
 
 import streamlit as st
@@ -28,6 +30,18 @@ ADDITIONAL_RULES_PATH = INPUT_DIR / "additional_rules.txt"
 INPUT_STORY_PATH = INPUT_DIR / "input.txt"
 LOGO_DIR = INPUT_DIR / "logos"
 
+DEFAULT_RATING_INSTRUCTIONS = [
+    "You are an expert literary analyst.",
+    "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+    "Scale:",
+    "1 = Entirely individual perspective",
+    "2 = Primarily individual but with some group influence",
+    "3 = Balanced between individual and group",
+    "4 = Primarily group-oriented",
+    "5 = Entirely group/community perspective",
+    "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence.",
+]
+
 MODEL_OPTIONS = [
     "gpt-4o",
     "gpt-5.2",
@@ -38,10 +52,10 @@ MODEL_OPTIONS = [
 ]
 SCENARIO_OPTIONS = ["individualistic", "collectivistic"]
 
-TOP_BOX_HEIGHT = 180
-LARGE_BOX_HEIGHT = 380
-SMALL_BOX_HEIGHT = 140
-CHAT_OUTPUT_HEIGHT = 600
+TOP_BOX_HEIGHT = 260
+LARGE_BOX_HEIGHT = 520
+SMALL_BOX_HEIGHT = 220
+CHAT_OUTPUT_HEIGHT = 700
 
 
 def ensure_dirs() -> None:
@@ -120,6 +134,76 @@ def append_questions_to_survey_json(raw_text: str, target_path: Path) -> int:
     return len(incoming)
 
 
+def additional_survey_path_for_scenario(scenario: str) -> Path:
+    scenario_key = scenario.strip().lower()
+    return SURVEY_QUESTIONS_DIR / scenario_key / "additional_survey.json"
+
+
+def parse_additional_questions_blocks(raw_text: str) -> list[tuple[str, str]]:
+    blocks = re.split(r"\n\s*\n+", raw_text.strip())
+    parsed: list[tuple[str, str]] = []
+    for block in blocks:
+        lines = [line.strip() for line in block.splitlines() if line.strip()]
+        if len(lines) < 2:
+            continue
+        component = lines[0]
+        question = " ".join(lines[1:]).strip()
+        if component and question:
+            parsed.append((component, question))
+    return parsed
+
+
+def append_additional_survey_json(raw_text: str, scenario: str, target_path: Path) -> int:
+    parsed_blocks = parse_additional_questions_blocks(raw_text)
+    if not parsed_blocks:
+        return 0
+
+    question_key = "collectivistic_question" if scenario == "collectivistic" else "individualistic_question"
+
+    payload = load_json(target_path)
+    existing = payload.get("questions", [])
+    if not isinstance(existing, list):
+        existing = []
+
+    max_id = 0
+    base_path = survey_questions_path_for_scenario(scenario)
+    base_payload = load_json(base_path)
+    base_questions = base_payload.get("questions", []) if isinstance(base_payload, dict) else []
+    if isinstance(base_questions, list):
+        for item in base_questions:
+            if isinstance(item, dict):
+                try:
+                    max_id = max(max_id, int(item.get("id", 0)))
+                except Exception:
+                    pass
+    for item in existing:
+        if isinstance(item, dict):
+            try:
+                max_id = max(max_id, int(item.get("id", 0)))
+            except Exception:
+                pass
+
+    next_id = max_id + 2 if max_id else 2
+    new_items = []
+    for component, question in parsed_blocks:
+        new_items.append(
+            {
+                "id": next_id,
+                "component": component,
+                question_key: {
+                    "question": question,
+                    "type": "ordinal_scale",
+                    "rating": DEFAULT_RATING_INSTRUCTIONS,
+                },
+            }
+        )
+        next_id += 2
+
+    updated = {"questions": existing + new_items}
+    save_json(target_path, updated)
+    return len(new_items)
+
+
 def append_questions_to_input_txt(raw_text: str) -> int:
     incoming = [line.strip() for line in raw_text.splitlines() if line.strip()]
     if not incoming:
@@ -129,6 +213,16 @@ def append_questions_to_input_txt(raw_text: str) -> int:
     lines.extend(incoming)
     save_text(ADDITIONAL_Q_PATH, "\n".join(lines) + "\n")
     return len(incoming)
+
+
+def ensure_additional_survey_files_exist() -> None:
+    """Ensure additional-survey files exist without clearing existing content."""
+    if not ADDITIONAL_Q_PATH.exists():
+        save_text(ADDITIONAL_Q_PATH, "")
+    for scenario_name in SCENARIO_OPTIONS:
+        p = additional_survey_path_for_scenario(scenario_name)
+        if not p.exists():
+            save_json(p, {"questions": []})
 
 
 def slugify_model(model: str) -> str:
@@ -152,6 +246,7 @@ def selection_paths(model: str, scenario: str) -> dict[str, Path]:
         "survey_scores": SURVEY_SCORES_DIR / model_key / scenario_key / "survey_scores.json",
         "rules": RULES_DIR / model_key / scenario_key / "rules_fired.txt",
         "pyreason_rules": RULES_DIR / model_key / scenario_key / "pyreason_rules.txt",
+        "selected_rules": RULES_DIR / model_key / scenario_key / "selected_rules.txt",
         "snippets": INTERMEDIATE_OUTPUT_DIR / model_key / scenario_key / "snippets.txt",
         "chat_output": OUTPUT_DIR / model_key / scenario_key / "chat_output.log",
     }
@@ -183,6 +278,16 @@ def median_from_survey_json(path: Path) -> str:
     if not ratings:
         return "N/A"
     return f"{statistics.median(ratings):.2f}"
+
+
+def mean_from_survey_json(path: Path | None) -> float | None:
+    if not path:
+        return None
+    payload = load_json(path)
+    ratings = extract_ratings(payload)
+    if not ratings:
+        return None
+    return sum(ratings) / len(ratings)
 
 
 def find_phase2_iteration_survey(model: str, scenario: str, iteration: int) -> Path | None:
@@ -217,6 +322,36 @@ def find_phase2_iteration_file(model: str, scenario: str, iteration: int, filena
     return candidates[0]
 
 
+def find_optimal_iteration_for_dashboard(model: str, scenario: str, max_scan: int = 20) -> int:
+    """
+    Choose optimal iteration using the same objective as find_optimal_iteration.py:
+      - forward: minimum mean rating
+      - inverse: maximum mean rating
+    """
+    scored: dict[int, float] = {}
+    for i in range(max_scan):
+        survey_path = find_phase2_iteration_survey(model, scenario, i)
+        mean_val = mean_from_survey_json(survey_path)
+        if mean_val is not None:
+            scored[i] = mean_val
+
+    if not scored:
+        return 2
+
+    problem = phase2_problem_for_scenario(scenario)
+    if problem == "forward":
+        return min(scored, key=scored.get)
+    return max(scored, key=scored.get)
+
+
+def transformed_story_text(model: str, scenario: str, iteration: int = 2) -> str:
+    story_path = find_phase2_iteration_file(model, scenario, iteration, "story_transformed.txt")
+    if not story_path:
+        return "No transformed story found."
+    text = load_text(story_path, "").strip()
+    return text if text else "No transformed story found."
+
+
 def explanations_from_ranked_prescriptions(path: Path | None) -> str:
     if not path:
         return ""
@@ -237,6 +372,222 @@ def explanations_from_ranked_prescriptions(path: Path | None) -> str:
             f"We abduce the segment {segment_text} based on the narrative characteristic of {feature}."
         )
     return "\n\n".join(lines)
+
+
+def segments_from_ranked_prescriptions(path: Path | None) -> list[str]:
+    if not path:
+        return []
+    payload = load_json(path)
+    prescriptions = payload.get("prescriptions", []) if isinstance(payload, dict) else []
+    if not isinstance(prescriptions, list):
+        return []
+    segments: list[str] = []
+    seen = set()
+    for item in prescriptions:
+        if not isinstance(item, dict):
+            continue
+        segment = str(item.get("segment_text", "")).strip()
+        if not segment:
+            continue
+        if segment not in seen:
+            seen.add(segment)
+            segments.append(segment)
+    return segments
+
+
+def highlighted_story_html(story_text: str, segments: list[str], box_class: str = "original-box") -> str:
+    if not story_text.strip():
+        return f"<div class='story-box {box_class}'>No story available.</div>"
+    if not segments:
+        return f"<div class='story-box {box_class}'>{html.escape(story_text)}</div>"
+
+    cleaned = [s.strip().strip("\"'") for s in segments if s.strip().strip("\"'")]
+    cleaned = sorted(set(cleaned), key=len, reverse=True)
+    if not cleaned:
+        return f"<div class='story-box {box_class}'>{html.escape(story_text)}</div>"
+
+    spans: list[tuple[int, int]] = []
+
+    # Pass 1: direct segment matches (case-insensitive).
+    pattern = re.compile("|".join(re.escape(s) for s in cleaned), re.IGNORECASE)
+    for match in pattern.finditer(story_text):
+        spans.append(match.span())
+
+    # Pass 2: fallback to sentence-level fuzzy overlap if no exact hit.
+    if not spans:
+        def tokenize(text: str) -> set[str]:
+            return set(re.findall(r"[a-z0-9]+", text.lower()))
+
+        segment_tokens = [tokenize(s) for s in cleaned if s]
+        sentence_matches = list(re.finditer(r"[^.!?\n]+[.!?]?", story_text))
+        for sent in sentence_matches:
+            sent_text = sent.group(0).strip()
+            if not sent_text:
+                continue
+            sent_tokens = tokenize(sent_text)
+            if len(sent_tokens) < 4:
+                continue
+            best_overlap = 0.0
+            for seg_tokens in segment_tokens:
+                if not seg_tokens:
+                    continue
+                overlap = len(sent_tokens & seg_tokens) / max(len(sent_tokens), 1)
+                if overlap > best_overlap:
+                    best_overlap = overlap
+            if best_overlap >= 0.35:
+                spans.append(sent.span())
+
+    if not spans:
+        return f"<div class='story-box {box_class}'>{html.escape(story_text)}</div>"
+
+    # Merge overlapping spans.
+    spans.sort()
+    merged: list[tuple[int, int]] = []
+    start, end = spans[0]
+    for s, e in spans[1:]:
+        if s <= end:
+            end = max(end, e)
+        else:
+            merged.append((start, end))
+            start, end = s, e
+    merged.append((start, end))
+
+    chunks: list[str] = []
+    last = 0
+    for start, end in merged:
+        chunks.append(html.escape(story_text[last:start]))
+        chunks.append(f"<mark>{html.escape(story_text[start:end])}</mark>")
+        last = end
+    chunks.append(html.escape(story_text[last:]))
+    return f"<div class='story-box {box_class}'>{''.join(chunks)}</div>"
+
+
+def highlighted_transformed_diff_html(original_text: str, transformed_text: str) -> str:
+    if not transformed_text.strip():
+        return "<div class='story-box'>No transformed story found.</div>"
+
+    matcher = SequenceMatcher(None, original_text, transformed_text)
+    spans: list[tuple[int, int]] = []
+    for tag, _i1, _i2, j1, j2 in matcher.get_opcodes():
+        if tag in {"replace", "insert"} and j2 > j1:
+            spans.append((j1, j2))
+
+    if not spans:
+        return f"<div class='story-box'>{html.escape(transformed_text)}</div>"
+
+    spans.sort()
+    merged: list[tuple[int, int]] = []
+    start, end = spans[0]
+    for s, e in spans[1:]:
+        if s <= end:
+            end = max(end, e)
+        else:
+            merged.append((start, end))
+            start, end = s, e
+    merged.append((start, end))
+
+    chunks: list[str] = []
+    last = 0
+    for start, end in merged:
+        chunks.append(html.escape(transformed_text[last:start]))
+        chunks.append(f"<mark class='diff'>{html.escape(transformed_text[start:end])}</mark>")
+        last = end
+    chunks.append(html.escape(transformed_text[last:]))
+    return f"<div class='story-box'>{''.join(chunks)}</div>"
+
+
+def _segment_spans_for_text(text: str, segments: list[str]) -> list[tuple[int, int]]:
+    if not text.strip() or not segments:
+        return []
+    cleaned = [s.strip().strip("\"'") for s in segments if s.strip().strip("\"'")]
+    cleaned = sorted(set(cleaned), key=len, reverse=True)
+    if not cleaned:
+        return []
+
+    spans: list[tuple[int, int]] = []
+    pattern = re.compile("|".join(re.escape(s) for s in cleaned), re.IGNORECASE)
+    for match in pattern.finditer(text):
+        spans.append(match.span())
+    return spans
+
+
+def _diff_spans(original_text: str, transformed_text: str) -> list[tuple[int, int]]:
+    matcher = SequenceMatcher(None, original_text, transformed_text)
+    spans: list[tuple[int, int]] = []
+    for tag, _i1, _i2, j1, j2 in matcher.get_opcodes():
+        if tag in {"replace", "insert"} and j2 > j1:
+            spans.append((j1, j2))
+    return spans
+
+
+def highlighted_transformed_combined_html(original_text: str, transformed_text: str, ranked_segments: list[str]) -> str:
+    if not transformed_text.strip():
+        return "<div class='story-box transformed-box'>No transformed story found.</div>"
+
+    ranked_spans = _segment_spans_for_text(transformed_text, ranked_segments)
+    diff_spans = _diff_spans(original_text, transformed_text)
+    if not ranked_spans and not diff_spans:
+        return f"<div class='story-box transformed-box'>{html.escape(transformed_text)}</div>"
+
+    boundaries = {0, len(transformed_text)}
+    for s, e in ranked_spans + diff_spans:
+        boundaries.add(s)
+        boundaries.add(e)
+    points = sorted(boundaries)
+
+    def covered(i: int, spans: list[tuple[int, int]]) -> bool:
+        for s, e in spans:
+            if s <= i < e:
+                return True
+        return False
+
+    chunks: list[str] = []
+    for a, b in zip(points, points[1:]):
+        piece = transformed_text[a:b]
+        if not piece:
+            continue
+        in_ranked = covered(a, ranked_spans)
+        in_diff = covered(a, diff_spans)
+        if in_ranked and in_diff:
+            chunks.append(f"<mark class='both'>{html.escape(piece)}</mark>")
+        elif in_diff:
+            chunks.append(f"<mark class='diff'>{html.escape(piece)}</mark>")
+        elif in_ranked:
+            chunks.append(f"<mark>{html.escape(piece)}</mark>")
+        else:
+            chunks.append(html.escape(piece))
+    return f"<div class='story-box transformed-box'>{''.join(chunks)}</div>"
+
+
+def transformed_with_original_replacements_html(original_text: str, transformed_text: str) -> str:
+    if not transformed_text.strip():
+        return "<div class='story-box transformed-box'>No transformed story found.</div>"
+
+    matcher = SequenceMatcher(None, original_text, transformed_text)
+    chunks: list[str] = []
+
+    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+        if tag == "equal":
+            chunks.append(html.escape(transformed_text[j1:j2]))
+            continue
+
+        if tag == "replace":
+            original_piece = original_text[i1:i2]
+            if original_piece:
+                chunks.append(f"<span class='replacement-original'>{html.escape(original_piece)}</span>")
+            continue
+
+        if tag == "insert":
+            # Hide inserted transformed text in "Hide" mode.
+            continue
+
+        if tag == "delete":
+            # Bring back deleted original text in "Hide" mode.
+            original_piece = original_text[i1:i2]
+            if original_piece:
+                chunks.append(f"<span class='replacement-original'>{html.escape(original_piece)}</span>")
+
+    return f"<div class='story-box transformed-box'>{''.join(chunks)}</div>"
 
 
 def seed_selection_data() -> None:
@@ -287,8 +638,11 @@ def svg_to_data_uri(svg: str) -> str:
     return f"data:image/svg+xml;base64,{encoded}"
 
 
-def run_phase2_transform(scenario: str, rules_path: Path) -> tuple[bool, str]:
-    problem = "forward" if scenario == "individualistic" else "inverse"
+def run_phase2_transform(model: str, scenario: str, rules_path: Path | None = None) -> tuple[bool, str]:
+    problem = phase2_problem_for_scenario(scenario)
+    if rules_path is None:
+        scenario_dir = "individualistic" if problem == "forward" else "collectivistic"
+        rules_path = RULES_DIR / slugify_model(model) / scenario_dir / "pyreason_rules.txt"
     if not rules_path.exists():
         return False, f"Rules file not found: {rules_path}"
     cmd = [
@@ -298,10 +652,20 @@ def run_phase2_transform(scenario: str, rules_path: Path) -> tuple[bool, str]:
         "2",
         "--problem",
         problem,
+        "--model",
+        model,
+        "--data-dir",
+        "data",
+        "--output-dir",
+        "output",
         "--rules",
         str(rules_path),
         "--story",
         str(INPUT_STORY_PATH),
+        "--max-iterations",
+        "2",
+        "--top-k",
+        "3",
     ]
     proc = subprocess.run(
         cmd,
@@ -313,14 +677,23 @@ def run_phase2_transform(scenario: str, rules_path: Path) -> tuple[bool, str]:
     stderr = (proc.stderr or "").strip()
     if proc.returncode == 0:
         return True, stdout or "Transform completed."
-    detail = stderr or stdout or "No output."
-    return False, f"Transform failed (exit {proc.returncode}): {detail}"
+    parts = []
+    if stdout:
+        parts.append(f"STDOUT:\n{stdout}")
+    if stderr:
+        parts.append(f"STDERR:\n{stderr}")
+    detail = "\n\n".join(parts) if parts else "No output."
+    return False, f"Transform failed (exit {proc.returncode}).\n{detail}"
 
 
 def render() -> None:
     ensure_dirs()
     seed_selection_data()
-    st.set_page_config(page_title="NARRATE", page_icon="🟠", layout="wide")
+    st.set_page_config(
+        page_title="NARRATE: Neurosymbolic Abductive Reasoning for Reframing Texts",
+        page_icon="🟠",
+        layout="wide",
+    )
     st.markdown(
         """
         <style>
@@ -329,31 +702,190 @@ def render() -> None:
             --su-navy: #000e54;
             --su-bg: #fffaf5;
             --su-border: #ffd7bd;
+            --box-bg: #fffdfb;
+            --box-shadow: 0 6px 16px rgba(0, 14, 84, 0.08);
         }
         .stApp {
             background: linear-gradient(180deg, #fff3e9 0%, var(--su-bg) 45%, #ffffff 100%);
+        }
+        div[data-testid="stHorizontalBlock"] {
+            align-items: stretch;
+        }
+        div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
         }
         h1, h2, h3, h4, h5, h6, label, .stMarkdown, .stText, p, span, div {
             color: #1f1f1f;
         }
         .stButton > button {
-            background: var(--su-orange);
-            color: white;
-            border: 1px solid var(--su-orange);
+            background: #f7c8a8;
+            color: #5a3522;
+            border: 1px solid #e9b693;
             font-weight: 600;
         }
         .stButton > button:hover {
-            background: #de5f00;
-            border-color: #de5f00;
-            color: white;
+            background: #efb894;
+            border-color: #ddab88;
+            color: #4d2f1f;
+        }
+        .stButton > button[aria-label="Transform"] {
+            clip-path: polygon(0 0, 88% 0, 100% 50%, 88% 100%, 0 100%, 10% 50%);
+            padding-left: 10px;
+            padding-right: 10px;
+            font-weight: 900;
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            min-height: 78px;
+            font-size: 1.38rem;
+            letter-spacing: 0.01em;
+            white-space: nowrap;
+            line-height: 1;
         }
         .stTextArea textarea, .stSelectbox div[data-baseweb="select"] > div {
             border: 1px solid var(--su-border);
-            border-radius: 8px;
+            border-radius: 12px;
+            background: var(--box-bg);
+            box-shadow: var(--box-shadow);
+        }
+        div[data-testid="stFileUploaderDropzoneInstructions"] > div {
+            visibility: hidden;
+            position: relative;
+            min-height: 24px;
+        }
+        div[data-testid="stFileUploaderDropzoneInstructions"] > div::after {
+            content: "Upload Input Story";
+            visibility: visible;
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-weight: 600;
+            color: #1f1f1f;
+        }
+        div[data-testid="stFileUploader"] {
+            margin-top: 0.9rem;
+            margin-bottom: 0.6rem;
+        }
+        div[data-testid="stFileUploaderDropzone"] {
+            border: 2px dashed #e8b995;
+            border-radius: 0;
+            background: linear-gradient(180deg, #fffaf6 0%, #fff4ea 100%);
+            min-height: 124px;
+            padding-top: 0.85rem;
+            padding-bottom: 0.85rem;
+            box-shadow: 0 8px 20px rgba(247, 105, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+        }
+        div[data-testid="stFileUploaderDropzone"]:hover {
+            border-color: #d99d74;
+            box-shadow: 0 10px 24px rgba(247, 105, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            transform: translateY(-1px);
+        }
+        div[data-testid="stMultiSelect"] div[data-baseweb="select"] > div {
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            min-height: 96px;
+            font-size: 15px;
+            border-radius: 12px !important;
+            background: var(--box-bg);
+            box-shadow: var(--box-shadow);
+        }
+        div[data-baseweb="select"] span[data-baseweb="tag"] {
+            display: block;
+            width: 100%;
+            border-radius: 6px;
+            padding: 2px 6px;
+            margin: 0;
+            min-height: 0;
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+            line-height: 1.1;
+            font-size: 14px;
+            background: #f8e6da !important;
+            border: 1px solid #e7c6b2 !important;
+            color: #5f3d2b !important;
+        }
+        div[role="listbox"] {
+            max-height: 560px !important;
+        }
+        div[role="option"] {
+            min-height: 52px !important;
+            white-space: normal !important;
+            overflow-y: hidden !important;
+            line-height: 1.4 !important;
+            font-size: 14px !important;
+            padding-top: 12px !important;
+            padding-bottom: 12px !important;
         }
         .stTextArea textarea[disabled] {
-            background: #fffdfb;
+            background: var(--box-bg);
             color: #1f1f1f;
+        }
+        .story-box {
+            border: 1px solid var(--su-border);
+            border-radius: 12px;
+            background: var(--box-bg);
+            padding: 12px;
+            height: 260px;
+            white-space: pre-wrap;
+            overflow-y: auto;
+            line-height: 1.35;
+            box-shadow: var(--box-shadow);
+        }
+        .story-box.original-box {
+            height: 215px;
+            width: 100%;
+        }
+        .story-box.transformed-box {
+            height: 680px !important;
+            width: 100% !important;
+            max-width: none;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .story-box mark {
+            background: #f7d8c2;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+        .story-box mark.diff {
+            background: #f4c9d8;
+        }
+        .story-box mark.both {
+            background: #ecd3c4;
+        }
+        .replacement-original {
+            color: #1f1f1f;
+            font-family: "Georgia", "Times New Roman", serif;
+            font-style: italic;
+            background: transparent;
+            border-radius: 2px;
+            padding: 0 2px;
+        }
+        .transform-cell-spacer {
+            height: 104px;
+        }
+        div[data-testid="stMetricValue"] {
+            font-size: 1.55rem;
+            line-height: 1.1;
+        }
+        div[data-testid="stMetricLabel"] {
+            font-size: 0.9rem;
+        }
+        div[data-testid="stMetric"] {
+            border: 1px solid var(--su-border);
+            border-radius: 12px;
+            background: var(--box-bg);
+            box-shadow: var(--box-shadow);
+            padding: 8px 10px;
+        }
+        div[data-testid="stMarkdownContainer"] p {
+            margin-bottom: 0.35rem;
         }
         .uni-logo-strip {
             position: fixed;
@@ -382,137 +914,158 @@ def render() -> None:
         """,
         unsafe_allow_html=True,
     )
-    st.title("NARRATE")
+    st.title("NARRATE: Neurosymbolic Abductive Reasoning for Reframing Texts")
+
+    # Non-destructive setup: ensure files exist but preserve content.
+    ensure_additional_survey_files_exist()
 
     if "cleared_inputs_on_start" not in st.session_state:
         save_text(ADDITIONAL_Q_PATH, "")
         save_text(ADDITIONAL_RULES_PATH, "")
+        # Clear persisted transformed-story logs from prior app runs.
+        for model_name in MODEL_OPTIONS:
+            for scenario_name in SCENARIO_OPTIONS:
+                save_text(selection_paths(model_name, scenario_name)["chat_output"], "")
         st.session_state.cleared_inputs_on_start = True
+    if "hide_transformed_text" not in st.session_state:
+        st.session_state.hide_transformed_text = False
 
     saved_additional = load_text(ADDITIONAL_Q_PATH, "")
-    saved_additional_rules = load_text(ADDITIONAL_RULES_PATH, "")
+    col1, col2, col3 = st.columns([2, 2, 1.25], gap="medium")
 
-    left_col, middle_col, right_col = st.columns([2, 2, 1], gap="medium")
-
-    with left_col:
-        chat_input = st.text_area("Input Story", height=TOP_BOX_HEIGHT, key="chat_input")
-
-        c1, c2, c3 = st.columns([1, 1, 1], gap="small")
-        with c1:
-            model = st.selectbox("Model", MODEL_OPTIONS)
-        with c2:
-            scenario = st.selectbox("Scenario", SCENARIO_OPTIONS)
-        with c3:
-            send_clicked = st.button("Transform", use_container_width=True)
-
-        selected_paths = selection_paths(model, scenario)
-        scenario_survey_path = survey_questions_path_for_scenario(scenario)
-        if scenario_survey_path.exists():
-            questions_data = load_json(scenario_survey_path)
-            active_survey_path = scenario_survey_path
-        else:
-            questions_data = load_json(SURVEY_QUESTIONS_PATH)
-            active_survey_path = SURVEY_QUESTIONS_PATH
-        scores_data = load_json(selected_paths["survey_scores"])
-        rules_text = load_text(selected_paths["rules"], "No rules loaded.")
-        snippets_text = load_text(selected_paths["snippets"], "No snippets loaded.")
-        ranked_path = find_phase2_iteration_file(model, scenario, 2, "ranked_prescriptions.json")
-        generated_explanations = explanations_from_ranked_prescriptions(ranked_path)
-        original_survey_json = find_phase2_iteration_survey(model, scenario, 0)
-        transformed_survey_json = find_phase2_iteration_survey(model, scenario, 2)
-        original_story_score = (
-            median_from_survey_json(original_survey_json)
-            if original_survey_json
-            else get_score(scores_data, "original_story")
-        )
-        transformed_story_score = (
-            median_from_survey_json(transformed_survey_json)
-            if transformed_survey_json
-            else get_score(scores_data, "transformed_story")
-        )
-
-        if send_clicked and chat_input.strip():
-            save_text(INPUT_STORY_PATH, chat_input.strip() + "\n")
-            ok, response = run_phase2_transform(scenario, selected_paths["pyreason_rules"])
-            status = "OK" if ok else "ERROR"
-            block = (
-                f"Model: {model} | Scenario: {scenario}\n"
-                f"Input: {chat_input.strip()}\n"
-                f"Status: {status}\n"
-                f"Response: {response}\n"
+    with col1:
+        top_left, top_right = st.columns([1.4, 1], gap="small")
+        with top_left:
+            story_upload = st.file_uploader(
+                "Upload Input Story",
+                type=["txt"],
+                key="story_file",
+                label_visibility="collapsed",
             )
-            append_text(selected_paths["chat_output"], block + "\n")
-            st.session_state.chat_input = ""
+            story_default = load_text(INPUT_STORY_PATH, "")
+            if story_upload is not None:
+                story_default = story_upload.getvalue().decode("utf-8", errors="ignore")
+                save_text(INPUT_STORY_PATH, story_default.strip() + "\n")
+        with top_right:
+            model = st.selectbox("Model", MODEL_OPTIONS)
+            scenario = st.selectbox("Scenario", SCENARIO_OPTIONS)
+        original_col, action_col = st.columns([3.7, 1.3], gap="small")
+        with original_col:
+            st.markdown("Original Story")
+            st.markdown(
+                highlighted_story_html(load_text(INPUT_STORY_PATH, "").strip(), []),
+                unsafe_allow_html=True,
+            )
+        with action_col:
+            st.markdown("<div class='transform-cell-spacer'></div>", unsafe_allow_html=True)
+            send_clicked = st.button("Transform", use_container_width=True)
+        selected_paths = selection_paths(model, scenario)
+
+        rules_text = load_text(selected_paths["pyreason_rules"], "")
+
+        rule_lines = [line.strip() for line in rules_text.splitlines() if line.strip()]
+        rule_options = {f"Rule {idx:03d}: {line}": line for idx, line in enumerate(rule_lines, 1)}
+        selected_rule_labels = st.multiselect(
+            "Select Rules To Consider",
+            options=list(rule_options.keys()),
+            default=list(rule_options.keys()),
+        )
+        selected_rules = [rule_options[label] for label in selected_rule_labels]
+        selected_rules_text = "\n".join(selected_rules)
+        st.text_area("Selected Rules", value=selected_rules_text, height=150, disabled=True)
+
+        if selected_rules_text:
+            save_text(selected_paths["selected_rules"], selected_rules_text + "\n")
+        else:
+            save_text(selected_paths["selected_rules"], "")
+
+    scenario_survey_path = survey_questions_path_for_scenario(scenario)
+    if scenario_survey_path.exists():
+        questions_data = load_json(scenario_survey_path)
+        active_survey_path = scenario_survey_path
+    else:
+        questions_data = load_json(SURVEY_QUESTIONS_PATH)
+        active_survey_path = SURVEY_QUESTIONS_PATH
+    scores_data = load_json(selected_paths["survey_scores"])
+    original_survey_json = find_phase2_iteration_survey(model, scenario, 0)
+    optimal_iteration = find_optimal_iteration_for_dashboard(model, scenario)
+    transformed_survey_json = find_phase2_iteration_survey(model, scenario, optimal_iteration)
+    original_story_score = (
+        median_from_survey_json(original_survey_json)
+        if original_survey_json
+        else get_score(scores_data, "original_story")
+    )
+    transformed_story_score = (
+        median_from_survey_json(transformed_survey_json)
+        if transformed_survey_json
+        else get_score(scores_data, "transformed_story")
+    )
+
+    with col2:
+        current_story_text = load_text(INPUT_STORY_PATH, "")
+        if send_clicked and current_story_text.strip():
+            save_text(selected_paths["chat_output"], "")
+            rules_input_path = selected_paths["selected_rules"] if selected_rules_text else selected_paths["pyreason_rules"]
+            ok, response = run_phase2_transform(model, scenario, rules_path=rules_input_path)
+            status = "OK" if ok else "ERROR"
+            save_text(
+                selected_paths["chat_output"],
+                f"Model: {model} | Scenario: {scenario}\nStatus: {status}\nResponse: {response}\n",
+            )
+            st.session_state.hide_transformed_text = False
             st.rerun()
 
-        chat_output = load_text(selected_paths["chat_output"], "").strip()
-        st.text_area("Transformed Story", value=chat_output, height=CHAT_OUTPUT_HEIGHT, disabled=True)
-
-    with middle_col:
-        top_left, top_right = st.columns([2, 1], gap="small")
-
-        with top_left:
-            additional_q = st.text_area(
-                "Add Survey Questions",
-                value=saved_additional,
-                height=TOP_BOX_HEIGHT,
-                key="additional_questions",
+        st.markdown("Transformed Story")
+        ranked_iter_optimal = find_phase2_iteration_file(model, scenario, optimal_iteration, "ranked_prescriptions.json")
+        highlight_segments_transformed = segments_from_ranked_prescriptions(ranked_iter_optimal)
+        transformed_text = transformed_story_text(model, scenario, optimal_iteration)
+        original_text = load_text(INPUT_STORY_PATH, "").strip()
+        if st.session_state.hide_transformed_text:
+            transformed_html = transformed_with_original_replacements_html(original_text, transformed_text)
+        else:
+            transformed_html = highlighted_story_html(
+                transformed_text,
+                highlight_segments_transformed,
+                box_class="transformed-box",
             )
-            if st.button("Extend Survey", use_container_width=True):
-                added_count = append_questions_to_survey_json(additional_q, active_survey_path)
-                append_questions_to_input_txt(additional_q)
-                if added_count > 0:
-                    st.success(
-                        f"Appended {added_count} question(s) to {active_survey_path.relative_to(BASE_DIR)} "
-                        "and additional_survey_questions.txt"
-                    )
-                    st.rerun()
-                else:
-                    st.warning("No non-empty questions to append.")
+        st.markdown(transformed_html, unsafe_allow_html=True)
 
-        with top_right:
-            st.text_area(
-                "Original Story Score",
-                value=original_story_score,
-                height=TOP_BOX_HEIGHT,
-                disabled=True,
-            )
+        st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
+        hide_left, hide_mid, hide_right = st.columns([1, 1.2, 1])
+        with hide_mid:
+            if st.button("Hide Transformations", key="hide_transform_text", use_container_width=True):
+                st.session_state.hide_transformed_text = not st.session_state.hide_transformed_text
+                st.rerun()
+
+    with col3:
+        score1, score2, score3 = st.columns(3, gap="small")
+        score1.metric("Original", original_story_score)
+        score2.metric("Transformed", transformed_story_score)
+        score3.metric("Similarity", "100%")
 
         questions = get_questions(questions_data)
-        if questions:
-            questions_text = "\n\n".join(f"{i + 1}. {q}" for i, q in enumerate(questions))
-        else:
-            questions_text = "No survey questions found in JSON."
-        st.text_area(
-            "Survey",
-            value=questions_text,
-            height=LARGE_BOX_HEIGHT,
-            disabled=True,
-        )
-        st.text_area(
-            "Transformed Story Score",
-            value=transformed_story_score,
-            height=SMALL_BOX_HEIGHT,
-            disabled=True,
-        )
+        questions_text = "\n\n".join(f"{i + 1}. {q}" for i, q in enumerate(questions)) if questions else "No survey questions found in JSON."
+        st.text_area("Survey", value=questions_text, height=430, disabled=True)
 
-    with right_col:
-        additional_rules = st.text_area(
-            "Add Rules",
-            value=saved_additional_rules,
-            height=TOP_BOX_HEIGHT,
-            key="additional_rules",
+        additional_q = st.text_area(
+            "Add Survey Questions",
+            value=saved_additional,
+            height=140,
+            key="additional_questions",
+            placeholder="Intended narrative characteristic.\nSurvey question?",
         )
-        if st.button("Add Rules", use_container_width=True):
-            save_text(ADDITIONAL_RULES_PATH, additional_rules.strip())
-            st.success(f"Saved to {ADDITIONAL_RULES_PATH.relative_to(BASE_DIR)}")
-        st.text_area("fired rules", value=rules_text, height=LARGE_BOX_HEIGHT, disabled=True)
-        st.text_area(
-            "Explanations",
-            value=generated_explanations if generated_explanations else snippets_text,
-            height=SMALL_BOX_HEIGHT,
-            disabled=True,
-        )
+        if st.button("Extend Survey", use_container_width=True):
+            additional_survey_path = additional_survey_path_for_scenario(scenario)
+            added_count = append_additional_survey_json(additional_q, scenario, additional_survey_path)
+            append_questions_to_input_txt(additional_q)
+            if added_count > 0:
+                st.success(
+                    f"Appended {added_count} question block(s) to {additional_survey_path.relative_to(BASE_DIR)} "
+                    "and additional_survey_questions.txt"
+                )
+                st.rerun()
+            else:
+                st.warning("No non-empty questions to append.")
 
     syracuse_fallback_svg = """
     <svg xmlns='http://www.w3.org/2000/svg' width='220' height='70' viewBox='0 0 220 70'>

@@ -13,16 +13,29 @@ import logging
 import sys
 from pathlib import Path
 import json
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 import os
 
-# Load environment variables from .env file
-load_dotenv('.env')
+# Load environment variables from .env (search from current working directory upward)
+# dotenv_path = find_dotenv(".env", usecwd=True)
+# if dotenv_path:
+#     load_dotenv(dotenv_path)
+# else:
+#     # Fallback to project root relative to this file: connect-demo/.env
+#     fallback_dotenv = Path(__file__).resolve().parent.parent / ".env"
+#     if fallback_dotenv.exists():
+#         load_dotenv(str(fallback_dotenv))
 # print(f"DEBUG: API key loaded: {os.getenv('OPENAI_API_KEY')[:10]}...")  # Print first 10 chars
 
 
 from story_loader import load_training_stories, load_single_story
-from llm_survey import conduct_surveys, conduct_survey_single_story, sanitize_model_name, CostTracker
+from llm_survey import (
+    conduct_surveys,
+    conduct_survey_single_story,
+    sanitize_model_name,
+    CostTracker,
+    get_api_key_for_model
+)
 # from rule_learner import learn_rules
 from graph_builder import build_ground_atoms_from_survey, save_ground_atoms, save_segments_metadata
 from pyreason_runner import run_pyreason
@@ -51,16 +64,16 @@ def main():
         epilog="""
 Examples:
   # Phase 1: Train on individualistic stories (forward problem)
-  python main.py --phase 1 --problem forward --data-dir data --output-dir output/phase1
+  python main.py --phase 1 --problem forward --data-dir ../data --output-dir ../output/phase1
 
   # Phase 1: Train on collectivistic stories (inverse problem)
-  python main.py --phase 1 --problem inverse --data-dir data --output-dir output/phase1
+  python main.py --phase 1 --problem inverse --data-dir ../data --output-dir ../output/phase1
 
   # Phase 2: Transform collectivistic story to individualistic
-  python main.py --phase 2 --problem forward --rules output/phase1/rules.txt --story data/test_story.txt
+  python main.py --phase 2 --problem forward --rules ../output/phase1/rules.txt --story ../data/test_story.txt
 
   # Phase 2: Transform individualistic story to collectivistic
-  python main.py --phase 2 --problem inverse --rules data/rules/gpt-4o/collectivistic/pyreason_rules.txt --story data/test_story.txt
+  python main.py --phase 2 --problem inverse --model claude-sonnet-4-5 --rules ../data/rules/gpt-4o/collectivistic/pyreason_rules.txt --story ../data/test_story.txt --max-iterations 2 --top-k 3 
         """
     )
 
@@ -85,15 +98,15 @@ Examples:
     parser.add_argument(
         '--data-dir',
         type=str,
-        default='data',
-        help='Path to data directory (default: data)'
+        default='../data',
+        help='Path to data directory (default: ../data)'
     )
 
     parser.add_argument(
         '--output-dir',
         type=str,
-        default='output',
-        help='Path to output directory (default: output)'
+        default='../output',
+        help='Path to output directory (default: ../output)'
     )
 
     # Phase 1 specific arguments
@@ -340,9 +353,9 @@ def run_phase2(args):
     if args.rules:
         rules_file = Path(args.rules)
     else:
-        # Default: output/phase1/{model}/{problem}/learned_rules/pyreason_rules.txt
+        # Default: ../output/phase1/{model}/{problem}/learned_rules/pyreason_rules.txt
         sanitized_model = sanitize_model_name(args.model)
-        rules_file = Path("output/phase1") / sanitized_model / args.problem / "learned_rules" / "pyreason_rules.txt"
+        rules_file = Path("../output/phase1") / sanitized_model / args.problem / "learned_rules" / "pyreason_rules.txt"
         logger.info(f"Auto-determined rules path: {rules_file}")
 
     if not rules_file.exists():
@@ -375,6 +388,18 @@ def run_phase2(args):
     if not questions_file.exists():
         logger.error(f"Questions file not found: {questions_file}")
         sys.exit(1)
+
+    # Validate credentials up front to avoid continuing with empty survey outputs
+    if not args.skip_survey:
+        try:
+            get_api_key_for_model(args.model)
+        except RuntimeError as e:
+            logger.error(str(e))
+            logger.error("Phase 2 cannot run survey without model credentials.")
+            logger.error(
+                "Set the required API key or run with --skip-survey using an existing valid survey.json."
+            )
+            sys.exit(1)
 
     # Initialize: current story starts as the original test story
     current_story_text = story['content']
@@ -426,6 +451,17 @@ def run_phase2(args):
             with open(survey_file, 'w', encoding='utf-8') as f:
                 json.dump(survey_result, f, indent=2, ensure_ascii=False)
             logger.info(f"✓ Survey completed and saved to: {survey_file}")
+
+        # Abort early if survey did not produce any usable ratings
+        qa_entries = survey_result.get("questions_and_answers", [])
+        valid_ratings = sum(1 for qa in qa_entries if qa.get("rating") is not None)
+        if valid_ratings == 0:
+            errors = sorted({qa.get("error", "Unknown error") for qa in qa_entries if qa.get("error")})
+            logger.error("Survey produced 0 valid ratings; stopping before PyReason/abduction.")
+            if errors:
+                logger.error(f"Survey errors observed: {errors[0]}")
+            raise ValueError("Survey failed: no valid feature ratings were produced.")
+        logger.info(f"✓ Survey yielded {valid_ratings}/{len(qa_entries)} valid feature ratings")
 
         # Save cost tracking for this iteration
         iter_cost_file = iter_dir / "cost_tracking.json"

@@ -1,0 +1,194 @@
+{
+  "story_name": "test_story",
+  "story_file": "../output/phase2/gpt-4o/inverse/test_story/iteration_0/story.txt",
+  "model": "gpt-4o",
+  "problem_type": "inverse",
+  "timestamp": "2026-02-12T13:40:15.849061",
+  "questions_and_answers": [
+    {
+      "id": 2,
+      "component": "Protagonist‑Centered Focus",
+      "type": "collectivistic_question",
+      "question": "Is the narrative driven primarily by the group’s or community’s shared experiences, collective choices, and communal identity?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 4,
+      "component": "Internal Goals",
+      "type": "collectivistic_question",
+      "question": "Do the characters pursue group ambitions (e.g., community well‑being, family honor, shared success) over individual goals?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 6,
+      "component": "Decision‑Driven Plot",
+      "type": "collectivistic_question",
+      "question": "Are key turning points in the story determined by collective decisions, group mandates, or community traditions rather than by a single individual’s decision?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 8,
+      "component": "Self‑Reliance",
+      "type": "collectivistic_question",
+      "question": "Do the characters overcome obstacles through communal support, collective action, or shared resources rather than individual effort?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 10,
+      "component": "Individual Accolades",
+      "type": "collectivistic_question",
+      "question": "Are awards, status, or recognition attributed primarily to the group, ensemble, or community effort rather than to an individual?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 12,
+      "component": "Meritocracy Emphasis",
+      "type": "collectivistic_question",
+      "question": "Is success portrayed as resulting from group support, family lineage, or communal contributions rather than solely individual talent?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 14,
+      "component": "“Man vs. Self/World” Conflict",
+      "type": "collectivistic_question",
+      "question": "Is the central struggle between the group and external forces or within group cohesion, rather than an individual’s internal conflict?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 16,
+      "component": "Solo Confrontations",
+      "type": "collectivistic_question",
+      "question": "Do climactic showdowns feature collaborative group efforts or collective confrontation, rather than a lone individual?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 18,
+      "component": "Inner Journey",
+      "type": "collectivistic_question",
+      "question": "Is the character arc centered on the group discovering shared values, collective strengths, or communal purpose?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 20,
+      "component": "Self‑Actualization Climax",
+      "type": "collectivistic_question",
+      "question": "Does the emotional payoff come from restoring group harmony, collective well‑being, or communal success rather than an individual breakthrough?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 22,
+      "component": "Personal Ethics over Group Norms",
+      "type": "collectivistic_question",
+      "question": "Does adherence to cultural norms, family expectations, or communal codes take precedence over personal preferences?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 24,
+      "component": "Uniqueness & Self‑Expression",
+      "type": "collectivistic_question",
+      "question": "Are characters celebrated for conforming to group norms, fulfilling social roles, or contributing to the collective identity rather than uniqueness?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 26,
+      "component": "Self‑Construal",
+      "type": "collectivistic_question",
+      "question": "Does the narrative present the self as interdependent, defined by social roles and relationships rather than solely personal traits?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 28,
+      "component": "Behavioral Guidance",
+      "type": "collectivistic_question",
+      "question": "Are actions in the story guided by social norms, group expectations, or communal values rather than personal preferences?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 30,
+      "component": "Relationship Orientation",
+      "type": "collectivistic_question",
+      "question": "Does the story depict relationships as based on duty, loyalty, obligation, and collective well‑being rather than solely mutual benefit?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 32,
+      "component": "Primary Conflict",
+      "type": "collectivistic_question",
+      "question": "Is the central conflict about maintaining social harmony, fulfilling collective roles, or adhering to group norms rather than asserting individuality?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 34,
+      "component": "Resolution Style",
+      "type": "collectivistic_question",
+      "question": "Does the story resolve conflicts through compromise, reconciliation, and restoring group harmony rather than individual vindication?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 36,
+      "component": "Moral Emphasis",
+      "type": "collectivistic_question",
+      "question": "Does the narrative emphasize group solidarity, communal responsibility, or collective welfare as moral virtues?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 38,
+      "component": "Relationship Framing",
+      "type": "collectivistic_question",
+      "question": "Does the story frame relationships as essential, requiring individuals to consider the impact of their actions on family and community?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    },
+    {
+      "id": 40,
+      "component": "Vertical Individualism",
+      "type": "collectivistic_question",
+      "question": "Does the story emphasize equality, shared prosperity, and collective welfare over social inequality and individual hierarchy?",
+      "error": "OPENAI_API_KEY environment variable not set. Set it with: export OPENAI_API_KEY='your-key'",
+      "rating": null,
+      "raw_response": null
+    }
+  ],
+  "total_tokens": {
+    "input": 0,
+    "output": 0,
+    "total": 0
+  }
+}
