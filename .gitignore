@@ -1,1 +1,4 @@
-./data/*
+# connect-demo/.gitignore
+data/
+.demo/
+__pycache__/
