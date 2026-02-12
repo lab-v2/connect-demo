@@ -1,0 +1,3 @@
+Snippet A: User preferred concise guidance and actionable steps.
+Snippet B: Survey response indicates friction during model selection.
+Snippet C: Scenario A had higher completion scores than Scenario B.
