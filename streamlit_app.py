@@ -2,6 +2,8 @@ import json
 import base64
 import mimetypes
 import re
+import subprocess
+import statistics
 from pathlib import Path
 
 import streamlit as st
@@ -23,6 +25,7 @@ LEGACY_SNIPPETS_PATH = INTERMEDIATE_OUTPUT_DIR / "snippets.txt"
 LEGACY_CHAT_OUTPUT_PATH = OUTPUT_DIR / "chat_output.log"
 ADDITIONAL_Q_PATH = INPUT_DIR / "additional_survey_questions.txt"
 ADDITIONAL_RULES_PATH = INPUT_DIR / "additional_rules.txt"
+INPUT_STORY_PATH = INPUT_DIR / "input.txt"
 LOGO_DIR = INPUT_DIR / "logos"
 
 MODEL_OPTIONS = [
@@ -106,14 +109,14 @@ def get_questions(questions_data: dict) -> list[str]:
     return []
 
 
-def append_questions_to_survey_json(raw_text: str) -> int:
+def append_questions_to_survey_json(raw_text: str, target_path: Path) -> int:
     incoming = [line.strip() for line in raw_text.splitlines() if line.strip()]
     if not incoming:
         return 0
-    existing_payload = load_json(SURVEY_QUESTIONS_PATH)
+    existing_payload = load_json(target_path)
     existing_questions = get_questions(existing_payload)
     updated = existing_questions + incoming
-    save_json(SURVEY_QUESTIONS_PATH, {"questions": updated})
+    save_json(target_path, {"questions": updated})
     return len(incoming)
 
 
@@ -132,15 +135,108 @@ def slugify_model(model: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", model.lower()).strip("-")
 
 
+def sanitize_model_for_phase2(model: str) -> str:
+    # Match src/llm_survey.py sanitize_model_name behavior used by src/main.py
+    return model.replace("/", "-").replace(":", "-")
+
+
+def survey_questions_path_for_scenario(scenario: str) -> Path:
+    scenario_key = scenario.strip().lower()
+    return SURVEY_QUESTIONS_DIR / scenario_key / "survey_questions.json"
+
+
 def selection_paths(model: str, scenario: str) -> dict[str, Path]:
     model_key = slugify_model(model)
     scenario_key = scenario.strip().lower()
     return {
         "survey_scores": SURVEY_SCORES_DIR / model_key / scenario_key / "survey_scores.json",
         "rules": RULES_DIR / model_key / scenario_key / "rules_fired.txt",
+        "pyreason_rules": RULES_DIR / model_key / scenario_key / "pyreason_rules.txt",
         "snippets": INTERMEDIATE_OUTPUT_DIR / model_key / scenario_key / "snippets.txt",
         "chat_output": OUTPUT_DIR / model_key / scenario_key / "chat_output.log",
     }
+
+
+def phase2_problem_for_scenario(scenario: str) -> str:
+    return "forward" if scenario == "individualistic" else "inverse"
+
+
+def extract_ratings(payload: dict) -> list[float]:
+    ratings: list[float] = []
+    for item in payload.get("questions_and_answers", []):
+        if not isinstance(item, dict):
+            continue
+        value = item.get("rating")
+        if isinstance(value, (int, float)):
+            ratings.append(float(value))
+        elif isinstance(value, str):
+            try:
+                ratings.append(float(value.strip()))
+            except Exception:
+                pass
+    return ratings
+
+
+def median_from_survey_json(path: Path) -> str:
+    payload = load_json(path)
+    ratings = extract_ratings(payload)
+    if not ratings:
+        return "N/A"
+    return f"{statistics.median(ratings):.2f}"
+
+
+def find_phase2_iteration_survey(model: str, scenario: str, iteration: int) -> Path | None:
+    problem = phase2_problem_for_scenario(scenario)
+    model_dir = sanitize_model_for_phase2(model)
+    base = BASE_DIR / "output" / "phase2" / model_dir / problem
+
+    direct = base / f"iteration_{iteration}" / "survey.json"
+    if direct.exists():
+        return direct
+
+    candidates = sorted(base.glob(f"*/iteration_{iteration}/survey.json"))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+    return candidates[0]
+
+
+def find_phase2_iteration_file(model: str, scenario: str, iteration: int, filename: str) -> Path | None:
+    problem = phase2_problem_for_scenario(scenario)
+    model_dir = sanitize_model_for_phase2(model)
+    base = BASE_DIR / "output" / "phase2" / model_dir / problem
+
+    direct = base / f"iteration_{iteration}" / filename
+    if direct.exists():
+        return direct
+
+    candidates = sorted(base.glob(f"*/iteration_{iteration}/{filename}"))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+    return candidates[0]
+
+
+def explanations_from_ranked_prescriptions(path: Path | None) -> str:
+    if not path:
+        return ""
+    payload = load_json(path)
+    prescriptions = payload.get("prescriptions", []) if isinstance(payload, dict) else []
+    if not isinstance(prescriptions, list) or not prescriptions:
+        return ""
+
+    lines: list[str] = []
+    for item in prescriptions:
+        if not isinstance(item, dict):
+            continue
+        segment_text = str(item.get("segment_text", "")).strip()
+        feature = str(item.get("feature", "")).strip()
+        if not segment_text or not feature:
+            continue
+        lines.append(
+            f"We abduce the segment {segment_text} based on the narrative characteristic of {feature}."
+        )
+    return "\n\n".join(lines)
 
 
 def seed_selection_data() -> None:
@@ -189,6 +285,36 @@ def file_to_data_uri(path: Path) -> str:
 def svg_to_data_uri(svg: str) -> str:
     encoded = base64.b64encode(svg.encode("utf-8")).decode("ascii")
     return f"data:image/svg+xml;base64,{encoded}"
+
+
+def run_phase2_transform(scenario: str, rules_path: Path) -> tuple[bool, str]:
+    problem = "forward" if scenario == "individualistic" else "inverse"
+    if not rules_path.exists():
+        return False, f"Rules file not found: {rules_path}"
+    cmd = [
+        "python3",
+        str(BASE_DIR / "src" / "main.py"),
+        "--phase",
+        "2",
+        "--problem",
+        problem,
+        "--rules",
+        str(rules_path),
+        "--story",
+        str(INPUT_STORY_PATH),
+    ]
+    proc = subprocess.run(
+        cmd,
+        cwd=BASE_DIR,
+        capture_output=True,
+        text=True,
+    )
+    stdout = (proc.stdout or "").strip()
+    stderr = (proc.stderr or "").strip()
+    if proc.returncode == 0:
+        return True, stdout or "Transform completed."
+    detail = stderr or stdout or "No output."
+    return False, f"Transform failed (exit {proc.returncode}): {detail}"
 
 
 def render() -> None:
@@ -263,7 +389,6 @@ def render() -> None:
         save_text(ADDITIONAL_RULES_PATH, "")
         st.session_state.cleared_inputs_on_start = True
 
-    questions_data = load_json(SURVEY_QUESTIONS_PATH)
     saved_additional = load_text(ADDITIONAL_Q_PATH, "")
     saved_additional_rules = load_text(ADDITIONAL_RULES_PATH, "")
 
@@ -281,15 +406,39 @@ def render() -> None:
             send_clicked = st.button("Transform", use_container_width=True)
 
         selected_paths = selection_paths(model, scenario)
+        scenario_survey_path = survey_questions_path_for_scenario(scenario)
+        if scenario_survey_path.exists():
+            questions_data = load_json(scenario_survey_path)
+            active_survey_path = scenario_survey_path
+        else:
+            questions_data = load_json(SURVEY_QUESTIONS_PATH)
+            active_survey_path = SURVEY_QUESTIONS_PATH
         scores_data = load_json(selected_paths["survey_scores"])
         rules_text = load_text(selected_paths["rules"], "No rules loaded.")
         snippets_text = load_text(selected_paths["snippets"], "No snippets loaded.")
+        ranked_path = find_phase2_iteration_file(model, scenario, 2, "ranked_prescriptions.json")
+        generated_explanations = explanations_from_ranked_prescriptions(ranked_path)
+        original_survey_json = find_phase2_iteration_survey(model, scenario, 0)
+        transformed_survey_json = find_phase2_iteration_survey(model, scenario, 2)
+        original_story_score = (
+            median_from_survey_json(original_survey_json)
+            if original_survey_json
+            else get_score(scores_data, "original_story")
+        )
+        transformed_story_score = (
+            median_from_survey_json(transformed_survey_json)
+            if transformed_survey_json
+            else get_score(scores_data, "transformed_story")
+        )
 
         if send_clicked and chat_input.strip():
-            response = "Placeholder output panel for your backend response."
+            save_text(INPUT_STORY_PATH, chat_input.strip() + "\n")
+            ok, response = run_phase2_transform(scenario, selected_paths["pyreason_rules"])
+            status = "OK" if ok else "ERROR"
             block = (
                 f"Model: {model} | Scenario: {scenario}\n"
                 f"Input: {chat_input.strip()}\n"
+                f"Status: {status}\n"
                 f"Response: {response}\n"
             )
             append_text(selected_paths["chat_output"], block + "\n")
@@ -310,11 +459,12 @@ def render() -> None:
                 key="additional_questions",
             )
             if st.button("Extend Survey", use_container_width=True):
-                added_count = append_questions_to_survey_json(additional_q)
+                added_count = append_questions_to_survey_json(additional_q, active_survey_path)
                 append_questions_to_input_txt(additional_q)
                 if added_count > 0:
                     st.success(
-                        f"Appended {added_count} question(s) to survey_questions.json and additional_survey_questions.txt"
+                        f"Appended {added_count} question(s) to {active_survey_path.relative_to(BASE_DIR)} "
+                        "and additional_survey_questions.txt"
                     )
                     st.rerun()
                 else:
@@ -323,7 +473,7 @@ def render() -> None:
         with top_right:
             st.text_area(
                 "Original Story Score",
-                value=get_score(scores_data, "original_story"),
+                value=original_story_score,
                 height=TOP_BOX_HEIGHT,
                 disabled=True,
             )
@@ -334,14 +484,14 @@ def render() -> None:
         else:
             questions_text = "No survey questions found in JSON."
         st.text_area(
-            "Survey Questions (From JSON)",
+            "Survey",
             value=questions_text,
             height=LARGE_BOX_HEIGHT,
             disabled=True,
         )
         st.text_area(
             "Transformed Story Score",
-            value=get_score(scores_data, "transformed_story"),
+            value=transformed_story_score,
             height=SMALL_BOX_HEIGHT,
             disabled=True,
         )
@@ -356,8 +506,13 @@ def render() -> None:
         if st.button("Add Rules", use_container_width=True):
             save_text(ADDITIONAL_RULES_PATH, additional_rules.strip())
             st.success(f"Saved to {ADDITIONAL_RULES_PATH.relative_to(BASE_DIR)}")
-        st.text_area("Rules Fired (TXT)", value=rules_text, height=LARGE_BOX_HEIGHT, disabled=True)
-        st.text_area("Text Snippets (TXT)", value=snippets_text, height=SMALL_BOX_HEIGHT, disabled=True)
+        st.text_area("fired rules", value=rules_text, height=LARGE_BOX_HEIGHT, disabled=True)
+        st.text_area(
+            "Explanations",
+            value=generated_explanations if generated_explanations else snippets_text,
+            height=SMALL_BOX_HEIGHT,
+            disabled=True,
+        )
 
     syracuse_fallback_svg = """
     <svg xmlns='http://www.w3.org/2000/svg' width='220' height='70' viewBox='0 0 220 70'>

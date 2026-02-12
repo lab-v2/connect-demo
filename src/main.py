@@ -23,7 +23,7 @@ load_dotenv('.env')
 
 from story_loader import load_training_stories, load_single_story
 from llm_survey import conduct_surveys, conduct_survey_single_story, sanitize_model_name, CostTracker
-from rule_learner import learn_rules
+# from rule_learner import learn_rules
 from graph_builder import build_ground_atoms_from_survey, save_ground_atoms, save_segments_metadata
 from pyreason_runner import run_pyreason
 from abduction import run_abduction
@@ -60,7 +60,7 @@ Examples:
   python main.py --phase 2 --problem forward --rules output/phase1/rules.txt --story data/test_story.txt
 
   # Phase 2: Transform individualistic story to collectivistic
-  python main.py --phase 2 --problem inverse --rules output/phase1/rules.txt --story data/test_story.txt
+  python main.py --phase 2 --problem inverse --rules data/rules/gpt-4o/collectivistic/pyreason_rules.txt --story data/test_story.txt
         """
     )
 
