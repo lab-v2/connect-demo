@@ -39,7 +39,7 @@ def load_text(path: Path, fallback: str = "") -> str:
 class ConnectDemoGUI:
     def __init__(self, root: tk.Tk) -> None:
         self.root = root
-        self.root.title("Connect Demo - Chat/Survey/Rules")
+        self.root.title("NARRATE - Chat/Survey/Rules")
         self.root.geometry("1500x900")
         self.root.minsize(1200, 700)
         self.data_a = load_json(SURVEY_A_PATH)

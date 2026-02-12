@@ -194,7 +194,7 @@ def svg_to_data_uri(svg: str) -> str:
 def render() -> None:
     ensure_dirs()
     seed_selection_data()
-    st.set_page_config(page_title="Connect Demo", layout="wide")
+    st.set_page_config(page_title="NARRATE", page_icon="🟠", layout="wide")
     st.markdown(
         """
         <style>
@@ -249,11 +249,14 @@ def render() -> None:
             object-fit: contain;
             display: block;
         }
+        h1 {
+            text-align: center;
+        }
         </style>
         """,
         unsafe_allow_html=True,
     )
-    st.title("Connect Demo")
+    st.title("NARRATE")
 
     if "cleared_inputs_on_start" not in st.session_state:
         save_text(ADDITIONAL_Q_PATH, "")

@@ -1,4 +1,4 @@
-# connect-demo
+# NARRATE
 
 Three-column demo for chat + survey + rules/snippets.
 

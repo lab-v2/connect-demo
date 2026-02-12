@@ -1,3 +1,0 @@
-rule_01: high_confidence_if_consistent_answers
-rule_07: penalty_if_missing_required_fields
-rule_11: boost_if_follow_up_questions_are_specific
