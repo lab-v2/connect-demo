@@ -286,7 +286,8 @@ def run_phase1(args):
             problem_type=args.problem,
             model=args.model,
             temperature=args.temperature,
-            output_dir=args.output_dir
+            output_dir=args.output_dir,
+            include_additional_questions=False,
         )
 
         if failed_stories:
@@ -444,7 +445,8 @@ def run_phase2(args):
                 problem_type=args.problem,
                 model=args.model,
                 temperature=args.temperature,
-                cost_tracker=cost_tracker
+                cost_tracker=cost_tracker,
+                include_additional_questions=False,
             )
 
             # Save survey result

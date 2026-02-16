@@ -1,9 +1,0 @@
-{
-  "story_name": "input",
-  "problem_type": "inverse",
-  "model": "claude-sonnet-4-5",
-  "temperature": 0.7,
-  "k_features": 0,
-  "n_segments": 0,
-  "transformations": []
-}

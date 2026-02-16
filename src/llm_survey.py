@@ -439,12 +439,13 @@ def load_additional_questions_for_base_file(questions_path: Path) -> List[Dict]:
     return []
 
 
-def load_questions(questions_file: str) -> List[Dict]:
+def load_questions(questions_file: str, include_additional_questions: bool = False) -> List[Dict]:
     """
     Load questions from JSON file.
 
     Args:
         questions_file: Path to questions JSON file
+        include_additional_questions: Whether to append scenario additional_survey.json questions
 
     Returns:
         List of question dictionaries
@@ -457,8 +458,10 @@ def load_questions(questions_file: str) -> List[Dict]:
     if not isinstance(base_questions, list):
         base_questions = []
 
-    additional_questions = load_additional_questions_for_base_file(qpath)
-    return base_questions + additional_questions
+    if include_additional_questions:
+        additional_questions = load_additional_questions_for_base_file(qpath)
+        return base_questions + additional_questions
+    return base_questions
 
 
 def conduct_survey_single_story(
@@ -467,7 +470,8 @@ def conduct_survey_single_story(
         problem_type: str,
         model: str,
         temperature: float = 0.0,
-        cost_tracker: Optional[CostTracker] = None
+        cost_tracker: Optional[CostTracker] = None,
+        include_additional_questions: bool = False,
 ) -> Dict:
     """
     Conduct LLM survey on a single story.
@@ -479,11 +483,15 @@ def conduct_survey_single_story(
         model: Model name
         temperature: LLM temperature
         cost_tracker: Optional cost tracker to update
+        include_additional_questions: Whether to append scenario additional questions
 
     Returns:
         Survey result dictionary
     """
-    questions = load_questions(questions_file)
+    questions = load_questions(
+        questions_file,
+        include_additional_questions=include_additional_questions,
+    )
 
     # Determine which question type to use
     question_type = "individualistic_question" if problem_type == "forward" else "collectivistic_question"
@@ -614,7 +622,8 @@ def conduct_surveys(
         problem_type: str,
         model: str,
         temperature: float,
-        output_dir: str
+        output_dir: str,
+        include_additional_questions: bool = False,
 ) -> Tuple[List[Dict], List[str]]:
     """
     Conduct surveys on multiple stories.
@@ -626,6 +635,7 @@ def conduct_surveys(
         model: Model name
         temperature: LLM temperature
         output_dir: Base output directory
+        include_additional_questions: Whether to append scenario additional questions
 
     Returns:
         Tuple of (list of survey results, list of failed story names)
@@ -667,7 +677,8 @@ def conduct_surveys(
                 problem_type=problem_type,
                 model=model,
                 temperature=temperature,
-                cost_tracker=cost_tracker
+                cost_tracker=cost_tracker,
+                include_additional_questions=include_additional_questions,
             )
 
             # Save result immediately

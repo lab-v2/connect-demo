@@ -4,9 +4,12 @@ import mimetypes
 import re
 import subprocess
 import statistics
+import math
 import html
+import shutil
 from difflib import SequenceMatcher
 from pathlib import Path
+from collections import Counter
 
 import streamlit as st
 
@@ -14,19 +17,11 @@ import streamlit as st
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 INPUT_DIR = DATA_DIR / "input"
-OUTPUT_DIR = DATA_DIR / "output"
 SURVEY_QUESTIONS_DIR = DATA_DIR / "survey"
-SURVEY_SCORES_DIR = DATA_DIR / "survey_scores"
 RULES_DIR = DATA_DIR / "rules"
-INTERMEDIATE_OUTPUT_DIR = DATA_DIR / "intermediate_output"
 
 SURVEY_QUESTIONS_PATH = SURVEY_QUESTIONS_DIR / "survey_questions.json"
-LEGACY_SURVEY_SCORES_PATH = SURVEY_QUESTIONS_DIR / "survey_scores.json"
 LEGACY_RULES_PATH = RULES_DIR / "rules_fired.txt"
-LEGACY_SNIPPETS_PATH = INTERMEDIATE_OUTPUT_DIR / "snippets.txt"
-LEGACY_CHAT_OUTPUT_PATH = OUTPUT_DIR / "chat_output.log"
-ADDITIONAL_Q_PATH = INPUT_DIR / "additional_survey_questions.txt"
-ADDITIONAL_RULES_PATH = INPUT_DIR / "additional_rules.txt"
 INPUT_STORY_PATH = INPUT_DIR / "input.txt"
 LOGO_DIR = INPUT_DIR / "logos"
 
@@ -61,11 +56,8 @@ CHAT_OUTPUT_HEIGHT = 700
 def ensure_dirs() -> None:
     for directory in [
         INPUT_DIR,
-        OUTPUT_DIR,
         SURVEY_QUESTIONS_DIR,
-        SURVEY_SCORES_DIR,
         RULES_DIR,
-        INTERMEDIATE_OUTPUT_DIR,
     ]:
         directory.mkdir(parents=True, exist_ok=True)
     LOGO_DIR.mkdir(parents=True, exist_ok=True)
@@ -110,10 +102,16 @@ def append_text(path: Path, text: str) -> None:
         f.write(text)
 
 
-def get_score(scores: dict, key: str) -> str:
-    if key in scores:
-        return str(scores[key])
-    return "N/A"
+def format_score_one_decimal(value: str | int | float | None) -> str:
+    if value is None:
+        return "N/A"
+    text = str(value).strip()
+    if not text or text.upper() == "N/A":
+        return "N/A"
+    try:
+        return f"{float(text):.1f}"
+    except Exception:
+        return text
 
 
 def get_questions(questions_data: dict) -> list[str]:
@@ -204,21 +202,8 @@ def append_additional_survey_json(raw_text: str, scenario: str, target_path: Pat
     return len(new_items)
 
 
-def append_questions_to_input_txt(raw_text: str) -> int:
-    incoming = [line.strip() for line in raw_text.splitlines() if line.strip()]
-    if not incoming:
-        return 0
-    current = load_text(ADDITIONAL_Q_PATH, "").strip()
-    lines = [line for line in current.splitlines() if line.strip()]
-    lines.extend(incoming)
-    save_text(ADDITIONAL_Q_PATH, "\n".join(lines) + "\n")
-    return len(incoming)
-
-
 def ensure_additional_survey_files_exist() -> None:
     """Ensure additional-survey files exist without clearing existing content."""
-    if not ADDITIONAL_Q_PATH.exists():
-        save_text(ADDITIONAL_Q_PATH, "")
     for scenario_name in SCENARIO_OPTIONS:
         p = additional_survey_path_for_scenario(scenario_name)
         if not p.exists():
@@ -243,17 +228,48 @@ def selection_paths(model: str, scenario: str) -> dict[str, Path]:
     model_key = slugify_model(model)
     scenario_key = scenario.strip().lower()
     return {
-        "survey_scores": SURVEY_SCORES_DIR / model_key / scenario_key / "survey_scores.json",
         "rules": RULES_DIR / model_key / scenario_key / "rules_fired.txt",
         "pyreason_rules": RULES_DIR / model_key / scenario_key / "pyreason_rules.txt",
         "selected_rules": RULES_DIR / model_key / scenario_key / "selected_rules.txt",
-        "snippets": INTERMEDIATE_OUTPUT_DIR / model_key / scenario_key / "snippets.txt",
-        "chat_output": OUTPUT_DIR / model_key / scenario_key / "chat_output.log",
     }
 
 
 def phase2_problem_for_scenario(scenario: str) -> str:
     return "forward" if scenario == "individualistic" else "inverse"
+
+
+def llm_survey_questions_file_for_scenario(scenario: str) -> Path:
+    scenario_key = scenario.strip().lower()
+    return DATA_DIR / f"{scenario_key}_questions.json"
+
+
+def display_questions_for_scenario(scenario: str) -> list[str]:
+    questions_file = llm_survey_questions_file_for_scenario(scenario)
+    problem_type = phase2_problem_for_scenario(scenario)
+    question_key = "individualistic_question" if problem_type == "forward" else "collectivistic_question"
+
+    try:
+        from src.llm_survey import load_questions
+
+        merged_questions = load_questions(
+            str(questions_file),
+            include_additional_questions=True,
+        )
+        out: list[str] = []
+        for item in merged_questions:
+            if not isinstance(item, dict):
+                continue
+            qobj = item.get(question_key)
+            if isinstance(qobj, dict):
+                qtext = qobj.get("question")
+                if isinstance(qtext, str) and qtext.strip():
+                    out.append(qtext.strip())
+        return out
+    except Exception:
+        pass
+
+    fallback_payload = load_json(survey_questions_path_for_scenario(scenario))
+    return get_questions(fallback_payload)
 
 
 def extract_ratings(payload: dict) -> list[float]:
@@ -274,6 +290,13 @@ def extract_ratings(payload: dict) -> list[float]:
 
 def median_from_survey_json(path: Path) -> str:
     payload = load_json(path)
+    ratings = extract_ratings(payload)
+    if not ratings:
+        return "N/A"
+    return f"{statistics.median(ratings):.2f}"
+
+
+def median_from_survey_result(payload: dict) -> str:
     ratings = extract_ratings(payload)
     if not ratings:
         return "N/A"
@@ -350,6 +373,88 @@ def transformed_story_text(model: str, scenario: str, iteration: int = 2) -> str
         return "No transformed story found."
     text = load_text(story_path, "").strip()
     return text if text else "No transformed story found."
+
+
+def recompute_scores_with_extended_survey(
+    model: str,
+    scenario: str,
+    original_text: str,
+    transformed_text: str,
+) -> tuple[str, str, float]:
+    from src.llm_survey import CostTracker, conduct_survey_single_story
+
+    questions_file = llm_survey_questions_file_for_scenario(scenario)
+    problem_type = phase2_problem_for_scenario(scenario)
+    cost_tracker = CostTracker(model)
+
+    original_story = {
+        "name": "input",
+        "path": str(INPUT_STORY_PATH),
+        "content": original_text,
+    }
+    transformed_story = {
+        "name": "story_transformed",
+        "path": "story_transformed.txt",
+        "content": transformed_text,
+    }
+
+    original_result = conduct_survey_single_story(
+        story=original_story,
+        questions_file=str(questions_file),
+        problem_type=problem_type,
+        model=model,
+        temperature=0.7,
+        cost_tracker=cost_tracker,
+        include_additional_questions=True,
+    )
+    transformed_result = conduct_survey_single_story(
+        story=transformed_story,
+        questions_file=str(questions_file),
+        problem_type=problem_type,
+        model=model,
+        temperature=0.7,
+        cost_tracker=cost_tracker,
+        include_additional_questions=True,
+    )
+
+    return (
+        median_from_survey_result(original_result),
+        median_from_survey_result(transformed_result),
+        cost_tracker.total_cost,
+    )
+
+
+def tokenize_for_divergence(text: str) -> list[str]:
+    if not text:
+        return []
+    return re.findall(r"\b\w+\b", text.lower())
+
+
+def token_distribution(tokens: list[str], smoothing: float = 1e-5) -> dict[str, float]:
+    if not tokens:
+        return {}
+    token_counts = Counter(tokens)
+    total_tokens = len(tokens)
+    vocab_size = len(token_counts)
+    return {
+        token: (count + smoothing) / (total_tokens + smoothing * vocab_size)
+        for token, count in token_counts.items()
+    }
+
+
+def kl_transformed_vs_original(transformed_text: str, original_text: str, smoothing: float = 1e-5) -> float | None:
+    transformed_dist = token_distribution(tokenize_for_divergence(transformed_text), smoothing)
+    original_dist = token_distribution(tokenize_for_divergence(original_text), smoothing)
+    if not transformed_dist or not original_dist:
+        return None
+
+    all_tokens = set(transformed_dist.keys()) | set(original_dist.keys())
+    kl_sum = 0.0
+    for token in all_tokens:
+        p = transformed_dist.get(token, smoothing)
+        q = original_dist.get(token, smoothing)
+        kl_sum += p * math.log(p / q)
+    return float(kl_sum)
 
 
 def explanations_from_ranked_prescriptions(path: Path | None) -> str:
@@ -591,24 +696,15 @@ def transformed_with_original_replacements_html(original_text: str, transformed_
 
 
 def seed_selection_data() -> None:
-    legacy_scores = load_json(LEGACY_SURVEY_SCORES_PATH)
-    legacy_snippets = load_text(LEGACY_SNIPPETS_PATH, "")
-    legacy_chat_output = load_text(LEGACY_CHAT_OUTPUT_PATH, "")
     for model in MODEL_OPTIONS:
         for scenario in SCENARIO_OPTIONS:
             paths = selection_paths(model, scenario)
-            if not paths["survey_scores"].exists() and legacy_scores:
-                save_json(paths["survey_scores"], legacy_scores)
             if not paths["rules"].exists():
                 scenario_legacy = RULES_DIR / f"{scenario}_rules.txt"
                 rules_seed = load_text(scenario_legacy, "")
                 if not rules_seed:
                     rules_seed = load_text(LEGACY_RULES_PATH, "")
                 save_text(paths["rules"], rules_seed)
-            if not paths["snippets"].exists():
-                save_text(paths["snippets"], legacy_snippets)
-            if not paths["chat_output"].exists():
-                save_text(paths["chat_output"], legacy_chat_output)
 
 
 def resolve_logo_src(preferred_name: str, fallback_url: str) -> str:
@@ -686,6 +782,25 @@ def run_phase2_transform(model: str, scenario: str, rules_path: Path | None = No
     return False, f"Transform failed (exit {proc.returncode}).\n{detail}"
 
 
+def clear_phase2_output_for_selection(model: str, scenario: str) -> None:
+    problem = phase2_problem_for_scenario(scenario)
+    model_dir = sanitize_model_for_phase2(model)
+    target = BASE_DIR / "output" / "phase2" / model_dir / problem
+    if target.exists():
+        shutil.rmtree(target)
+
+
+def clear_rerun_inputs_for_selection(model: str, scenario: str) -> None:
+    save_text(INPUT_STORY_PATH, "")
+    problem = phase2_problem_for_scenario(scenario)
+    model_dir = sanitize_model_for_phase2(model)
+    input_path = BASE_DIR / "output" / "phase2" / model_dir / problem / "input"
+    if input_path.is_dir():
+        shutil.rmtree(input_path)
+    elif input_path.exists():
+        input_path.unlink()
+
+
 def render() -> None:
     ensure_dirs()
     seed_selection_data()
@@ -734,7 +849,7 @@ def render() -> None:
             clip-path: polygon(0 0, 88% 0, 100% 50%, 88% 100%, 0 100%, 10% 50%);
             padding-left: 10px;
             padding-right: 10px;
-            font-weight: 900;
+            font-weight: 900 !important;
             display: block;
             margin: 0 auto;
             width: 100%;
@@ -786,9 +901,10 @@ def render() -> None:
         }
         div[data-testid="stMultiSelect"] div[data-baseweb="select"] > div {
             overflow-x: auto;
-            overflow-y: hidden;
+            overflow-y: auto;
             white-space: nowrap;
-            min-height: 96px;
+            min-height: 72px;
+            max-height: 130px;
             font-size: 15px;
             border-radius: 12px !important;
             background: var(--box-bg);
@@ -838,11 +954,11 @@ def render() -> None:
             box-shadow: var(--box-shadow);
         }
         .story-box.original-box {
-            height: 215px;
+            height: 185px;
             width: 100%;
         }
         .story-box.transformed-box {
-            height: 680px !important;
+            height: 560px !important;
             width: 100% !important;
             max-width: none;
             margin: 0;
@@ -875,7 +991,29 @@ def render() -> None:
             line-height: 1.1;
         }
         div[data-testid="stMetricLabel"] {
-            font-size: 0.9rem;
+            font-size: 0.78rem !important;
+            white-space: normal !important;
+            line-height: 1.2;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+            min-height: 2.1em;
+        }
+        div[data-testid="stMetricLabel"] > div {
+            white-space: normal !important;
+        }
+        div[data-testid="stMetricLabel"] * {
+            white-space: normal !important;
+            overflow: visible !important;
+            text-overflow: unset !important;
+            word-break: break-word !important;
+            overflow-wrap: anywhere !important;
+            display: block;
+        }
+        div[data-testid="stMetricLabel"] p {
+            white-space: pre-line !important;
+            overflow: visible !important;
+            text-overflow: clip !important;
+            margin: 0;
         }
         div[data-testid="stMetric"] {
             border: 1px solid var(--su-border);
@@ -884,12 +1022,37 @@ def render() -> None:
             box-shadow: var(--box-shadow);
             padding: 8px 10px;
         }
+        .metric-card {
+            border: 1px solid var(--su-border);
+            border-radius: 12px;
+            background: var(--box-bg);
+            box-shadow: var(--box-shadow);
+            padding: 9px 16px;
+            min-height: 104px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .metric-card .metric-label {
+            font-size: 0.78rem;
+            line-height: 1.2;
+            color: #1f1f1f;
+            white-space: normal;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+        .metric-card .metric-value {
+            font-size: 1.55rem;
+            line-height: 1.1;
+            font-weight: 600;
+            color: #1f1f1f;
+        }
         div[data-testid="stMarkdownContainer"] p {
             margin-bottom: 0.35rem;
         }
         .uni-logo-strip {
             position: fixed;
-            right: 16px;
+            left: 16px;
             bottom: 16px;
             z-index: 9999;
             display: flex;
@@ -902,39 +1065,37 @@ def render() -> None:
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
         }
         .uni-logo-strip img {
-            height: 34px;
+            height: 26px;
             width: auto;
             object-fit: contain;
             display: block;
         }
         h1 {
             text-align: center;
+            font-size: clamp(1.9rem, 2.9vw, 2.6rem) !important;
+            line-height: 1.15;
+            white-space: nowrap;
         }
         </style>
         """,
         unsafe_allow_html=True,
     )
-    st.title("NARRATE: Neurosymbolic Abductive Reasoning for Reframing Texts")
-
     # Non-destructive setup: ensure files exist but preserve content.
     ensure_additional_survey_files_exist()
 
-    if "cleared_inputs_on_start" not in st.session_state:
-        save_text(ADDITIONAL_Q_PATH, "")
-        save_text(ADDITIONAL_RULES_PATH, "")
-        # Clear persisted transformed-story logs from prior app runs.
-        for model_name in MODEL_OPTIONS:
-            for scenario_name in SCENARIO_OPTIONS:
-                save_text(selection_paths(model_name, scenario_name)["chat_output"], "")
-        st.session_state.cleared_inputs_on_start = True
     if "hide_transformed_text" not in st.session_state:
         st.session_state.hide_transformed_text = False
 
-    saved_additional = load_text(ADDITIONAL_Q_PATH, "")
-    col1, col2, col3 = st.columns([2, 2, 1.25], gap="medium")
+    saved_additional = st.session_state.get("additional_questions", "")
+    st.title("NARRATE: Neurosymbolic Abductive Reasoning for Reframing Texts")
+    col1, col2, col3 = st.columns([2, 2, 1.5], gap="medium")
 
     with col1:
         top_left, top_right = st.columns([1.4, 1], gap="small")
+        with top_right:
+            model = st.selectbox("Model", MODEL_OPTIONS)
+            scenario = st.selectbox("Scenario", SCENARIO_OPTIONS)
+        clear_rerun_inputs_for_selection(model, scenario)
         with top_left:
             story_upload = st.file_uploader(
                 "Upload Input Story",
@@ -946,9 +1107,6 @@ def render() -> None:
             if story_upload is not None:
                 story_default = story_upload.getvalue().decode("utf-8", errors="ignore")
                 save_text(INPUT_STORY_PATH, story_default.strip() + "\n")
-        with top_right:
-            model = st.selectbox("Model", MODEL_OPTIONS)
-            scenario = st.selectbox("Scenario", SCENARIO_OPTIONS)
         original_col, action_col = st.columns([3.7, 1.3], gap="small")
         with original_col:
             st.markdown("Original Story")
@@ -958,7 +1116,7 @@ def render() -> None:
             )
         with action_col:
             st.markdown("<div class='transform-cell-spacer'></div>", unsafe_allow_html=True)
-            send_clicked = st.button("Transform", use_container_width=True)
+            send_clicked = st.button("**Transform**", use_container_width=True)
         selected_paths = selection_paths(model, scenario)
 
         rules_text = load_text(selected_paths["pyreason_rules"], "")
@@ -972,47 +1130,57 @@ def render() -> None:
         )
         selected_rules = [rule_options[label] for label in selected_rule_labels]
         selected_rules_text = "\n".join(selected_rules)
-        st.text_area("Selected Rules", value=selected_rules_text, height=150, disabled=True)
+        st.text_area("Selected Rules", value=selected_rules_text, height=120, disabled=True)
 
         if selected_rules_text:
             save_text(selected_paths["selected_rules"], selected_rules_text + "\n")
         else:
             save_text(selected_paths["selected_rules"], "")
 
-    scenario_survey_path = survey_questions_path_for_scenario(scenario)
-    if scenario_survey_path.exists():
-        questions_data = load_json(scenario_survey_path)
-        active_survey_path = scenario_survey_path
-    else:
-        questions_data = load_json(SURVEY_QUESTIONS_PATH)
-        active_survey_path = SURVEY_QUESTIONS_PATH
-    scores_data = load_json(selected_paths["survey_scores"])
+    questions_for_display = display_questions_for_scenario(scenario)
     original_survey_json = find_phase2_iteration_survey(model, scenario, 0)
     optimal_iteration = find_optimal_iteration_for_dashboard(model, scenario)
     transformed_survey_json = find_phase2_iteration_survey(model, scenario, optimal_iteration)
+    current_input_story = load_text(INPUT_STORY_PATH, "").strip()
+    surveys_available = bool(current_input_story and original_survey_json and transformed_survey_json)
     original_story_score = (
-        median_from_survey_json(original_survey_json)
-        if original_survey_json
-        else get_score(scores_data, "original_story")
+        median_from_survey_json(original_survey_json) if surveys_available else "N/A"
     )
     transformed_story_score = (
-        median_from_survey_json(transformed_survey_json)
-        if transformed_survey_json
-        else get_score(scores_data, "transformed_story")
+        median_from_survey_json(transformed_survey_json) if surveys_available else "N/A"
     )
+    extended_scores = st.session_state.get("extended_survey_scores")
+    if (
+        surveys_available
+        and isinstance(extended_scores, dict)
+        and extended_scores.get("model") == model
+        and extended_scores.get("scenario") == scenario
+    ):
+        original_story_score = extended_scores.get("original_score", original_story_score)
+        transformed_story_score = extended_scores.get("transformed_score", transformed_story_score)
+    transformed_story_path = find_phase2_iteration_file(model, scenario, optimal_iteration, "story_transformed.txt")
+    transformed_story_for_divergence = load_text(transformed_story_path, "").strip() if transformed_story_path else ""
+    original_story_for_divergence = load_text(INPUT_STORY_PATH, "").strip()
+    kl_divergence = (
+        kl_transformed_vs_original(
+            transformed_story_for_divergence,
+            original_story_for_divergence,
+        )
+        if surveys_available
+        else None
+    )
+    similarity_score = f"{kl_divergence:.4f}" if kl_divergence is not None else "N/A"
 
     with col2:
         current_story_text = load_text(INPUT_STORY_PATH, "")
         if send_clicked and current_story_text.strip():
-            save_text(selected_paths["chat_output"], "")
+            clear_phase2_output_for_selection(model, scenario)
+            save_text(INPUT_STORY_PATH, current_story_text.strip() + "\n")
             rules_input_path = selected_paths["selected_rules"] if selected_rules_text else selected_paths["pyreason_rules"]
             ok, response = run_phase2_transform(model, scenario, rules_path=rules_input_path)
-            status = "OK" if ok else "ERROR"
-            save_text(
-                selected_paths["chat_output"],
-                f"Model: {model} | Scenario: {scenario}\nStatus: {status}\nResponse: {response}\n",
-            )
             st.session_state.hide_transformed_text = False
+            if not ok:
+                st.error(response)
             st.rerun()
 
         st.markdown("Transformed Story")
@@ -1039,13 +1207,26 @@ def render() -> None:
 
     with col3:
         score1, score2, score3 = st.columns(3, gap="small")
-        score1.metric("Original", original_story_score)
-        score2.metric("Transformed", transformed_story_score)
-        score3.metric("Similarity", "100%")
+        original_score_display = format_score_one_decimal(original_story_score)
+        transformed_score_display = format_score_one_decimal(transformed_story_score)
+        similarity_score_display = format_score_one_decimal(similarity_score)
+        score1.markdown(
+            f"<div class='metric-card'><div class='metric-label'>Original Survey<br>Score</div><div class='metric-value'>{original_score_display}</div></div>",
+            unsafe_allow_html=True,
+        )
+        score2.markdown(
+            f"<div class='metric-card'><div class='metric-label'>Transformed Story<br>Score</div><div class='metric-value'>{transformed_score_display}</div></div>",
+            unsafe_allow_html=True,
+        )
+        score3.markdown(
+            f"<div class='metric-card'><div class='metric-label'>Semantic<br>Similarity</div><div class='metric-value'>{similarity_score_display}</div></div>",
+            unsafe_allow_html=True,
+        )
 
-        questions = get_questions(questions_data)
-        questions_text = "\n\n".join(f"{i + 1}. {q}" for i, q in enumerate(questions)) if questions else "No survey questions found in JSON."
-        st.text_area("Survey", value=questions_text, height=430, disabled=True)
+        questions_text = "\n\n".join(
+            f"{i + 1}. {q}" for i, q in enumerate(questions_for_display)
+        ) if questions_for_display else "No survey questions found in JSON."
+        st.text_area("Survey", value=questions_text, height=340, disabled=True)
 
         additional_q = st.text_area(
             "Add Survey Questions",
@@ -1057,12 +1238,34 @@ def render() -> None:
         if st.button("Extend Survey", use_container_width=True):
             additional_survey_path = additional_survey_path_for_scenario(scenario)
             added_count = append_additional_survey_json(additional_q, scenario, additional_survey_path)
-            append_questions_to_input_txt(additional_q)
             if added_count > 0:
-                st.success(
-                    f"Appended {added_count} question block(s) to {additional_survey_path.relative_to(BASE_DIR)} "
-                    "and additional_survey_questions.txt"
-                )
+                if transformed_text.strip() and transformed_text != "No transformed story found.":
+                    try:
+                        recomputed_original, recomputed_transformed, run_cost = recompute_scores_with_extended_survey(
+                            model=model,
+                            scenario=scenario,
+                            original_text=original_text,
+                            transformed_text=transformed_text,
+                        )
+                        st.session_state["extended_survey_scores"] = {
+                            "model": model,
+                            "scenario": scenario,
+                            "original_score": recomputed_original,
+                            "transformed_score": recomputed_transformed,
+                            "cost": run_cost,
+                        }
+                        st.success(
+                            f"Appended {added_count} question block(s) to {additional_survey_path.relative_to(BASE_DIR)} "
+                            f"and recomputed scores (cost: ${run_cost:.4f})."
+                        )
+                    except Exception as e:
+                        st.warning(
+                            f"Questions were saved, but score recomputation failed: {e}"
+                        )
+                else:
+                    st.warning(
+                        "Questions were saved, but no transformed story was found to recompute scores."
+                    )
                 st.rerun()
             else:
                 st.warning("No non-empty questions to append.")
@@ -1081,13 +1284,21 @@ def render() -> None:
       <text x='110' y='50' text-anchor='middle' font-size='12' font-family='Arial, sans-serif' fill='white'>ARIZONA STATE UNIVERSITY</text>
     </svg>
     """
+    leibniz_fallback_svg = """
+    <svg xmlns='http://www.w3.org/2000/svg' width='220' height='70' viewBox='0 0 220 70'>
+      <rect width='220' height='70' rx='10' fill='#1C3B6B'/>
+      <text x='110' y='42' text-anchor='middle' font-size='22' font-family='Arial, sans-serif' fill='white' font-weight='700'>LEIBNIZ</text>
+    </svg>
+    """
     syracuse_logo = resolve_logo_src("syracuse_logo.png", svg_to_data_uri(syracuse_fallback_svg))
     asu_logo = resolve_logo_src("asu_logo.png", svg_to_data_uri(asu_fallback_svg))
+    leibniz_logo = resolve_logo_src("leibniz.jpeg", svg_to_data_uri(leibniz_fallback_svg))
     st.markdown(
         f"""
         <div class="uni-logo-strip">
             <img src="{syracuse_logo}" alt="Syracuse University logo" />
             <img src="{asu_logo}" alt="Arizona State University logo" />
+            <img src="{leibniz_logo}" alt="Leibniz logo" />
         </div>
         """,
         unsafe_allow_html=True,
