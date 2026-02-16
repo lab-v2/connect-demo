@@ -1,0 +1,113 @@
+{
+  "model": "gpt-4o",
+  "total_stories_processed": 14,
+  "total_tokens": {
+    "input": 19876,
+    "output": 18186,
+    "total": 38062
+  },
+  "total_cost_usd": 0.23155,
+  "per_story_breakdown": [
+    {
+      "story_name": "harrison_ford_step_1",
+      "input_tokens": 1316,
+      "output_tokens": 1222,
+      "cost_usd": 0.01551,
+      "timestamp": "2026-02-16T18:50:22.539009"
+    },
+    {
+      "story_name": "harrison_ford_step_2",
+      "input_tokens": 1346,
+      "output_tokens": 1233,
+      "cost_usd": 0.015695,
+      "timestamp": "2026-02-16T18:50:32.435229"
+    },
+    {
+      "story_name": "harrison_ford_step_3",
+      "input_tokens": 1357,
+      "output_tokens": 1243,
+      "cost_usd": 0.015823,
+      "timestamp": "2026-02-16T18:50:41.707654"
+    },
+    {
+      "story_name": "harrison_ford_step_4",
+      "input_tokens": 1376,
+      "output_tokens": 1261,
+      "cost_usd": 0.01605,
+      "timestamp": "2026-02-16T18:50:56.111031"
+    },
+    {
+      "story_name": "harrison_ford_step_5",
+      "input_tokens": 1397,
+      "output_tokens": 1282,
+      "cost_usd": 0.016313,
+      "timestamp": "2026-02-16T18:51:13.018043"
+    },
+    {
+      "story_name": "harrison_ford_step_6",
+      "input_tokens": 1422,
+      "output_tokens": 1293,
+      "cost_usd": 0.016485,
+      "timestamp": "2026-02-16T18:51:20.025115"
+    },
+    {
+      "story_name": "harrison_ford_step_7",
+      "input_tokens": 1423,
+      "output_tokens": 1310,
+      "cost_usd": 0.016658,
+      "timestamp": "2026-02-16T18:51:30.143570"
+    },
+    {
+      "story_name": "harrison_ford_step_8",
+      "input_tokens": 1438,
+      "output_tokens": 1295,
+      "cost_usd": 0.016545,
+      "timestamp": "2026-02-16T18:51:37.312383"
+    },
+    {
+      "story_name": "harrison_ford_step_9",
+      "input_tokens": 1422,
+      "output_tokens": 1296,
+      "cost_usd": 0.016515,
+      "timestamp": "2026-02-16T18:51:42.985546"
+    },
+    {
+      "story_name": "harrison_ford_step_10",
+      "input_tokens": 1435,
+      "output_tokens": 1311,
+      "cost_usd": 0.016698,
+      "timestamp": "2026-02-16T18:51:50.502262"
+    },
+    {
+      "story_name": "harrison_ford_step_11",
+      "input_tokens": 1451,
+      "output_tokens": 1340,
+      "cost_usd": 0.017028,
+      "timestamp": "2026-02-16T18:52:03.103507"
+    },
+    {
+      "story_name": "harrison_ford_step_12",
+      "input_tokens": 1492,
+      "output_tokens": 1357,
+      "cost_usd": 0.0173,
+      "timestamp": "2026-02-16T18:52:13.102135"
+    },
+    {
+      "story_name": "harrison_ford_step_13",
+      "input_tokens": 1493,
+      "output_tokens": 1359,
+      "cost_usd": 0.017323,
+      "timestamp": "2026-02-16T18:52:24.064666"
+    },
+    {
+      "story_name": "harrison_ford_step_14",
+      "input_tokens": 1508,
+      "output_tokens": 1384,
+      "cost_usd": 0.01761,
+      "timestamp": "2026-02-16T18:52:41.942883"
+    }
+  ],
+  "k_features": 5,
+  "n_segments": 14,
+  "successful_transformations": 14
+}

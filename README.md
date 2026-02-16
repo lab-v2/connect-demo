@@ -23,10 +23,10 @@ python3 gui_app.py
 ## Data Layout
 
 - `data/survey/survey_questions.json` (universal across all model/scenario selections)
-- `data/survey_scores/<model_key>/<scenario>/survey_scores.json`
 - `data/rules/<model_key>/<scenario>/rules_fired.txt`
 - `data/intermediate_output/<model_key>/<scenario>/snippets.txt`
 - `data/output/<model_key>/<scenario>/chat_output.log`
+- `output/phase2/<model>/<problem>/<story>/iteration_*/survey.json` (phase outputs used for scoring)
 - `data/input/` (reserved for input files)
 
 ## Logos

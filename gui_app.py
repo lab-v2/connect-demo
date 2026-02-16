@@ -105,7 +105,7 @@ class ConnectDemoGUI:
         send_button = ttk.Button(controls, text="Send", command=self._append_chat)
         send_button.grid(row=0, column=4, padx=(12, 0))
 
-        ttk.Label(parent, text="Transformed Story").grid(row=3, column=0, sticky="sw")
+        ttk.Label(parent, text="Reframed Text").grid(row=3, column=0, sticky="sw")
         self.chat_output = tk.Text(parent, wrap="word", state="disabled")
         self.chat_output.grid(row=4, column=0, sticky="nsew")
         parent.rowconfigure(4, weight=1)
@@ -119,7 +119,7 @@ class ConnectDemoGUI:
         self.additional_q = tk.Text(parent, height=8, wrap="word")
         self.additional_q.grid(row=1, column=0, sticky="nsew", pady=(2, 8), padx=(0, 8))
 
-        score_frame = ttk.LabelFrame(parent, text="Original Story Score", padding=10)
+        score_frame = ttk.LabelFrame(parent, text="Original Text Score", padding=10)
         score_frame.grid(row=1, column=1, sticky="nsew", pady=(2, 8))
         score_val = self.data_a.get("original_story", self.data_a.get("survey_score", "N/A"))
         self.primary_score_var = tk.StringVar(value=str(score_val))
@@ -139,7 +139,7 @@ class ConnectDemoGUI:
         self.questions_box.configure(yscrollcommand=q_scroll.set)
         self._load_questions()
 
-        secondary_score_frame = ttk.LabelFrame(parent, text="Transformed Story Score", padding=10)
+        secondary_score_frame = ttk.LabelFrame(parent, text="Reframed Text Score", padding=10)
         secondary_score_frame.grid(row=3, column=0, columnspan=2, sticky="ew")
         secondary_val = self.data_b.get("transformed_story", self.data_b.get("survey_score", "N/A"))
         self.secondary_score_var = tk.StringVar(value=str(secondary_val))

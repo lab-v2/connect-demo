@@ -219,6 +219,12 @@ def sanitize_model_for_phase2(model: str) -> str:
     return model.replace("/", "-").replace(":", "-")
 
 
+def sanitize_story_name(name: str) -> str:
+    cleaned = re.sub(r"[^A-Za-z0-9._-]+", "_", name.strip())
+    cleaned = cleaned.strip("._-")
+    return cleaned or "input"
+
+
 def survey_questions_path_for_scenario(scenario: str) -> Path:
     scenario_key = scenario.strip().lower()
     return SURVEY_QUESTIONS_DIR / scenario_key / "survey_questions.json"
@@ -313,39 +319,71 @@ def mean_from_survey_json(path: Path | None) -> float | None:
     return sum(ratings) / len(ratings)
 
 
-def find_phase2_iteration_survey(model: str, scenario: str, iteration: int) -> Path | None:
+def find_phase2_iteration_survey(
+    model: str,
+    scenario: str,
+    iteration: int,
+    story_name: str | None = None,
+) -> Path | None:
     problem = phase2_problem_for_scenario(scenario)
     model_dir = sanitize_model_for_phase2(model)
     base = BASE_DIR / "output" / "phase2" / model_dir / problem
+
+    if story_name:
+        preferred = base / story_name / f"iteration_{iteration}" / "survey.json"
+        if preferred.exists():
+            return preferred
 
     direct = base / f"iteration_{iteration}" / "survey.json"
     if direct.exists():
         return direct
 
-    candidates = sorted(base.glob(f"*/iteration_{iteration}/survey.json"))
+    pattern = f"{story_name}/iteration_{iteration}/survey.json" if story_name else f"*/iteration_{iteration}/survey.json"
+    candidates = sorted(base.glob(pattern))
+    if not candidates and story_name:
+        candidates = sorted(base.glob(f"*/iteration_{iteration}/survey.json"))
     if not candidates:
         return None
     candidates.sort(key=lambda p: p.stat().st_mtime, reverse=True)
     return candidates[0]
 
 
-def find_phase2_iteration_file(model: str, scenario: str, iteration: int, filename: str) -> Path | None:
+def find_phase2_iteration_file(
+    model: str,
+    scenario: str,
+    iteration: int,
+    filename: str,
+    story_name: str | None = None,
+) -> Path | None:
     problem = phase2_problem_for_scenario(scenario)
     model_dir = sanitize_model_for_phase2(model)
     base = BASE_DIR / "output" / "phase2" / model_dir / problem
+
+    if story_name:
+        preferred = base / story_name / f"iteration_{iteration}" / filename
+        if preferred.exists():
+            return preferred
 
     direct = base / f"iteration_{iteration}" / filename
     if direct.exists():
         return direct
 
-    candidates = sorted(base.glob(f"*/iteration_{iteration}/{filename}"))
+    pattern = f"{story_name}/iteration_{iteration}/{filename}" if story_name else f"*/iteration_{iteration}/{filename}"
+    candidates = sorted(base.glob(pattern))
+    if not candidates and story_name:
+        candidates = sorted(base.glob(f"*/iteration_{iteration}/{filename}"))
     if not candidates:
         return None
     candidates.sort(key=lambda p: p.stat().st_mtime, reverse=True)
     return candidates[0]
 
 
-def find_optimal_iteration_for_dashboard(model: str, scenario: str, max_scan: int = 20) -> int:
+def find_optimal_iteration_for_dashboard(
+    model: str,
+    scenario: str,
+    max_scan: int = 20,
+    story_name: str | None = None,
+) -> int:
     """
     Choose optimal iteration using the same objective as find_optimal_iteration.py:
       - forward: minimum mean rating
@@ -353,7 +391,7 @@ def find_optimal_iteration_for_dashboard(model: str, scenario: str, max_scan: in
     """
     scored: dict[int, float] = {}
     for i in range(max_scan):
-        survey_path = find_phase2_iteration_survey(model, scenario, i)
+        survey_path = find_phase2_iteration_survey(model, scenario, i, story_name=story_name)
         mean_val = mean_from_survey_json(survey_path)
         if mean_val is not None:
             scored[i] = mean_val
@@ -367,8 +405,14 @@ def find_optimal_iteration_for_dashboard(model: str, scenario: str, max_scan: in
     return max(scored, key=scored.get)
 
 
-def transformed_story_text(model: str, scenario: str, iteration: int = 2) -> str:
-    story_path = find_phase2_iteration_file(model, scenario, iteration, "story_transformed.txt")
+def transformed_story_text(model: str, scenario: str, iteration: int = 2, story_name: str | None = None) -> str:
+    story_path = find_phase2_iteration_file(
+        model,
+        scenario,
+        iteration,
+        "story_transformed.txt",
+        story_name=story_name,
+    )
     if not story_path:
         return "No transformed story found."
     text = load_text(story_path, "").strip()
@@ -455,6 +499,20 @@ def kl_transformed_vs_original(transformed_text: str, original_text: str, smooth
         q = original_dist.get(token, smoothing)
         kl_sum += p * math.log(p / q)
     return float(kl_sum)
+
+
+def bertscore_ab_f1(transformed_text: str, original_text: str) -> float | None:
+    if not transformed_text.strip() or not original_text.strip():
+        return None
+    try:
+        from src.bertscore_analysis import compute_bertscore
+
+        _precision, _recall, f1 = compute_bertscore(original_text, transformed_text)
+        if f1 is None:
+            return None
+        return float(f1)
+    except Exception:
+        return None
 
 
 def explanations_from_ranked_prescriptions(path: Path | None) -> str:
@@ -734,8 +792,14 @@ def svg_to_data_uri(svg: str) -> str:
     return f"data:image/svg+xml;base64,{encoded}"
 
 
-def run_phase2_transform(model: str, scenario: str, rules_path: Path | None = None) -> tuple[bool, str]:
+def run_phase2_transform(
+    model: str,
+    scenario: str,
+    rules_path: Path | None = None,
+    story_path: Path | None = None,
+) -> tuple[bool, str]:
     problem = phase2_problem_for_scenario(scenario)
+    effective_story_path = story_path or INPUT_STORY_PATH
     if rules_path is None:
         scenario_dir = "individualistic" if problem == "forward" else "collectivistic"
         rules_path = RULES_DIR / slugify_model(model) / scenario_dir / "pyreason_rules.txt"
@@ -757,11 +821,11 @@ def run_phase2_transform(model: str, scenario: str, rules_path: Path | None = No
         "--rules",
         str(rules_path),
         "--story",
-        str(INPUT_STORY_PATH),
+        str(effective_story_path),
         "--max-iterations",
-        "2",
-        "--top-k",
         "3",
+        "--top-k",
+        "5",
     ]
     proc = subprocess.run(
         cmd,
@@ -799,6 +863,28 @@ def clear_rerun_inputs_for_selection(model: str, scenario: str) -> None:
         shutil.rmtree(input_path)
     elif input_path.exists():
         input_path.unlink()
+
+
+def clear_outputs_on_selection_change(model: str, scenario: str) -> None:
+    """
+    Clear only when the active model/scenario selection changes.
+    Prevents wiping fresh outputs on normal Streamlit reruns.
+    """
+    prev_model = st.session_state.get("_active_model")
+    prev_scenario = st.session_state.get("_active_scenario")
+
+    if prev_model is None or prev_scenario is None:
+        st.session_state["_active_model"] = model
+        st.session_state["_active_scenario"] = scenario
+        return
+
+    if prev_model != model or prev_scenario != scenario:
+        clear_rerun_inputs_for_selection(model, scenario)
+        st.session_state.hide_transformed_text = False
+        st.session_state.pop("extended_survey_scores", None)
+
+    st.session_state["_active_model"] = model
+    st.session_state["_active_scenario"] = scenario
 
 
 def render() -> None:
@@ -845,7 +931,7 @@ def render() -> None:
             border-color: #ddab88;
             color: #4d2f1f;
         }
-        .stButton > button[aria-label="Transform"] {
+        .stButton > button[aria-label="Reframe"] {
             clip-path: polygon(0 0, 88% 0, 100% 50%, 88% 100%, 0 100%, 10% 50%);
             padding-left: 10px;
             padding-right: 10px;
@@ -970,16 +1056,17 @@ def render() -> None:
             border-radius: 2px;
         }
         .story-box mark.diff {
-            background: #f4c9d8;
+            background: #f7e4be;
         }
         .story-box mark.both {
-            background: #ecd3c4;
+            background: #f1d8a4;
         }
         .replacement-original {
             color: #1f1f1f;
             font-family: "Georgia", "Times New Roman", serif;
             font-style: italic;
-            background: transparent;
+            background: #f7d8c2;
+            box-shadow: inset 0 -1px 0 #dfb89d;
             border-radius: 2px;
             padding: 0 2px;
         }
@@ -1085,6 +1172,10 @@ def render() -> None:
 
     if "hide_transformed_text" not in st.session_state:
         st.session_state.hide_transformed_text = False
+    if "active_story_path" not in st.session_state:
+        st.session_state.active_story_path = str(INPUT_STORY_PATH)
+    if "active_story_name" not in st.session_state:
+        st.session_state.active_story_name = INPUT_STORY_PATH.stem
 
     saved_additional = st.session_state.get("additional_questions", "")
     st.title("NARRATE: Neurosymbolic Abductive Reasoning for Reframing Texts")
@@ -1095,7 +1186,7 @@ def render() -> None:
         with top_right:
             model = st.selectbox("Model", MODEL_OPTIONS)
             scenario = st.selectbox("Scenario", SCENARIO_OPTIONS)
-        clear_rerun_inputs_for_selection(model, scenario)
+        clear_outputs_on_selection_change(model, scenario)
         with top_left:
             story_upload = st.file_uploader(
                 "Upload Input Story",
@@ -1103,20 +1194,34 @@ def render() -> None:
                 key="story_file",
                 label_visibility="collapsed",
             )
-            story_default = load_text(INPUT_STORY_PATH, "")
+            active_story_path = Path(st.session_state.get("active_story_path", str(INPUT_STORY_PATH)))
             if story_upload is not None:
-                story_default = story_upload.getvalue().decode("utf-8", errors="ignore")
-                save_text(INPUT_STORY_PATH, story_default.strip() + "\n")
+                uploaded_story_name = sanitize_story_name(Path(story_upload.name).stem)
+                active_story_path = INPUT_DIR / f"{uploaded_story_name}.txt"
+                story_text = story_upload.getvalue().decode("utf-8", errors="ignore").strip() + "\n"
+                save_text(active_story_path, story_text)
+                # Keep input.txt as a compatibility mirror for existing scripts/workflows.
+                save_text(INPUT_STORY_PATH, story_text)
+                st.session_state.active_story_path = str(active_story_path)
+                st.session_state.active_story_name = uploaded_story_name
+            else:
+                active_story_path = INPUT_STORY_PATH
+                st.session_state.active_story_path = str(active_story_path)
+                st.session_state.active_story_name = INPUT_STORY_PATH.stem
+        active_story_path = Path(st.session_state.get("active_story_path", str(INPUT_STORY_PATH)))
+        active_story_name = sanitize_story_name(
+            st.session_state.get("active_story_name", active_story_path.stem)
+        )
         original_col, action_col = st.columns([3.7, 1.3], gap="small")
         with original_col:
-            st.markdown("Original Story")
+            st.markdown("Original Text")
             st.markdown(
-                highlighted_story_html(load_text(INPUT_STORY_PATH, "").strip(), []),
+                highlighted_story_html(load_text(active_story_path, "").strip(), []),
                 unsafe_allow_html=True,
             )
         with action_col:
             st.markdown("<div class='transform-cell-spacer'></div>", unsafe_allow_html=True)
-            send_clicked = st.button("**Transform**", use_container_width=True)
+            send_clicked = st.button("**Reframe**", use_container_width=True)
         selected_paths = selection_paths(model, scenario)
 
         rules_text = load_text(selected_paths["pyreason_rules"], "")
@@ -1138,10 +1243,15 @@ def render() -> None:
             save_text(selected_paths["selected_rules"], "")
 
     questions_for_display = display_questions_for_scenario(scenario)
-    original_survey_json = find_phase2_iteration_survey(model, scenario, 0)
-    optimal_iteration = find_optimal_iteration_for_dashboard(model, scenario)
-    transformed_survey_json = find_phase2_iteration_survey(model, scenario, optimal_iteration)
-    current_input_story = load_text(INPUT_STORY_PATH, "").strip()
+    original_survey_json = find_phase2_iteration_survey(model, scenario, 0, story_name=active_story_name)
+    optimal_iteration = find_optimal_iteration_for_dashboard(model, scenario, story_name=active_story_name)
+    transformed_survey_json = find_phase2_iteration_survey(
+        model,
+        scenario,
+        optimal_iteration,
+        story_name=active_story_name,
+    )
+    current_input_story = load_text(active_story_path, "").strip()
     surveys_available = bool(current_input_story and original_survey_json and transformed_survey_json)
     original_story_score = (
         median_from_survey_json(original_survey_json) if surveys_available else "N/A"
@@ -1158,36 +1268,63 @@ def render() -> None:
     ):
         original_story_score = extended_scores.get("original_score", original_story_score)
         transformed_story_score = extended_scores.get("transformed_score", transformed_story_score)
-    transformed_story_path = find_phase2_iteration_file(model, scenario, optimal_iteration, "story_transformed.txt")
-    transformed_story_for_divergence = load_text(transformed_story_path, "").strip() if transformed_story_path else ""
-    original_story_for_divergence = load_text(INPUT_STORY_PATH, "").strip()
-    kl_divergence = (
-        kl_transformed_vs_original(
-            transformed_story_for_divergence,
-            original_story_for_divergence,
+    transformed_story_path = (
+        find_phase2_iteration_file(
+            model,
+            scenario,
+            optimal_iteration,
+            "story_transformed.txt",
+            story_name=active_story_name,
         )
-        if surveys_available
+        if current_input_story
         else None
     )
-    similarity_score = f"{kl_divergence:.4f}" if kl_divergence is not None else "N/A"
+    transformed_story_for_divergence = load_text(transformed_story_path, "").strip() if transformed_story_path else ""
+    original_story_for_divergence = load_text(active_story_path, "").strip()
+    similarity_value = bertscore_ab_f1(
+        transformed_story_for_divergence,
+        original_story_for_divergence,
+    )
+    similarity_score = f"{similarity_value:.4f}" if similarity_value is not None else "N/A"
 
     with col2:
-        current_story_text = load_text(INPUT_STORY_PATH, "")
+        current_story_text = load_text(active_story_path, "")
         if send_clicked and current_story_text.strip():
             clear_phase2_output_for_selection(model, scenario)
+            save_text(active_story_path, current_story_text.strip() + "\n")
             save_text(INPUT_STORY_PATH, current_story_text.strip() + "\n")
             rules_input_path = selected_paths["selected_rules"] if selected_rules_text else selected_paths["pyreason_rules"]
-            ok, response = run_phase2_transform(model, scenario, rules_path=rules_input_path)
+            ok, response = run_phase2_transform(
+                model,
+                scenario,
+                rules_path=rules_input_path,
+                story_path=active_story_path,
+            )
             st.session_state.hide_transformed_text = False
             if not ok:
                 st.error(response)
             st.rerun()
 
-        st.markdown("Transformed Story")
-        ranked_iter_optimal = find_phase2_iteration_file(model, scenario, optimal_iteration, "ranked_prescriptions.json")
-        highlight_segments_transformed = segments_from_ranked_prescriptions(ranked_iter_optimal)
-        transformed_text = transformed_story_text(model, scenario, optimal_iteration)
-        original_text = load_text(INPUT_STORY_PATH, "").strip()
+        st.markdown("Reframed Text")
+        ranked_iter_optimal = find_phase2_iteration_file(
+            model,
+            scenario,
+            optimal_iteration,
+            "ranked_prescriptions.json",
+            story_name=active_story_name,
+        )
+        original_text = load_text(active_story_path, "").strip()
+        if original_text:
+            highlight_segments_transformed = segments_from_ranked_prescriptions(ranked_iter_optimal)
+            transformed_text = transformed_story_text(
+                model,
+                scenario,
+                optimal_iteration,
+                story_name=active_story_name,
+            )
+        else:
+            highlight_segments_transformed = []
+            transformed_text = ""
         if st.session_state.hide_transformed_text:
             transformed_html = transformed_with_original_replacements_html(original_text, transformed_text)
         else:
@@ -1201,7 +1338,7 @@ def render() -> None:
         st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
         hide_left, hide_mid, hide_right = st.columns([1, 1.2, 1])
         with hide_mid:
-            if st.button("Hide Transformations", key="hide_transform_text", use_container_width=True):
+            if st.button("Hide Changes", key="hide_transform_text", use_container_width=True):
                 st.session_state.hide_transformed_text = not st.session_state.hide_transformed_text
                 st.rerun()
 
@@ -1211,11 +1348,11 @@ def render() -> None:
         transformed_score_display = format_score_one_decimal(transformed_story_score)
         similarity_score_display = format_score_one_decimal(similarity_score)
         score1.markdown(
-            f"<div class='metric-card'><div class='metric-label'>Original Survey<br>Score</div><div class='metric-value'>{original_score_display}</div></div>",
+            f"<div class='metric-card'><div class='metric-label'>Original Survey<br>Score (1-5)</div><div class='metric-value'>{original_score_display}</div></div>",
             unsafe_allow_html=True,
         )
         score2.markdown(
-            f"<div class='metric-card'><div class='metric-label'>Transformed Story<br>Score</div><div class='metric-value'>{transformed_score_display}</div></div>",
+            f"<div class='metric-card'><div class='metric-label'>Reframed Text<br>Score (1-5)</div><div class='metric-value'>{transformed_score_display}</div></div>",
             unsafe_allow_html=True,
         )
         score3.markdown(

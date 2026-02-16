@@ -1,0 +1,226 @@
+{
+  "story_name": "harrison_ford",
+  "total_segments": 22,
+  "prescriptions": [
+    {
+      "rank": 1,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "In the summers, Harrison held various jobs, including work as a tree trimmer, floral delivery boy, and chef aboard private yachts. He initially did not know how to cook, but was taught by a collaborative team of chefs and crew members who shared their knowledge and skills, fostering an environment of mutual learning and support.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 2,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to collaborate with others and create meaningful art together.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 3,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "Harrison started acting in a handful of productions at a local theater, where he found a sense of belonging and camaraderie among a group of passionate actors and directors who worked collaboratively to bring stories to life.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 4,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "Harrison was looking for a community-driven project that could showcase the collective talent of actors and create a shared success story, involving auditions and minor acting roles that would contribute to the lifestyle of a successful actor for everyone involved.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 5,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "After passing on a number of roles over the next few years, Harrison joined a collaborative project with a group of filmmakers and actors led by film director George Lucas, who had become a close friend and supporter after Harrison had built cabinets in his home.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 6,
+      "feature": "personal_ethics_over_group_norms",
+      "segment_text": "He initially did not know how to cook, but was taught by a collaborative team of chefs and crew members who shared their knowledge and skills, fostering an environment of mutual learning and support.",
+      "current_score": 0.5,
+      "target_score": 0.0,
+      "current_rating": 3,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 7,
+      "feature": "personal_ethics_over_group_norms",
+      "segment_text": "Rather than facing this alone, he leaned on his community and accepted a number of roles on and off the big screen (including work as a cameraman) with the support and encouragement of friends and colleagues, who were eager to assist and share opportunities to ensure the well-being of his family.",
+      "current_score": 0.5,
+      "target_score": 0.0,
+      "current_rating": 3,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 8,
+      "feature": "personal_ethics_over_group_norms",
+      "segment_text": "The project captured his full attention due to its emphasis on teamwork and collective creativity.",
+      "current_score": 0.5,
+      "target_score": 0.0,
+      "current_rating": 3,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 9,
+      "feature": "individual_accolades",
+      "segment_text": "Harrison pursued an acting career because he believed it would provide him with opportunities to collaborate with others and create meaningful art together.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.33000000000000007
+    },
+    {
+      "rank": 10,
+      "feature": "individual_accolades",
+      "segment_text": "The collaborative spirit of the productions played a significant role in helping Harrison overcome his fear of public speaking, as the ensemble cast supported one another in developing their love for acting.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.33000000000000007
+    },
+    {
+      "rank": 11,
+      "feature": "individual_accolades",
+      "segment_text": "The vice president proposed an additional six months of training, not as a punishment, but as an opportunity for the collective growth of the ensemble.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.33000000000000007
+    },
+    {
+      "rank": 12,
+      "feature": "individual_accolades",
+      "segment_text": "Harrison was looking for a community-driven project that could showcase the collective talent of actors and create a shared success story.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.33000000000000007
+    },
+    {
+      "rank": 13,
+      "feature": "individual_accolades",
+      "segment_text": "After passing on a number of roles over the next few years, Harrison joined a collaborative project with a group of filmmakers and actors led by film director George Lucas.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.33000000000000007
+    },
+    {
+      "rank": 14,
+      "feature": "individual_accolades",
+      "segment_text": "Lucas later hired Harrison to collaborate with actors auditioning for parts in Star Wars (1977), creating a supportive and dynamic environment that highlighted everyone",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.33000000000000007
+    },
+    {
+      "rank": 15,
+      "feature": "resolution_style",
+      "segment_text": "The studio’s vice president called Harrison into his office after reviewing a copy of the film. He expressed concern about Harrison’s performance, suggesting that the team could benefit from working together to enhance his skills.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.29000000000000004
+    },
+    {
+      "rank": 16,
+      "feature": "vertical_individualism",
+      "segment_text": "Harrison found a sense of belonging and camaraderie among a group of passionate actors and directors who worked collaboratively to bring stories to life.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.25
+    },
+    {
+      "rank": 17,
+      "feature": "vertical_individualism",
+      "segment_text": "He leaned on his community and accepted a number of roles on and off the big screen (including work as a cameraman) with the support and encouragement of friends and colleagues, who were eager to assist and share opportunities to ensure the well-being of his family.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.25
+    },
+    {
+      "rank": 18,
+      "feature": "primary_conflict",
+      "segment_text": "To take the role for American Graffiti (1973), Harrison took a 50 percent pay cut (comparing to his carpentry business). With just a $750,000 budget, the movie grossed over $115 million at the box office nationwide and put Harrison into the spotlight.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.21000000000000002
+    },
+    {
+      "rank": 19,
+      "feature": "relationship_framing",
+      "segment_text": "Growing up, Harrison was part of a tight-knit group of friends who supported one another through the challenges of school life.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.10999999999999999
+    },
+    {
+      "rank": 20,
+      "feature": "relationship_framing",
+      "segment_text": "He became a source of encouragement and assistance, fostering a sense of community among his peers.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.10999999999999999
+    },
+    {
+      "rank": 21,
+      "feature": "relationship_framing",
+      "segment_text": "Rather than facing this alone, he leaned on his community and accepted a number of roles on and off the big screen (including work as a cameraman) with the support and encouragement of friends and colleagues.",
+      "current_score": 0.25,
+      "target_score": 0.0,
+      "current_rating": 4,
+      "target_rating": 5,
+      "confidence_gap": 0.10999999999999999
+    },
+    {
+      "rank": 22,
+      "feature": "protagonist_centered_focus",
+      "segment_text": "He was in the movie for just under one minute, which did not even qualify him to be in the closing credits. Before its release, the studio’s vice president called Harrison into his office after reviewing a copy of the film. He expressed concern about Harrison’s performance, suggesting that the team could benefit from working together to enhance his skills.",
+      "current_score": 0.5,
+      "target_score": 0.25,
+      "current_rating": 3,
+      "target_rating": 4,
+      "confidence_gap": 0.03999999999999998
+    }
+  ]
+}

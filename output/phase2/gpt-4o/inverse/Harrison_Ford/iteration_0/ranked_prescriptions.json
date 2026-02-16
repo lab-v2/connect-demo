@@ -1,0 +1,376 @@
+{
+  "story_name": "harrison_ford",
+  "total_segments": 37,
+  "prescriptions": [
+    {
+      "rank": 1,
+      "feature": "individual_accolades",
+      "segment_text": "Harrison started acting in a handful of productions at a local theater.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.5
+    },
+    {
+      "rank": 2,
+      "feature": "individual_accolades",
+      "segment_text": "One onlooker was a Hollywood composer who insisted Harrison meet with a studio executive at Columbia Pictures.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.5
+    },
+    {
+      "rank": 3,
+      "feature": "individual_accolades",
+      "segment_text": "Lucas later hired Harrison to read lines for actors auditioning for parts in Star Wars (1977).",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.5
+    },
+    {
+      "rank": 4,
+      "feature": "man_vs_self_world_conflict",
+      "segment_text": "Growing up, Harrison was often bullied in school. He was an intelligent student but didn’t apply himself, which resulted in a steady C average.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.46
+    },
+    {
+      "rank": 5,
+      "feature": "man_vs_self_world_conflict",
+      "segment_text": "Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.46
+    },
+    {
+      "rank": 6,
+      "feature": "man_vs_self_world_conflict",
+      "segment_text": "Harrison started acting in a handful of productions at a local theater. The first few productions helped Harrison completely overcome his fear of public speaking, as well as develop his love for acting.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.46
+    },
+    {
+      "rank": 7,
+      "feature": "man_vs_self_world_conflict",
+      "segment_text": "Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.46
+    },
+    {
+      "rank": 8,
+      "feature": "man_vs_self_world_conflict",
+      "segment_text": "Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.46
+    },
+    {
+      "rank": 9,
+      "feature": "primary_conflict",
+      "segment_text": "Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.46
+    },
+    {
+      "rank": 10,
+      "feature": "primary_conflict",
+      "segment_text": "He criticized Harrison’s performance and suggested acting was a waste of his time and efforts. Harrison argued with the vice president and was ultimately punished with an additional six months of training.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.46
+    },
+    {
+      "rank": 11,
+      "feature": "primary_conflict",
+      "segment_text": "After passing on a number of roles over the next few years, one script from film director George Lucas, who hired Harrison to build cabinets in his home, captured his full attention.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.46
+    },
+    {
+      "rank": 12,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "In the summers, Harrison held various jobs, including work as a tree trimmer, floral delivery boy, and chef aboard private yachts. He initially did not know how to cook, but taught himself on the job via books and newspaper columns.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.43
+    },
+    {
+      "rank": 13,
+      "feature": "behavioral_guidance",
+      "segment_text": "As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.42000000000000004
+    },
+    {
+      "rank": 14,
+      "feature": "behavioral_guidance",
+      "segment_text": "Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.42000000000000004
+    },
+    {
+      "rank": 15,
+      "feature": "internal_goals",
+      "segment_text": "However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 16,
+      "feature": "internal_goals",
+      "segment_text": "By the age of twenty-eight, Harrison had two sons and a home that required many repairs, which he had chosen to fix himself.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 17,
+      "feature": "resolution_style",
+      "segment_text": "Harrison argued with the vice president and was ultimately punished with an additional six months of training.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 18,
+      "feature": "resolution_style",
+      "segment_text": "After arguing with the producer, Harrison was abruptly terminated from his contract.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 19,
+      "feature": "resolution_style",
+      "segment_text": "It was because of carpentry that Harrison was able to be more selective with the acting roles he accepted.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 20,
+      "feature": "self_actualization_climax",
+      "segment_text": "Harrison’s talent had surfaced, and he was cast to star as Hans Solo.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 21,
+      "feature": "self_construal",
+      "segment_text": "College did one thing for Harrison, though. During the final semester of his senior year, he enrolled in a drama class and overcame his fear of speaking in front of a live audience.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 22,
+      "feature": "self_construal",
+      "segment_text": "He performed in plays at the Belfry Theater in Wisconsin with his then-girlfriend, Mary. The night before their debut performance, the couple wed in a small ceremony at a local church.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 23,
+      "feature": "self_construal",
+      "segment_text": "Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor. It was because of carpentry that Harrison was able to be more selective with the acting roles he accepted.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 24,
+      "feature": "self_construal",
+      "segment_text": "Lucas later hired Harrison to read lines for actors auditioning for parts in Star Wars (1977). Harrison’s talent had surfaced, and he was cast to star as Hans Solo.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 25,
+      "feature": "uniqueness_self_expression",
+      "segment_text": "After acting for months in consecutive nightly performances, Harrison and his wife set out for Los Angeles, California to make the transition from the acting stage to the movie screen.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 26,
+      "feature": "inner_journey",
+      "segment_text": "He studied carpentry books at the local public library and became skillful, to the point that he sold his carpentry skills to supplement his acting income.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.35000000000000003
+    },
+    {
+      "rank": 27,
+      "feature": "relationship_orientation",
+      "segment_text": "Here is part of his conversation with the producer in charge of his contract:",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.35000000000000003
+    },
+    {
+      "rank": 28,
+      "feature": "decision_driven_plot",
+      "segment_text": "His first well-publicized job was for Brazilian composer-producer Sergio Mendes.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.32
+    },
+    {
+      "rank": 29,
+      "feature": "decision_driven_plot",
+      "segment_text": "To take the role for American Graffiti (1973), Harrison took a 50 percent pay cut (comparing to his carpentry business).",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.32
+    },
+    {
+      "rank": 30,
+      "feature": "personal_ethics_over_group_norms",
+      "segment_text": "Harrison returned to his hometown with student loans and no degree.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.32
+    },
+    {
+      "rank": 31,
+      "feature": "moral_emphasis",
+      "segment_text": "Growing up, Harrison was often bullied in school.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.21000000000000002
+    },
+    {
+      "rank": 32,
+      "feature": "moral_emphasis",
+      "segment_text": "Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies...",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.21000000000000002
+    },
+    {
+      "rank": 33,
+      "feature": "moral_emphasis",
+      "segment_text": "Harrison signed a seven-year contract with Columbia Pictures to work as a contract player.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.21000000000000002
+    },
+    {
+      "rank": 34,
+      "feature": "relationship_framing",
+      "segment_text": "Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor. However, Harrison was a father with a family to take care of.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.18
+    },
+    {
+      "rank": 35,
+      "feature": "relationship_framing",
+      "segment_text": "He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.18
+    },
+    {
+      "rank": 36,
+      "feature": "protagonist_centered_focus",
+      "segment_text": "He performed in plays at the Belfry Theater in Wisconsin with his then-girlfriend, Mary.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.10999999999999999
+    },
+    {
+      "rank": 37,
+      "feature": "protagonist_centered_focus",
+      "segment_text": "Harrison and his wife set out for Los Angeles, California to make the transition from the acting stage to the movie screen.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.10999999999999999
+    }
+  ]
+}

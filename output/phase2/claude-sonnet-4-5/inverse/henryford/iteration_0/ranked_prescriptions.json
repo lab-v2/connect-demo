@@ -1,0 +1,196 @@
+{
+  "story_name": "input",
+  "total_segments": 19,
+  "prescriptions": [
+    {
+      "rank": 1,
+      "feature": "relationship_orientation",
+      "segment_text": "Henry",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.47000000000000003
+    },
+    {
+      "rank": 2,
+      "feature": "relationship_orientation",
+      "segment_text": "At age sixteen, Henry left the family farm for Detroit and found work as a machinist, where he operated and serviced steam engines.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.47000000000000003
+    },
+    {
+      "rank": 3,
+      "feature": "relationship_orientation",
+      "segment_text": "After many disagreements with his business partners, Henry left the company, which was renamed the Cadillac Motor Car Company.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.47000000000000003
+    },
+    {
+      "rank": 4,
+      "feature": "relationship_orientation",
+      "segment_text": "At forty-five years old, Henry",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.47000000000000003
+    },
+    {
+      "rank": 5,
+      "feature": "behavioral_guidance",
+      "segment_text": "However, the automobiles produced were of a lower quality and higher price than Henry wanted. After many disagreements with his business partners, Henry left the company.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.43000000000000005
+    },
+    {
+      "rank": 6,
+      "feature": "decision_driven_plot",
+      "segment_text": "Encouraged by Edison, Henry designed and built a second vehicle, which he completed in 1898.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 7,
+      "feature": "decision_driven_plot",
+      "segment_text": "A year later, Henry formed the Ford Motor Company with $28,000 in capital. He released a new car every few months, beginning with the Model A and making his way through the alphabet.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 8,
+      "feature": "self_reliance",
+      "segment_text": "On call twenty-four hours a day, Henry spent irregular hours working on his side efforts to build a gasoline-powered horseless carriage, which he completed in 1896 and named the Ford Quadricycle.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 9,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "From an early age, Henry was fascinated with machinery.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 10,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "Encouraged by Edison, Henry designed and built a second vehicle, which he completed in 1898. Backed by the capital of Detroit lumber baron William H. Murphy, Henry resigned from the Edison Illuminating Company and founded the Detroit Automobile Company.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 11,
+      "feature": "resolution_style",
+      "segment_text": "However, the automobiles produced were of a lower quality and higher price than Henry wanted. After many disagreements with his business partners, Henry left the company, which was renamed the Cadillac Motor Car Company.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 12,
+      "feature": "self_actualization_climax",
+      "segment_text": "Henry immediately saw the potential of what a",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.35000000000000003
+    },
+    {
+      "rank": 13,
+      "feature": "self_actualization_climax",
+      "segment_text": "The price of the car dropped over the years, and people who had never thought they would own a car before, including farmers, were now driving Henry",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.35000000000000003
+    },
+    {
+      "rank": 14,
+      "feature": "self_actualization_climax",
+      "segment_text": "By 1918, half of all cars driven in the United States were Model Ts.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.35000000000000003
+    },
+    {
+      "rank": 15,
+      "feature": "individual_accolades",
+      "segment_text": "Henry spent irregular hours working on his side efforts to build a gasoline-powered horseless carriage, which he completed in 1896 and named the Ford Quadricycle.",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.32
+    },
+    {
+      "rank": 16,
+      "feature": "individual_accolades",
+      "segment_text": "The Model T was introduced in October 1908 and became a tremendous success.",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.32
+    },
+    {
+      "rank": 17,
+      "feature": "self_construal",
+      "segment_text": "He married Clara Bryant, who had grown up on a nearby farm. In the first several years of their marriage, Henry supported his new family by running a sawmill.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.32
+    },
+    {
+      "rank": 18,
+      "feature": "self_construal",
+      "segment_text": "That year, Henry also attended a meeting with executives and was introduced to Thomas Edison. Encouraged by Edison, Henry designed and built a second vehicle, which he completed in 1898.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.32
+    },
+    {
+      "rank": 19,
+      "feature": "relationship_framing",
+      "segment_text": "After many disagreements with his business partners, Henry left the company",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.25
+    }
+  ]
+}
