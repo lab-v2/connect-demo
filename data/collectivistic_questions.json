@@ -1,0 +1,384 @@
+{
+    "questions": [
+      {
+        "id": 2,
+        "component": "Protagonist‑Centered Focus",
+        "collectivistic_question": {
+          "question": "Is the narrative driven primarily by the group’s or community’s shared experiences, collective choices, and communal identity?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "component": "Internal Goals",
+        "collectivistic_question": {
+          "question": "Do the characters pursue group ambitions (e.g., community well‑being, family honor, shared success) over individual goals?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "component": "Decision‑Driven Plot",
+        "collectivistic_question": {
+          "question": "Are key turning points in the story determined by collective decisions, group mandates, or community traditions rather than by a single individual’s decision?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "component": "Self‑Reliance",
+        "collectivistic_question": {
+          "question": "Do the characters overcome obstacles through communal support, collective action, or shared resources rather than individual effort?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "component": "Individual Accolades",
+        "collectivistic_question": {
+          "question": "Are awards, status, or recognition attributed primarily to the group, ensemble, or community effort rather than to an individual?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 12,
+        "component": "Meritocracy Emphasis",
+        "collectivistic_question": {
+          "question": "Is success portrayed as resulting from group support, family lineage, or communal contributions rather than solely individual talent?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 14,
+        "component": "“Man vs. Self/World” Conflict",
+        "collectivistic_question": {
+          "question": "Is the central struggle between the group and external forces or within group cohesion, rather than an individual’s internal conflict?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 16,
+        "component": "Solo Confrontations",
+        "collectivistic_question": {
+          "question": "Do climactic showdowns feature collaborative group efforts or collective confrontation, rather than a lone individual?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 18,
+        "component": "Inner Journey",
+        "collectivistic_question": {
+          "question": "Is the character arc centered on the group discovering shared values, collective strengths, or communal purpose?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 20,
+        "component": "Self‑Actualization Climax",
+        "collectivistic_question": {
+          "question": "Does the emotional payoff come from restoring group harmony, collective well‑being, or communal success rather than an individual breakthrough?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 22,
+        "component": "Personal Ethics over Group Norms",
+        "collectivistic_question": {
+          "question": "Does adherence to cultural norms, family expectations, or communal codes take precedence over personal preferences?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 24,
+        "component": "Uniqueness & Self‑Expression",
+        "collectivistic_question": {
+          "question": "Are characters celebrated for conforming to group norms, fulfilling social roles, or contributing to the collective identity rather than uniqueness?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 26,
+        "component": "Self‑Construal",
+        "collectivistic_question": {
+          "question": "Does the narrative present the self as interdependent, defined by social roles and relationships rather than solely personal traits?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 28,
+        "component": "Behavioral Guidance",
+        "collectivistic_question": {
+          "question": "Are actions in the story guided by social norms, group expectations, or communal values rather than personal preferences?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 30,
+        "component": "Relationship Orientation",
+        "collectivistic_question": {
+          "question": "Does the story depict relationships as based on duty, loyalty, obligation, and collective well‑being rather than solely mutual benefit?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 32,
+        "component": "Primary Conflict",
+        "collectivistic_question": {
+          "question": "Is the central conflict about maintaining social harmony, fulfilling collective roles, or adhering to group norms rather than asserting individuality?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 34,
+        "component": "Resolution Style",
+        "collectivistic_question": {
+          "question": "Does the story resolve conflicts through compromise, reconciliation, and restoring group harmony rather than individual vindication?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 36,
+        "component": "Moral Emphasis",
+        "collectivistic_question": {
+          "question": "Does the narrative emphasize group solidarity, communal responsibility, or collective welfare as moral virtues?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 38,
+        "component": "Relationship Framing",
+        "collectivistic_question": {
+          "question": "Does the story frame relationships as essential, requiring individuals to consider the impact of their actions on family and community?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      },
+      {
+        "id": 40,
+        "component": "Vertical Individualism",
+        "collectivistic_question": {
+          "question": "Does the story emphasize equality, shared prosperity, and collective welfare over social inequality and individual hierarchy?",
+          "type": "ordinal_scale",
+          "rating": [
+            "You are an expert literary analyst.",
+            "Given a story, analyze the question using a 1–5 scale to assess the narrative perspective.",
+            "Scale:",
+            "1 = Entirely individual perspective",
+            "2 = Primarily individual but with some group influence",
+            "3 = Balanced between individual and group",
+            "4 = Primarily group-oriented",
+            "5 = Entirely group/community perspective",
+            "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+          ]
+        }
+      }
+    ]
+  }

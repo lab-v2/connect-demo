@@ -1,0 +1,384 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "component": "Protagonist\u2011Centered Focus",
+      "individualistic_question": {
+        "question": "Is the narrative driven primarily by one character\u2019s experiences, choices, and inner life?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "component": "Internal Goals",
+      "individualistic_question": {
+        "question": "Does the protagonist pursue personal ambitions (e.g., self\u2011actualization, fame, self\u2011expression) over collective objectives?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "component": "Decision\u2011Driven Plot",
+      "individualistic_question": {
+        "question": "Are key turning points in the story determined by the protagonist\u2019s own decisions rather than group mandates or fate?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "component": "Self\u2011Reliance",
+      "individualistic_question": {
+        "question": "Does the protagonist overcome obstacles through their own resourcefulness rather than relying on communal support?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "component": "Individual Accolades",
+      "individualistic_question": {
+        "question": "Are awards, status, or recognition attributed primarily to the single protagonist rather than to a team or ensemble?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "component": "Meritocracy Emphasis",
+      "individualistic_question": {
+        "question": "Is success portrayed as earned by the protagonist\u2019s talent, hard work, or innate brilliance, rather than by lineage or group standing?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "component": "\u201cMan vs. Self/World\u201d Conflict",
+      "individualistic_question": {
+        "question": "Is the central struggle internal (e.g., self doubt, identity) or between the protagonist and external forces, rather than group conflicts?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "component": "Solo Confrontations",
+      "individualistic_question": {
+        "question": "Do climactic showdowns feature the lone protagonist facing the antagonist or obstacle, rather than a collaborative effort?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "component": "Inner Journey",
+      "individualistic_question": {
+        "question": "Is the character arc centered on the protagonist discovering their own values, strengths, or purpose?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "component": "Self\u2011Actualization Climax",
+      "individualistic_question": {
+        "question": "Does the emotional payoff come from the protagonist\u2019s personal breakthrough instead of restoring group harmony?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "component": "Personal Ethics over Group Norms",
+      "individualistic_question": {
+        "question": "Does the protagonist\u2019s personal code or conscience take precedence over cultural or familial expectations?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "component": "Uniqueness & Self\u2011Expression",
+      "individualistic_question": {
+        "question": "Are characters celebrated for what makes them unique (quirks, dreams) or for \u2018being true to themselves\u2019?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "component": "Self\u2011Construal",
+      "individualistic_question": {
+        "question": "Does the narrative present the self as stable and independent, defined by personal traits rather than social roles?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "component": "Behavioral Guidance",
+      "individualistic_question": {
+        "question": "Are actions in the story guided by the protagonist\u2019s personal attitudes and preferences rather than social norms or group expectations?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "component": "Relationship Orientation",
+      "individualistic_question": {
+        "question": "Does the story depict relationships as optional and based on mutual benefit rather than duty and loyalty?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "component": "Primary Conflict",
+      "individualistic_question": {
+        "question": "Is the central conflict about asserting one\u2019s individual identity or resisting conformity?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "component": "Resolution Style",
+      "individualistic_question": {
+        "question": "Does the story resolve conflicts by standing up for personal rights and achieving justice rather than through compromise and reconciliation?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "component": "Moral Emphasis",
+      "individualistic_question": {
+        "question": "Does the narrative emphasize autonomy, personal integrity, or self\u2011actualization as moral virtues?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "component": "Relationship Framing",
+      "individualistic_question": {
+        "question": "Does the story frame relationships as non\u2011essential, allowing the protagonist to pursue goals independently?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "component": "Vertical Individualism",
+      "individualistic_question": {
+        "question": "Does the story accept social inequality as a natural consequence of individual achievement?",
+        "type": "ordinal_scale",
+        "rating": [
+          "You are an expert literary analyst.",
+          "Given a story, analyze the question using a 1\u20135 scale to assess the narrative perspective.",
+          "Scale:",
+          "1 = Entirely individual perspective",
+          "2 = Primarily individual but with some group influence",
+          "3 = Balanced between individual and group",
+          "4 = Primarily group-oriented",
+          "5 = Entirely group/community perspective",
+          "Identify the TOP sections of the story that demonstrate this quality. Provide the ENTIRE section in quote format, minimum full sentence."
+        ]
+      }
+    }
+  ]
+}
