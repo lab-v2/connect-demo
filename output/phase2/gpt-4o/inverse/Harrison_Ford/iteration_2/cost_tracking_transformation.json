@@ -1,0 +1,78 @@
+{
+  "model": "gpt-4o",
+  "total_stories_processed": 9,
+  "total_tokens": {
+    "input": 14415,
+    "output": 13066,
+    "total": 27481
+  },
+  "total_cost_usd": 0.166698,
+  "per_story_breakdown": [
+    {
+      "story_name": "harrison_ford_step_1",
+      "input_tokens": 1633,
+      "output_tokens": 1479,
+      "cost_usd": 0.018873,
+      "timestamp": "2026-02-16T18:57:49.203805"
+    },
+    {
+      "story_name": "harrison_ford_step_2",
+      "input_tokens": 1637,
+      "output_tokens": 1493,
+      "cost_usd": 0.019023,
+      "timestamp": "2026-02-16T18:58:00.971577"
+    },
+    {
+      "story_name": "harrison_ford_step_3",
+      "input_tokens": 1636,
+      "output_tokens": 1491,
+      "cost_usd": 0.019,
+      "timestamp": "2026-02-16T18:58:12.146783"
+    },
+    {
+      "story_name": "harrison_ford_step_4",
+      "input_tokens": 1603,
+      "output_tokens": 1491,
+      "cost_usd": 0.018918,
+      "timestamp": "2026-02-16T18:58:21.203299"
+    },
+    {
+      "story_name": "harrison_ford_step_5",
+      "input_tokens": 1641,
+      "output_tokens": 1493,
+      "cost_usd": 0.019033,
+      "timestamp": "2026-02-16T18:58:29.418853"
+    },
+    {
+      "story_name": "harrison_ford_step_6",
+      "input_tokens": 1634,
+      "output_tokens": 1427,
+      "cost_usd": 0.018355,
+      "timestamp": "2026-02-16T18:58:39.002175"
+    },
+    {
+      "story_name": "harrison_ford_step_7",
+      "input_tokens": 1565,
+      "output_tokens": 1393,
+      "cost_usd": 0.017843,
+      "timestamp": "2026-02-16T18:58:51.172519"
+    },
+    {
+      "story_name": "harrison_ford_step_8",
+      "input_tokens": 1530,
+      "output_tokens": 1401,
+      "cost_usd": 0.017835,
+      "timestamp": "2026-02-16T18:58:59.941695"
+    },
+    {
+      "story_name": "harrison_ford_step_9",
+      "input_tokens": 1536,
+      "output_tokens": 1398,
+      "cost_usd": 0.01782,
+      "timestamp": "2026-02-16T18:59:08.031106"
+    }
+  ],
+  "k_features": 4,
+  "n_segments": 9,
+  "successful_transformations": 9
+}

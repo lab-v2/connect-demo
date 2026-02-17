@@ -1,0 +1,286 @@
+{
+  "story_name": "the_people_who_dug_for_rain",
+  "total_segments": 28,
+  "prescriptions": [
+    {
+      "rank": 1,
+      "feature": "individual_accolades",
+      "segment_text": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.85
+    },
+    {
+      "rank": 2,
+      "feature": "individual_accolades",
+      "segment_text": "Then Tabo, the village tracker, came forward.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.85
+    },
+    {
+      "rank": 3,
+      "feature": "individual_accolades",
+      "segment_text": "The hill that once stood silent now pulsed with life.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.85
+    },
+    {
+      "rank": 4,
+      "feature": "individual_accolades",
+      "segment_text": "The people danced. They cupped their hands and drank deeply. Children splashed and laughed for the first time in months.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.85
+    },
+    {
+      "rank": 5,
+      "feature": "individual_accolades",
+      "segment_text": "In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.85
+    },
+    {
+      "rank": 6,
+      "feature": "solo_confrontations",
+      "segment_text": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.76
+    },
+    {
+      "rank": 7,
+      "feature": "solo_confrontations",
+      "segment_text": "Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.76
+    },
+    {
+      "rank": 8,
+      "feature": "self_construal",
+      "segment_text": "But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.71
+    },
+    {
+      "rank": 9,
+      "feature": "self_construal",
+      "segment_text": "The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.71
+    },
+    {
+      "rank": 10,
+      "feature": "self_construal",
+      "segment_text": "Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.71
+    },
+    {
+      "rank": 11,
+      "feature": "resolution_style",
+      "segment_text": "Only when all hands dig—young, old, weak, strong—will the spring awaken.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.7
+    },
+    {
+      "rank": 12,
+      "feature": "resolution_style",
+      "segment_text": "And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.7
+    },
+    {
+      "rank": 13,
+      "feature": "personal_ethics_over_group_norms",
+      "segment_text": "Some villagers scoffed.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.61
+    },
+    {
+      "rank": 14,
+      "feature": "personal_ethics_over_group_norms",
+      "segment_text": "Soon, the hill echoed with effort. Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.61
+    },
+    {
+      "rank": 15,
+      "feature": "personal_ethics_over_group_norms",
+      "segment_text": "Word spread of the village that dug for rain, the place where even rock could not resist a united people.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.61
+    },
+    {
+      "rank": 16,
+      "feature": "decision_driven_plot",
+      "segment_text": "But the youth believed.",
+      "current_score": 0.25,
+      "target_score": 1.0,
+      "current_rating": 4,
+      "target_rating": 1,
+      "confidence_gap": 0.6
+    },
+    {
+      "rank": 17,
+      "feature": "decision_driven_plot",
+      "segment_text": "Then Tabo, the village tracker, came forward. ... A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.",
+      "current_score": 0.25,
+      "target_score": 1.0,
+      "current_rating": 4,
+      "target_rating": 1,
+      "confidence_gap": 0.6
+    },
+    {
+      "rank": 18,
+      "feature": "relationship_orientation",
+      "segment_text": "Only when all hands dig will the spring awaken.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.59
+    },
+    {
+      "rank": 19,
+      "feature": "inner_journey",
+      "segment_text": "The youth believed. The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.57
+    },
+    {
+      "rank": 20,
+      "feature": "inner_journey",
+      "segment_text": "A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.57
+    },
+    {
+      "rank": 21,
+      "feature": "inner_journey",
+      "segment_text": "They never forgot what the snake had said.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.57
+    },
+    {
+      "rank": 22,
+      "feature": "self_actualization_climax",
+      "segment_text": "So did travelers. Word spread of the village that dug for rain, the place where even rock could not resist a united people.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.53
+    },
+    {
+      "rank": 23,
+      "feature": "relationship_framing",
+      "segment_text": "The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.45999999999999996
+    },
+    {
+      "rank": 24,
+      "feature": "moral_emphasis",
+      "segment_text": "‘There is water sleeping below me,’ it said. ‘But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.’",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.45
+    },
+    {
+      "rank": 25,
+      "feature": "moral_emphasis",
+      "segment_text": "A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself. Soon, the hill echoed with effort.",
+      "current_score": 0.0,
+      "target_score": 1.0,
+      "current_rating": 5,
+      "target_rating": 1,
+      "confidence_gap": 0.45
+    },
+    {
+      "rank": 26,
+      "feature": "protagonist_centered_focus",
+      "segment_text": "The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. The sun blazed, the wind blew dust into their eyes, but they worked.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.43000000000000005
+    },
+    {
+      "rank": 27,
+      "feature": "protagonist_centered_focus",
+      "segment_text": "The hill that once stood silent now pulsed with life. Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.43000000000000005
+    },
+    {
+      "rank": 28,
+      "feature": "primary_conflict",
+      "segment_text": "The youth believed. The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.",
+      "current_score": 0.0,
+      "target_score": 0.75,
+      "current_rating": 5,
+      "target_rating": 2,
+      "confidence_gap": 0.38
+    }
+  ]
+}

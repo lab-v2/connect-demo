@@ -1,0 +1,146 @@
+{
+  "story_name": "the_people_who_dug_for_rain",
+  "total_segments": 14,
+  "prescriptions": [
+    {
+      "rank": 1,
+      "feature": "self_construal",
+      "segment_text": "Each day, the villagers stood apart, each pondering the same sky: pale, cloudless, and indifferent, seeking their own unique paths to answers.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.6
+    },
+    {
+      "rank": 2,
+      "feature": "self_construal",
+      "segment_text": "There is water sleeping below me, but it will rise for the one who dares to stand apart, who trusts in their unique power, and digs with their own hands.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.6
+    },
+    {
+      "rank": 3,
+      "feature": "self_construal",
+      "segment_text": "The individuals, each vying to outshine the rest, dug with fierce independence, driven by the urge to prove their singular strength and determination.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.6
+    },
+    {
+      "rank": 4,
+      "feature": "self_construal",
+      "segment_text": "In honor of Tabo",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.6
+    },
+    {
+      "rank": 5,
+      "feature": "self_construal",
+      "segment_text": "And so, in Khutse, they remembered that even the sky listens to the sound of a single voice that dares to rise above the rest.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.6
+    },
+    {
+      "rank": 6,
+      "feature": "vertical_individualism",
+      "segment_text": "Many villagers doubted her words, believing that only those with extraordinary strength and determination could bring forth the water, and scoffed at the notion of a collective effort.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.49
+    },
+    {
+      "rank": 7,
+      "feature": "vertical_individualism",
+      "segment_text": "Soon, the hill echoed with the power of solitary ambition. The individuals, each vying to outshine the rest, dug with fierce independence, driven by the urge to prove their singular strength and determination.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.49
+    },
+    {
+      "rank": 8,
+      "feature": "vertical_individualism",
+      "segment_text": "They never forgot what the snake had said.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.49
+    },
+    {
+      "rank": 9,
+      "feature": "relationship_orientation",
+      "segment_text": "Then Tabo, the village tracker, seized the moment to break away from the group, driven by his unwavering belief in his unparalleled skills and instincts, confident that only he could truly uncover the hidden water.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.47
+    },
+    {
+      "rank": 10,
+      "feature": "inner_journey",
+      "segment_text": "The people watched as Tabo triumphantly cupped his hands and drank deeply. He splashed his face, feeling the coolness revive his spirit, and he laughed for the first time in months, savoring his individual triumph.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.2899999999999999
+    },
+    {
+      "rank": 11,
+      "feature": "self_reliance",
+      "segment_text": "Soon, the hill echoed with the power of solitary ambition.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.23000000000000004
+    },
+    {
+      "rank": 12,
+      "feature": "self_reliance",
+      "segment_text": "The people watched as Tabo triumphantly cupped his hands and drank deeply.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.23000000000000004
+    },
+    {
+      "rank": 13,
+      "feature": "man_vs_self_world_conflict",
+      "segment_text": "There is water sleeping below me,” it said. “But it will rise for the one who dares to stand apart, who trusts in their unique power, and digs with their own hands.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.22999999999999998
+    },
+    {
+      "rank": 14,
+      "feature": "primary_conflict",
+      "segment_text": "But it will rise for the one who dares to stand apart, who trusts in their unique power, and digs with their own hands.",
+      "current_score": 1.0,
+      "target_score": 0.75,
+      "current_rating": 1,
+      "target_rating": 2,
+      "confidence_gap": 0.010000000000000009
+    }
+  ]
+}

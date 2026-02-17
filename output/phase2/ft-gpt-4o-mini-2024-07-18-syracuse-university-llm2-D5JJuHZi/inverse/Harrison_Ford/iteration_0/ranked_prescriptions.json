@@ -1,0 +1,316 @@
+{
+  "story_name": "harrison_ford",
+  "total_segments": 31,
+  "prescriptions": [
+    {
+      "rank": 1,
+      "feature": "behavioral_guidance",
+      "segment_text": "As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.57
+    },
+    {
+      "rank": 2,
+      "feature": "behavioral_guidance",
+      "segment_text": "After arguing with the producer, Harrison was abruptly terminated from his contract.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.57
+    },
+    {
+      "rank": 3,
+      "feature": "behavioral_guidance",
+      "segment_text": "Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.57
+    },
+    {
+      "rank": 4,
+      "feature": "primary_conflict",
+      "segment_text": "Harrison realized he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.43000000000000005
+    },
+    {
+      "rank": 5,
+      "feature": "primary_conflict",
+      "segment_text": "Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.43000000000000005
+    },
+    {
+      "rank": 6,
+      "feature": "primary_conflict",
+      "segment_text": "To take the role for American Graffiti (1973), Harrison took a 50 percent pay cut (comparing to his carpentry business).",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.43000000000000005
+    },
+    {
+      "rank": 7,
+      "feature": "primary_conflict",
+      "segment_text": "Star Wars (1977) became one of the most successful films of all time, grossing over $775 million in the box office worldwide, and catapulted Harrison into stardom.",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.43000000000000005
+    },
+    {
+      "rank": 8,
+      "feature": "self_reliance",
+      "segment_text": "During the final semester of his senior year, he enrolled in a drama class and overcame his fear of speaking in front of a live audience.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.42000000000000004
+    },
+    {
+      "rank": 9,
+      "feature": "self_reliance",
+      "segment_text": "He performed in plays at the Belfry Theater in Wisconsin with his then-girlfriend, Mary.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.42000000000000004
+    },
+    {
+      "rank": 10,
+      "feature": "self_reliance",
+      "segment_text": "Spending $100,000, Mendes hired Harrison to convert his three-car garage into a recording studio. He was recommended by a friend, and did an exceptional job.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.42000000000000004
+    },
+    {
+      "rank": 11,
+      "feature": "solo_confrontations",
+      "segment_text": "Harrison was often bullied in school.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.4
+    },
+    {
+      "rank": 12,
+      "feature": "solo_confrontations",
+      "segment_text": "Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.4
+    },
+    {
+      "rank": 13,
+      "feature": "solo_confrontations",
+      "segment_text": "Harrison had two sons and a home that required many repairs, which he had chosen to fix himself.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.4
+    },
+    {
+      "rank": 14,
+      "feature": "internal_goals",
+      "segment_text": "Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 15,
+      "feature": "internal_goals",
+      "segment_text": "Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 16,
+      "feature": "internal_goals",
+      "segment_text": "However, Harrison was a father with a family to take care of.",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 17,
+      "feature": "personal_ethics_over_group_norms",
+      "segment_text": "He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 18,
+      "feature": "protagonist_centered_focus",
+      "segment_text": "Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies...",
+      "current_score": 0.75,
+      "target_score": 0.25,
+      "current_rating": 2,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 19,
+      "feature": "self_construal",
+      "segment_text": "Spending $100,000, Mendes hired Harrison to convert his three-car garage into a recording studio.",
+      "current_score": 0.5,
+      "target_score": 0.25,
+      "current_rating": 3,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 20,
+      "feature": "uniqueness_self_expression",
+      "segment_text": "Harrison was an intelligent student but didn’t apply himself, which resulted in a steady C average.",
+      "current_score": 1.0,
+      "target_score": 0.25,
+      "current_rating": 1,
+      "target_rating": 4,
+      "confidence_gap": 0.39
+    },
+    {
+      "rank": 21,
+      "feature": "vertical_individualism",
+      "segment_text": "However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.36000000000000004
+    },
+    {
+      "rank": 22,
+      "feature": "individual_accolades",
+      "segment_text": "Before the elevator arrived, he was ecstatically approached by one of his interviewers, who requested he return to the room.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 23,
+      "feature": "individual_accolades",
+      "segment_text": "His first well-publicized job was for Brazilian composer-producer Sergio Mendes.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 24,
+      "feature": "individual_accolades",
+      "segment_text": "Lucas later hired Harrison to read lines for actors auditioning for parts in Star Wars (1977).",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 25,
+      "feature": "individual_accolades",
+      "segment_text": "One script from film director George Lucas, who hired Harrison to build cabinets in his home, captured his full attention.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 26,
+      "feature": "man_vs_self_world_conflict",
+      "segment_text": "Growing up, Harrison was often bullied in school.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 27,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "Harrison started acting in a handful of productions at a local theater.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 28,
+      "feature": "meritocracy_emphasis",
+      "segment_text": "He was recommended by a friend, and did an exceptional job.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.36
+    },
+    {
+      "rank": 29,
+      "feature": "moral_emphasis",
+      "segment_text": "With just a $750,000 budget, the movie grossed over $115 million at the box office nationwide and put Harrison into the spotlight.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.32
+    },
+    {
+      "rank": 30,
+      "feature": "relationship_orientation",
+      "segment_text": "Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor. However, Harrison was a father with a family to take care of.",
+      "current_score": 0.75,
+      "target_score": 0.0,
+      "current_rating": 2,
+      "target_rating": 5,
+      "confidence_gap": 0.32
+    },
+    {
+      "rank": 31,
+      "feature": "resolution_style",
+      "segment_text": "Harrison accepted a number of roles, those he would never have accepted... to support his family.",
+      "current_score": 1.0,
+      "target_score": 0.0,
+      "current_rating": 1,
+      "target_rating": 5,
+      "confidence_gap": 0.29000000000000004
+    }
+  ]
+}

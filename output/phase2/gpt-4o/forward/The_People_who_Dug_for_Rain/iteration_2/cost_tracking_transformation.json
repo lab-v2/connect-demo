@@ -1,0 +1,14 @@
+{
+  "model": "gpt-4o",
+  "total_stories_processed": 0,
+  "total_tokens": {
+    "input": 0,
+    "output": 0,
+    "total": 0
+  },
+  "total_cost_usd": 0.0,
+  "per_story_breakdown": [],
+  "k_features": 0,
+  "n_segments": 0,
+  "successful_transformations": 0
+}

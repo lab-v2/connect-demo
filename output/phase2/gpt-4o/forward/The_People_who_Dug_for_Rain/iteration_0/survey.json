@@ -1,0 +1,294 @@
+{
+  "story_name": "The_People_who_Dug_for_Rain",
+  "story_file": "output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/story.txt",
+  "model": "gpt-4o",
+  "problem_type": "forward",
+  "timestamp": "2026-02-16T19:01:50.270058",
+  "questions_and_answers": [
+    {
+      "id": 1,
+      "component": "Protagonist‑Centered Focus",
+      "type": "individualistic_question",
+      "question": "Is the narrative driven primarily by one character’s experiences, choices, and inner life?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe narrative is driven entirely by the group/community perspective. The story emphasizes the collective action and shared experience of the village as they come together to overcome the drought. Although Mma-Pelo has a significant role in initiating the action, the story's focus remains on the community's joint efforts and unity as they dig for water.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. The sun blazed, the wind blew dust into their eyes, but they worked.\"\n3. \"Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life. Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "evidence": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. The sun blazed, the wind blew dust into their eyes, but they worked. | Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.",
+      "raw_response": "Rating: 5\n\nThe narrative is driven entirely by the group/community perspective. The story emphasizes the collective action and shared experience of the village as they come together to overcome the drought. Although Mma-Pelo has a significant role in initiating the action, the story's focus remains on the community's joint efforts and unity as they dig for water.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. The sun blazed, the wind blew dust into their eyes, but they worked.\"\n3. \"Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life. Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "tokens": {
+        "input": 1132,
+        "output": 295
+      }
+    },
+    {
+      "id": 3,
+      "component": "Internal Goals",
+      "type": "individualistic_question",
+      "question": "Does the protagonist pursue personal ambitions (e.g., self‑actualization, fame, self‑expression) over collective objectives?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe story is entirely focused on the collective objectives of the community rather than personal ambitions. The narrative emphasizes the power of unity and collective effort in overcoming adversity. The protagonist, if considered as Mma-Pelo or even as the village itself, acts for the benefit of the community rather than for any individual gain.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "evidence": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.",
+      "raw_response": "Rating: 5\n\nThe story is entirely focused on the collective objectives of the community rather than personal ambitions. The narrative emphasizes the power of unity and collective effort in overcoming adversity. The protagonist, if considered as Mma-Pelo or even as the village itself, acts for the benefit of the community rather than for any individual gain.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "tokens": {
+        "input": 1140,
+        "output": 225
+      }
+    },
+    {
+      "id": 5,
+      "component": "Decision‑Driven Plot",
+      "type": "individualistic_question",
+      "question": "Are key turning points in the story determined by the protagonist’s own decisions rather than group mandates or fate?",
+      "rating": 4,
+      "justification": "Rating: 4\n\nThe key turning points in the story are primarily group-oriented rather than determined by the protagonist's own decisions. While Mma-Pelo, the village’s oldest woman and healer, initiates the call to action based on her dream, the pivotal change comes from the collective effort of the entire village acting together. The story emphasizes the power of communal action over individual decisions.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"But the youth believed.\"\n3. \"Then Tabo, the village tracker, came forward. ... A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "evidence": "Only when all hands dig—young, old, weak, strong—will the spring awaken. | But the youth believed. | Then Tabo, the village tracker, came forward. ... A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.",
+      "raw_response": "Rating: 4\n\nThe key turning points in the story are primarily group-oriented rather than determined by the protagonist's own decisions. While Mma-Pelo, the village’s oldest woman and healer, initiates the call to action based on her dream, the pivotal change comes from the collective effort of the entire village acting together. The story emphasizes the power of communal action over individual decisions.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"But the youth believed.\"\n3. \"Then Tabo, the village tracker, came forward. ... A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "tokens": {
+        "input": 1136,
+        "output": 198
+      }
+    },
+    {
+      "id": 7,
+      "component": "Self‑Reliance",
+      "type": "individualistic_question",
+      "question": "Does the protagonist overcome obstacles through their own resourcefulness rather than relying on communal support?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe protagonist in the story does not overcome obstacles through their own resourcefulness alone but rather through the communal effort of the entire village. The narrative clearly emphasizes the importance of collective action and unity in overcoming the drought. The dream of Mma-Pelo, the communal digging, and the eventual success all highlight the story’s focus on community support.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "evidence": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. | A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.",
+      "raw_response": "Rating: 5\n\nThe protagonist in the story does not overcome obstacles through their own resourcefulness alone but rather through the communal effort of the entire village. The narrative clearly emphasizes the importance of collective action and unity in overcoming the drought. The dream of Mma-Pelo, the communal digging, and the eventual success all highlight the story’s focus on community support.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "tokens": {
+        "input": 1132,
+        "output": 229
+      }
+    },
+    {
+      "id": 9,
+      "component": "Individual Accolades",
+      "type": "individualistic_question",
+      "question": "Are awards, status, or recognition attributed primarily to the single protagonist rather than to a team or ensemble?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe story attributes recognition and achievement to the collective efforts of the entire village rather than to a single protagonist. The narrative emphasizes the importance of community action and unity in overcoming adversity and achieving success.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"The people danced. They cupped their hands and drank deeply. Children splashed and laughed for the first time in months.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "evidence": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself. | The hill that once stood silent now pulsed with life.",
+      "raw_response": "Rating: 5\n\nThe story attributes recognition and achievement to the collective efforts of the entire village rather than to a single protagonist. The narrative emphasizes the importance of community action and unity in overcoming adversity and achieving success.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"The people danced. They cupped their hands and drank deeply. Children splashed and laughed for the first time in months.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "tokens": {
+        "input": 1136,
+        "output": 226
+      }
+    },
+    {
+      "id": 11,
+      "component": "Meritocracy Emphasis",
+      "type": "individualistic_question",
+      "question": "Is success portrayed as earned by the protagonist’s talent, hard work, or innate brilliance, rather than by lineage or group standing?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe success in the story is portrayed as entirely reliant on the collective effort and unity of the village. The narrative emphasizes that only through the combined efforts of all villagers can the water be accessed, underscoring a community-oriented perspective. The protagonist's success is not attributed to individual talent or brilliance but rather to the collaborative action of the group.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n5. \"They never forgot what the snake had said. 'Only when all hands dig will the spring awaken.'\"",
+      "evidence": "Only when all hands dig—young, old, weak, strong—will the spring awaken. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. | The hill that once stood silent now pulsed with life.",
+      "raw_response": "Rating: 5\n\nThe success in the story is portrayed as entirely reliant on the collective effort and unity of the village. The narrative emphasizes that only through the combined efforts of all villagers can the water be accessed, underscoring a community-oriented perspective. The protagonist's success is not attributed to individual talent or brilliance but rather to the collaborative action of the group.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n5. \"They never forgot what the snake had said. 'Only when all hands dig will the spring awaken.'\"",
+      "tokens": {
+        "input": 1141,
+        "output": 184
+      }
+    },
+    {
+      "id": 13,
+      "component": "“Man vs. Self/World” Conflict",
+      "type": "individualistic_question",
+      "question": "Is the central struggle internal (e.g., self doubt, identity) or between the protagonist and external forces, rather than group conflicts?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe central struggle in the story is primarily between the community of Khutse and the external force of the drought. The narrative focuses on the collective efforts and unity of the villagers as they work together to overcome the hardships imposed by the lack of rain. The solution to their problem is found through a communal effort, emphasizing the theme of group collaboration and strength.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life.\"\n3. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n4. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "evidence": "Only when all hands dig—young, old, weak, strong—will the spring awaken. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life. | Word spread of the village that dug for rain, the place where even rock could not resist a united people.",
+      "raw_response": "Rating: 5\n\nThe central struggle in the story is primarily between the community of Khutse and the external force of the drought. The narrative focuses on the collective efforts and unity of the villagers as they work together to overcome the hardships imposed by the lack of rain. The solution to their problem is found through a communal effort, emphasizing the theme of group collaboration and strength.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life.\"\n3. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n4. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "tokens": {
+        "input": 1142,
+        "output": 187
+      }
+    },
+    {
+      "id": 15,
+      "component": "Solo Confrontations",
+      "type": "individualistic_question",
+      "question": "Do climactic showdowns feature the lone protagonist facing the antagonist or obstacle, rather than a collaborative effort?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe climactic showdown in the story is entirely centered around a collaborative effort involving the whole community. The obstacle, which is the lack of water, is overcome not by a single protagonist but through the combined efforts of the villagers, highlighting the power of unity.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life.\"\n4. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "evidence": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life.",
+      "raw_response": "Rating: 5\n\nThe climactic showdown in the story is entirely centered around a collaborative effort involving the whole community. The obstacle, which is the lack of water, is overcome not by a single protagonist but through the combined efforts of the villagers, highlighting the power of unity.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life.\"\n4. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "tokens": {
+        "input": 1136,
+        "output": 233
+      }
+    },
+    {
+      "id": 17,
+      "component": "Inner Journey",
+      "type": "individualistic_question",
+      "question": "Is the character arc centered on the protagonist discovering their own values, strengths, or purpose?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe character arc in \"The People Who Dug for Rain\" is centered around the community's collective action and discovery of values, strengths, and purpose, rather than an individual protagonist's journey. The narrative emphasizes the necessity of communal effort to overcome adversity, highlighting how the villagers unite to achieve a common goal. The story is driven by the actions and decisions of the group, illustrating the power of unity and shared purpose.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The youth believed. The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands.\"\n3. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"They never forgot what the snake had said. 'Only when all hands dig will the spring awaken.'\"\n6. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "evidence": "The People Who Dug for Rain | Only when all hands dig—young, old, weak, strong—will the spring awaken. | The youth believed. The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands.",
+      "raw_response": "Rating: 5\n\nThe character arc in \"The People Who Dug for Rain\" is centered around the community's collective action and discovery of values, strengths, and purpose, rather than an individual protagonist's journey. The narrative emphasizes the necessity of communal effort to overcome adversity, highlighting how the villagers unite to achieve a common goal. The story is driven by the actions and decisions of the group, illustrating the power of unity and shared purpose.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The youth believed. The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands.\"\n3. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"They never forgot what the snake had said. 'Only when all hands dig will the spring awaken.'\"\n6. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "tokens": {
+        "input": 1133,
+        "output": 243
+      }
+    },
+    {
+      "id": 19,
+      "component": "Self‑Actualization Climax",
+      "type": "individualistic_question",
+      "question": "Does the emotional payoff come from the protagonist’s personal breakthrough instead of restoring group harmony?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe emotional payoff in the story comes entirely from the restoration of group harmony rather than an individual breakthrough. The narrative focuses on the collective action of the village and the unity required to bring about change and overcome the drought. The resolution and emotional climax are rooted in the community coming together to dig for water, emphasizing the theme of unity and collective effort.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"So did travelers. Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n6. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "evidence": "Only when all hands dig—young, old, weak, strong—will the spring awaken. | The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. | A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.",
+      "raw_response": "Rating: 5\n\nThe emotional payoff in the story comes entirely from the restoration of group harmony rather than an individual breakthrough. The narrative focuses on the collective action of the village and the unity required to bring about change and overcome the drought. The resolution and emotional climax are rooted in the community coming together to dig for water, emphasizing the theme of unity and collective effort.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"So did travelers. Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n6. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "tokens": {
+        "input": 1132,
+        "output": 235
+      }
+    },
+    {
+      "id": 21,
+      "component": "Personal Ethics over Group Norms",
+      "type": "individualistic_question",
+      "question": "Does the protagonist’s personal code or conscience take precedence over cultural or familial expectations?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe protagonist's actions and decisions are entirely rooted in group and community interests rather than personal or individual motivations. The story emphasizes the necessity of collective effort and unity to overcome the challenges faced by the village. The protagonist, Mma-Pelo, acts on a vision that requires the entire community's participation, and the resolution of the story is achieved through a collective effort, highlighting the prevailing importance of community over individual desires.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Some villagers scoffed. 'Dig into a rock? We can barely walk.' Others shrugged. 'Let the young try. Our strength is spent.' But the youth believed.\"\n3. \"Soon, the hill echoed with effort. Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"",
+      "evidence": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | Some villagers scoffed. 'Dig into a rock? We can barely walk.' Others shrugged. 'Let the young try. Our strength is spent.' But the youth believed. | Soon, the hill echoed with effort. Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.",
+      "raw_response": "Rating: 5\n\nThe protagonist's actions and decisions are entirely rooted in group and community interests rather than personal or individual motivations. The story emphasizes the necessity of collective effort and unity to overcome the challenges faced by the village. The protagonist, Mma-Pelo, acts on a vision that requires the entire community's participation, and the resolution of the story is achieved through a collective effort, highlighting the prevailing importance of community over individual desires.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Some villagers scoffed. 'Dig into a rock? We can barely walk.' Others shrugged. 'Let the young try. Our strength is spent.' But the youth believed.\"\n3. \"Soon, the hill echoed with effort. Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"",
+      "tokens": {
+        "input": 1131,
+        "output": 230
+      }
+    },
+    {
+      "id": 23,
+      "component": "Uniqueness & Self‑Expression",
+      "type": "individualistic_question",
+      "question": "Are characters celebrated for what makes them unique (quirks, dreams) or for ‘being true to themselves’?",
+      "rating": 4,
+      "justification": "Rating: 4\n\nThe story emphasizes the strength and success achieved through collective action rather than celebrating individual uniqueness or personal dreams. While there are moments where individuals contribute their skills or beliefs, the narrative highlights the importance of the community working together. The villagers are primarily celebrated for their unified efforts, which ultimately lead to the discovery of water.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"The people danced. They cupped their hands and drank deeply. Children splashed and laughed for the first time in months.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"\n6. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "evidence": "Only when all hands dig—young, old, weak, strong—will the spring awaken. | Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself. | The hill that once stood silent now pulsed with life.",
+      "raw_response": "Rating: 4\n\nThe story emphasizes the strength and success achieved through collective action rather than celebrating individual uniqueness or personal dreams. While there are moments where individuals contribute their skills or beliefs, the narrative highlights the importance of the community working together. The villagers are primarily celebrated for their unified efforts, which ultimately lead to the discovery of water.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Then Tabo, the village tracker, came forward. 'I can smell water beneath the dust,' he said. 'Let me dig beside them.' A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"The people danced. They cupped their hands and drank deeply. Children splashed and laughed for the first time in months.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"\n6. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "tokens": {
+        "input": 1138,
+        "output": 253
+      }
+    },
+    {
+      "id": 25,
+      "component": "Self‑Construal",
+      "type": "individualistic_question",
+      "question": "Does the narrative present the self as stable and independent, defined by personal traits rather than social roles?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe narrative presents a perspective that is entirely group/community oriented. The story emphasizes the collective effort and unity of the villagers in overcoming the drought, highlighting the importance of social roles and community collaboration over individual traits.\n\n1. \"But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "evidence": "But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.",
+      "raw_response": "Rating: 5\n\nThe narrative presents a perspective that is entirely group/community oriented. The story emphasizes the collective effort and unity of the villagers in overcoming the drought, highlighting the importance of social roles and community collaboration over individual traits.\n\n1. \"But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"",
+      "tokens": {
+        "input": 1135,
+        "output": 181
+      }
+    },
+    {
+      "id": 27,
+      "component": "Behavioral Guidance",
+      "type": "individualistic_question",
+      "question": "Are actions in the story guided by the protagonist’s personal attitudes and preferences rather than social norms or group expectations?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe actions in the story are primarily guided by group/community expectations and the collective effort of the villagers. The narrative emphasizes the importance of unity and collaboration to overcome the drought, rather than focusing on individual preferences or attitudes. The villagers' actions follow the vision shared by Mma-Pelo, and the story culminates in a communal effort to dig for water, emphasizing the power and necessity of collective action.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n5. \"Only when all hands dig will the spring awaken.\"",
+      "evidence": "Only when all hands dig—young, old, weak, strong—will the spring awaken. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. | The hill that once stood silent now pulsed with life.",
+      "raw_response": "Rating: 5\n\nThe actions in the story are primarily guided by group/community expectations and the collective effort of the villagers. The narrative emphasizes the importance of unity and collaboration to overcome the drought, rather than focusing on individual preferences or attitudes. The villagers' actions follow the vision shared by Mma-Pelo, and the story culminates in a communal effort to dig for water, emphasizing the power and necessity of collective action.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n5. \"Only when all hands dig will the spring awaken.\"",
+      "tokens": {
+        "input": 1137,
+        "output": 186
+      }
+    },
+    {
+      "id": 29,
+      "component": "Relationship Orientation",
+      "type": "individualistic_question",
+      "question": "Does the story depict relationships as optional and based on mutual benefit rather than duty and loyalty?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe story depicts relationships as being entirely based on community perspective, emphasizing duty and loyalty over individual benefit. The villagers come together to overcome their shared adversity, and their collective action is portrayed as essential to their survival and success. The narrative demonstrates that the villagers' relationships are not optional but necessary for their well-being.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n5. \"Only when all hands dig will the spring awaken.\"",
+      "evidence": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. | The hill that once stood silent now pulsed with life.",
+      "raw_response": "Rating: 5\n\nThe story depicts relationships as being entirely based on community perspective, emphasizing duty and loyalty over individual benefit. The villagers come together to overcome their shared adversity, and their collective action is portrayed as essential to their survival and success. The narrative demonstrates that the villagers' relationships are not optional but necessary for their well-being.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"\n5. \"Only when all hands dig will the spring awaken.\"",
+      "tokens": {
+        "input": 1133,
+        "output": 191
+      }
+    },
+    {
+      "id": 31,
+      "component": "Primary Conflict",
+      "type": "individualistic_question",
+      "question": "Is the central conflict about asserting one’s individual identity or resisting conformity?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe central conflict in the story is entirely about the group/community working together to overcome a shared challenge. The narrative emphasizes the importance of collective action and unity in resolving the drought issue, rather than focusing on individual identity or resistance to conformity. The story highlights how the community comes together, inspired by a shared vision, to achieve a common goal.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The youth believed. The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "evidence": "There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | The youth believed. The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. | A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.",
+      "raw_response": "Rating: 5\n\nThe central conflict in the story is entirely about the group/community working together to overcome a shared challenge. The narrative emphasizes the importance of collective action and unity in resolving the drought issue, rather than focusing on individual identity or resistance to conformity. The story highlights how the community comes together, inspired by a shared vision, to achieve a common goal.\n\n1. \"There is water sleeping below me,” it said. “But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The youth believed. The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself.\"\n4. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "tokens": {
+        "input": 1129,
+        "output": 243
+      }
+    },
+    {
+      "id": 33,
+      "component": "Resolution Style",
+      "type": "individualistic_question",
+      "question": "Does the story resolve conflicts by standing up for personal rights and achieving justice rather than through compromise and reconciliation?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe story resolves conflicts through a strong emphasis on community effort, unity, and collective action rather than focusing on individual rights or justice. The central conflict, the drought, is overcome not by individual heroics but through the concerted effort of the entire village coming together as one. The narrative consistently highlights the importance of group action and cooperation to achieve a common goal, exemplified by the villagers uniting to dig for water and the subsequent celebration of their collective achievement.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "evidence": "Only when all hands dig—young, old, weak, strong—will the spring awaken. | The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.",
+      "raw_response": "Rating: 5\n\nThe story resolves conflicts through a strong emphasis on community effort, unity, and collective action rather than focusing on individual rights or justice. The central conflict, the drought, is overcome not by individual heroics but through the concerted effort of the entire village coming together as one. The narrative consistently highlights the importance of group action and cooperation to achieve a common goal, exemplified by the villagers uniting to dig for water and the subsequent celebration of their collective achievement.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. They began to dig.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "tokens": {
+        "input": 1136,
+        "output": 219
+      }
+    },
+    {
+      "id": 35,
+      "component": "Moral Emphasis",
+      "type": "individualistic_question",
+      "question": "Does the narrative emphasize autonomy, personal integrity, or self‑actualization as moral virtues?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe narrative emphasizes the power of community and collective effort over individual autonomy or self-actualization. The story revolves around the idea that the drought could only be overcome when the entire village worked together, highlighting the moral virtue of collective action and unity. The resolution of the crisis comes through a communal effort, underscoring the essential role of the group in achieving success.\n\n1. \"‘There is water sleeping below me,’ it said. ‘But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.’\"\n2. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself. Soon, the hill echoed with effort.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "evidence": "‘There is water sleeping below me,’ it said. ‘But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.’ | A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself. Soon, the hill echoed with effort. | The hill that once stood silent now pulsed with life.",
+      "raw_response": "Rating: 5\n\nThe narrative emphasizes the power of community and collective effort over individual autonomy or self-actualization. The story revolves around the idea that the drought could only be overcome when the entire village worked together, highlighting the moral virtue of collective action and unity. The resolution of the crisis comes through a communal effort, underscoring the essential role of the group in achieving success.\n\n1. \"‘There is water sleeping below me,’ it said. ‘But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.’\"\n2. \"A hunter followed. A mother joined with her baby wrapped tight to her back. Then the blind storyteller. Then the old men. Then Mma-Pelo herself. Soon, the hill echoed with effort.\"\n3. \"The hill that once stood silent now pulsed with life.\"\n4. \"In honor of what they had done together, the villagers renamed the hill Motse wa Metsi, the Village of Water.\"\n5. \"And so, in Khutse, they remembered that even the sky listens to the sound of a village moving as one.\"",
+      "tokens": {
+        "input": 1133,
+        "output": 239
+      }
+    },
+    {
+      "id": 37,
+      "component": "Relationship Framing",
+      "type": "individualistic_question",
+      "question": "Does the story frame relationships as non‑essential, allowing the protagonist to pursue goals independently?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe story frames relationships and communal effort as essential, with the entire village working together to achieve their goal. The narrative emphasizes the importance of collective action and community unity, rather than individual pursuits, to overcome the drought.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"Only when all hands dig will the spring awaken.\"",
+      "evidence": "Only when all hands dig—young, old, weak, strong—will the spring awaken. | The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.",
+      "raw_response": "Rating: 5\n\nThe story frames relationships and communal effort as essential, with the entire village working together to achieve their goal. The narrative emphasizes the importance of collective action and community unity, rather than individual pursuits, to overcome the drought.\n\n1. \"Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"The next morning, they gathered at the base of Tshwaragano with sticks, stones, and their bare hands.\"\n3. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers.\"\n4. \"The hill that once stood silent now pulsed with life.\"\n5. \"Only when all hands dig will the spring awaken.\"",
+      "tokens": {
+        "input": 1133,
+        "output": 151
+      }
+    },
+    {
+      "id": 39,
+      "component": "Vertical Individualism",
+      "type": "individualistic_question",
+      "question": "Does the story accept social inequality as a natural consequence of individual achievement?",
+      "rating": 5,
+      "justification": "Rating: 5\n\nThe story emphasizes the power and importance of community effort and unity, rather than individual achievement. It suggests that social challenges, such as drought, can only be overcome through collective action and not through individual efforts alone. The narrative is deeply rooted in the idea that it is the coming together of all members of the community that leads to success.\n\n1. \"But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life.\"\n3. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"",
+      "evidence": "But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken. | Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life. | Word spread of the village that dug for rain, the place where even rock could not resist a united people.",
+      "raw_response": "Rating: 5\n\nThe story emphasizes the power and importance of community effort and unity, rather than individual achievement. It suggests that social challenges, such as drought, can only be overcome through collective action and not through individual efforts alone. The narrative is deeply rooted in the idea that it is the coming together of all members of the community that leads to success.\n\n1. \"But it will not rise for the feet of a few. Only when all hands dig—young, old, weak, strong—will the spring awaken.\"\n2. \"Mothers passed baskets of earth to children. Elders leaned on younger shoulders. Hunters shared tools with healers. The hill that once stood silent now pulsed with life.\"\n3. \"Word spread of the village that dug for rain, the place where even rock could not resist a united people.\"",
+      "tokens": {
+        "input": 1129,
+        "output": 169
+      }
+    }
+  ],
+  "total_tokens": {
+    "input": 22694,
+    "output": 4317,
+    "total": 27011
+  }
+}

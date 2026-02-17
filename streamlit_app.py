@@ -39,6 +39,9 @@ DEFAULT_RATING_INSTRUCTIONS = [
 
 MODEL_OPTIONS = [
     "gpt-4o",
+    "ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi",
+    "ft:gpt-4o-mini-2024-07-18:syracuse-university:llm3:D75Ahi1l",
+    "ft:gpt-4o-mini-2024-07-18:syracuse-university:llm4:D5NuhUdq",
     "gpt-5.2",
     "xai/grok-4-fast-reasoning",
     "claude-sonnet-4-5",

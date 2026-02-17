@@ -12680,3 +12680,2131 @@ LiteLLM completion() model= gpt-4o; provider = openai
 2026-02-16 18:58:21,204 - INFO -   Target: 4 → 5
 2026-02-16 18:58:21,205 - INFO - 
 LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 18:58:29,417 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 18:58:29,418 - INFO -   ✓ Transformed (tokens: 3134)
+2026-02-16 18:58:29,420 - INFO - 
+[Transformation 6/9]
+2026-02-16 18:58:29,420 - INFO -   Feature: resolution_style
+2026-02-16 18:58:29,420 - INFO -   Segment: He initially did not know how to cook, but was taught by a c...
+2026-02-16 18:58:29,420 - INFO -   Target: 4 → 5
+2026-02-16 18:58:29,421 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 18:58:39,001 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 18:58:39,002 - INFO -   ✓ Transformed (tokens: 3061)
+2026-02-16 18:58:39,003 - INFO - 
+[Transformation 7/9]
+2026-02-16 18:58:39,003 - INFO -   Feature: primary_conflict
+2026-02-16 18:58:39,003 - INFO -   Segment: The collaborative spirit of the productions played a signifi...
+2026-02-16 18:58:39,003 - INFO -   Target: 4 → 5
+2026-02-16 18:58:39,004 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 18:58:51,171 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 18:58:51,172 - INFO -   ✓ Transformed (tokens: 2958)
+2026-02-16 18:58:51,173 - INFO - 
+[Transformation 8/9]
+2026-02-16 18:58:51,173 - INFO -   Feature: uniqueness_self_expression
+2026-02-16 18:58:51,173 - INFO -   Segment: Harrison was looking for a community-driven project that wou...
+2026-02-16 18:58:51,173 - INFO -   Target: 4 → 5
+2026-02-16 18:58:51,174 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 18:58:59,940 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 18:58:59,941 - INFO -   ✓ Transformed (tokens: 2931)
+2026-02-16 18:58:59,942 - INFO - 
+[Transformation 9/9]
+2026-02-16 18:58:59,943 - INFO -   Feature: uniqueness_self_expression
+2026-02-16 18:58:59,943 - INFO -   Segment: Harrison discovered a profound sense of belonging within a c...
+2026-02-16 18:58:59,943 - INFO -   Target: 4 → 5
+2026-02-16 18:58:59,944 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 18:59:08,030 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 18:59:08,031 - INFO -   ✓ Transformed (tokens: 2934)
+2026-02-16 18:59:08,033 - INFO - 
+✓ Final transformed story saved to: output/phase2/gpt-4o/inverse/Harrison_Ford/iteration_2/story_transformed.txt
+2026-02-16 18:59:08,036 - INFO - ✓ Transformation log saved to: output/phase2/gpt-4o/inverse/Harrison_Ford/iteration_2/transformation_log.json
+2026-02-16 18:59:08,038 - INFO - ✓ Transformation costs saved to: output/phase2/gpt-4o/inverse/Harrison_Ford/iteration_2/cost_tracking_transformation.json
+2026-02-16 18:59:08,038 - INFO - 
+============================================================
+2026-02-16 18:59:08,038 - INFO - TRANSFORMATION COMPLETE
+2026-02-16 18:59:08,038 - INFO - ============================================================
+2026-02-16 18:59:08,038 - INFO - Features selected: 4
+2026-02-16 18:59:08,038 - INFO - Segments attempted: 9
+2026-02-16 18:59:08,038 - INFO - Segments transformed: 9
+2026-02-16 18:59:08,038 - INFO - Segments skipped (reversals): 0
+2026-02-16 18:59:08,038 - INFO - Total cost: $0.1667
+2026-02-16 18:59:08,038 - INFO - Total tokens: 27,481
+2026-02-16 18:59:08,038 - INFO - ============================================================
+2026-02-16 18:59:08,038 - INFO - ✓ Story transformed
+2026-02-16 18:59:08,038 - INFO - ✓ Transformation log: output/phase2/gpt-4o/inverse/Harrison_Ford/iteration_2/transformation_log.json
+2026-02-16 18:59:08,038 - INFO - ✓ Transformation costs: output/phase2/gpt-4o/inverse/Harrison_Ford/iteration_2/cost_tracking_transformation.json
+2026-02-16 18:59:08,038 - INFO - 
+============================================================
+2026-02-16 18:59:08,038 - INFO - PHASE 2 FINAL COST SUMMARY
+2026-02-16 18:59:08,038 - INFO - ============================================================
+2026-02-16 18:59:08,040 - INFO - 
+============================================================
+2026-02-16 18:59:08,040 - INFO - PHASE 2 COST SUMMARY
+2026-02-16 18:59:08,040 - INFO - ============================================================
+2026-02-16 18:59:08,040 - INFO - Total stories processed: 1
+2026-02-16 18:59:08,040 - INFO - Total iterations: 3
+2026-02-16 18:59:08,040 - INFO - Total cost: $0.4044
+2026-02-16 18:59:08,040 - INFO - Total tokens: 113,385
+2026-02-16 18:59:08,040 - INFO -   - Input: 97,265
+2026-02-16 18:59:08,041 - INFO -   - Output: 16,120
+2026-02-16 18:59:08,041 - INFO - Cost tracking saved to: output/phase2/gpt-4o/inverse/Harrison_Ford/cost_tracking_final.json
+2026-02-16 18:59:08,041 - INFO - ============================================================
+2026-02-16 18:59:08,041 - INFO - 
+Phase 2 completed!
+2026-02-16 18:59:08,041 - INFO - Output directory: output/phase2/gpt-4o/inverse/Harrison_Ford
+2026-02-16 18:59:08,041 - INFO - ============================================================
+2026-02-16 18:59:08,041 - INFO - Execution completed successfully!
+2026-02-16 18:59:08,041 - INFO - ============================================================
+2026-02-16 19:01:50,261 - INFO - ============================================================
+2026-02-16 19:01:50,261 - INFO - CONNECT Project - Phase 2
+2026-02-16 19:01:50,261 - INFO - Problem: forward
+2026-02-16 19:01:50,261 - INFO - ============================================================
+2026-02-16 19:01:50,261 - INFO - 
+============================================================
+2026-02-16 19:01:50,261 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-16 19:01:50,261 - INFO - ============================================================
+2026-02-16 19:01:50,261 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-16 19:01:50,262 - INFO - Loading story: The_People_who_Dug_for_Rain.txt
+2026-02-16 19:01:50,264 - INFO - Loaded story: The_People_who_Dug_for_Rain (3755 characters)
+2026-02-16 19:01:50,264 - INFO - ✓ Loaded test story: The_People_who_Dug_for_Rain
+2026-02-16 19:01:50,264 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-16 19:01:50,264 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/gpt-4o/individualistic/selected_rules.txt
+2026-02-16 19:01:50,266 - INFO - ✓ Output directory: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain
+2026-02-16 19:01:50,266 - INFO - ✓ Cost tracker initialized
+2026-02-16 19:01:50,266 - INFO - 
+============================================================
+2026-02-16 19:01:50,266 - INFO - ITERATION 1/3
+2026-02-16 19:01:50,266 - INFO - ============================================================
+2026-02-16 19:01:50,269 - INFO - ✓ Saved current story to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/story.txt
+2026-02-16 19:01:50,269 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-16 19:01:50,291 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:01:55,418 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:01:55,424 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:01:59,006 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:01:59,008 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:03,250 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:03,253 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:06,565 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:06,567 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:09,993 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:09,995 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:13,492 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:13,494 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:17,577 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:17,578 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:22,688 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:22,690 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:28,416 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:28,418 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:33,989 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:33,991 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:40,434 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:40,437 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:44,975 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:44,977 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:47,960 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:47,962 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:50,757 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:50,759 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:54,171 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:54,172 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:02:57,523 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:02:57,525 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:03:01,599 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:03:01,601 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:03:05,886 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:03:05,888 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:03:08,203 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:03:08,206 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:03:10,449 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:03:10,455 - INFO - ✓ Survey completed and saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/survey.json
+2026-02-16 19:03:10,455 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:03:10,457 - INFO - ✓ Cost tracking saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/cost_tracking.json
+2026-02-16 19:03:10,457 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:03:10,458 - INFO - Building ground atoms from survey: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/survey.json
+2026-02-16 19:03:10,460 - INFO - Created 41 ground atoms
+2026-02-16 19:03:10,460 - INFO - Extracted metadata for 20 features
+2026-02-16 19:03:10,462 - INFO - Saved ground atoms to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/ground_atoms.json
+2026-02-16 19:03:10,462 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:03:10,465 - INFO - Saved segments metadata to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/segments_metadata.json
+2026-02-16 19:03:10,465 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:03:10,465 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:03:10,465 - INFO - Running PyReason...
+2026-02-16 19:03:14,503 - INFO - Added 20 facts to PyReason
+2026-02-16 19:03:16,082 - INFO - Rules loaded successfully
+2026-02-16 19:03:16,082 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-16 19:03:24,790 - INFO - Reasoning completed
+2026-02-16 19:03:24,790 - INFO - Saving rule traces to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/pyreason_traces
+2026-02-16 19:03:27,217 - INFO - ✓ Generated 2 trace files:
+2026-02-16 19:03:27,217 - INFO -   - rule_trace_nodes_20260216-190316.csv
+2026-02-16 19:03:27,217 - INFO -   - rule_trace_edges_20260216-190316.csv
+2026-02-16 19:03:27,217 - INFO - ✓ PyReason traces saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/pyreason_traces
+2026-02-16 19:03:27,218 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-16 19:03:27,219 - INFO - ============================================================
+2026-02-16 19:03:27,219 - INFO - ABDUCTION ANALYSIS
+2026-02-16 19:03:27,219 - INFO - ============================================================
+2026-02-16 19:03:27,219 - INFO - Loading learned rules...
+2026-02-16 19:03:27,221 - INFO - Loaded 100 learned rules
+2026-02-16 19:03:27,221 - INFO - Parsing trace CSV: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/pyreason_traces/rule_trace_edges_20260216-190316.csv
+2026-02-16 19:03:27,225 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-16 19:03:27,228 - INFO - Successfully parsed 20 corpus derivations
+2026-02-16 19:03:27,228 - INFO - Analyzing story: the_people_who_dug_for_rain
+2026-02-16 19:03:27,228 - INFO - Calculating confidence gaps...
+2026-02-16 19:03:27,228 - INFO - 
+Current total similarity: 0.009
+2026-02-16 19:03:27,229 - INFO - Potential total similarity: 0.580
+2026-02-16 19:03:27,229 - INFO - Total improvement potential: 0.570
+2026-02-16 19:03:27,229 - INFO - Max gap: 0.850
+2026-02-16 19:03:27,229 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-16 19:03:27,229 - INFO - 
+Top feature gaps:
+2026-02-16 19:03:27,229 - INFO -   1. individual_accolades: current=0.020, max=0.870, gap=0.850
+2026-02-16 19:03:27,229 - INFO -   2. solo_confrontations: current=0.000, max=0.760, gap=0.760
+2026-02-16 19:03:27,229 - INFO -   3. self_construal: current=0.000, max=0.710, gap=0.710
+2026-02-16 19:03:27,229 - INFO -   4. resolution_style: current=0.000, max=0.700, gap=0.700
+2026-02-16 19:03:27,229 - INFO -   5. personal_ethics_over_group_norms: current=0.010, max=0.620, gap=0.610
+2026-02-16 19:03:27,231 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/abduction_analysis.json
+2026-02-16 19:03:27,231 - INFO - 
+Creating ranked prescriptions...
+2026-02-16 19:03:27,231 - INFO - Created 28 ranked prescriptions (28 unique segments)
+2026-02-16 19:03:27,234 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/ranked_prescriptions.json
+2026-02-16 19:03:27,234 - INFO -   Total prescriptions: 28
+2026-02-16 19:03:27,234 - INFO - 
+============================================================
+2026-02-16 19:03:27,234 - INFO - ABDUCTION COMPLETE
+2026-02-16 19:03:27,234 - INFO - ============================================================
+2026-02-16 19:03:27,234 - INFO - Features analyzed: 20
+2026-02-16 19:03:27,234 - INFO - Segments to transform: 28
+2026-02-16 19:03:27,234 - INFO - Stop condition: NO - Continue transforming
+2026-02-16 19:03:27,234 - INFO - ============================================================
+2026-02-16 19:03:27,234 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/abduction_analysis.json
+2026-02-16 19:03:27,234 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/ranked_prescriptions.json
+2026-02-16 19:03:27,234 - INFO - 
+[Step 7/7] Transforming story (top-5 features)...
+2026-02-16 19:03:27,234 - INFO - ============================================================
+2026-02-16 19:03:27,234 - INFO - STORY TRANSFORMATION
+2026-02-16 19:03:27,234 - INFO - ============================================================
+2026-02-16 19:03:27,236 - INFO - Selected top 5 features:
+2026-02-16 19:03:27,236 - INFO -   1. individual_accolades: 5 segments
+2026-02-16 19:03:27,236 - INFO -   2. solo_confrontations: 2 segments
+2026-02-16 19:03:27,236 - INFO -   3. self_construal: 3 segments
+2026-02-16 19:03:27,236 - INFO -   4. resolution_style: 2 segments
+2026-02-16 19:03:27,236 - INFO -   5. personal_ethics_over_group_norms: 3 segments
+2026-02-16 19:03:27,236 - INFO - Total segments to transform: 15
+2026-02-16 19:03:27,236 - INFO - 
+[Transformation 1/15]
+2026-02-16 19:03:27,236 - INFO -   Feature: individual_accolades
+2026-02-16 19:03:27,236 - INFO -   Segment: There is water sleeping below me,” it said. “But it will not...
+2026-02-16 19:03:27,236 - INFO -   Target: 5 → 1
+2026-02-16 19:03:27,237 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:03:33,694 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:03:33,695 - INFO -   ✓ Transformed (tokens: 1898)
+2026-02-16 19:03:33,696 - INFO - 
+[Transformation 2/15]
+2026-02-16 19:03:33,697 - INFO -   Feature: individual_accolades
+2026-02-16 19:03:33,697 - INFO -   Segment: Then Tabo, the village tracker, came forward....
+2026-02-16 19:03:33,697 - INFO -   Target: 5 → 1
+2026-02-16 19:03:33,698 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:03:39,809 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:03:39,811 - INFO -   ✓ Transformed (tokens: 1878)
+2026-02-16 19:03:39,812 - INFO - 
+[Transformation 3/15]
+2026-02-16 19:03:39,812 - INFO -   Feature: individual_accolades
+2026-02-16 19:03:39,812 - INFO -   Segment: The hill that once stood silent now pulsed with life....
+2026-02-16 19:03:39,812 - INFO -   Target: 5 → 1
+2026-02-16 19:03:39,814 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:03:45,674 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:03:45,675 - INFO -   ✓ Transformed (tokens: 1876)
+2026-02-16 19:03:45,677 - INFO - 
+[Transformation 4/15]
+2026-02-16 19:03:45,677 - INFO -   Feature: individual_accolades
+2026-02-16 19:03:45,677 - INFO -   Segment: The people danced. They cupped their hands and drank deeply....
+2026-02-16 19:03:45,677 - INFO -   Target: 5 → 1
+2026-02-16 19:03:45,678 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:03:52,859 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:03:52,861 - INFO -   ✓ Transformed (tokens: 1914)
+2026-02-16 19:03:52,862 - INFO - 
+[Transformation 5/15]
+2026-02-16 19:03:52,862 - INFO -   Feature: individual_accolades
+2026-02-16 19:03:52,863 - INFO -   Segment: In honor of what they had done together, the villagers renam...
+2026-02-16 19:03:52,863 - INFO -   Target: 5 → 1
+2026-02-16 19:03:52,865 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:03:58,600 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:03:58,602 - INFO -   ✓ Transformed (tokens: 1930)
+2026-02-16 19:03:58,604 - INFO - 
+[Transformation 6/15]
+2026-02-16 19:03:58,604 - INFO -   Feature: solo_confrontations
+2026-02-16 19:03:58,604 - INFO -   Segment: There is water sleeping below me,” it said. “But it will not...
+2026-02-16 19:03:58,604 - INFO -   Target: 5 → 1
+2026-02-16 19:03:58,606 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:04:05,282 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:04:05,283 - INFO -   ✓ Transformed (tokens: 1942)
+2026-02-16 19:04:05,285 - INFO - 
+[Transformation 7/15]
+2026-02-16 19:04:05,285 - INFO -   Feature: solo_confrontations
+2026-02-16 19:04:05,285 - INFO -   Segment: Mothers passed baskets of earth to children. Elders leaned o...
+2026-02-16 19:04:05,285 - INFO -   Target: 5 → 1
+2026-02-16 19:04:05,287 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:04:10,686 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:04:10,687 - INFO -   ✓ Transformed (tokens: 1920)
+2026-02-16 19:04:10,689 - INFO - 
+[Transformation 8/15]
+2026-02-16 19:04:10,689 - INFO -   Feature: self_construal
+2026-02-16 19:04:10,689 - INFO -   Segment: But it will not rise for the feet of a few. Only when all ha...
+2026-02-16 19:04:10,689 - INFO -   Target: 5 → 2
+2026-02-16 19:04:10,690 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:04:24,511 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:04:24,513 - INFO -   ✓ Transformed (tokens: 1903)
+2026-02-16 19:04:24,515 - INFO - 
+[Transformation 9/15]
+2026-02-16 19:04:24,515 - INFO -   Feature: self_construal
+2026-02-16 19:04:24,515 - INFO -   Segment: The next morning, they gathered at the base of Tshwaragano w...
+2026-02-16 19:04:24,515 - INFO -   Target: 5 → 2
+2026-02-16 19:04:24,516 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:04:30,138 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:04:30,139 - INFO -   ✓ Transformed (tokens: 1911)
+2026-02-16 19:04:30,141 - INFO - 
+[Transformation 10/15]
+2026-02-16 19:04:30,141 - INFO -   Feature: self_construal
+2026-02-16 19:04:30,141 - INFO -   Segment: Mothers passed baskets of earth to children. Elders leaned o...
+2026-02-16 19:04:30,141 - INFO -   Target: 5 → 2
+2026-02-16 19:04:30,142 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:04:39,702 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:04:39,703 - INFO -   ✓ Transformed (tokens: 1906)
+2026-02-16 19:04:39,704 - INFO - 
+[Transformation 11/15]
+2026-02-16 19:04:39,705 - INFO -   Feature: resolution_style
+2026-02-16 19:04:39,705 - INFO -   Segment: Only when all hands dig—young, old, weak, strong—will the sp...
+2026-02-16 19:04:39,705 - INFO -   Target: 5 → 1
+2026-02-16 19:04:39,705 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:04:44,495 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:04:44,496 - INFO -   ✓ Transformed (tokens: 1901)
+2026-02-16 19:04:44,497 - INFO - 
+[Transformation 12/15]
+2026-02-16 19:04:44,497 - INFO -   Feature: resolution_style
+2026-02-16 19:04:44,498 - INFO -   Segment: And so, in Khutse, they remembered that even the sky listens...
+2026-02-16 19:04:44,498 - INFO -   Target: 5 → 1
+2026-02-16 19:04:44,499 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:04:50,668 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:04:50,669 - INFO -   ✓ Transformed (tokens: 1914)
+2026-02-16 19:04:50,670 - INFO - 
+[Transformation 13/15]
+2026-02-16 19:04:50,670 - INFO -   Feature: personal_ethics_over_group_norms
+2026-02-16 19:04:50,671 - INFO -   Segment: Some villagers scoffed....
+2026-02-16 19:04:50,671 - INFO -   Target: 5 → 1
+2026-02-16 19:04:50,671 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:00,136 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:00,137 - INFO -   ✓ Transformed (tokens: 1892)
+2026-02-16 19:05:00,139 - INFO - 
+[Transformation 14/15]
+2026-02-16 19:05:00,139 - INFO -   Feature: personal_ethics_over_group_norms
+2026-02-16 19:05:00,139 - INFO -   Segment: Soon, the hill echoed with effort. Mothers passed baskets of...
+2026-02-16 19:05:00,139 - INFO -   Target: 5 → 1
+2026-02-16 19:05:00,141 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:06,141 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:06,142 - INFO -   ✓ Transformed (tokens: 1927)
+2026-02-16 19:05:06,144 - INFO - 
+[Transformation 15/15]
+2026-02-16 19:05:06,144 - INFO -   Feature: personal_ethics_over_group_norms
+2026-02-16 19:05:06,144 - INFO -   Segment: Word spread of the village that dug for rain, the place wher...
+2026-02-16 19:05:06,144 - INFO -   Target: 5 → 1
+2026-02-16 19:05:06,145 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:12,431 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:12,432 - INFO -   ✓ Transformed (tokens: 1936)
+2026-02-16 19:05:12,437 - INFO - 
+✓ Final transformed story saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/story_transformed.txt
+2026-02-16 19:05:12,440 - INFO - ✓ Transformation log saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/transformation_log.json
+2026-02-16 19:05:12,442 - INFO - ✓ Transformation costs saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/cost_tracking_transformation.json
+2026-02-16 19:05:12,442 - INFO - 
+============================================================
+2026-02-16 19:05:12,443 - INFO - TRANSFORMATION COMPLETE
+2026-02-16 19:05:12,443 - INFO - ============================================================
+2026-02-16 19:05:12,443 - INFO - Features selected: 5
+2026-02-16 19:05:12,443 - INFO - Segments attempted: 15
+2026-02-16 19:05:12,443 - INFO - Segments transformed: 15
+2026-02-16 19:05:12,443 - INFO - Segments skipped (reversals): 0
+2026-02-16 19:05:12,443 - INFO - Total cost: $0.1720
+2026-02-16 19:05:12,443 - INFO - Total tokens: 28,648
+2026-02-16 19:05:12,444 - INFO - ============================================================
+2026-02-16 19:05:12,444 - INFO - ✓ Story transformed
+2026-02-16 19:05:12,444 - INFO - ✓ Transformation log: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/transformation_log.json
+2026-02-16 19:05:12,444 - INFO - ✓ Transformation costs: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_0/cost_tracking_transformation.json
+2026-02-16 19:05:12,444 - INFO - 
+============================================================
+2026-02-16 19:05:12,444 - INFO - ITERATION 2/3
+2026-02-16 19:05:12,445 - INFO - ============================================================
+2026-02-16 19:05:12,447 - INFO - ✓ Saved current story to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/story.txt
+2026-02-16 19:05:12,447 - INFO - 
+[Step 3/7] Surveying story (iteration 1)...
+2026-02-16 19:05:12,450 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:15,529 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:15,531 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:19,241 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:19,244 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:22,957 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:22,960 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:26,583 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:26,585 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:29,798 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:29,800 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:33,748 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:33,750 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:37,336 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:37,337 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:39,848 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:39,850 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:42,964 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:42,965 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:45,533 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:45,534 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:49,411 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:49,412 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:53,410 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:53,411 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:56,193 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:56,195 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:05:58,926 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:05:58,927 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:02,135 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:02,137 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:07,183 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:07,185 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:11,416 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:11,418 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:14,993 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:14,995 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:18,690 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:18,691 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:23,062 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:23,068 - INFO - ✓ Survey completed and saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/survey.json
+2026-02-16 19:06:23,068 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:06:23,070 - INFO - ✓ Cost tracking saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/cost_tracking.json
+2026-02-16 19:06:23,070 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:06:23,070 - INFO - Building ground atoms from survey: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/survey.json
+2026-02-16 19:06:23,071 - INFO - Created 41 ground atoms
+2026-02-16 19:06:23,072 - INFO - Extracted metadata for 20 features
+2026-02-16 19:06:23,074 - INFO - Saved ground atoms to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/ground_atoms.json
+2026-02-16 19:06:23,074 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:06:23,077 - INFO - Saved segments metadata to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/segments_metadata.json
+2026-02-16 19:06:23,077 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:06:23,077 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:06:23,077 - INFO - Running PyReason...
+2026-02-16 19:06:23,083 - INFO - Added 20 facts to PyReason
+2026-02-16 19:06:23,191 - INFO - Rules loaded successfully
+2026-02-16 19:06:23,191 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-16 19:06:23,223 - INFO - Reasoning completed
+2026-02-16 19:06:23,224 - INFO - Saving rule traces to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/pyreason_traces
+2026-02-16 19:06:23,250 - INFO - ✓ Generated 2 trace files:
+2026-02-16 19:06:23,250 - INFO -   - rule_trace_nodes_20260216-190623.csv
+2026-02-16 19:06:23,250 - INFO -   - rule_trace_edges_20260216-190623.csv
+2026-02-16 19:06:23,250 - INFO - ✓ PyReason traces saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/pyreason_traces
+2026-02-16 19:06:23,250 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-16 19:06:23,251 - INFO - ============================================================
+2026-02-16 19:06:23,251 - INFO - ABDUCTION ANALYSIS
+2026-02-16 19:06:23,251 - INFO - ============================================================
+2026-02-16 19:06:23,251 - INFO - Loading learned rules...
+2026-02-16 19:06:23,252 - INFO - Loaded 100 learned rules
+2026-02-16 19:06:23,253 - INFO - Parsing trace CSV: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/pyreason_traces/rule_trace_edges_20260216-190623.csv
+2026-02-16 19:06:23,256 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-16 19:06:23,258 - INFO - Successfully parsed 20 corpus derivations
+2026-02-16 19:06:23,258 - INFO - Analyzing story: the_people_who_dug_for_rain
+2026-02-16 19:06:23,258 - INFO - Calculating confidence gaps...
+2026-02-16 19:06:23,258 - INFO - 
+Current total similarity: 0.406
+2026-02-16 19:06:23,259 - INFO - Potential total similarity: 0.580
+2026-02-16 19:06:23,259 - INFO - Total improvement potential: 0.174
+2026-02-16 19:06:23,259 - INFO - Max gap: 0.780
+2026-02-16 19:06:23,259 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-16 19:06:23,259 - INFO - 
+Top feature gaps:
+2026-02-16 19:06:23,259 - INFO -   1. individual_accolades: current=0.090, max=0.870, gap=0.780
+2026-02-16 19:06:23,259 - INFO -   2. solo_confrontations: current=0.180, max=0.760, gap=0.580
+2026-02-16 19:06:23,259 - INFO -   3. resolution_style: current=0.120, max=0.700, gap=0.580
+2026-02-16 19:06:23,259 - INFO -   4. personal_ethics_over_group_norms: current=0.270, max=0.620, gap=0.350
+2026-02-16 19:06:23,259 - INFO -   5. protagonist_centered_focus: current=0.120, max=0.460, gap=0.340
+2026-02-16 19:06:23,261 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/abduction_analysis.json
+2026-02-16 19:06:23,262 - INFO - 
+Creating ranked prescriptions...
+2026-02-16 19:06:23,262 - INFO - Created 18 ranked prescriptions (18 unique segments)
+2026-02-16 19:06:23,264 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/ranked_prescriptions.json
+2026-02-16 19:06:23,264 - INFO -   Total prescriptions: 18
+2026-02-16 19:06:23,264 - INFO - 
+============================================================
+2026-02-16 19:06:23,264 - INFO - ABDUCTION COMPLETE
+2026-02-16 19:06:23,264 - INFO - ============================================================
+2026-02-16 19:06:23,264 - INFO - Features analyzed: 20
+2026-02-16 19:06:23,264 - INFO - Segments to transform: 18
+2026-02-16 19:06:23,264 - INFO - Stop condition: NO - Continue transforming
+2026-02-16 19:06:23,264 - INFO - ============================================================
+2026-02-16 19:06:23,264 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/abduction_analysis.json
+2026-02-16 19:06:23,264 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/ranked_prescriptions.json
+2026-02-16 19:06:23,264 - INFO - 
+[Step 7/7] Transforming story (top-5 features)...
+2026-02-16 19:06:23,264 - INFO - ============================================================
+2026-02-16 19:06:23,264 - INFO - STORY TRANSFORMATION
+2026-02-16 19:06:23,264 - INFO - ============================================================
+2026-02-16 19:06:23,265 - INFO - Selected top 5 features:
+2026-02-16 19:06:23,265 - INFO -   1. individual_accolades: 4 segments
+2026-02-16 19:06:23,265 - INFO -   2. solo_confrontations: 2 segments
+2026-02-16 19:06:23,265 - INFO -   3. resolution_style: 2 segments
+2026-02-16 19:06:23,265 - INFO -   4. personal_ethics_over_group_norms: 2 segments
+2026-02-16 19:06:23,266 - INFO -   5. protagonist_centered_focus: 3 segments
+2026-02-16 19:06:23,266 - INFO - Total segments to transform: 13
+2026-02-16 19:06:23,266 - INFO - 
+[Transformation 1/13]
+2026-02-16 19:06:23,266 - INFO -   Feature: individual_accolades
+2026-02-16 19:06:23,266 - INFO -   Segment: The people watched as Tabo triumphantly cupped his hands and...
+2026-02-16 19:06:23,266 - INFO -   Target: 2 → 1
+2026-02-16 19:06:23,267 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:31,159 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:31,160 - INFO -   ✓ Transformed (tokens: 1911)
+2026-02-16 19:06:31,161 - INFO - 
+[Transformation 2/13]
+2026-02-16 19:06:31,161 - INFO -   Feature: individual_accolades
+2026-02-16 19:06:31,161 - INFO -   Segment: Word spread of Tabo...
+2026-02-16 19:06:31,161 - INFO -   Target: 2 → 1
+2026-02-16 19:06:31,162 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:37,591 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:37,592 - INFO -   ✓ Transformed (tokens: 1882)
+2026-02-16 19:06:37,594 - INFO - 
+[Transformation 3/13]
+2026-02-16 19:06:37,594 - INFO -   Feature: individual_accolades
+2026-02-16 19:06:37,594 - INFO -   Segment: In honor of Tabo...
+2026-02-16 19:06:37,594 - INFO -   Target: 2 → 1
+2026-02-16 19:06:37,595 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:46,172 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:46,173 - INFO -   ✓ Transformed (tokens: 1865)
+2026-02-16 19:06:46,174 - INFO - 
+[Transformation 4/13]
+2026-02-16 19:06:46,174 - INFO -   Feature: individual_accolades
+2026-02-16 19:06:46,174 - INFO -   Segment: Every year, they held a Festival of Digging, where no one at...
+2026-02-16 19:06:46,175 - INFO -   Target: 2 → 1
+2026-02-16 19:06:46,176 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:52,288 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:52,289 - INFO -   ✓ Transformed (tokens: 1869)
+2026-02-16 19:06:52,290 - INFO - 
+[Transformation 5/13]
+2026-02-16 19:06:52,290 - INFO -   Feature: solo_confrontations
+2026-02-16 19:06:52,290 - INFO -   Segment: Then Tabo, the village tracker, decided to continue on his o...
+2026-02-16 19:06:52,290 - INFO -   Target: 2 → 1
+2026-02-16 19:06:52,291 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:06:59,658 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:06:59,659 - INFO -   ✓ Transformed (tokens: 1847)
+2026-02-16 19:06:59,660 - INFO - 
+[Transformation 6/13]
+2026-02-16 19:06:59,660 - INFO -   Feature: solo_confrontations
+2026-02-16 19:06:59,660 - INFO -   Segment: Soon, the hill echoed with individual resolve. Each person f...
+2026-02-16 19:06:59,661 - INFO -   Target: 2 → 1
+2026-02-16 19:06:59,662 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:06,614 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:06,615 - INFO -   ✓ Transformed (tokens: 1849)
+2026-02-16 19:07:06,616 - INFO - 
+[Transformation 7/13]
+2026-02-16 19:07:06,617 - INFO -   Feature: resolution_style
+2026-02-16 19:07:06,617 - INFO -   Segment: There is water sleeping below me,” it said. “But it will ris...
+2026-02-16 19:07:06,617 - INFO -   Target: 2 → 1
+2026-02-16 19:07:06,618 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:11,758 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:11,759 - INFO -   ✓ Transformed (tokens: 1883)
+2026-02-16 19:07:11,760 - INFO - 
+[Transformation 8/13]
+2026-02-16 19:07:11,761 - INFO -   Feature: resolution_style
+2026-02-16 19:07:11,761 - INFO -   Segment: The people watched as Tabo triumphantly cupped his hands and...
+2026-02-16 19:07:11,761 - INFO -   Target: 2 → 1
+2026-02-16 19:07:11,762 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:17,127 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:17,128 - INFO -   ✓ Transformed (tokens: 1917)
+2026-02-16 19:07:17,129 - INFO - 
+[Transformation 9/13]
+2026-02-16 19:07:17,130 - INFO -   Feature: personal_ethics_over_group_norms
+2026-02-16 19:07:17,130 - INFO -   Segment: Some villagers scoffed....
+2026-02-16 19:07:17,130 - INFO -   Target: 2 → 1
+2026-02-16 19:07:17,131 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:24,650 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:24,651 - INFO -   ✓ Transformed (tokens: 1904)
+2026-02-16 19:07:24,653 - INFO - 
+[Transformation 10/13]
+2026-02-16 19:07:24,653 - INFO -   Feature: personal_ethics_over_group_norms
+2026-02-16 19:07:24,653 - INFO -   Segment: Each person focused on their own digging, fueled by their pe...
+2026-02-16 19:07:24,653 - INFO -   Target: 2 → 1
+2026-02-16 19:07:24,654 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:30,725 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:30,726 - INFO -   ✓ Transformed (tokens: 1918)
+2026-02-16 19:07:30,727 - INFO - 
+[Transformation 11/13]
+2026-02-16 19:07:30,727 - INFO -   Feature: protagonist_centered_focus
+2026-02-16 19:07:30,728 - INFO -   Segment: But even the wise suffer when the sky forgets to rain....
+2026-02-16 19:07:30,728 - INFO -   Target: 3 → 2
+2026-02-16 19:07:30,728 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:38,905 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:38,906 - INFO -   ✓ Transformed (tokens: 1922)
+2026-02-16 19:07:38,907 - INFO - 
+[Transformation 12/13]
+2026-02-16 19:07:38,908 - INFO -   Feature: protagonist_centered_focus
+2026-02-16 19:07:38,908 - INFO -   Segment: Each day, the villagers looked up and saw the same sky: pale...
+2026-02-16 19:07:38,908 - INFO -   Target: 3 → 2
+2026-02-16 19:07:38,909 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:44,406 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:44,407 - INFO -   ✓ Transformed (tokens: 1944)
+2026-02-16 19:07:44,408 - INFO - 
+[Transformation 13/13]
+2026-02-16 19:07:44,409 - INFO -   Feature: protagonist_centered_focus
+2026-02-16 19:07:44,409 - INFO -   Segment: And so, in Khutse, they remembered that even the sky listens...
+2026-02-16 19:07:44,409 - INFO -   Target: 3 → 2
+2026-02-16 19:07:44,410 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:50,620 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:50,621 - INFO -   ✓ Transformed (tokens: 1960)
+2026-02-16 19:07:50,626 - INFO - 
+✓ Final transformed story saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/story_transformed.txt
+2026-02-16 19:07:50,629 - INFO - ✓ Transformation log saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/transformation_log.json
+2026-02-16 19:07:50,631 - INFO - ✓ Transformation costs saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/cost_tracking_transformation.json
+2026-02-16 19:07:50,631 - INFO - 
+============================================================
+2026-02-16 19:07:50,631 - INFO - TRANSFORMATION COMPLETE
+2026-02-16 19:07:50,631 - INFO - ============================================================
+2026-02-16 19:07:50,631 - INFO - Features selected: 5
+2026-02-16 19:07:50,631 - INFO - Segments attempted: 13
+2026-02-16 19:07:50,631 - INFO - Segments transformed: 13
+2026-02-16 19:07:50,631 - INFO - Segments skipped (reversals): 0
+2026-02-16 19:07:50,631 - INFO - Total cost: $0.1482
+2026-02-16 19:07:50,632 - INFO - Total tokens: 24,671
+2026-02-16 19:07:50,632 - INFO - ============================================================
+2026-02-16 19:07:50,632 - INFO - ✓ Story transformed
+2026-02-16 19:07:50,632 - INFO - ✓ Transformation log: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/transformation_log.json
+2026-02-16 19:07:50,632 - INFO - ✓ Transformation costs: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_1/cost_tracking_transformation.json
+2026-02-16 19:07:50,632 - INFO - 
+============================================================
+2026-02-16 19:07:50,632 - INFO - ITERATION 3/3
+2026-02-16 19:07:50,632 - INFO - ============================================================
+2026-02-16 19:07:50,634 - INFO - ✓ Saved current story to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/story.txt
+2026-02-16 19:07:50,634 - INFO - 
+[Step 3/7] Surveying story (iteration 2)...
+2026-02-16 19:07:50,637 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:54,176 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:54,178 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:07:57,903 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:07:57,905 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:02,072 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:02,074 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:04,985 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:04,987 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:06,674 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:06,676 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:09,199 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:09,201 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:12,403 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:12,405 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:15,851 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:15,853 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:18,765 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:18,767 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:23,552 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:23,554 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:27,046 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:27,048 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:30,197 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:30,198 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:32,955 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:32,957 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:35,764 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:35,765 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:43,074 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:43,076 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:47,650 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:47,652 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:51,169 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:51,171 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:55,852 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:55,854 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:08:59,154 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:08:59,155 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-16 19:09:03,259 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:09:03,265 - INFO - ✓ Survey completed and saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/survey.json
+2026-02-16 19:09:03,265 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:09:03,267 - INFO - ✓ Cost tracking saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/cost_tracking.json
+2026-02-16 19:09:03,267 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:09:03,267 - INFO - Building ground atoms from survey: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/survey.json
+2026-02-16 19:09:03,270 - INFO - Created 41 ground atoms
+2026-02-16 19:09:03,270 - INFO - Extracted metadata for 20 features
+2026-02-16 19:09:03,272 - INFO - Saved ground atoms to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/ground_atoms.json
+2026-02-16 19:09:03,272 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:09:03,275 - INFO - Saved segments metadata to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/segments_metadata.json
+2026-02-16 19:09:03,275 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:09:03,275 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:09:03,275 - INFO - Running PyReason...
+2026-02-16 19:09:03,280 - INFO - Added 20 facts to PyReason
+2026-02-16 19:09:03,384 - INFO - Rules loaded successfully
+2026-02-16 19:09:03,384 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-16 19:09:03,427 - INFO - Reasoning completed
+2026-02-16 19:09:03,428 - INFO - Saving rule traces to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/pyreason_traces
+2026-02-16 19:09:03,453 - INFO - ✓ Generated 2 trace files:
+2026-02-16 19:09:03,453 - INFO -   - rule_trace_nodes_20260216-190903.csv
+2026-02-16 19:09:03,453 - INFO -   - rule_trace_edges_20260216-190903.csv
+2026-02-16 19:09:03,454 - INFO - ✓ PyReason traces saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/pyreason_traces
+2026-02-16 19:09:03,454 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-16 19:09:03,454 - INFO - ============================================================
+2026-02-16 19:09:03,454 - INFO - ABDUCTION ANALYSIS
+2026-02-16 19:09:03,454 - INFO - ============================================================
+2026-02-16 19:09:03,454 - INFO - Loading learned rules...
+2026-02-16 19:09:03,456 - INFO - Loaded 100 learned rules
+2026-02-16 19:09:03,456 - INFO - Parsing trace CSV: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/pyreason_traces/rule_trace_edges_20260216-190903.csv
+2026-02-16 19:09:03,460 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-16 19:09:03,462 - INFO - Successfully parsed 20 corpus derivations
+2026-02-16 19:09:03,462 - INFO - Analyzing story: the_people_who_dug_for_rain
+2026-02-16 19:09:03,462 - INFO - Calculating confidence gaps...
+2026-02-16 19:09:03,463 - INFO - 
+Current total similarity: 0.439
+2026-02-16 19:09:03,463 - INFO - Potential total similarity: 0.580
+2026-02-16 19:09:03,463 - INFO - Total improvement potential: 0.140
+2026-02-16 19:09:03,463 - INFO - Max gap: 0.600
+2026-02-16 19:09:03,463 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-16 19:09:03,463 - INFO - 
+Top feature gaps:
+2026-02-16 19:09:03,463 - INFO -   1. self_construal: current=0.110, max=0.710, gap=0.600
+2026-02-16 19:09:03,463 - INFO -   2. vertical_individualism: current=0.100, max=0.590, gap=0.490
+2026-02-16 19:09:03,463 - INFO -   3. relationship_orientation: current=0.120, max=0.590, gap=0.470
+2026-02-16 19:09:03,463 - INFO -   4. relationship_framing: current=0.090, max=0.470, gap=0.380
+2026-02-16 19:09:03,463 - INFO -   5. inner_journey: current=0.280, max=0.570, gap=0.290
+2026-02-16 19:09:03,466 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/abduction_analysis.json
+2026-02-16 19:09:03,466 - INFO - 
+Creating ranked prescriptions...
+2026-02-16 19:09:03,466 - INFO - Created 14 ranked prescriptions (14 unique segments)
+2026-02-16 19:09:03,468 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/ranked_prescriptions.json
+2026-02-16 19:09:03,468 - INFO -   Total prescriptions: 14
+2026-02-16 19:09:03,468 - INFO - 
+============================================================
+2026-02-16 19:09:03,468 - INFO - ABDUCTION COMPLETE
+2026-02-16 19:09:03,468 - INFO - ============================================================
+2026-02-16 19:09:03,468 - INFO - Features analyzed: 20
+2026-02-16 19:09:03,468 - INFO - Segments to transform: 14
+2026-02-16 19:09:03,468 - INFO - Stop condition: NO - Continue transforming
+2026-02-16 19:09:03,468 - INFO - ============================================================
+2026-02-16 19:09:03,468 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/abduction_analysis.json
+2026-02-16 19:09:03,468 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/ranked_prescriptions.json
+2026-02-16 19:09:03,468 - INFO - 
+[Step 7/7] Transforming story (top-5 features)...
+2026-02-16 19:09:03,468 - INFO - ============================================================
+2026-02-16 19:09:03,468 - INFO - STORY TRANSFORMATION
+2026-02-16 19:09:03,468 - INFO - ============================================================
+2026-02-16 19:09:03,469 - INFO - Selected top 0 features:
+2026-02-16 19:09:03,470 - INFO - Total segments to transform: 0
+2026-02-16 19:09:03,471 - INFO - 
+✓ Final transformed story saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/story_transformed.txt
+2026-02-16 19:09:03,473 - INFO - ✓ Transformation log saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/transformation_log.json
+2026-02-16 19:09:03,475 - INFO - ✓ Transformation costs saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/cost_tracking_transformation.json
+2026-02-16 19:09:03,475 - INFO - 
+============================================================
+2026-02-16 19:09:03,475 - INFO - TRANSFORMATION COMPLETE
+2026-02-16 19:09:03,475 - INFO - ============================================================
+2026-02-16 19:09:03,475 - INFO - Features selected: 0
+2026-02-16 19:09:03,475 - INFO - Segments attempted: 0
+2026-02-16 19:09:03,475 - INFO - Segments transformed: 0
+2026-02-16 19:09:03,475 - INFO - Segments skipped (reversals): 0
+2026-02-16 19:09:03,475 - INFO - Total cost: $0.0000
+2026-02-16 19:09:03,475 - INFO - Total tokens: 0
+2026-02-16 19:09:03,475 - INFO - ============================================================
+2026-02-16 19:09:03,475 - INFO - ✓ Story transformed
+2026-02-16 19:09:03,475 - INFO - ✓ Transformation log: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/transformation_log.json
+2026-02-16 19:09:03,475 - INFO - ✓ Transformation costs: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/iteration_2/cost_tracking_transformation.json
+2026-02-16 19:09:03,475 - INFO - 
+============================================================
+2026-02-16 19:09:03,475 - INFO - PHASE 2 FINAL COST SUMMARY
+2026-02-16 19:09:03,475 - INFO - ============================================================
+2026-02-16 19:09:03,477 - INFO - 
+============================================================
+2026-02-16 19:09:03,478 - INFO - PHASE 2 COST SUMMARY
+2026-02-16 19:09:03,478 - INFO - ============================================================
+2026-02-16 19:09:03,478 - INFO - Total stories processed: 1
+2026-02-16 19:09:03,478 - INFO - Total iterations: 3
+2026-02-16 19:09:03,478 - INFO - Total cost: $0.3018
+2026-02-16 19:09:03,478 - INFO - Total tokens: 82,620
+2026-02-16 19:09:03,478 - INFO -   - Input: 69,922
+2026-02-16 19:09:03,478 - INFO -   - Output: 12,698
+2026-02-16 19:09:03,478 - INFO - Cost tracking saved to: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain/cost_tracking_final.json
+2026-02-16 19:09:03,478 - INFO - ============================================================
+2026-02-16 19:09:03,478 - INFO - 
+Phase 2 completed!
+2026-02-16 19:09:03,478 - INFO - Output directory: output/phase2/gpt-4o/forward/The_People_who_Dug_for_Rain
+2026-02-16 19:09:03,478 - INFO - ============================================================
+2026-02-16 19:09:03,478 - INFO - Execution completed successfully!
+2026-02-16 19:09:03,478 - INFO - ============================================================
+2026-02-16 19:34:08,467 - INFO - ============================================================
+2026-02-16 19:34:08,468 - INFO - CONNECT Project - Phase 2
+2026-02-16 19:34:08,468 - INFO - Problem: inverse
+2026-02-16 19:34:08,468 - INFO - ============================================================
+2026-02-16 19:34:08,468 - INFO - 
+============================================================
+2026-02-16 19:34:08,468 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-16 19:34:08,468 - INFO - ============================================================
+2026-02-16 19:34:08,468 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-16 19:34:08,468 - INFO - Loading story: Community_Time.txt
+2026-02-16 19:34:08,469 - INFO - Loaded story: Community_Time (4549 characters)
+2026-02-16 19:34:08,470 - INFO - ✓ Loaded test story: Community_Time
+2026-02-16 19:34:08,470 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-16 19:34:08,470 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-d5jjuhzi/collectivistic/selected_rules.txt
+2026-02-16 19:34:08,474 - INFO - ✓ Output directory: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time
+2026-02-16 19:34:08,474 - INFO - ✓ Cost tracker initialized
+2026-02-16 19:34:08,474 - INFO - 
+============================================================
+2026-02-16 19:34:08,474 - INFO - ITERATION 1/3
+2026-02-16 19:34:08,474 - INFO - ============================================================
+2026-02-16 19:34:08,477 - INFO - ✓ Saved current story to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/story.txt
+2026-02-16 19:34:08,477 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-16 19:34:08,501 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:34:13,225 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:34:13,231 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:34:18,732 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:34:18,735 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:34:22,525 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:34:22,527 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:34:27,538 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:34:27,540 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:34:34,049 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:34:34,052 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:34:35,745 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:34:35,748 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:34:38,574 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:34:38,577 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:02,703 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:02,704 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:06,761 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:06,763 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:11,026 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:11,028 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:15,914 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:15,916 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:18,422 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:18,424 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:21,861 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:21,864 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:27,764 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:27,766 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:30,652 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:30,654 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:35,068 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:35,070 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:39,814 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:39,816 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:41,418 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:41,420 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:43,548 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:43,550 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:35:45,085 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:35:45,091 - INFO - ✓ Survey completed and saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/survey.json
+2026-02-16 19:35:45,091 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:35:45,093 - INFO - ✓ Cost tracking saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/cost_tracking.json
+2026-02-16 19:35:45,093 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:35:45,093 - INFO - Building ground atoms from survey: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/survey.json
+2026-02-16 19:35:45,096 - INFO - Created 41 ground atoms
+2026-02-16 19:35:45,096 - INFO - Extracted metadata for 20 features
+2026-02-16 19:35:45,098 - INFO - Saved ground atoms to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/ground_atoms.json
+2026-02-16 19:35:45,098 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:35:45,101 - INFO - Saved segments metadata to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/segments_metadata.json
+2026-02-16 19:35:45,101 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:35:45,101 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:35:45,101 - INFO - Running PyReason...
+2026-02-16 19:35:48,908 - INFO - Added 20 facts to PyReason
+2026-02-16 19:35:50,427 - INFO - Rules loaded successfully
+2026-02-16 19:35:50,427 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-16 19:35:57,813 - INFO - Reasoning completed
+2026-02-16 19:35:57,813 - INFO - Saving rule traces to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/pyreason_traces
+2026-02-16 19:36:00,138 - INFO - ✓ Generated 2 trace files:
+2026-02-16 19:36:00,138 - INFO -   - rule_trace_nodes_20260216-193550.csv
+2026-02-16 19:36:00,138 - INFO -   - rule_trace_edges_20260216-193550.csv
+2026-02-16 19:36:00,138 - INFO - ✓ PyReason traces saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/pyreason_traces
+2026-02-16 19:36:00,138 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-16 19:36:00,139 - INFO - ============================================================
+2026-02-16 19:36:00,139 - INFO - ABDUCTION ANALYSIS
+2026-02-16 19:36:00,139 - INFO - ============================================================
+2026-02-16 19:36:00,139 - INFO - Loading learned rules...
+2026-02-16 19:36:00,141 - INFO - Loaded 100 learned rules
+2026-02-16 19:36:00,141 - INFO - Parsing trace CSV: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/pyreason_traces/rule_trace_edges_20260216-193550.csv
+2026-02-16 19:36:00,145 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-16 19:36:00,147 - INFO - Successfully parsed 20 corpus derivations
+2026-02-16 19:36:00,147 - INFO - Analyzing story: community_time
+2026-02-16 19:36:00,147 - INFO - Calculating confidence gaps...
+2026-02-16 19:36:00,147 - INFO - 
+Current total similarity: 0.364
+2026-02-16 19:36:00,147 - INFO - Potential total similarity: 0.468
+2026-02-16 19:36:00,147 - INFO - Total improvement potential: 0.104
+2026-02-16 19:36:00,147 - INFO - Max gap: 0.430
+2026-02-16 19:36:00,148 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-16 19:36:00,148 - INFO - 
+Top feature gaps:
+2026-02-16 19:36:00,148 - INFO -   1. behavioral_guidance: current=0.180, max=0.610, gap=0.430
+2026-02-16 19:36:00,148 - INFO -   2. vertical_individualism: current=0.180, max=0.540, gap=0.360
+2026-02-16 19:36:00,148 - INFO -   3. uniqueness_self_expression: current=0.210, max=0.500, gap=0.290
+2026-02-16 19:36:00,148 - INFO -   4. meritocracy_emphasis: current=0.210, max=0.430, gap=0.220
+2026-02-16 19:36:00,148 - INFO -   5. personal_ethics_over_group_norms: current=0.250, max=0.460, gap=0.210
+2026-02-16 19:36:00,150 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/abduction_analysis.json
+2026-02-16 19:36:00,150 - INFO - 
+Creating ranked prescriptions...
+2026-02-16 19:36:00,150 - INFO - Created 20 ranked prescriptions (20 unique segments)
+2026-02-16 19:36:00,152 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/ranked_prescriptions.json
+2026-02-16 19:36:00,152 - INFO -   Total prescriptions: 20
+2026-02-16 19:36:00,152 - INFO - 
+============================================================
+2026-02-16 19:36:00,152 - INFO - ABDUCTION COMPLETE
+2026-02-16 19:36:00,152 - INFO - ============================================================
+2026-02-16 19:36:00,152 - INFO - Features analyzed: 20
+2026-02-16 19:36:00,152 - INFO - Segments to transform: 20
+2026-02-16 19:36:00,152 - INFO - Stop condition: NO - Continue transforming
+2026-02-16 19:36:00,152 - INFO - ============================================================
+2026-02-16 19:36:00,152 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/abduction_analysis.json
+2026-02-16 19:36:00,152 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/ranked_prescriptions.json
+2026-02-16 19:36:00,152 - INFO - 
+[Step 7/7] Transforming story (top-5 features)...
+2026-02-16 19:36:00,153 - INFO - ============================================================
+2026-02-16 19:36:00,153 - INFO - STORY TRANSFORMATION
+2026-02-16 19:36:00,153 - INFO - ============================================================
+2026-02-16 19:36:00,153 - INFO - Selected top 4 features:
+2026-02-16 19:36:00,154 - INFO -   1. vertical_individualism: 3 segments
+2026-02-16 19:36:00,154 - INFO -   2. meritocracy_emphasis: 2 segments
+2026-02-16 19:36:00,154 - INFO -   3. moral_emphasis: 1 segments
+2026-02-16 19:36:00,154 - INFO -   4. relationship_orientation: 1 segments
+2026-02-16 19:36:00,154 - INFO - Total segments to transform: 7
+2026-02-16 19:36:00,154 - INFO - 
+[Transformation 1/7]
+2026-02-16 19:36:00,154 - INFO -   Feature: vertical_individualism
+2026-02-16 19:36:00,154 - INFO -   Segment: Maybe, in our more fantastic moments, some talent scout will...
+2026-02-16 19:36:00,154 - INFO -   Target: 4 → 5
+2026-02-16 19:36:00,155 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:36:14,605 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:36:14,606 - INFO -   ✓ Transformed (tokens: 2101)
+2026-02-16 19:36:14,607 - INFO - 
+[Transformation 2/7]
+2026-02-16 19:36:14,607 - INFO -   Feature: vertical_individualism
+2026-02-16 19:36:14,607 - INFO -   Segment: We discuss the what-ifs of our lives around pink and purple ...
+2026-02-16 19:36:14,607 - INFO -   Target: 4 → 5
+2026-02-16 19:36:14,608 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:36:31,878 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:36:31,879 - INFO -   ✓ Transformed (tokens: 2120)
+2026-02-16 19:36:31,881 - INFO - 
+[Transformation 3/7]
+2026-02-16 19:36:31,881 - INFO -   Feature: vertical_individualism
+2026-02-16 19:36:31,881 - INFO -   Segment: Discounts at the local market on Thursday. A chance for us t...
+2026-02-16 19:36:31,881 - INFO -   Target: 4 → 5
+2026-02-16 19:36:31,882 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:36:41,507 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:36:41,508 - INFO -   ✓ Transformed (tokens: 2126)
+2026-02-16 19:36:41,509 - INFO - 
+[Transformation 4/7]
+2026-02-16 19:36:41,510 - INFO -   Feature: meritocracy_emphasis
+2026-02-16 19:36:41,510 - INFO -   Segment: They unload the possibility of swaying bodies and words slur...
+2026-02-16 19:36:41,510 - INFO -   Target: 4 → 5
+2026-02-16 19:36:41,511 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:36:56,549 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:36:56,550 - INFO -   ✓ Transformed (tokens: 2104)
+2026-02-16 19:36:56,551 - INFO - 
+[Transformation 5/7]
+2026-02-16 19:36:56,551 - INFO -   Feature: meritocracy_emphasis
+2026-02-16 19:36:56,551 - INFO -   Segment: We drive to the dumpster, our Silverados and odd Subarus ful...
+2026-02-16 19:36:56,551 - INFO -   Target: 4 → 5
+2026-02-16 19:36:56,552 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:04,144 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:04,145 - INFO -   ✓ Transformed (tokens: 2138)
+2026-02-16 19:37:04,146 - INFO - 
+[Transformation 6/7]
+2026-02-16 19:37:04,146 - INFO -   Feature: moral_emphasis
+2026-02-16 19:37:04,146 - INFO -   Segment: Another pump broken, a toilet clogged, unseen things tauntin...
+2026-02-16 19:37:04,146 - INFO -   Target: 4 → 5
+2026-02-16 19:37:04,147 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:19,355 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:19,356 - INFO -   ✓ Transformed (tokens: 2174)
+2026-02-16 19:37:19,357 - INFO - 
+[Transformation 7/7]
+2026-02-16 19:37:19,357 - INFO -   Feature: relationship_orientation
+2026-02-16 19:37:19,357 - INFO -   Segment: We meander about the aisles, picking up and putting back thi...
+2026-02-16 19:37:19,358 - INFO -   Target: 4 → 5
+2026-02-16 19:37:19,359 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:31,384 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:31,385 - INFO -   ✓ Transformed (tokens: 2234)
+2026-02-16 19:37:31,388 - INFO - 
+✓ Final transformed story saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/story_transformed.txt
+2026-02-16 19:37:31,390 - INFO - ✓ Transformation log saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/transformation_log.json
+2026-02-16 19:37:31,392 - INFO - ✓ Transformation costs saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/cost_tracking_transformation.json
+2026-02-16 19:37:31,392 - INFO - 
+============================================================
+2026-02-16 19:37:31,392 - INFO - TRANSFORMATION COMPLETE
+2026-02-16 19:37:31,392 - INFO - ============================================================
+2026-02-16 19:37:31,392 - INFO - Features selected: 4
+2026-02-16 19:37:31,392 - INFO - Segments attempted: 7
+2026-02-16 19:37:31,392 - INFO - Segments transformed: 7
+2026-02-16 19:37:31,392 - INFO - Segments skipped (reversals): 0
+2026-02-16 19:37:31,392 - INFO - Total cost: $0.0290
+2026-02-16 19:37:31,392 - INFO - Total tokens: 14,997
+2026-02-16 19:37:31,392 - INFO - ============================================================
+2026-02-16 19:37:31,392 - INFO - ✓ Story transformed
+2026-02-16 19:37:31,393 - INFO - ✓ Transformation log: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/transformation_log.json
+2026-02-16 19:37:31,393 - INFO - ✓ Transformation costs: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_0/cost_tracking_transformation.json
+2026-02-16 19:37:31,393 - INFO - 
+============================================================
+2026-02-16 19:37:31,393 - INFO - ITERATION 2/3
+2026-02-16 19:37:31,393 - INFO - ============================================================
+2026-02-16 19:37:31,395 - INFO - ✓ Saved current story to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/story.txt
+2026-02-16 19:37:31,395 - INFO - 
+[Step 3/7] Surveying story (iteration 1)...
+2026-02-16 19:37:31,397 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:35,342 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:35,344 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:37,982 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:37,984 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:41,663 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:41,665 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:44,128 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:44,129 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:45,818 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:45,820 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:48,321 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:48,322 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:51,596 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:51,598 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:37:53,683 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:37:53,685 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:02,508 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:02,510 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:05,697 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:05,699 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:08,229 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:08,231 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:11,411 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:11,413 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:15,357 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:15,359 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:19,910 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:19,912 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:27,604 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:27,606 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:32,631 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:32,633 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:34,538 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:34,540 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:47,380 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:47,382 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:49,473 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:49,475 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:53,075 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:53,081 - INFO - ✓ Survey completed and saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/survey.json
+2026-02-16 19:38:53,081 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:38:53,085 - INFO - ✓ Cost tracking saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/cost_tracking.json
+2026-02-16 19:38:53,085 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:38:53,085 - INFO - Building ground atoms from survey: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/survey.json
+2026-02-16 19:38:53,087 - INFO - Created 41 ground atoms
+2026-02-16 19:38:53,087 - INFO - Extracted metadata for 20 features
+2026-02-16 19:38:53,090 - INFO - Saved ground atoms to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/ground_atoms.json
+2026-02-16 19:38:53,090 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:38:53,093 - INFO - Saved segments metadata to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/segments_metadata.json
+2026-02-16 19:38:53,093 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:38:53,093 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:38:53,093 - INFO - Running PyReason...
+2026-02-16 19:38:53,099 - INFO - Added 20 facts to PyReason
+2026-02-16 19:38:53,202 - INFO - Rules loaded successfully
+2026-02-16 19:38:53,202 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-16 19:38:53,231 - INFO - Reasoning completed
+2026-02-16 19:38:53,231 - INFO - Saving rule traces to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/pyreason_traces
+2026-02-16 19:38:53,258 - INFO - ✓ Generated 2 trace files:
+2026-02-16 19:38:53,258 - INFO -   - rule_trace_nodes_20260216-193853.csv
+2026-02-16 19:38:53,258 - INFO -   - rule_trace_edges_20260216-193853.csv
+2026-02-16 19:38:53,258 - INFO - ✓ PyReason traces saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/pyreason_traces
+2026-02-16 19:38:53,258 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-16 19:38:53,259 - INFO - ============================================================
+2026-02-16 19:38:53,259 - INFO - ABDUCTION ANALYSIS
+2026-02-16 19:38:53,259 - INFO - ============================================================
+2026-02-16 19:38:53,259 - INFO - Loading learned rules...
+2026-02-16 19:38:53,260 - INFO - Loaded 100 learned rules
+2026-02-16 19:38:53,260 - INFO - Parsing trace CSV: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/pyreason_traces/rule_trace_edges_20260216-193853.csv
+2026-02-16 19:38:53,263 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-16 19:38:53,265 - INFO - Successfully parsed 20 corpus derivations
+2026-02-16 19:38:53,265 - INFO - Analyzing story: community_time
+2026-02-16 19:38:53,265 - INFO - Calculating confidence gaps...
+2026-02-16 19:38:53,266 - INFO - 
+Current total similarity: 0.370
+2026-02-16 19:38:53,266 - INFO - Potential total similarity: 0.467
+2026-02-16 19:38:53,266 - INFO - Total improvement potential: 0.098
+2026-02-16 19:38:53,266 - INFO - Max gap: 0.430
+2026-02-16 19:38:53,266 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-16 19:38:53,266 - INFO - 
+Top feature gaps:
+2026-02-16 19:38:53,266 - INFO -   1. behavioral_guidance: current=0.180, max=0.610, gap=0.430
+2026-02-16 19:38:53,266 - INFO -   2. primary_conflict: current=0.180, max=0.540, gap=0.360
+2026-02-16 19:38:53,266 - INFO -   3. uniqueness_self_expression: current=0.210, max=0.500, gap=0.290
+2026-02-16 19:38:53,266 - INFO -   4. personal_ethics_over_group_norms: current=0.250, max=0.460, gap=0.210
+2026-02-16 19:38:53,266 - INFO -   5. protagonist_centered_focus: current=0.290, max=0.500, gap=0.210
+2026-02-16 19:38:53,269 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/abduction_analysis.json
+2026-02-16 19:38:53,269 - INFO - 
+Creating ranked prescriptions...
+2026-02-16 19:38:53,269 - INFO - Created 16 ranked prescriptions (16 unique segments)
+2026-02-16 19:38:53,271 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/ranked_prescriptions.json
+2026-02-16 19:38:53,271 - INFO -   Total prescriptions: 16
+2026-02-16 19:38:53,271 - INFO - 
+============================================================
+2026-02-16 19:38:53,271 - INFO - ABDUCTION COMPLETE
+2026-02-16 19:38:53,271 - INFO - ============================================================
+2026-02-16 19:38:53,271 - INFO - Features analyzed: 20
+2026-02-16 19:38:53,271 - INFO - Segments to transform: 16
+2026-02-16 19:38:53,271 - INFO - Stop condition: NO - Continue transforming
+2026-02-16 19:38:53,271 - INFO - ============================================================
+2026-02-16 19:38:53,271 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/abduction_analysis.json
+2026-02-16 19:38:53,271 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/ranked_prescriptions.json
+2026-02-16 19:38:53,271 - INFO - 
+[Step 7/7] Transforming story (top-5 features)...
+2026-02-16 19:38:53,271 - INFO - ============================================================
+2026-02-16 19:38:53,271 - INFO - STORY TRANSFORMATION
+2026-02-16 19:38:53,271 - INFO - ============================================================
+2026-02-16 19:38:53,272 - INFO - Selected top 0 features:
+2026-02-16 19:38:53,272 - INFO - Total segments to transform: 0
+2026-02-16 19:38:53,274 - INFO - 
+✓ Final transformed story saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/story_transformed.txt
+2026-02-16 19:38:53,275 - INFO - ✓ Transformation log saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/transformation_log.json
+2026-02-16 19:38:53,277 - INFO - ✓ Transformation costs saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/cost_tracking_transformation.json
+2026-02-16 19:38:53,277 - INFO - 
+============================================================
+2026-02-16 19:38:53,277 - INFO - TRANSFORMATION COMPLETE
+2026-02-16 19:38:53,277 - INFO - ============================================================
+2026-02-16 19:38:53,277 - INFO - Features selected: 0
+2026-02-16 19:38:53,277 - INFO - Segments attempted: 0
+2026-02-16 19:38:53,277 - INFO - Segments transformed: 0
+2026-02-16 19:38:53,277 - INFO - Segments skipped (reversals): 0
+2026-02-16 19:38:53,277 - INFO - Total cost: $0.0000
+2026-02-16 19:38:53,277 - INFO - Total tokens: 0
+2026-02-16 19:38:53,277 - INFO - ============================================================
+2026-02-16 19:38:53,277 - INFO - ✓ Story transformed
+2026-02-16 19:38:53,277 - INFO - ✓ Transformation log: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/transformation_log.json
+2026-02-16 19:38:53,277 - INFO - ✓ Transformation costs: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_1/cost_tracking_transformation.json
+2026-02-16 19:38:53,277 - INFO - 
+============================================================
+2026-02-16 19:38:53,277 - INFO - ITERATION 3/3
+2026-02-16 19:38:53,277 - INFO - ============================================================
+2026-02-16 19:38:53,280 - INFO - ✓ Saved current story to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/story.txt
+2026-02-16 19:38:53,280 - INFO - 
+[Step 3/7] Surveying story (iteration 2)...
+2026-02-16 19:38:53,282 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:58,169 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:58,171 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:38:59,719 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:38:59,721 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:01,600 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:01,602 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:03,274 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:03,275 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:04,906 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:04,908 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:07,581 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:07,583 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:26,593 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:26,595 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:29,799 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:29,801 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:31,313 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:31,315 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:33,170 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:33,172 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:37,991 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:37,993 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:41,252 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:41,254 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:43,171 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:43,173 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:45,425 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:45,427 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:47,068 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:47,069 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:49,064 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:49,066 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:50,724 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:50,726 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:54,068 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:54,071 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:55,293 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:55,295 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:39:58,330 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:39:58,336 - INFO - ✓ Survey completed and saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/survey.json
+2026-02-16 19:39:58,337 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:39:58,339 - INFO - ✓ Cost tracking saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/cost_tracking.json
+2026-02-16 19:39:58,339 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:39:58,339 - INFO - Building ground atoms from survey: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/survey.json
+2026-02-16 19:39:58,341 - INFO - Created 41 ground atoms
+2026-02-16 19:39:58,341 - INFO - Extracted metadata for 20 features
+2026-02-16 19:39:58,343 - INFO - Saved ground atoms to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/ground_atoms.json
+2026-02-16 19:39:58,343 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:39:58,346 - INFO - Saved segments metadata to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/segments_metadata.json
+2026-02-16 19:39:58,346 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:39:58,347 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:39:58,347 - INFO - Running PyReason...
+2026-02-16 19:39:58,352 - INFO - Added 20 facts to PyReason
+2026-02-16 19:39:58,463 - INFO - Rules loaded successfully
+2026-02-16 19:39:58,463 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-16 19:39:58,504 - INFO - Reasoning completed
+2026-02-16 19:39:58,505 - INFO - Saving rule traces to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/pyreason_traces
+2026-02-16 19:39:58,532 - INFO - ✓ Generated 2 trace files:
+2026-02-16 19:39:58,533 - INFO -   - rule_trace_nodes_20260216-193958.csv
+2026-02-16 19:39:58,533 - INFO -   - rule_trace_edges_20260216-193958.csv
+2026-02-16 19:39:58,533 - INFO - ✓ PyReason traces saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/pyreason_traces
+2026-02-16 19:39:58,533 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-16 19:39:58,534 - INFO - ============================================================
+2026-02-16 19:39:58,534 - INFO - ABDUCTION ANALYSIS
+2026-02-16 19:39:58,534 - INFO - ============================================================
+2026-02-16 19:39:58,535 - INFO - Loading learned rules...
+2026-02-16 19:39:58,537 - INFO - Loaded 100 learned rules
+2026-02-16 19:39:58,537 - INFO - Parsing trace CSV: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/pyreason_traces/rule_trace_edges_20260216-193958.csv
+2026-02-16 19:39:58,540 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-16 19:39:58,542 - INFO - Successfully parsed 20 corpus derivations
+2026-02-16 19:39:58,542 - INFO - Analyzing story: community_time
+2026-02-16 19:39:58,542 - INFO - Calculating confidence gaps...
+2026-02-16 19:39:58,542 - INFO - 
+Current total similarity: 0.370
+2026-02-16 19:39:58,543 - INFO - Potential total similarity: 0.467
+2026-02-16 19:39:58,543 - INFO - Total improvement potential: 0.098
+2026-02-16 19:39:58,543 - INFO - Max gap: 0.430
+2026-02-16 19:39:58,543 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-16 19:39:58,543 - INFO - 
+Top feature gaps:
+2026-02-16 19:39:58,543 - INFO -   1. behavioral_guidance: current=0.180, max=0.610, gap=0.430
+2026-02-16 19:39:58,543 - INFO -   2. primary_conflict: current=0.180, max=0.540, gap=0.360
+2026-02-16 19:39:58,543 - INFO -   3. uniqueness_self_expression: current=0.210, max=0.500, gap=0.290
+2026-02-16 19:39:58,543 - INFO -   4. personal_ethics_over_group_norms: current=0.250, max=0.460, gap=0.210
+2026-02-16 19:39:58,544 - INFO -   5. protagonist_centered_focus: current=0.290, max=0.500, gap=0.210
+2026-02-16 19:39:58,546 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/abduction_analysis.json
+2026-02-16 19:39:58,546 - INFO - 
+Creating ranked prescriptions...
+2026-02-16 19:39:58,546 - INFO - Created 14 ranked prescriptions (14 unique segments)
+2026-02-16 19:39:58,548 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/ranked_prescriptions.json
+2026-02-16 19:39:58,548 - INFO -   Total prescriptions: 14
+2026-02-16 19:39:58,548 - INFO - 
+============================================================
+2026-02-16 19:39:58,549 - INFO - ABDUCTION COMPLETE
+2026-02-16 19:39:58,549 - INFO - ============================================================
+2026-02-16 19:39:58,549 - INFO - Features analyzed: 20
+2026-02-16 19:39:58,549 - INFO - Segments to transform: 14
+2026-02-16 19:39:58,549 - INFO - Stop condition: NO - Continue transforming
+2026-02-16 19:39:58,549 - INFO - ============================================================
+2026-02-16 19:39:58,549 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/abduction_analysis.json
+2026-02-16 19:39:58,549 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/ranked_prescriptions.json
+2026-02-16 19:39:58,549 - INFO - 
+[Step 7/7] Transforming story (top-5 features)...
+2026-02-16 19:39:58,550 - INFO - ============================================================
+2026-02-16 19:39:58,550 - INFO - STORY TRANSFORMATION
+2026-02-16 19:39:58,550 - INFO - ============================================================
+2026-02-16 19:39:58,551 - INFO - Selected top 0 features:
+2026-02-16 19:39:58,551 - INFO - Total segments to transform: 0
+2026-02-16 19:39:58,552 - INFO - 
+✓ Final transformed story saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/story_transformed.txt
+2026-02-16 19:39:58,554 - INFO - ✓ Transformation log saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/transformation_log.json
+2026-02-16 19:39:58,556 - INFO - ✓ Transformation costs saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/cost_tracking_transformation.json
+2026-02-16 19:39:58,556 - INFO - 
+============================================================
+2026-02-16 19:39:58,556 - INFO - TRANSFORMATION COMPLETE
+2026-02-16 19:39:58,556 - INFO - ============================================================
+2026-02-16 19:39:58,556 - INFO - Features selected: 0
+2026-02-16 19:39:58,556 - INFO - Segments attempted: 0
+2026-02-16 19:39:58,556 - INFO - Segments transformed: 0
+2026-02-16 19:39:58,556 - INFO - Segments skipped (reversals): 0
+2026-02-16 19:39:58,556 - INFO - Total cost: $0.0000
+2026-02-16 19:39:58,556 - INFO - Total tokens: 0
+2026-02-16 19:39:58,556 - INFO - ============================================================
+2026-02-16 19:39:58,556 - INFO - ✓ Story transformed
+2026-02-16 19:39:58,556 - INFO - ✓ Transformation log: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/transformation_log.json
+2026-02-16 19:39:58,556 - INFO - ✓ Transformation costs: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/iteration_2/cost_tracking_transformation.json
+2026-02-16 19:39:58,556 - INFO - 
+============================================================
+2026-02-16 19:39:58,556 - INFO - PHASE 2 FINAL COST SUMMARY
+2026-02-16 19:39:58,557 - INFO - ============================================================
+2026-02-16 19:39:58,558 - INFO - 
+============================================================
+2026-02-16 19:39:58,559 - INFO - PHASE 2 COST SUMMARY
+2026-02-16 19:39:58,559 - INFO - ============================================================
+2026-02-16 19:39:58,559 - INFO - Total stories processed: 1
+2026-02-16 19:39:58,559 - INFO - Total iterations: 3
+2026-02-16 19:39:58,559 - INFO - Total cost: $0.1016
+2026-02-16 19:39:58,559 - INFO - Total tokens: 90,899
+2026-02-16 19:39:58,559 - INFO -   - Input: 78,865
+2026-02-16 19:39:58,559 - INFO -   - Output: 12,034
+2026-02-16 19:39:58,559 - INFO - Cost tracking saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time/cost_tracking_final.json
+2026-02-16 19:39:58,559 - INFO - ============================================================
+2026-02-16 19:39:58,559 - INFO - 
+Phase 2 completed!
+2026-02-16 19:39:58,559 - INFO - Output directory: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Community_Time
+2026-02-16 19:39:58,559 - INFO - ============================================================
+2026-02-16 19:39:58,560 - INFO - Execution completed successfully!
+2026-02-16 19:39:58,560 - INFO - ============================================================
+2026-02-16 19:45:11,510 - INFO - ============================================================
+2026-02-16 19:45:11,510 - INFO - CONNECT Project - Phase 2
+2026-02-16 19:45:11,510 - INFO - Problem: inverse
+2026-02-16 19:45:11,510 - INFO - ============================================================
+2026-02-16 19:45:11,510 - INFO - 
+============================================================
+2026-02-16 19:45:11,510 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-16 19:45:11,510 - INFO - ============================================================
+2026-02-16 19:45:11,510 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-16 19:45:11,510 - INFO - Loading story: Harrison_Ford.txt
+2026-02-16 19:45:11,511 - INFO - Loaded story: Harrison_Ford (5954 characters)
+2026-02-16 19:45:11,511 - INFO - ✓ Loaded test story: Harrison_Ford
+2026-02-16 19:45:11,511 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-16 19:45:11,512 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-d5jjuhzi/collectivistic/selected_rules.txt
+2026-02-16 19:45:11,514 - INFO - ✓ Output directory: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford
+2026-02-16 19:45:11,514 - INFO - ✓ Cost tracker initialized
+2026-02-16 19:45:11,514 - INFO - 
+============================================================
+2026-02-16 19:45:11,514 - INFO - ITERATION 1/3
+2026-02-16 19:45:11,514 - INFO - ============================================================
+2026-02-16 19:45:11,517 - INFO - ✓ Saved current story to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/story.txt
+2026-02-16 19:45:11,517 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-16 19:45:11,538 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:15,842 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:15,847 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:17,277 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:17,279 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:20,138 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:20,140 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:22,840 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:22,842 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:25,219 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:25,221 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:34,211 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:34,214 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:36,568 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:36,570 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:39,522 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:39,524 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:42,211 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:42,213 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:43,820 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:43,822 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:47,055 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:47,057 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:49,498 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:49,500 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:52,401 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:52,403 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:54,205 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:54,207 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:55,855 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:55,857 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:45:58,770 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:45:58,772 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:01,391 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:01,393 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:03,794 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:03,795 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:05,171 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:05,173 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:09,010 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:09,012 - ERROR - Execution failed: [Errno 2] No such file or directory: 'output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/survey.json'
+2026-02-16 19:46:09,012 - ERROR - Check connect.log for details
+2026-02-16 19:46:17,143 - INFO - ============================================================
+2026-02-16 19:46:17,143 - INFO - CONNECT Project - Phase 2
+2026-02-16 19:46:17,143 - INFO - Problem: inverse
+2026-02-16 19:46:17,143 - INFO - ============================================================
+2026-02-16 19:46:17,143 - INFO - 
+============================================================
+2026-02-16 19:46:17,143 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-16 19:46:17,143 - INFO - ============================================================
+2026-02-16 19:46:17,143 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-16 19:46:17,143 - INFO - Loading story: Harrison_Ford.txt
+2026-02-16 19:46:17,145 - INFO - Loaded story: Harrison_Ford (5954 characters)
+2026-02-16 19:46:17,145 - INFO - ✓ Loaded test story: Harrison_Ford
+2026-02-16 19:46:17,145 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-16 19:46:17,145 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-d5jjuhzi/collectivistic/selected_rules.txt
+2026-02-16 19:46:17,147 - INFO - ✓ Output directory: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford
+2026-02-16 19:46:17,147 - INFO - ✓ Cost tracker initialized
+2026-02-16 19:46:17,147 - INFO - 
+============================================================
+2026-02-16 19:46:17,147 - INFO - ITERATION 1/3
+2026-02-16 19:46:17,147 - INFO - ============================================================
+2026-02-16 19:46:17,150 - INFO - ✓ Saved current story to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/story.txt
+2026-02-16 19:46:17,150 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-16 19:46:17,169 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:20,185 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:20,189 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:20,953 - INFO - ============================================================
+2026-02-16 19:46:20,954 - INFO - CONNECT Project - Phase 2
+2026-02-16 19:46:20,954 - INFO - Problem: inverse
+2026-02-16 19:46:20,954 - INFO - ============================================================
+2026-02-16 19:46:20,954 - INFO - 
+============================================================
+2026-02-16 19:46:20,954 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-16 19:46:20,954 - INFO - ============================================================
+2026-02-16 19:46:20,954 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-16 19:46:20,954 - INFO - Loading story: Harrison_Ford.txt
+2026-02-16 19:46:20,955 - INFO - Loaded story: Harrison_Ford (5954 characters)
+2026-02-16 19:46:20,955 - INFO - ✓ Loaded test story: Harrison_Ford
+2026-02-16 19:46:20,955 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-16 19:46:20,955 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-d5jjuhzi/collectivistic/selected_rules.txt
+2026-02-16 19:46:20,956 - INFO - ✓ Output directory: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford
+2026-02-16 19:46:20,956 - INFO - ✓ Cost tracker initialized
+2026-02-16 19:46:20,956 - INFO - 
+============================================================
+2026-02-16 19:46:20,956 - INFO - ITERATION 1/3
+2026-02-16 19:46:20,956 - INFO - ============================================================
+2026-02-16 19:46:20,959 - INFO - ✓ Saved current story to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/story.txt
+2026-02-16 19:46:20,959 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-16 19:46:20,976 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:22,759 - INFO - ============================================================
+2026-02-16 19:46:22,760 - INFO - CONNECT Project - Phase 2
+2026-02-16 19:46:22,760 - INFO - Problem: inverse
+2026-02-16 19:46:22,760 - INFO - ============================================================
+2026-02-16 19:46:22,760 - INFO - 
+============================================================
+2026-02-16 19:46:22,760 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-16 19:46:22,760 - INFO - ============================================================
+2026-02-16 19:46:22,760 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-16 19:46:22,760 - INFO - Loading story: Harrison_Ford.txt
+2026-02-16 19:46:22,761 - INFO - Loaded story: Harrison_Ford (5954 characters)
+2026-02-16 19:46:22,761 - INFO - ✓ Loaded test story: Harrison_Ford
+2026-02-16 19:46:22,761 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-16 19:46:22,761 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-d5jjuhzi/collectivistic/selected_rules.txt
+2026-02-16 19:46:22,762 - INFO - ✓ Output directory: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford
+2026-02-16 19:46:22,762 - INFO - ✓ Cost tracker initialized
+2026-02-16 19:46:22,762 - INFO - 
+============================================================
+2026-02-16 19:46:22,762 - INFO - ITERATION 1/3
+2026-02-16 19:46:22,762 - INFO - ============================================================
+2026-02-16 19:46:22,764 - INFO - ✓ Saved current story to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/story.txt
+2026-02-16 19:46:22,764 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-16 19:46:22,782 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:23,087 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:23,091 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:24,413 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:24,414 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:24,591 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:24,596 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:25,990 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:25,992 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:26,304 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:26,306 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:27,612 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:27,614 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:29,244 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:29,246 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:29,354 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:29,356 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:30,598 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:30,601 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:32,011 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:32,014 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:32,533 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:32,535 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:33,073 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:33,076 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:33,699 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:33,701 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:33,993 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:33,995 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:35,276 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:35,279 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:35,420 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:35,422 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:35,789 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:35,792 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:37,982 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:37,985 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:38,251 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:38,253 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:38,862 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:38,864 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:39,032 - INFO - ============================================================
+2026-02-16 19:46:39,032 - INFO - CONNECT Project - Phase 2
+2026-02-16 19:46:39,032 - INFO - Problem: inverse
+2026-02-16 19:46:39,032 - INFO - ============================================================
+2026-02-16 19:46:39,032 - INFO - 
+============================================================
+2026-02-16 19:46:39,032 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-16 19:46:39,032 - INFO - ============================================================
+2026-02-16 19:46:39,032 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-16 19:46:39,032 - INFO - Loading story: Harrison_Ford.txt
+2026-02-16 19:46:39,034 - INFO - Loaded story: Harrison_Ford (5954 characters)
+2026-02-16 19:46:39,034 - INFO - ✓ Loaded test story: Harrison_Ford
+2026-02-16 19:46:39,034 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-16 19:46:39,035 - INFO - ✓ Rules loaded from: /home/dbavikad/leibniz/connect-demo/data/rules/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-d5jjuhzi/collectivistic/selected_rules.txt
+2026-02-16 19:46:39,037 - INFO - ✓ Output directory: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford
+2026-02-16 19:46:39,037 - INFO - ✓ Cost tracker initialized
+2026-02-16 19:46:39,037 - INFO - 
+============================================================
+2026-02-16 19:46:39,037 - INFO - ITERATION 1/3
+2026-02-16 19:46:39,037 - INFO - ============================================================
+2026-02-16 19:46:39,040 - INFO - ✓ Saved current story to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/story.txt
+2026-02-16 19:46:39,040 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-16 19:46:39,060 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:41,173 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:41,176 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:41,249 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:41,251 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:41,568 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:41,571 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:42,884 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:42,890 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:42,960 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:42,963 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:43,148 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:43,150 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:44,713 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:44,715 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:45,100 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:45,102 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:47,568 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:47,570 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:47,611 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:47,613 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:48,746 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:48,748 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:48,861 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:48,864 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:49,420 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:49,422 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:50,400 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:50,402 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:50,469 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:50,473 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:51,250 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:51,253 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:52,085 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:52,086 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:52,087 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:52,089 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:53,092 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:53,095 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:53,144 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:53,147 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:54,509 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:54,512 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:54,600 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:54,603 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:54,772 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:54,775 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:54,926 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:54,928 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:56,258 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:56,260 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:56,531 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:56,534 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:56,704 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:56,707 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:57,579 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:57,582 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:58,541 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:58,545 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:58,684 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:58,687 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:59,195 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:59,198 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:46:59,787 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:46:59,790 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:00,192 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:00,194 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:00,949 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:00,952 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:00,964 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:00,967 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:01,312 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:01,314 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:01,537 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:01,540 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:02,302 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:02,305 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:03,363 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:03,365 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:04,546 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:04,549 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:05,484 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:05,486 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:06,214 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:06,217 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:06,640 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:06,643 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:07,457 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:07,459 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:07,721 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:07,724 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:08,464 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:08,469 - INFO - ✓ Survey completed and saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/survey.json
+2026-02-16 19:47:08,469 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:47:08,471 - INFO - ✓ Cost tracking saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/cost_tracking.json
+2026-02-16 19:47:08,471 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:47:08,471 - INFO - Building ground atoms from survey: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/survey.json
+2026-02-16 19:47:08,473 - INFO - Created 41 ground atoms
+2026-02-16 19:47:08,473 - INFO - Extracted metadata for 20 features
+2026-02-16 19:47:08,476 - INFO - Saved ground atoms to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ground_atoms.json
+2026-02-16 19:47:08,476 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:47:08,479 - INFO - Saved segments metadata to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/segments_metadata.json
+2026-02-16 19:47:08,479 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:47:08,479 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:47:08,479 - INFO - Running PyReason...
+2026-02-16 19:47:08,956 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:08,959 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:09,112 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:09,114 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:09,481 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:09,484 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:10,840 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:10,845 - INFO - ✓ Survey completed and saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/survey.json
+2026-02-16 19:47:10,845 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:47:10,848 - INFO - ✓ Cost tracking saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/cost_tracking.json
+2026-02-16 19:47:10,848 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:47:10,848 - INFO - Building ground atoms from survey: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/survey.json
+2026-02-16 19:47:10,851 - INFO - Created 41 ground atoms
+2026-02-16 19:47:10,851 - INFO - Extracted metadata for 20 features
+2026-02-16 19:47:10,854 - INFO - Saved ground atoms to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ground_atoms.json
+2026-02-16 19:47:10,854 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:47:10,857 - INFO - Saved segments metadata to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/segments_metadata.json
+2026-02-16 19:47:10,857 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:47:10,857 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:47:10,857 - INFO - Running PyReason...
+2026-02-16 19:47:10,914 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:10,919 - INFO - ✓ Survey completed and saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/survey.json
+2026-02-16 19:47:10,919 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:47:10,922 - INFO - ✓ Cost tracking saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/cost_tracking.json
+2026-02-16 19:47:10,922 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:47:10,922 - INFO - Building ground atoms from survey: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/survey.json
+2026-02-16 19:47:10,925 - INFO - Created 41 ground atoms
+2026-02-16 19:47:10,925 - INFO - Extracted metadata for 20 features
+2026-02-16 19:47:10,928 - INFO - Saved ground atoms to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ground_atoms.json
+2026-02-16 19:47:10,928 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:47:10,931 - INFO - Saved segments metadata to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/segments_metadata.json
+2026-02-16 19:47:10,931 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:47:10,931 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:47:10,931 - INFO - Running PyReason...
+2026-02-16 19:47:10,973 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:10,976 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:12,820 - INFO - Added 20 facts to PyReason
+2026-02-16 19:47:14,295 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:14,298 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:14,542 - INFO - Rules loaded successfully
+2026-02-16 19:47:14,543 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-16 19:47:15,191 - INFO - Added 20 facts to PyReason
+2026-02-16 19:47:15,363 - INFO - Added 20 facts to PyReason
+2026-02-16 19:47:15,945 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:15,947 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:16,824 - INFO - Rules loaded successfully
+2026-02-16 19:47:16,824 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-16 19:47:17,022 - INFO - Rules loaded successfully
+2026-02-16 19:47:17,022 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-16 19:47:18,736 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:18,738 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:20,315 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:20,316 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:21,906 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:21,908 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:22,403 - INFO - Reasoning completed
+2026-02-16 19:47:22,403 - INFO - Saving rule traces to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/pyreason_traces
+2026-02-16 19:47:23,801 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:23,802 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:24,351 - INFO - Reasoning completed
+2026-02-16 19:47:24,352 - INFO - Saving rule traces to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/pyreason_traces
+2026-02-16 19:47:24,610 - INFO - Reasoning completed
+2026-02-16 19:47:24,610 - INFO - Saving rule traces to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/pyreason_traces
+2026-02-16 19:47:24,797 - INFO - ✓ Generated 2 trace files:
+2026-02-16 19:47:24,797 - INFO -   - rule_trace_nodes_20260216-194714.csv
+2026-02-16 19:47:24,797 - INFO -   - rule_trace_edges_20260216-194714.csv
+2026-02-16 19:47:24,798 - INFO - ✓ PyReason traces saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/pyreason_traces
+2026-02-16 19:47:24,798 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-16 19:47:24,799 - INFO - ============================================================
+2026-02-16 19:47:24,799 - INFO - ABDUCTION ANALYSIS
+2026-02-16 19:47:24,799 - INFO - ============================================================
+2026-02-16 19:47:24,799 - INFO - Loading learned rules...
+2026-02-16 19:47:24,801 - INFO - Loaded 100 learned rules
+2026-02-16 19:47:24,801 - INFO - Parsing trace CSV: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/pyreason_traces/rule_trace_edges_20260216-194714.csv
+2026-02-16 19:47:24,805 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-16 19:47:24,807 - INFO - Successfully parsed 20 corpus derivations
+2026-02-16 19:47:24,807 - INFO - Analyzing story: harrison_ford
+2026-02-16 19:47:24,807 - INFO - Calculating confidence gaps...
+2026-02-16 19:47:24,807 - INFO - 
+Current total similarity: 0.099
+2026-02-16 19:47:24,807 - INFO - Potential total similarity: 0.467
+2026-02-16 19:47:24,807 - INFO - Total improvement potential: 0.369
+2026-02-16 19:47:24,807 - INFO - Max gap: 0.570
+2026-02-16 19:47:24,808 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-16 19:47:24,808 - INFO - 
+Top feature gaps:
+2026-02-16 19:47:24,808 - INFO -   1. behavioral_guidance: current=0.040, max=0.610, gap=0.570
+2026-02-16 19:47:24,808 - INFO -   2. internal_goals: current=0.040, max=0.500, gap=0.460
+2026-02-16 19:47:24,808 - INFO -   3. primary_conflict: current=0.110, max=0.540, gap=0.430
+2026-02-16 19:47:24,808 - INFO -   4. self_reliance: current=0.040, max=0.460, gap=0.420
+2026-02-16 19:47:24,808 - INFO -   5. solo_confrontations: current=0.140, max=0.540, gap=0.400
+2026-02-16 19:47:24,810 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/abduction_analysis.json
+2026-02-16 19:47:24,810 - INFO - 
+Creating ranked prescriptions...
+2026-02-16 19:47:24,810 - INFO - Created 32 ranked prescriptions (32 unique segments)
+2026-02-16 19:47:24,812 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ranked_prescriptions.json
+2026-02-16 19:47:24,813 - INFO -   Total prescriptions: 32
+2026-02-16 19:47:24,813 - INFO - 
+============================================================
+2026-02-16 19:47:24,813 - INFO - ABDUCTION COMPLETE
+2026-02-16 19:47:24,813 - INFO - ============================================================
+2026-02-16 19:47:24,813 - INFO - Features analyzed: 20
+2026-02-16 19:47:24,813 - INFO - Segments to transform: 32
+2026-02-16 19:47:24,813 - INFO - Stop condition: NO - Continue transforming
+2026-02-16 19:47:24,813 - INFO - ============================================================
+2026-02-16 19:47:24,813 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/abduction_analysis.json
+2026-02-16 19:47:24,813 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ranked_prescriptions.json
+2026-02-16 19:47:24,813 - INFO - 
+[Step 7/7] Transforming story (top-5 features)...
+2026-02-16 19:47:24,813 - INFO - ============================================================
+2026-02-16 19:47:24,813 - INFO - STORY TRANSFORMATION
+2026-02-16 19:47:24,813 - INFO - ============================================================
+2026-02-16 19:47:24,814 - INFO - Selected top 5 features:
+2026-02-16 19:47:24,814 - INFO -   1. behavioral_guidance: 3 segments
+2026-02-16 19:47:24,814 - INFO -   2. internal_goals: 3 segments
+2026-02-16 19:47:24,814 - INFO -   3. primary_conflict: 2 segments
+2026-02-16 19:47:24,814 - INFO -   4. self_reliance: 3 segments
+2026-02-16 19:47:24,814 - INFO -   5. solo_confrontations: 2 segments
+2026-02-16 19:47:24,814 - INFO - Total segments to transform: 13
+2026-02-16 19:47:24,814 - INFO - 
+[Transformation 1/13]
+2026-02-16 19:47:24,815 - INFO -   Feature: behavioral_guidance
+2026-02-16 19:47:24,815 - INFO -   Segment: After high school, Harrison attended Wisconsin’s Ripen Colle...
+2026-02-16 19:47:24,815 - INFO -   Target: 2 → 4
+2026-02-16 19:47:24,816 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:26,343 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-16 19:47:26,348 - INFO - ✓ Survey completed and saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/survey.json
+2026-02-16 19:47:26,348 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-16 19:47:26,351 - INFO - ✓ Cost tracking saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/cost_tracking.json
+2026-02-16 19:47:26,351 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-16 19:47:26,351 - INFO - Building ground atoms from survey: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/survey.json
+2026-02-16 19:47:26,354 - INFO - Created 41 ground atoms
+2026-02-16 19:47:26,355 - INFO - Extracted metadata for 20 features
+2026-02-16 19:47:26,358 - INFO - Saved ground atoms to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ground_atoms.json
+2026-02-16 19:47:26,358 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-16 19:47:26,361 - INFO - Saved segments metadata to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/segments_metadata.json
+2026-02-16 19:47:26,361 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-16 19:47:26,361 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-16 19:47:26,361 - INFO - Running PyReason...
+2026-02-16 19:47:26,748 - INFO - ✓ Generated 2 trace files:
+2026-02-16 19:47:26,749 - INFO -   - rule_trace_nodes_20260216-194716.csv
+2026-02-16 19:47:26,749 - INFO -   - rule_trace_edges_20260216-194716.csv
+2026-02-16 19:47:26,749 - INFO - ✓ PyReason traces saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/pyreason_traces
+2026-02-16 19:47:26,749 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-16 19:47:26,750 - INFO - ============================================================
+2026-02-16 19:47:26,750 - INFO - ABDUCTION ANALYSIS
+2026-02-16 19:47:26,750 - INFO - ============================================================
+2026-02-16 19:47:26,750 - INFO - Loading learned rules...
+2026-02-16 19:47:26,752 - INFO - Loaded 100 learned rules
+2026-02-16 19:47:26,752 - INFO - Parsing trace CSV: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/pyreason_traces/rule_trace_edges_20260216-194716.csv
+2026-02-16 19:47:26,757 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-16 19:47:26,759 - INFO - Successfully parsed 20 corpus derivations
+2026-02-16 19:47:26,759 - INFO - Analyzing story: harrison_ford
+2026-02-16 19:47:26,759 - INFO - Calculating confidence gaps...
+2026-02-16 19:47:26,760 - INFO - 
+Current total similarity: 0.104
+2026-02-16 19:47:26,760 - INFO - Potential total similarity: 0.468
+2026-02-16 19:47:26,760 - INFO - Total improvement potential: 0.364
+2026-02-16 19:47:26,760 - INFO - Max gap: 0.570
+2026-02-16 19:47:26,760 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-16 19:47:26,760 - INFO - 
+Top feature gaps:
+2026-02-16 19:47:26,760 - INFO -   1. behavioral_guidance: current=0.040, max=0.610, gap=0.570
+2026-02-16 19:47:26,760 - INFO -   2. primary_conflict: current=0.110, max=0.540, gap=0.430
+2026-02-16 19:47:26,760 - INFO -   3. self_reliance: current=0.040, max=0.460, gap=0.420
+2026-02-16 19:47:26,760 - INFO -   4. solo_confrontations: current=0.140, max=0.540, gap=0.400
+2026-02-16 19:47:26,761 - INFO -   5. internal_goals: current=0.110, max=0.500, gap=0.390
+2026-02-16 19:47:26,764 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/abduction_analysis.json
+2026-02-16 19:47:26,764 - INFO - 
+Creating ranked prescriptions...
+2026-02-16 19:47:26,764 - INFO - Created 31 ranked prescriptions (31 unique segments)
+2026-02-16 19:47:26,768 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ranked_prescriptions.json
+2026-02-16 19:47:26,768 - INFO -   Total prescriptions: 31
+2026-02-16 19:47:26,768 - INFO - 
+============================================================
+2026-02-16 19:47:26,768 - INFO - ABDUCTION COMPLETE
+2026-02-16 19:47:26,768 - INFO - ============================================================
+2026-02-16 19:47:26,768 - INFO - Features analyzed: 20
+2026-02-16 19:47:26,768 - INFO - Segments to transform: 31
+2026-02-16 19:47:26,768 - INFO - Stop condition: NO - Continue transforming
+2026-02-16 19:47:26,768 - INFO - ============================================================
+2026-02-16 19:47:26,769 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/abduction_analysis.json
+2026-02-16 19:47:26,769 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ranked_prescriptions.json
+2026-02-16 19:47:26,769 - INFO - 
+[Step 7/7] Transforming story (top-5 features)...
+2026-02-16 19:47:26,769 - INFO - ============================================================
+2026-02-16 19:47:26,769 - INFO - STORY TRANSFORMATION
+2026-02-16 19:47:26,769 - INFO - ============================================================
+2026-02-16 19:47:26,771 - INFO - Selected top 5 features:
+2026-02-16 19:47:26,771 - INFO -   1. behavioral_guidance: 3 segments
+2026-02-16 19:47:26,771 - INFO -   2. primary_conflict: 2 segments
+2026-02-16 19:47:26,771 - INFO -   3. self_reliance: 3 segments
+2026-02-16 19:47:26,771 - INFO -   4. solo_confrontations: 2 segments
+2026-02-16 19:47:26,771 - INFO -   5. internal_goals: 1 segments
+2026-02-16 19:47:26,771 - INFO - Total segments to transform: 11
+2026-02-16 19:47:26,771 - INFO - 
+[Transformation 1/11]
+2026-02-16 19:47:26,771 - INFO -   Feature: behavioral_guidance
+2026-02-16 19:47:26,771 - INFO -   Segment: Harrison was an intelligent student but didn’t apply himself...
+2026-02-16 19:47:26,771 - INFO -   Target: 2 → 4
+2026-02-16 19:47:26,773 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:27,095 - INFO - ✓ Generated 4 trace files:
+2026-02-16 19:47:27,095 - INFO -   - rule_trace_nodes_20260216-194716.csv
+2026-02-16 19:47:27,095 - INFO -   - rule_trace_edges_20260216-194716.csv
+2026-02-16 19:47:27,095 - INFO -   - rule_trace_nodes_20260216-194717.csv
+2026-02-16 19:47:27,095 - INFO -   - rule_trace_edges_20260216-194717.csv
+2026-02-16 19:47:27,095 - INFO - ✓ PyReason traces saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/pyreason_traces
+2026-02-16 19:47:27,095 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-16 19:47:27,096 - INFO - ============================================================
+2026-02-16 19:47:27,096 - INFO - ABDUCTION ANALYSIS
+2026-02-16 19:47:27,096 - INFO - ============================================================
+2026-02-16 19:47:27,096 - INFO - Loading learned rules...
+2026-02-16 19:47:27,098 - INFO - Loaded 100 learned rules
+2026-02-16 19:47:27,098 - INFO - Parsing trace CSV: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/pyreason_traces/rule_trace_edges_20260216-194716.csv
+2026-02-16 19:47:27,103 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-16 19:47:27,105 - INFO - Successfully parsed 20 corpus derivations
+2026-02-16 19:47:27,105 - INFO - Analyzing story: harrison_ford
+2026-02-16 19:47:27,105 - INFO - Calculating confidence gaps...
+2026-02-16 19:47:27,105 - INFO - 
+Current total similarity: 0.104
+2026-02-16 19:47:27,106 - INFO - Potential total similarity: 0.468
+2026-02-16 19:47:27,106 - INFO - Total improvement potential: 0.364
+2026-02-16 19:47:27,106 - INFO - Max gap: 0.570
+2026-02-16 19:47:27,106 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-16 19:47:27,106 - INFO - 
+Top feature gaps:
+2026-02-16 19:47:27,106 - INFO -   1. behavioral_guidance: current=0.040, max=0.610, gap=0.570
+2026-02-16 19:47:27,106 - INFO -   2. primary_conflict: current=0.110, max=0.540, gap=0.430
+2026-02-16 19:47:27,106 - INFO -   3. self_reliance: current=0.040, max=0.460, gap=0.420
+2026-02-16 19:47:27,106 - INFO -   4. solo_confrontations: current=0.140, max=0.540, gap=0.400
+2026-02-16 19:47:27,106 - INFO -   5. internal_goals: current=0.110, max=0.500, gap=0.390
+2026-02-16 19:47:27,108 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/abduction_analysis.json
+2026-02-16 19:47:27,109 - INFO - 
+Creating ranked prescriptions...
+2026-02-16 19:47:27,109 - INFO - Created 31 ranked prescriptions (31 unique segments)
+2026-02-16 19:47:27,112 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ranked_prescriptions.json
+2026-02-16 19:47:27,112 - INFO -   Total prescriptions: 31
+2026-02-16 19:47:27,112 - INFO - 
+============================================================
+2026-02-16 19:47:27,112 - INFO - ABDUCTION COMPLETE
+2026-02-16 19:47:27,112 - INFO - ============================================================
+2026-02-16 19:47:27,112 - INFO - Features analyzed: 20
+2026-02-16 19:47:27,112 - INFO - Segments to transform: 31
+2026-02-16 19:47:27,112 - INFO - Stop condition: NO - Continue transforming
+2026-02-16 19:47:27,112 - INFO - ============================================================
+2026-02-16 19:47:27,112 - INFO - ✓ Abduction analysis saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/abduction_analysis.json
+2026-02-16 19:47:27,113 - INFO - ✓ Ranked prescriptions saved to: output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/ranked_prescriptions.json
+2026-02-16 19:47:27,113 - INFO - 
+[Step 7/7] Transforming story (top-5 features)...
+2026-02-16 19:47:27,113 - INFO - ============================================================
+2026-02-16 19:47:27,113 - INFO - STORY TRANSFORMATION
+2026-02-16 19:47:27,113 - INFO - ============================================================
+2026-02-16 19:47:27,114 - INFO - Selected top 5 features:
+2026-02-16 19:47:27,114 - INFO -   1. behavioral_guidance: 3 segments
+2026-02-16 19:47:27,114 - INFO -   2. primary_conflict: 4 segments
+2026-02-16 19:47:27,114 - INFO -   3. self_reliance: 3 segments
+2026-02-16 19:47:27,114 - INFO -   4. solo_confrontations: 3 segments
+2026-02-16 19:47:27,114 - INFO -   5. internal_goals: 3 segments
+2026-02-16 19:47:27,114 - INFO - Total segments to transform: 16
+2026-02-16 19:47:27,115 - INFO - 
+[Transformation 1/16]
+2026-02-16 19:47:27,115 - INFO -   Feature: behavioral_guidance
+2026-02-16 19:47:27,115 - INFO -   Segment: As his friends graduated and accepted office jobs, Harrison ...
+2026-02-16 19:47:27,115 - INFO -   Target: 2 → 4
+2026-02-16 19:47:27,116 - INFO - 
+LiteLLM completion() model= ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi; provider = openai
+2026-02-16 19:47:30,882 - INFO - Added 20 facts to PyReason
+2026-02-16 19:47:32,586 - INFO - Rules loaded successfully
+2026-02-16 19:47:32,587 - INFO - Running PyReason reasoning (1 timestep)...

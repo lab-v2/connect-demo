@@ -1,0 +1,106 @@
+{
+  "model": "gpt-4o",
+  "total_stories_processed": 13,
+  "total_tokens": {
+    "input": 13139,
+    "output": 11532,
+    "total": 24671
+  },
+  "total_cost_usd": 0.148168,
+  "per_story_breakdown": [
+    {
+      "story_name": "the_people_who_dug_for_rain_step_1",
+      "input_tokens": 1026,
+      "output_tokens": 885,
+      "cost_usd": 0.011415,
+      "timestamp": "2026-02-16T19:06:31.160076"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_2",
+      "input_tokens": 994,
+      "output_tokens": 888,
+      "cost_usd": 0.011365,
+      "timestamp": "2026-02-16T19:06:37.592492"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_3",
+      "input_tokens": 997,
+      "output_tokens": 868,
+      "cost_usd": 0.011173,
+      "timestamp": "2026-02-16T19:06:46.173594"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_4",
+      "input_tokens": 1001,
+      "output_tokens": 868,
+      "cost_usd": 0.011182,
+      "timestamp": "2026-02-16T19:06:52.289274"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_5",
+      "input_tokens": 995,
+      "output_tokens": 852,
+      "cost_usd": 0.011007,
+      "timestamp": "2026-02-16T19:06:59.659098"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_6",
+      "input_tokens": 979,
+      "output_tokens": 870,
+      "cost_usd": 0.011147,
+      "timestamp": "2026-02-16T19:07:06.615289"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_7",
+      "input_tokens": 1010,
+      "output_tokens": 873,
+      "cost_usd": 0.011255,
+      "timestamp": "2026-02-16T19:07:11.759809"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_8",
+      "input_tokens": 1023,
+      "output_tokens": 894,
+      "cost_usd": 0.011498,
+      "timestamp": "2026-02-16T19:07:17.128775"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_9",
+      "input_tokens": 1004,
+      "output_tokens": 900,
+      "cost_usd": 0.01151,
+      "timestamp": "2026-02-16T19:07:24.651638"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_10",
+      "input_tokens": 1018,
+      "output_tokens": 900,
+      "cost_usd": 0.011545,
+      "timestamp": "2026-02-16T19:07:30.726309"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_11",
+      "input_tokens": 1017,
+      "output_tokens": 905,
+      "cost_usd": 0.011593,
+      "timestamp": "2026-02-16T19:07:38.906741"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_12",
+      "input_tokens": 1031,
+      "output_tokens": 913,
+      "cost_usd": 0.011708,
+      "timestamp": "2026-02-16T19:07:44.407761"
+    },
+    {
+      "story_name": "the_people_who_dug_for_rain_step_13",
+      "input_tokens": 1044,
+      "output_tokens": 916,
+      "cost_usd": 0.01177,
+      "timestamp": "2026-02-16T19:07:50.621730"
+    }
+  ],
+  "k_features": 5,
+  "n_segments": 13,
+  "successful_transformations": 13
+}

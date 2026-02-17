@@ -1,0 +1,294 @@
+{
+  "story_name": "Harrison_Ford",
+  "story_file": "output/phase2/ft-gpt-4o-mini-2024-07-18-syracuse-university-llm2-D5JJuHZi/inverse/Harrison_Ford/iteration_0/story.txt",
+  "model": "ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi",
+  "problem_type": "inverse",
+  "timestamp": "2026-02-16T19:46:39.041429",
+  "questions_and_answers": [
+    {
+      "id": 2,
+      "component": "Protagonist‑Centered Focus",
+      "type": "collectivistic_question",
+      "question": "Is the narrative driven primarily by the group’s or community’s shared experiences, collective choices, and communal identity?",
+      "rating": 1,
+      "justification": "Rating: 1  \nThe narrative is driven entirely by individual perspective, focusing on Harrison Ford's personal journey, ambitions, and challenges. The story details his family background, personal struggles with bullying and education, and individual decisions that led him to pursue acting despite various obstacles. The emphasis is on his unique experiences rather than any communal or group influence.  \n\n1. \"Harrison was often bullied in school.\"  \n2. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"  \n3. \"However, Harrison was a father with a family to take care of.\"  \n4. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"  \n5. \"To take the role for American Graffiti (1973), Harrison took a 50 percent pay cut (comparing to his carpentry business).\"",
+      "evidence": "Harrison was often bullied in school. | As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life. | However, Harrison was a father with a family to take care of.",
+      "raw_response": "Rating: 1  \nThe narrative is driven entirely by individual perspective, focusing on Harrison Ford's personal journey, ambitions, and challenges. The story details his family background, personal struggles with bullying and education, and individual decisions that led him to pursue acting despite various obstacles. The emphasis is on his unique experiences rather than any communal or group influence.  \n\n1. \"Harrison was often bullied in school.\"  \n2. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"  \n3. \"However, Harrison was a father with a family to take care of.\"  \n4. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"  \n5. \"To take the role for American Graffiti (1973), Harrison took a 50 percent pay cut (comparing to his carpentry business).\"",
+      "tokens": {
+        "input": 1471,
+        "output": 196
+      }
+    },
+    {
+      "id": 4,
+      "component": "Internal Goals",
+      "type": "collectivistic_question",
+      "question": "Do the characters pursue group ambitions (e.g., community well‑being, family honor, shared success) over individual goals?",
+      "rating": 2,
+      "justification": "Rating: 2\n\nWhile the story primarily focuses on Harrison Ford’s individual journey and personal ambitions, there are instances where his actions are influenced by familial responsibilities and societal expectations. Harrison's pursuit of an acting career is often juxtaposed with his role as a family man, reflecting a tension between individual goals and group obligations. \n\n1. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"\n2. \"However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.\"\n3. \"By the age of twenty-eight, Harrison had two sons and a home that required many repairs, which he had chosen to fix himself.\"\n4. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "evidence": "Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor. | However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family. | By the age of twenty-eight, Harrison had two sons and a home that required many repairs, which he had chosen to fix himself.",
+      "raw_response": "Rating: 2\n\nWhile the story primarily focuses on Harrison Ford’s individual journey and personal ambitions, there are instances where his actions are influenced by familial responsibilities and societal expectations. Harrison's pursuit of an acting career is often juxtaposed with his role as a family man, reflecting a tension between individual goals and group obligations. \n\n1. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"\n2. \"However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.\"\n3. \"By the age of twenty-eight, Harrison had two sons and a home that required many repairs, which he had chosen to fix himself.\"\n4. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "tokens": {
+        "input": 1474,
+        "output": 202
+      }
+    },
+    {
+      "id": 6,
+      "component": "Decision‑Driven Plot",
+      "type": "collectivistic_question",
+      "question": "Are key turning points in the story determined by collective decisions, group mandates, or community traditions rather than by a single individual’s decision?",
+      "rating": 2,
+      "justification": "Rating: 2  \nThe story of Harrison Ford primarily showcases individual decisions that significantly influenced his life and career, but it also reflects some group influences, particularly in terms of opportunities provided by others in the industry. \n\n1. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n2. \"Before its release, the studio’s vice president called Harrison into his office after reviewing a copy of the film. He criticized Harrison’s performance and suggested acting was a waste of his time and efforts.\"\n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"",
+      "evidence": "As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life. | Before its release, the studio’s vice president called Harrison into his office after reviewing a copy of the film. He criticized Harrison’s performance and suggested acting was a waste of his time and efforts. | Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.",
+      "raw_response": "Rating: 2  \nThe story of Harrison Ford primarily showcases individual decisions that significantly influenced his life and career, but it also reflects some group influences, particularly in terms of opportunities provided by others in the industry. \n\n1. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n2. \"Before its release, the studio’s vice president called Harrison into his office after reviewing a copy of the film. He criticized Harrison’s performance and suggested acting was a waste of his time and efforts.\"\n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"",
+      "tokens": {
+        "input": 1476,
+        "output": 150
+      }
+    },
+    {
+      "id": 8,
+      "component": "Self‑Reliance",
+      "type": "collectivistic_question",
+      "question": "Do the characters overcome obstacles through communal support, collective action, or shared resources rather than individual effort?",
+      "rating": 2,
+      "justification": "Rating: 2  \nWhile Harrison Ford's journey to success is marked by significant individual effort, there are moments throughout the narrative where group influence and communal support play a role. His experiences in college, his early acting endeavors, and his eventual success all demonstrate how certain relationships and external influences contributed to his development and achievements.\n\n1. \"During the final semester of his senior year, he enrolled in a drama class and overcame his fear of speaking in front of a live audience.\"\n2. \"One onlooker was a Hollywood composer who insisted Harrison meet with a studio executive at Columbia Pictures.\"\n3. \"Within a few years, Harrison developed a reputation as being the 'carpenter to the stars.'\"",
+      "evidence": "During the final semester of his senior year, he enrolled in a drama class and overcame his fear of speaking in front of a live audience. | One onlooker was a Hollywood composer who insisted Harrison meet with a studio executive at Columbia Pictures. | Within a few years, Harrison developed a reputation as being the 'carpenter to the stars.'",
+      "raw_response": "Rating: 2  \nWhile Harrison Ford's journey to success is marked by significant individual effort, there are moments throughout the narrative where group influence and communal support play a role. His experiences in college, his early acting endeavors, and his eventual success all demonstrate how certain relationships and external influences contributed to his development and achievements.\n\n1. \"During the final semester of his senior year, he enrolled in a drama class and overcame his fear of speaking in front of a live audience.\"\n2. \"One onlooker was a Hollywood composer who insisted Harrison meet with a studio executive at Columbia Pictures.\"\n3. \"Within a few years, Harrison developed a reputation as being the 'carpenter to the stars.'\"",
+      "tokens": {
+        "input": 1469,
+        "output": 141
+      }
+    },
+    {
+      "id": 10,
+      "component": "Individual Accolades",
+      "type": "collectivistic_question",
+      "question": "Are awards, status, or recognition attributed primarily to the group, ensemble, or community effort rather than to an individual?",
+      "rating": 2,
+      "justification": "Rating: 2  \nWhile Harrison Ford's journey to stardom includes significant individual effort and personal setbacks, there are moments in the narrative that highlight the impact of group influences, particularly through mentorship and collaboration. His eventual success in Hollywood was not solely the result of his own actions but also due to opportunities presented to him through connections and collaborations with others in the industry. \n\n1. \"One onlooker was a Hollywood composer who insisted Harrison meet with a studio executive at Columbia Pictures.\"  \n2. \"Harrison later hired to read lines for actors auditioning for parts in Star Wars (1977).\"  \n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"",
+      "evidence": "One onlooker was a Hollywood composer who insisted Harrison meet with a studio executive at Columbia Pictures. | Harrison later hired to read lines for actors auditioning for parts in Star Wars (1977). | Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.",
+      "raw_response": "Rating: 2  \nWhile Harrison Ford's journey to stardom includes significant individual effort and personal setbacks, there are moments in the narrative that highlight the impact of group influences, particularly through mentorship and collaboration. His eventual success in Hollywood was not solely the result of his own actions but also due to opportunities presented to him through connections and collaborations with others in the industry. \n\n1. \"One onlooker was a Hollywood composer who insisted Harrison meet with a studio executive at Columbia Pictures.\"  \n2. \"Harrison later hired to read lines for actors auditioning for parts in Star Wars (1977).\"  \n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"",
+      "tokens": {
+        "input": 1473,
+        "output": 153
+      }
+    },
+    {
+      "id": 12,
+      "component": "Meritocracy Emphasis",
+      "type": "collectivistic_question",
+      "question": "Is success portrayed as resulting from group support, family lineage, or communal contributions rather than solely individual talent?",
+      "rating": 2,
+      "justification": "Rating: 2\n\nWhile Harrison Ford's success is largely attributed to his individual efforts and talent, there are notable influences and contributions from the groups around him, particularly in his early life and career. His experiences in college and theater, along with support from friends and connections made through carpentry, played significant roles in his eventual success as an actor.\n\n1. \"Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n2. \"He performed in plays at the Belfry Theater in Wisconsin with his then-girlfriend, Mary.\"\n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"",
+      "evidence": "Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | He performed in plays at the Belfry Theater in Wisconsin with his then-girlfriend, Mary. | Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.",
+      "raw_response": "Rating: 2\n\nWhile Harrison Ford's success is largely attributed to his individual efforts and talent, there are notable influences and contributions from the groups around him, particularly in his early life and career. His experiences in college and theater, along with support from friends and connections made through carpentry, played significant roles in his eventual success as an actor.\n\n1. \"Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n2. \"He performed in plays at the Belfry Theater in Wisconsin with his then-girlfriend, Mary.\"\n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"",
+      "tokens": {
+        "input": 1470,
+        "output": 158
+      }
+    },
+    {
+      "id": 14,
+      "component": "“Man vs. Self/World” Conflict",
+      "type": "collectivistic_question",
+      "question": "Is the central struggle between the group and external forces or within group cohesion, rather than an individual’s internal conflict?",
+      "rating": 1,
+      "justification": "Rating: 1  \nThe central struggle in the story of Harrison Ford is entirely an individual perspective. The narrative focuses on Ford's personal challenges, such as overcoming bullying, academic struggles, and setbacks in his acting career. His journey is marked by self-initiative, personal growth, and individual decisions that shaped his path to success.\n\n1. \"Growing up, Harrison was often bullied in school.\"\n2. \"Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n3. \"Harrison started acting in a handful of productions at a local theater.\"\n4. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"",
+      "evidence": "Growing up, Harrison was often bullied in school. | Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | Harrison started acting in a handful of productions at a local theater.",
+      "raw_response": "Rating: 1  \nThe central struggle in the story of Harrison Ford is entirely an individual perspective. The narrative focuses on Ford's personal challenges, such as overcoming bullying, academic struggles, and setbacks in his acting career. His journey is marked by self-initiative, personal growth, and individual decisions that shaped his path to success.\n\n1. \"Growing up, Harrison was often bullied in school.\"\n2. \"Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n3. \"Harrison started acting in a handful of productions at a local theater.\"\n4. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"",
+      "tokens": {
+        "input": 1472,
+        "output": 161
+      }
+    },
+    {
+      "id": 16,
+      "component": "Solo Confrontations",
+      "type": "collectivistic_question",
+      "question": "Do climactic showdowns feature collaborative group efforts or collective confrontation, rather than a lone individual?",
+      "rating": 1,
+      "justification": "Rating: 1  \nThe story of Harrison Ford showcases an entirely individual perspective, focusing primarily on his personal journey, struggles, and achievements. While there are mentions of others in his life, the narrative centers around Ford's individual efforts and decisions that led to his success, emphasizing self-reliance and personal growth.\n\n1. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n2. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n3. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "evidence": "Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life. | Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.",
+      "raw_response": "Rating: 1  \nThe story of Harrison Ford showcases an entirely individual perspective, focusing primarily on his personal journey, struggles, and achievements. While there are mentions of others in his life, the narrative centers around Ford's individual efforts and decisions that led to his success, emphasizing self-reliance and personal growth.\n\n1. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n2. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n3. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "tokens": {
+        "input": 1468,
+        "output": 148
+      }
+    },
+    {
+      "id": 18,
+      "component": "Inner Journey",
+      "type": "collectivistic_question",
+      "question": "Is the character arc centered on the group discovering shared values, collective strengths, or communal purpose?",
+      "rating": 1,
+      "justification": "Rating: 1  \nThe character arc in the story is centered entirely on Harrison Ford's individual journey and personal aspirations, with little to no influence from collective group values or communal purpose. The narrative focuses on Ford's challenges, self-determination, and individual achievements rather than any group dynamics or shared experiences.  \n\n1. \"Harrison was often bullied in school.\"  \n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"  \n3. \"Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"  \n4. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"  \n5. \"With just a $750,000 budget, the movie grossed over $115 million at the box office nationwide and put Harrison into the spotlight.\"",
+      "evidence": "Harrison was often bullied in school. | Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.",
+      "raw_response": "Rating: 1  \nThe character arc in the story is centered entirely on Harrison Ford's individual journey and personal aspirations, with little to no influence from collective group values or communal purpose. The narrative focuses on Ford's challenges, self-determination, and individual achievements rather than any group dynamics or shared experiences.  \n\n1. \"Harrison was often bullied in school.\"  \n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"  \n3. \"Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"  \n4. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"  \n5. \"With just a $750,000 budget, the movie grossed over $115 million at the box office nationwide and put Harrison into the spotlight.\"",
+      "tokens": {
+        "input": 1468,
+        "output": 187
+      }
+    },
+    {
+      "id": 20,
+      "component": "Self‑Actualization Climax",
+      "type": "collectivistic_question",
+      "question": "Does the emotional payoff come from restoring group harmony, collective well‑being, or communal success rather than an individual breakthrough?",
+      "rating": 1,
+      "justification": "Rating: 1\n\nThe emotional payoff in this narrative centers entirely on Harrison Ford's individual breakthroughs and personal achievements rather than any restoration of group harmony or collective well-being. The story details his struggles, failures, and perseverance, ultimately leading to his success. There is no emphasis on group efforts or communal success; it is a personal journey from adversity to fame.\n\n1. \"Harrison was often bullied in school.\"\n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n3. \"However, Harrison was a father with a family to take care of.\"\n4. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "evidence": "Harrison was often bullied in school. | Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | However, Harrison was a father with a family to take care of.",
+      "raw_response": "Rating: 1\n\nThe emotional payoff in this narrative centers entirely on Harrison Ford's individual breakthroughs and personal achievements rather than any restoration of group harmony or collective well-being. The story details his struggles, failures, and perseverance, ultimately leading to his success. There is no emphasis on group efforts or communal success; it is a personal journey from adversity to fame.\n\n1. \"Harrison was often bullied in school.\"\n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n3. \"However, Harrison was a father with a family to take care of.\"\n4. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "tokens": {
+        "input": 1473,
+        "output": 150
+      }
+    },
+    {
+      "id": 22,
+      "component": "Personal Ethics over Group Norms",
+      "type": "collectivistic_question",
+      "question": "Does adherence to cultural norms, family expectations, or communal codes take precedence over personal preferences?",
+      "rating": 1,
+      "justification": "Rating: 1\n\nHarrison Ford's story primarily reflects an individual perspective, showcasing his personal struggles, decisions, and perseverance in pursuing an acting career against various challenges. While there are mentions of family, such as his wife being pregnant, the narrative predominantly emphasizes Ford's individual choices and aspirations.\n\n1. \"Harrison was often bullied in school.\"\n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n3. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n4. \"Harrison never gave up on his dream of becoming a successful actor.\"\n5. \"To take the role for American Graffiti (1973), Harrison took a 50 percent pay cut (comparing to his carpentry business).\"",
+      "evidence": "Harrison was often bullied in school. | Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.",
+      "raw_response": "Rating: 1\n\nHarrison Ford's story primarily reflects an individual perspective, showcasing his personal struggles, decisions, and perseverance in pursuing an acting career against various challenges. While there are mentions of family, such as his wife being pregnant, the narrative predominantly emphasizes Ford's individual choices and aspirations.\n\n1. \"Harrison was often bullied in school.\"\n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n3. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n4. \"Harrison never gave up on his dream of becoming a successful actor.\"\n5. \"To take the role for American Graffiti (1973), Harrison took a 50 percent pay cut (comparing to his carpentry business).\"",
+      "tokens": {
+        "input": 1467,
+        "output": 177
+      }
+    },
+    {
+      "id": 24,
+      "component": "Uniqueness & Self‑Expression",
+      "type": "collectivistic_question",
+      "question": "Are characters celebrated for conforming to group norms, fulfilling social roles, or contributing to the collective identity rather than uniqueness?",
+      "rating": 2,
+      "justification": "Rating: 2\n\nThe narrative of Harrison Ford's early life and career predominantly focuses on his individual journey, but there are elements that reflect group influence, particularly in the context of his acting aspirations and societal expectations. Ford's struggles with conformity, such as his difficulties in school and the expectations imposed by others in the film industry, underscore his individuality. However, his eventual success can be partly attributed to the connections and opportunities afforded to him through social interactions, such as working with George Lucas. Thus, while the emphasis remains on Ford's personal achievements, the environment he navigated plays a role in shaping his experiences.\n\n1. \"Growing up, Harrison was often bullied in school.\"\n2. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"\n4. \"It was because of carpentry that Harrison was able to be more selective with the acting roles he accepted.\"",
+      "evidence": "Growing up, Harrison was often bullied in school. | As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life. | Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.",
+      "raw_response": "Rating: 2\n\nThe narrative of Harrison Ford's early life and career predominantly focuses on his individual journey, but there are elements that reflect group influence, particularly in the context of his acting aspirations and societal expectations. Ford's struggles with conformity, such as his difficulties in school and the expectations imposed by others in the film industry, underscore his individuality. However, his eventual success can be partly attributed to the connections and opportunities afforded to him through social interactions, such as working with George Lucas. Thus, while the emphasis remains on Ford's personal achievements, the environment he navigated plays a role in shaping his experiences.\n\n1. \"Growing up, Harrison was often bullied in school.\"\n2. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"\n4. \"It was because of carpentry that Harrison was able to be more selective with the acting roles he accepted.\"",
+      "tokens": {
+        "input": 1473,
+        "output": 225
+      }
+    },
+    {
+      "id": 26,
+      "component": "Self‑Construal",
+      "type": "collectivistic_question",
+      "question": "Does the narrative present the self as interdependent, defined by social roles and relationships rather than solely personal traits?",
+      "rating": 3,
+      "justification": "Rating: 3  \nThe narrative presents a balanced view between individual and group perspectives. While it details Harrison Ford's personal struggles and achievements, it also emphasizes the influence of his social relationships, such as his supportive wife and connections made during his carpentry and acting careers. The narrative showcases how these relationships and social roles contributed to his success in a way that his individual traits alone could not.\n\n1. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n2. \"Harrison’s talent had surfaced, and he was cast to star as Hans Solo.\"\n3. \"Spending $100,000, Mendes hired Harrison to convert his three-car garage into a recording studio.\"",
+      "evidence": "As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life. | Harrison’s talent had surfaced, and he was cast to star as Hans Solo. | Spending $100,000, Mendes hired Harrison to convert his three-car garage into a recording studio.",
+      "raw_response": "Rating: 3  \nThe narrative presents a balanced view between individual and group perspectives. While it details Harrison Ford's personal struggles and achievements, it also emphasizes the influence of his social relationships, such as his supportive wife and connections made during his carpentry and acting careers. The narrative showcases how these relationships and social roles contributed to his success in a way that his individual traits alone could not.\n\n1. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n2. \"Harrison’s talent had surfaced, and he was cast to star as Hans Solo.\"\n3. \"Spending $100,000, Mendes hired Harrison to convert his three-car garage into a recording studio.\"",
+      "tokens": {
+        "input": 1471,
+        "output": 157
+      }
+    },
+    {
+      "id": 28,
+      "component": "Behavioral Guidance",
+      "type": "collectivistic_question",
+      "question": "Are actions in the story guided by social norms, group expectations, or communal values rather than personal preferences?",
+      "rating": 2,
+      "justification": "Rating: 2\n\nHarrison Ford's actions are primarily guided by individual preferences and interests, but there are notable influences from social norms and group expectations, particularly in his early life and career. His initial college experience reflects the tension between personal aspirations and societal expectations, as he pursued a philosophy degree even though it did not align with his career goals. Additionally, his decision to pursue acting was influenced by his desire for new challenges, which can be seen as a response to cultural narratives surrounding success and opportunity. However, most of his journey reflects personal determination and choices rather than a strict adherence to community pressures.\n\n1. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n2. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n3. \"However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.\"",
+      "evidence": "Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life. | However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.",
+      "raw_response": "Rating: 2\n\nHarrison Ford's actions are primarily guided by individual preferences and interests, but there are notable influences from social norms and group expectations, particularly in his early life and career. His initial college experience reflects the tension between personal aspirations and societal expectations, as he pursued a philosophy degree even though it did not align with his career goals. Additionally, his decision to pursue acting was influenced by his desire for new challenges, which can be seen as a response to cultural narratives surrounding success and opportunity. However, most of his journey reflects personal determination and choices rather than a strict adherence to community pressures.\n\n1. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n2. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n3. \"However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.\"",
+      "tokens": {
+        "input": 1470,
+        "output": 229
+      }
+    },
+    {
+      "id": 30,
+      "component": "Relationship Orientation",
+      "type": "collectivistic_question",
+      "question": "Does the story depict relationships as based on duty, loyalty, obligation, and collective well‑being rather than solely mutual benefit?",
+      "rating": 2,
+      "justification": "Rating: 2  \nThe story depicts relationships that are primarily individual but with some group influence. While Harrison Ford's journey to success is largely characterized by his personal efforts and choices, there are moments where the influence of others, such as friends and colleagues, plays a role in shaping his path.\n\n1. \"During the final semester of his senior year, he enrolled in a drama class and overcame his fear of speaking in front of a live audience.\"  \n2. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"  \n3. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"  \n4. \"Harrison attended the interview, and after being asked questions about his height, weight, and foreign language skills, he was shown the door.\"  \n5. \"He was recommended by a friend, and did an exceptional job.\"",
+      "evidence": "During the final semester of his senior year, he enrolled in a drama class and overcame his fear of speaking in front of a live audience. | Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor. | Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.",
+      "raw_response": "Rating: 2  \nThe story depicts relationships that are primarily individual but with some group influence. While Harrison Ford's journey to success is largely characterized by his personal efforts and choices, there are moments where the influence of others, such as friends and colleagues, plays a role in shaping his path.\n\n1. \"During the final semester of his senior year, he enrolled in a drama class and overcame his fear of speaking in front of a live audience.\"  \n2. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"  \n3. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"  \n4. \"Harrison attended the interview, and after being asked questions about his height, weight, and foreign language skills, he was shown the door.\"  \n5. \"He was recommended by a friend, and did an exceptional job.\"",
+      "tokens": {
+        "input": 1474,
+        "output": 198
+      }
+    },
+    {
+      "id": 32,
+      "component": "Primary Conflict",
+      "type": "collectivistic_question",
+      "question": "Is the central conflict about maintaining social harmony, fulfilling collective roles, or adhering to group norms rather than asserting individuality?",
+      "rating": 1,
+      "justification": "Rating: 1\n\nThe central conflict in the story revolves around Harrison Ford's individual struggles and personal determination to succeed as an actor, often in the face of rejection and societal expectations. The narrative emphasizes his personal journey, choices, and the obstacles he overcomes, highlighting his individuality rather than any pressures to adhere to group norms or fulfill collective roles.\n\n1. \"Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n2. \"However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.\"\n3. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "evidence": "Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family. | Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.",
+      "raw_response": "Rating: 1\n\nThe central conflict in the story revolves around Harrison Ford's individual struggles and personal determination to succeed as an actor, often in the face of rejection and societal expectations. The narrative emphasizes his personal journey, choices, and the obstacles he overcomes, highlighting his individuality rather than any pressures to adhere to group norms or fulfill collective roles.\n\n1. \"Realizing he would never be able to use a philosophy degree, Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n2. \"However, Harrison was a father with a family to take care of. He accepted a number of roles, those he would never have accepted, on and off the big screen (including work as a cameraman) to support his family.\"\n3. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "tokens": {
+        "input": 1472,
+        "output": 182
+      }
+    },
+    {
+      "id": 34,
+      "component": "Resolution Style",
+      "type": "collectivistic_question",
+      "question": "Does the story resolve conflicts through compromise, reconciliation, and restoring group harmony rather than individual vindication?",
+      "rating": 1,
+      "justification": "Rating: 1  \nThe story of Harrison Ford's early life and career is primarily focused on his individual experiences and challenges rather than any group conflicts or resolutions. His journey showcases personal struggles, self-improvement, and individual determination, with minimal influence or resolution involving a larger community or group.  \n\n1. \"Harrison was often bullied in school.\"  \n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"  \n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"  \n4. \"Harrison never gave up on his dream of becoming a successful actor.\"",
+      "evidence": "Harrison was often bullied in school. | Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.",
+      "raw_response": "Rating: 1  \nThe story of Harrison Ford's early life and career is primarily focused on his individual experiences and challenges rather than any group conflicts or resolutions. His journey showcases personal struggles, self-improvement, and individual determination, with minimal influence or resolution involving a larger community or group.  \n\n1. \"Harrison was often bullied in school.\"  \n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"  \n3. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor.\"  \n4. \"Harrison never gave up on his dream of becoming a successful actor.\"",
+      "tokens": {
+        "input": 1469,
+        "output": 143
+      }
+    },
+    {
+      "id": 36,
+      "component": "Moral Emphasis",
+      "type": "collectivistic_question",
+      "question": "Does the narrative emphasize group solidarity, communal responsibility, or collective welfare as moral virtues?",
+      "rating": 2,
+      "justification": "Rating: 2\n\nThe narrative primarily focuses on Harrison Ford's individual journey and personal struggles, but it does acknowledge certain group influences, such as his college fraternity membership and his early acting experiences with the local theater. These group experiences contribute to his personal growth and development, but the emphasis remains on Ford’s individual actions and decisions.\n\n1. \"Harrison attended Wisconsin’s Ripen College, where he was a member of a college fraternity.\"\n2. \"He performed in plays at the Belfry Theater in Wisconsin with his then-girlfriend, Mary.\"\n3. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"",
+      "evidence": "Harrison attended Wisconsin’s Ripen College, where he was a member of a college fraternity. | He performed in plays at the Belfry Theater in Wisconsin with his then-girlfriend, Mary. | As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.",
+      "raw_response": "Rating: 2\n\nThe narrative primarily focuses on Harrison Ford's individual journey and personal struggles, but it does acknowledge certain group influences, such as his college fraternity membership and his early acting experiences with the local theater. These group experiences contribute to his personal growth and development, but the emphasis remains on Ford’s individual actions and decisions.\n\n1. \"Harrison attended Wisconsin’s Ripen College, where he was a member of a college fraternity.\"\n2. \"He performed in plays at the Belfry Theater in Wisconsin with his then-girlfriend, Mary.\"\n3. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"",
+      "tokens": {
+        "input": 1466,
+        "output": 146
+      }
+    },
+    {
+      "id": 38,
+      "component": "Relationship Framing",
+      "type": "collectivistic_question",
+      "question": "Does the story frame relationships as essential, requiring individuals to consider the impact of their actions on family and community?",
+      "rating": 3,
+      "justification": "Rating: 3\n\nThe story presents a balanced perspective between individual aspirations and the influence of family and community. While much of Harrison Ford's journey is characterized by personal determination and individual choices, the narrative also highlights the importance of relationships in shaping his path. His marriage, responsibilities as a father, and interactions within the acting and carpentry communities reflect a dynamic where personal ambitions are interwoven with familial and social obligations.\n\n1. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n2. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor. However, Harrison was a father with a family to take care of.\"\n3. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "evidence": "As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life. | Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor. However, Harrison was a father with a family to take care of. | Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.",
+      "raw_response": "Rating: 3\n\nThe story presents a balanced perspective between individual aspirations and the influence of family and community. While much of Harrison Ford's journey is characterized by personal determination and individual choices, the narrative also highlights the importance of relationships in shaping his path. His marriage, responsibilities as a father, and interactions within the acting and carpentry communities reflect a dynamic where personal ambitions are interwoven with familial and social obligations.\n\n1. \"As his friends graduated and accepted office jobs, Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"\n2. \"Harrison was looking for his big break to propel himself out of auditions and minor acting roles and into the lifestyle of a successful actor. However, Harrison was a father with a family to take care of.\"\n3. \"Although he was excelling with his carpentry business, Harrison never gave up on his dream of becoming a successful actor.\"",
+      "tokens": {
+        "input": 1471,
+        "output": 189
+      }
+    },
+    {
+      "id": 40,
+      "component": "Vertical Individualism",
+      "type": "collectivistic_question",
+      "question": "Does the story emphasize equality, shared prosperity, and collective welfare over social inequality and individual hierarchy?",
+      "rating": 1,
+      "justification": "Rating: 1\n\nThe story of Harrison Ford emphasizes individual effort and personal challenges over collective experience or group influence. While there are mentions of his family and friends, the narrative primarily focuses on Ford's individual struggles, decisions, and eventual successes in the acting industry. There is no significant emphasis on equality or collective welfare; instead, it highlights Ford's perseverance and self-reliance as key factors in his achievements.\n\n1. \"After high school, Harrison attended Wisconsin’s Ripen College, where he was a member of a college fraternity.\"\n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n3. \"Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"",
+      "evidence": "After high school, Harrison attended Wisconsin’s Ripen College, where he was a member of a college fraternity. | Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping. | Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.",
+      "raw_response": "Rating: 1\n\nThe story of Harrison Ford emphasizes individual effort and personal challenges over collective experience or group influence. While there are mentions of his family and friends, the narrative primarily focuses on Ford's individual struggles, decisions, and eventual successes in the acting industry. There is no significant emphasis on equality or collective welfare; instead, it highlights Ford's perseverance and self-reliance as key factors in his achievements.\n\n1. \"After high school, Harrison attended Wisconsin’s Ripen College, where he was a member of a college fraternity.\"\n2. \"Harrison became discouraged with his academic studies and spent much of his senior year eating pizza and sleeping.\"\n3. \"Harrison pursued an acting career because he believed it would provide him with opportunities to confront new and interesting challenges in life.\"",
+      "tokens": {
+        "input": 1468,
+        "output": 158
+      }
+    }
+  ],
+  "total_tokens": {
+    "input": 29415,
+    "output": 3450,
+    "total": 32865
+  }
+}
