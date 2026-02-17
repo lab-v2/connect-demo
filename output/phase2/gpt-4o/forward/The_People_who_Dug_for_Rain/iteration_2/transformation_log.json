@@ -1,9 +1,0 @@
-{
-  "story_name": "the_people_who_dug_for_rain",
-  "problem_type": "forward",
-  "model": "gpt-4o",
-  "temperature": 0.7,
-  "k_features": 0,
-  "n_segments": 0,
-  "transformations": []
-}

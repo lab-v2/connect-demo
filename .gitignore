@@ -2,4 +2,4 @@
 data/
 .demo/
 __pycache__/
-.output/*
+output/
