@@ -29,6 +29,7 @@ from graph_builder import build_ground_atoms_from_survey, save_ground_atoms, sav
 from pyreason_runner import run_pyreason
 from abduction import run_abduction
 from story_transformer import transform_story_iteratively
+from story_transformer_single import transform_story_single
 
 # Set up logging
 logging.basicConfig(
@@ -152,6 +153,11 @@ Examples:
         default=0.7,
         help='LLM temperature (default: 0.0)'
     )
+    parser.add_argument('--prompt-mode',
+                        type=str,
+                        choices=['single', 'multiple'],
+                        default='multiple',
+                        help='single: transform all segments in one LLM call; multiple: iterative per-segment (default: multiple)')
 
     # General options
     parser.add_argument(
@@ -518,19 +524,29 @@ def run_phase2(args):
             logger.info("\n🛑 Stop condition met - all gaps < 0.01")
             logger.info("No further transformation needed!")
             break  # Exit iteration loop
-        #   : Step 7: Transform story
-        # Step 7: Transform story using top-k features
-        logger.info(f"\n[Step 7/7] Transforming story (top-{args.top_k} features)...")
+        # Step 7: Transform story
+        logger.info(f"\n[Step 7/7] Transforming story (top-{args.top_k} features, mode={args.prompt_mode})...")
 
-        transformed_story, log_file, cost_file = transform_story_iteratively(
-            story_text=current_story_text,
-            prescriptions_file=prescriptions_file,
-            top_k=args.top_k,
-            problem_type=args.problem,
-            model=args.model,
-            temperature=args.temperature,
-            output_dir=str(iter_dir)
-        )
+        if args.prompt_mode == 'single':
+            transformed_story, log_file, cost_file = transform_story_single(
+                story_text=current_story_text,
+                prescriptions_file=prescriptions_file,
+                top_k=args.top_k,
+                problem_type=args.problem,
+                model=args.model,
+                temperature=args.temperature,
+                output_dir=str(iter_dir)
+            )
+        else:
+            transformed_story, log_file, cost_file = transform_story_iteratively(
+                story_text=current_story_text,
+                prescriptions_file=prescriptions_file,
+                top_k=args.top_k,
+                problem_type=args.problem,
+                model=args.model,
+                temperature=args.temperature,
+                output_dir=str(iter_dir)
+            )
 
         logger.info(f"✓ Story transformed")
         logger.info(f"✓ Transformation log: {log_file}")
