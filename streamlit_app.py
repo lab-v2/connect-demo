@@ -4,6 +4,7 @@ import mimetypes
 import hashlib
 import re
 import subprocess
+import os
 import statistics
 import math
 import html
@@ -51,6 +52,27 @@ MODEL_OPTIONS = [
 ]
 SCENARIO_OPTIONS = ["individualistic", "collectivistic"]
 
+MODEL_PROVIDER_BY_NAME = {
+    "gpt-4o": "openai",
+    "ft:gpt-4o-mini-2024-07-18:syracuse-university:llm2:D5JJuHZi": "openai",
+    "ft:gpt-4o-mini-2024-07-18:syracuse-university:llm3:D75Ahi1l": "openai",
+    "ft:gpt-4o-mini-2024-07-18:syracuse-university:llm4:D5NuhUdq": "openai",
+    "gpt-5.2": "openai",
+    "xai/grok-4-fast-reasoning": "xai",
+    "claude-sonnet-4-5": "anthropic",
+    "bedrock/us.meta.llama4-maverick-17b-instruct-v1:0": "bedrock",
+    "bedrock/us.deepseek.r1-v1:0": "bedrock",
+}
+
+PROVIDER_ENV_VAR = {
+    "openai": "OPENAI_API_KEY",
+    "anthropic": "ANTHROPIC_API_KEY",
+    "openrouter": "OPENROUTER_API_KEY",
+    "xai": "XAI_API_KEY",
+    "huggingface": "HF_TOKEN",
+    "bedrock": None,
+}
+
 TOP_BOX_HEIGHT = 200
 LARGE_BOX_HEIGHT = 520
 SMALL_BOX_HEIGHT = 220
@@ -59,6 +81,90 @@ SURVEY_BOX_HEIGHT = 180
 ADDITIONAL_SURVEY_BOX_HEIGHT = 110
 PHASE2_ANALYSIS_ITERATIONS = 2
 PHASE2_TOTAL_ITERATIONS = PHASE2_ANALYSIS_ITERATIONS + 1
+
+
+def model_provider(model: str) -> str:
+    explicit = MODEL_PROVIDER_BY_NAME.get(model)
+    if explicit:
+        return explicit
+    if model.startswith("openrouter/"):
+        return "openrouter"
+    if model.startswith("xai/"):
+        return "xai"
+    if model.startswith("anthropic/") or model.startswith("claude"):
+        return "anthropic"
+    if model.startswith("huggingface/") or model.startswith("hf/"):
+        return "huggingface"
+    if model.startswith("bedrock/") or model.startswith("qwen"):
+        return "bedrock"
+    return "openai"
+
+
+def required_api_env_var(model: str) -> str | None:
+    return PROVIDER_ENV_VAR[model_provider(model)]
+
+
+def apply_startup_credentials(model: str, provider_api_key: str, hf_token: str) -> None:
+    env_var = required_api_env_var(model)
+    if env_var and provider_api_key:
+        os.environ[env_var] = provider_api_key
+    if hf_token:
+        os.environ["HF_TOKEN"] = hf_token
+        os.environ["HUGGINGFACEHUB_API_TOKEN"] = hf_token
+
+
+def require_startup_config() -> tuple[str, str]:
+    setup_complete = st.session_state.get("_setup_complete", False)
+    if setup_complete:
+        selected_model = st.session_state.get("_setup_model", MODEL_OPTIONS[0])
+        provider_api_key = st.session_state.get("_setup_provider_api_key", "")
+        hf_token = st.session_state.get("_setup_hf_token", "")
+        apply_startup_credentials(selected_model, provider_api_key, hf_token)
+        provider = model_provider(selected_model)
+        return selected_model, provider
+
+    st.title("NARRATE Setup")
+    st.markdown("Select a model and provide required credentials to continue.")
+
+    selected_model = st.selectbox("Model", MODEL_OPTIONS, key="_setup_model_draft")
+    provider = model_provider(selected_model)
+    required_var = required_api_env_var(selected_model)
+    st.caption(f"Provider for selected model: `{provider}`")
+    provider_api_key = st.text_input(
+        "Provider API Key",
+        type="password",
+        key="_setup_provider_key_draft",
+    )
+    hf_token = st.text_input(
+        "Hugging Face Token",
+        type="password",
+        key="_setup_hf_token_draft",
+    )
+    submitted = st.button("Start", use_container_width=True)
+
+    if submitted:
+        provider_api_key = (provider_api_key or "").strip()
+        hf_token = (hf_token or "").strip()
+
+        if required_var and required_var != "HF_TOKEN" and not provider_api_key:
+            st.error("Please provide a provider API key.")
+            st.stop()
+        if required_var == "HF_TOKEN" and not hf_token and not provider_api_key:
+            st.error("Please provide a Hugging Face token.")
+            st.stop()
+
+        st.session_state["_setup_complete"] = True
+        st.session_state["_setup_model"] = selected_model
+        st.session_state["_setup_provider_api_key"] = provider_api_key if required_var != "HF_TOKEN" else (provider_api_key or hf_token)
+        st.session_state["_setup_hf_token"] = hf_token or (provider_api_key if required_var == "HF_TOKEN" else "")
+        apply_startup_credentials(
+            st.session_state["_setup_model"],
+            st.session_state["_setup_provider_api_key"],
+            st.session_state["_setup_hf_token"],
+        )
+        st.rerun()
+
+    st.stop()
 
 
 def ensure_dirs() -> None:
@@ -1308,6 +1414,7 @@ def render() -> None:
     )
     # Non-destructive setup: ensure files exist but preserve content.
     ensure_additional_survey_files_exist()
+    model, provider_name = require_startup_config()
 
     if "hide_transformed_text" not in st.session_state:
         st.session_state.hide_transformed_text = False
@@ -1323,8 +1430,28 @@ def render() -> None:
     with col1:
         top_left, top_right = st.columns([1.4, 1], gap="small")
         with top_right:
-            model = st.selectbox("Model", MODEL_OPTIONS)
+            st.markdown(
+                (
+                    f"<div style='font-size: 0.85rem; color: #4a4a4a;'>"
+                    f"Configured Model: <b>{html.escape(model)}</b><br>"
+                    f"Provider: <code>{html.escape(provider_name)}</code>"
+                    "</div>"
+                ),
+                unsafe_allow_html=True,
+            )
             scenario = st.selectbox("Scenario", SCENARIO_OPTIONS)
+            if st.button("Change Setup", use_container_width=True):
+                for key in [
+                    "_setup_complete",
+                    "_setup_model",
+                    "_setup_provider_api_key",
+                    "_setup_hf_token",
+                    "_setup_model_draft",
+                    "_setup_provider_key_draft",
+                    "_setup_hf_token_draft",
+                ]:
+                    st.session_state.pop(key, None)
+                st.rerun()
         clear_outputs_on_selection_change(model, scenario)
         with top_left:
             story_upload = st.file_uploader(
@@ -1512,10 +1639,10 @@ def render() -> None:
                 rules_path=rules_input_path,
                 story_path=active_story_path,
             )
-            st.session_state.hide_transformed_text = False
-            if not ok:
-                st.error(response)
-            st.rerun()
+            if ok:
+                st.session_state.hide_transformed_text = False
+                st.rerun()
+            st.error(response)
 
         st.markdown(
             "<div style='font-size: 0.95rem; font-weight: 600;'>Reframed Text</div>",

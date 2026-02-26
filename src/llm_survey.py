@@ -218,6 +218,15 @@ def get_api_key_for_model(model: str) -> Optional[str]:
             )
         return key
 
+    if model.startswith("huggingface/") or model.startswith("hf/"):
+        key = os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACEHUB_API_TOKEN")
+        if not key:
+            raise RuntimeError(
+                "HF_TOKEN (or HUGGINGFACEHUB_API_TOKEN) environment variable not set. "
+                "Set it with: export HF_TOKEN='your-token'"
+            )
+        return key
+
     # if model.startswith("gemini/"):
     #     key = os.getenv("GEMINI_API_KEY")
     #     if not key:

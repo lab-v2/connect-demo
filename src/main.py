@@ -13,19 +13,7 @@ import logging
 import sys
 from pathlib import Path
 import json
-from dotenv import load_dotenv, find_dotenv
 import os
-
-# Load environment variables from .env (search from current working directory upward)
-# dotenv_path = find_dotenv(".env", usecwd=True)
-# if dotenv_path:
-#     load_dotenv(dotenv_path)
-# else:
-#     # Fallback to project root relative to this file: connect-demo/.env
-#     fallback_dotenv = Path(__file__).resolve().parent.parent / ".env"
-#     if fallback_dotenv.exists():
-#         load_dotenv(str(fallback_dotenv))
-# print(f"DEBUG: API key loaded: {os.getenv('OPENAI_API_KEY')[:10]}...")  # Print first 10 chars
 
 
 from story_loader import load_training_stories, load_single_story

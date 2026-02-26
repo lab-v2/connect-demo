@@ -9,6 +9,17 @@ pip install streamlit
 streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501
 ```
 
+When `streamlit_app.py` starts, it now opens a setup page first:
+
+- Select the model to use.
+- Enter the provider API key (OpenAI/Anthropic/OpenRouter/xAI based on model).
+- Enter Hugging Face token for Hugging Face API usage.
+
+The app exports these for the current process before running:
+
+- Provider key to the model-specific provider environment variable.
+- Hugging Face token to the Hugging Face environment variables.
+
 Open in browser:
 
 - `http://localhost:8501` (local machine)
@@ -19,3 +30,14 @@ Optional desktop Tk demo (requires display):
 ```bash
 python3 gui_app.py
 ```
+
+When `gui_app.py` starts, it also opens a setup page first:
+
+- Select the model to use.
+- Enter the provider API key (OpenAI/Anthropic/OpenRouter/xAI based on model).
+- Enter Hugging Face token for Hugging Face API usage.
+
+The app exports these for the current process before running:
+
+- Provider key to the model-specific provider environment variable.
+- Hugging Face token to the Hugging Face environment variables.
