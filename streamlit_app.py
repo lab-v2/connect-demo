@@ -4,6 +4,7 @@ import mimetypes
 import hashlib
 import re
 import subprocess
+import sys
 import os
 import statistics
 import math
@@ -1045,7 +1046,7 @@ def run_phase2_transform(
     if not rules_path.exists():
         return False, f"Rules file not found: {rules_path}"
     cmd = [
-        "python3",
+        sys.executable,
         str(BASE_DIR / "src" / "main.py"),
         "--phase",
         "2",
