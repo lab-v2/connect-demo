@@ -44,9 +44,13 @@ def _import_pyreason():
     import os
     import networkx as nx
     _ensure_pkg_resources()
-    # Disable numba JIT compilation — it hangs on resource-constrained
-    # environments like Streamlit Cloud.  Must be set before numba is imported.
-    os.environ.setdefault("NUMBA_DISABLE_JIT", "1")
+    # On Streamlit Cloud the environment includes CUDA packages which can cause
+    # numba to hang during GPU initialization.  Force CPU-only mode and
+    # constrain threads to keep resource usage within limits.
+    os.environ.setdefault("NUMBA_DISABLE_CUDA", "1")
+    os.environ.setdefault("CUDA_VISIBLE_DEVICES", "")
+    os.environ.setdefault("NUMBA_NUM_THREADS", "1")
+    os.environ.setdefault("NUMBA_CACHE_DIR", "/tmp/numba_cache")
     import pyreason as pr
     return nx, pr
 
