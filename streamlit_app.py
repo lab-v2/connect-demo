@@ -16,12 +16,19 @@ from collections import Counter
 
 import streamlit as st
 
-# uv (used by Streamlit Cloud) skips installing setuptools, but pyreason needs
-# pkg_resources at import time.  Install it once if missing.
-try:
-    import pkg_resources  # noqa: F401
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "setuptools"])
+# uv (used by Streamlit Cloud) leaves a stub setuptools that lacks pkg_resources.
+# Force a proper install once per session so pyreason can import it.
+if "setuptools_checked" not in st.session_state:
+    try:
+        import pkg_resources  # noqa: F401
+    except ImportError:
+        subprocess.check_call(
+            [sys.executable, "-m", "pip", "install", "-q",
+             "--force-reinstall", "--no-cache-dir", "setuptools"],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+    st.session_state.setuptools_checked = True
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
