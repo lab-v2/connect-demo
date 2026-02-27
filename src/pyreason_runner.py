@@ -8,8 +8,35 @@ The trace files are used by the abduction algorithm to determine which features 
 import re
 import logging
 import shutil
+import sys
 from pathlib import Path
 from typing import Dict, List
+
+# pyreason imports pkg_resources (setuptools) at init time.  On Streamlit Cloud
+# uv doesn't install setuptools, so we shim pkg_resources using the stdlib
+# importlib.metadata which provides the same functionality.
+if "pkg_resources" not in sys.modules:
+    try:
+        import pkg_resources  # noqa: F401
+    except ImportError:
+        import importlib.metadata as _md
+        import types
+
+        _shim = types.ModuleType("pkg_resources")
+
+        class _DistributionNotFound(Exception):
+            pass
+
+        def _get_distribution(name):
+            try:
+                dist = _md.distribution(name)
+            except _md.PackageNotFoundError:
+                raise _DistributionNotFound(name)
+            return dist
+
+        _shim.get_distribution = _get_distribution
+        _shim.DistributionNotFound = _DistributionNotFound
+        sys.modules["pkg_resources"] = _shim
 
 try:
     import networkx as nx
