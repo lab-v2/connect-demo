@@ -16,6 +16,12 @@ from collections import Counter
 
 import streamlit as st
 
+# uv (used by Streamlit Cloud) skips installing setuptools, but pyreason needs
+# pkg_resources at import time.  Install it once if missing.
+try:
+    import pkg_resources  # noqa: F401
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "setuptools"])
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
