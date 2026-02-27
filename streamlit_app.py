@@ -1072,13 +1072,13 @@ def run_phase2_transform(
             cmd,
             cwd=BASE_DIR,
             text=True,
-            timeout=300,
+            timeout=600,
             stdout=sys.stdout,
             stderr=sys.stderr,
         )
     except subprocess.TimeoutExpired:
-        print("[TRANSFORM] Process timed out after 300s", flush=True)
-        return False, "Transform timed out after 5 minutes."
+        print("[TRANSFORM] Process timed out after 600s", flush=True)
+        return False, "Transform timed out after 10 minutes."
     stdout = ""
     stderr = ""
     print(f"[TRANSFORM] exit={proc.returncode}", flush=True)
