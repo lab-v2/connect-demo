@@ -15,8 +15,9 @@ from pathlib import Path
 import json
 import os
 
-
+print("[main.py] Starting imports...", flush=True)
 from story_loader import load_training_stories, load_single_story
+print("[main.py] story_loader OK", flush=True)
 from llm_survey import (
     conduct_surveys,
     conduct_survey_single_story,
@@ -24,12 +25,17 @@ from llm_survey import (
     CostTracker,
     get_api_key_for_model
 )
+print("[main.py] llm_survey OK", flush=True)
 # from rule_learner import learn_rules
 from graph_builder import build_ground_atoms_from_survey, save_ground_atoms, save_segments_metadata
+print("[main.py] graph_builder OK", flush=True)
 from pyreason_runner import run_pyreason
+print("[main.py] pyreason_runner OK", flush=True)
 from abduction import run_abduction
+print("[main.py] abduction OK", flush=True)
 from story_transformer import transform_story_iteratively
 from story_transformer_single import transform_story_single
+print("[main.py] All imports done", flush=True)
 
 # Set up logging
 logging.basicConfig(

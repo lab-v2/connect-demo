@@ -1071,20 +1071,17 @@ def run_phase2_transform(
         proc = subprocess.run(
             cmd,
             cwd=BASE_DIR,
-            capture_output=True,
             text=True,
             timeout=300,
+            stdout=sys.stdout,
+            stderr=sys.stderr,
         )
     except subprocess.TimeoutExpired:
         print("[TRANSFORM] Process timed out after 300s", flush=True)
         return False, "Transform timed out after 5 minutes."
-    stdout = (proc.stdout or "").strip()
-    stderr = (proc.stderr or "").strip()
+    stdout = ""
+    stderr = ""
     print(f"[TRANSFORM] exit={proc.returncode}", flush=True)
-    if stdout:
-        print(f"[TRANSFORM] STDOUT: {stdout[:500]}", flush=True)
-    if stderr:
-        print(f"[TRANSFORM] STDERR: {stderr[:500]}", flush=True)
     if proc.returncode == 0:
         return True, stdout or "Transform completed."
     parts = []
