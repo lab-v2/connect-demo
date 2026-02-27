@@ -1,0 +1,9 @@
+streamlit>=1.39,<2.0
+litellm
+tqdm
+networkx
+pyreason
+numpy
+pandas
+bert-score
+python-dotenv

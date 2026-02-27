@@ -3,3 +3,4 @@ data/
 .demo/
 __pycache__/
 output/
+connect.log

@@ -32097,3 +32097,1350 @@ Phase 2 completed!
 2026-02-26 03:37:56,719 - INFO - ============================================================
 2026-02-26 03:37:56,719 - INFO - Execution completed successfully!
 2026-02-26 03:37:56,720 - INFO - ============================================================
+2026-02-27 02:38:42,917 - INFO - ============================================================
+2026-02-27 02:38:42,917 - INFO - CONNECT Project - Phase 2
+2026-02-27 02:38:42,917 - INFO - Problem: forward
+2026-02-27 02:38:42,917 - INFO - ============================================================
+2026-02-27 02:38:42,917 - INFO - 
+============================================================
+2026-02-27 02:38:42,917 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-27 02:38:42,918 - INFO - ============================================================
+2026-02-27 02:38:42,918 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-27 02:38:42,918 - INFO - Loading story: input.txt
+2026-02-27 02:38:42,918 - INFO - Loaded story: input (413 characters)
+2026-02-27 02:38:42,918 - INFO - ✓ Loaded test story: input
+2026-02-27 02:38:42,918 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-27 02:38:42,918 - INFO - ✓ Rules loaded from: /Users/kmukherj/Projects/connect-demo/data/rules/gpt-4o/individualistic/selected_rules.txt
+2026-02-27 02:38:42,919 - INFO - ✓ Output directory: output/phase2/gpt-4o/forward/input
+2026-02-27 02:38:42,919 - INFO - ✓ Cost tracker initialized
+2026-02-27 02:38:42,919 - INFO - 
+============================================================
+2026-02-27 02:38:42,919 - INFO - ITERATION 1/3
+2026-02-27 02:38:42,919 - INFO - ============================================================
+2026-02-27 02:38:42,919 - INFO - ✓ Saved current story to: output/phase2/gpt-4o/forward/input/iteration_0/story.txt
+2026-02-27 02:38:42,920 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-27 02:38:42,931 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:38:45,706 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:38:45,722 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:38:45,722 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:45,722 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:45,723 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:45,724 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:38:47,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:38:47,998 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:38:47,999 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:47,999 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:48,000 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:38:48,000 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:55,003 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:38:55,008 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:38:55,008 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:55,008 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:55,010 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:55,010 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:38:58,536 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:38:58,540 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:38:58,540 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:58,541 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:38:58,542 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:38:58,543 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:00,693 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:00,701 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:00,702 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:00,702 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:00,703 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:00,704 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:02,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:02,530 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:02,530 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:02,531 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:02,532 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:02,532 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:05,347 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:05,352 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:05,352 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:05,352 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:05,354 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:05,354 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:07,856 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:07,858 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:07,858 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:07,858 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:07,859 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:07,860 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:10,134 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:10,136 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:10,137 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:10,137 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:10,138 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:10,138 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:11,851 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:11,854 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:11,854 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:11,854 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:11,856 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:11,856 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:13,661 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:13,663 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:13,664 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:13,664 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:13,665 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:13,665 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:15,948 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:15,951 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:15,952 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:15,952 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:15,954 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:15,954 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:17,792 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:17,795 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:17,795 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:17,795 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:17,797 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:17,797 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:19,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:19,545 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:19,545 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:19,545 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:19,547 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:19,547 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:21,315 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:21,318 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:21,319 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:21,319 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:21,320 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:21,321 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:23,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:23,778 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:23,778 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:23,779 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:23,780 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:23,780 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:26,595 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:26,597 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:26,597 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:26,597 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:26,598 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:26,599 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:28,673 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:28,679 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:28,680 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:28,680 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:28,681 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:28,682 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:30,381 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:30,383 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:30,384 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:30,384 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:30,385 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:30,385 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:32,841 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:32,843 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:32,844 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:32,844 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:32,846 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:32,847 - INFO - ✓ Survey completed and saved to: output/phase2/gpt-4o/forward/input/iteration_0/survey.json
+2026-02-27 02:39:32,847 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-27 02:39:32,848 - INFO - ✓ Cost tracking saved to: output/phase2/gpt-4o/forward/input/iteration_0/cost_tracking.json
+2026-02-27 02:39:32,848 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-27 02:39:32,848 - INFO - Building ground atoms from survey: output/phase2/gpt-4o/forward/input/iteration_0/survey.json
+2026-02-27 02:39:32,849 - INFO - Created 41 ground atoms
+2026-02-27 02:39:32,849 - INFO - Extracted metadata for 20 features
+2026-02-27 02:39:32,849 - INFO - Saved ground atoms to: output/phase2/gpt-4o/forward/input/iteration_0/ground_atoms.json
+2026-02-27 02:39:32,850 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-27 02:39:32,850 - INFO - Saved segments metadata to: output/phase2/gpt-4o/forward/input/iteration_0/segments_metadata.json
+2026-02-27 02:39:32,850 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-27 02:39:32,850 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-27 02:39:32,850 - INFO - Running PyReason...
+2026-02-27 02:39:33,147 - INFO - Added 20 facts to PyReason
+2026-02-27 02:39:33,191 - INFO - Rules loaded successfully
+2026-02-27 02:39:33,191 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-27 02:39:33,354 - INFO - Reasoning completed
+2026-02-27 02:39:33,354 - INFO - Saving rule traces to: output/phase2/gpt-4o/forward/input/iteration_0/pyreason_traces
+2026-02-27 02:39:34,422 - INFO - ✓ Generated 2 trace files:
+2026-02-27 02:39:34,422 - INFO -   - rule_trace_nodes_20260227-023933.csv
+2026-02-27 02:39:34,422 - INFO -   - rule_trace_edges_20260227-023933.csv
+2026-02-27 02:39:34,422 - INFO - ✓ PyReason traces saved to: output/phase2/gpt-4o/forward/input/iteration_0/pyreason_traces
+2026-02-27 02:39:34,422 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-27 02:39:34,423 - INFO - ============================================================
+2026-02-27 02:39:34,423 - INFO - ABDUCTION ANALYSIS
+2026-02-27 02:39:34,423 - INFO - ============================================================
+2026-02-27 02:39:34,423 - INFO - Loading learned rules...
+2026-02-27 02:39:34,423 - INFO - Loaded 100 learned rules
+2026-02-27 02:39:34,423 - INFO - Parsing trace CSV: output/phase2/gpt-4o/forward/input/iteration_0/pyreason_traces/rule_trace_edges_20260227-023933.csv
+2026-02-27 02:39:34,425 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-27 02:39:34,426 - INFO - Successfully parsed 20 corpus derivations
+2026-02-27 02:39:34,426 - INFO - Analyzing story: input
+2026-02-27 02:39:34,427 - INFO - Calculating confidence gaps...
+2026-02-27 02:39:34,427 - INFO - 
+Current total similarity: 0.008
+2026-02-27 02:39:34,427 - INFO - Potential total similarity: 0.580
+2026-02-27 02:39:34,427 - INFO - Total improvement potential: 0.572
+2026-02-27 02:39:34,427 - INFO - Max gap: 0.850
+2026-02-27 02:39:34,427 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-27 02:39:34,427 - INFO - 
+Top feature gaps:
+2026-02-27 02:39:34,427 - INFO -   1. individual_accolades: current=0.020, max=0.870, gap=0.850
+2026-02-27 02:39:34,427 - INFO -   2. solo_confrontations: current=0.000, max=0.760, gap=0.760
+2026-02-27 02:39:34,427 - INFO -   3. self_construal: current=0.000, max=0.710, gap=0.710
+2026-02-27 02:39:34,427 - INFO -   4. resolution_style: current=0.000, max=0.700, gap=0.700
+2026-02-27 02:39:34,427 - INFO -   5. uniqueness_self_expression: current=0.000, max=0.630, gap=0.630
+2026-02-27 02:39:34,428 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_0/abduction_analysis.json
+2026-02-27 02:39:34,428 - INFO - 
+Creating ranked prescriptions...
+2026-02-27 02:39:34,428 - INFO - Created 3 ranked prescriptions (3 unique segments)
+2026-02-27 02:39:34,428 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_0/ranked_prescriptions.json
+2026-02-27 02:39:34,428 - INFO -   Total prescriptions: 3
+2026-02-27 02:39:34,428 - INFO - 
+============================================================
+2026-02-27 02:39:34,428 - INFO - ABDUCTION COMPLETE
+2026-02-27 02:39:34,428 - INFO - ============================================================
+2026-02-27 02:39:34,428 - INFO - Features analyzed: 20
+2026-02-27 02:39:34,428 - INFO - Segments to transform: 3
+2026-02-27 02:39:34,428 - INFO - Stop condition: NO - Continue transforming
+2026-02-27 02:39:34,428 - INFO - ============================================================
+2026-02-27 02:39:34,428 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_0/abduction_analysis.json
+2026-02-27 02:39:34,428 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_0/ranked_prescriptions.json
+2026-02-27 02:39:34,428 - INFO - 
+[Step 7/7] Transforming story (top-5 features, mode=multiple)...
+2026-02-27 02:39:34,428 - INFO - ============================================================
+2026-02-27 02:39:34,428 - INFO - STORY TRANSFORMATION
+2026-02-27 02:39:34,428 - INFO - ============================================================
+2026-02-27 02:39:34,428 - INFO - Selected top 2 features:
+2026-02-27 02:39:34,429 - INFO -   1. individual_accolades: 2 segments
+2026-02-27 02:39:34,429 - INFO -   2. decision_driven_plot: 1 segments
+2026-02-27 02:39:34,429 - INFO - Total segments to transform: 3
+2026-02-27 02:39:34,429 - INFO - 
+[Transformation 1/3]
+2026-02-27 02:39:34,429 - INFO -   Feature: individual_accolades
+2026-02-27 02:39:34,429 - INFO -   Segment: Only when all hands dig will the spring awaken....
+2026-02-27 02:39:34,429 - INFO -   Target: 5 → 1
+2026-02-27 02:39:34,429 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:35,607 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:35,610 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:35,610 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:35,610 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:35,611 - INFO -   ✓ Transformed (tokens: 305)
+2026-02-27 02:39:35,611 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:35,611 - INFO - 
+[Transformation 2/3]
+2026-02-27 02:39:35,612 - INFO -   Feature: individual_accolades
+2026-02-27 02:39:35,612 - INFO -   Segment: And so, in Khutse, they remembered that even the sky listens...
+2026-02-27 02:39:35,612 - INFO -   Target: 5 → 1
+2026-02-27 02:39:35,612 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:38,380 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:38,383 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:38,383 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:38,383 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:38,384 - INFO -   ✓ Transformed (tokens: 322)
+2026-02-27 02:39:38,384 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:38,384 - INFO - 
+[Transformation 3/3]
+2026-02-27 02:39:38,385 - INFO -   Feature: decision_driven_plot
+2026-02-27 02:39:38,385 - INFO -   Segment: They never forgot what the snake had said....
+2026-02-27 02:39:38,385 - INFO -   Target: 5 → 1
+2026-02-27 02:39:38,385 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:39,319 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:39,321 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:39,322 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:39,322 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:39,322 - INFO -   ✓ Transformed (tokens: 309)
+2026-02-27 02:39:39,323 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:39,323 - INFO - 
+✓ Final transformed story saved to: output/phase2/gpt-4o/forward/input/iteration_0/story_transformed.txt
+2026-02-27 02:39:39,324 - INFO - ✓ Transformation log saved to: output/phase2/gpt-4o/forward/input/iteration_0/transformation_log.json
+2026-02-27 02:39:39,325 - INFO - ✓ Transformation costs saved to: output/phase2/gpt-4o/forward/input/iteration_0/cost_tracking_transformation.json
+2026-02-27 02:39:39,325 - INFO - 
+============================================================
+2026-02-27 02:39:39,325 - INFO - TRANSFORMATION COMPLETE
+2026-02-27 02:39:39,325 - INFO - ============================================================
+2026-02-27 02:39:39,325 - INFO - Features selected: 2
+2026-02-27 02:39:39,325 - INFO - Segments attempted: 3
+2026-02-27 02:39:39,325 - INFO - Segments transformed: 3
+2026-02-27 02:39:39,325 - INFO - Segments skipped (reversals): 0
+2026-02-27 02:39:39,325 - INFO - Total cost: $0.0045
+2026-02-27 02:39:39,325 - INFO - Total tokens: 936
+2026-02-27 02:39:39,325 - INFO - ============================================================
+2026-02-27 02:39:39,325 - INFO - ✓ Story transformed
+2026-02-27 02:39:39,325 - INFO - ✓ Transformation log: output/phase2/gpt-4o/forward/input/iteration_0/transformation_log.json
+2026-02-27 02:39:39,325 - INFO - ✓ Transformation costs: output/phase2/gpt-4o/forward/input/iteration_0/cost_tracking_transformation.json
+2026-02-27 02:39:39,325 - INFO - 
+============================================================
+2026-02-27 02:39:39,325 - INFO - ITERATION 2/3
+2026-02-27 02:39:39,325 - INFO - ============================================================
+2026-02-27 02:39:39,326 - INFO - ✓ Saved current story to: output/phase2/gpt-4o/forward/input/iteration_1/story.txt
+2026-02-27 02:39:39,326 - INFO - 
+[Step 3/7] Surveying story (iteration 1)...
+2026-02-27 02:39:39,327 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:42,572 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:42,574 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:42,574 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:42,574 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:42,575 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:42,576 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:46,376 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:46,384 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:46,384 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:46,384 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:46,385 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:46,386 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:48,609 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:48,611 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:48,611 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:48,612 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:48,613 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:48,613 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:50,522 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:50,528 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:50,529 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:50,529 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:50,531 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:50,531 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:52,107 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:52,109 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:52,110 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:52,110 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:52,111 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:52,111 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:53,938 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:53,940 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:53,941 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:53,941 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:53,942 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:53,943 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:56,046 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:56,054 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:56,055 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:56,055 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:56,056 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:56,057 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:58,687 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:39:58,689 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:39:58,690 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:58,690 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:39:58,691 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:39:58,692 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:03,285 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:03,288 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:03,288 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:03,289 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:03,290 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:03,290 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:05,208 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:05,216 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:05,216 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:05,217 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:05,218 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:08,819 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:08,822 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:08,822 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:08,822 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:08,824 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:08,824 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:11,851 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:11,854 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:11,855 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:11,855 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:11,856 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:11,856 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:15,151 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:15,154 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:15,154 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:15,154 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:15,155 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:15,156 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:17,377 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:17,383 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:17,384 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:17,384 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:17,385 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:17,386 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:19,153 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:19,155 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:19,155 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:19,155 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:19,157 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:19,157 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:21,159 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:21,161 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:21,162 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:21,162 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:21,163 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:21,163 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:23,297 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:23,299 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:23,300 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:23,300 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:23,301 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:23,301 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:25,834 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:25,837 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:25,837 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:25,837 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:25,838 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:25,838 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:27,618 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:27,624 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:27,624 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:27,624 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:27,625 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:27,626 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:31,428 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:31,429 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:31,429 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:31,429 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:31,429 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:31,430 - INFO - ✓ Survey completed and saved to: output/phase2/gpt-4o/forward/input/iteration_1/survey.json
+2026-02-27 02:40:31,430 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-27 02:40:31,431 - INFO - ✓ Cost tracking saved to: output/phase2/gpt-4o/forward/input/iteration_1/cost_tracking.json
+2026-02-27 02:40:31,431 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-27 02:40:31,431 - INFO - Building ground atoms from survey: output/phase2/gpt-4o/forward/input/iteration_1/survey.json
+2026-02-27 02:40:31,431 - INFO - Created 41 ground atoms
+2026-02-27 02:40:31,431 - INFO - Extracted metadata for 20 features
+2026-02-27 02:40:31,432 - INFO - Saved ground atoms to: output/phase2/gpt-4o/forward/input/iteration_1/ground_atoms.json
+2026-02-27 02:40:31,432 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-27 02:40:31,432 - INFO - Saved segments metadata to: output/phase2/gpt-4o/forward/input/iteration_1/segments_metadata.json
+2026-02-27 02:40:31,432 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-27 02:40:31,433 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-27 02:40:31,433 - INFO - Running PyReason...
+2026-02-27 02:40:31,435 - INFO - Added 20 facts to PyReason
+2026-02-27 02:40:31,480 - INFO - Rules loaded successfully
+2026-02-27 02:40:31,480 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-27 02:40:31,498 - INFO - Reasoning completed
+2026-02-27 02:40:31,498 - INFO - Saving rule traces to: output/phase2/gpt-4o/forward/input/iteration_1/pyreason_traces
+2026-02-27 02:40:31,509 - INFO - ✓ Generated 2 trace files:
+2026-02-27 02:40:31,509 - INFO -   - rule_trace_nodes_20260227-024031.csv
+2026-02-27 02:40:31,509 - INFO -   - rule_trace_edges_20260227-024031.csv
+2026-02-27 02:40:31,509 - INFO - ✓ PyReason traces saved to: output/phase2/gpt-4o/forward/input/iteration_1/pyreason_traces
+2026-02-27 02:40:31,509 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-27 02:40:31,509 - INFO - ============================================================
+2026-02-27 02:40:31,509 - INFO - ABDUCTION ANALYSIS
+2026-02-27 02:40:31,509 - INFO - ============================================================
+2026-02-27 02:40:31,509 - INFO - Loading learned rules...
+2026-02-27 02:40:31,510 - INFO - Loaded 100 learned rules
+2026-02-27 02:40:31,510 - INFO - Parsing trace CSV: output/phase2/gpt-4o/forward/input/iteration_1/pyreason_traces/rule_trace_edges_20260227-024031.csv
+2026-02-27 02:40:31,512 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-27 02:40:31,512 - INFO - Successfully parsed 20 corpus derivations
+2026-02-27 02:40:31,512 - INFO - Analyzing story: input
+2026-02-27 02:40:31,512 - INFO - Calculating confidence gaps...
+2026-02-27 02:40:31,513 - INFO - 
+Current total similarity: 0.505
+2026-02-27 02:40:31,513 - INFO - Potential total similarity: 0.579
+2026-02-27 02:40:31,513 - INFO - Total improvement potential: 0.074
+2026-02-27 02:40:31,513 - INFO - Max gap: 0.470
+2026-02-27 02:40:31,513 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-27 02:40:31,513 - INFO - 
+Top feature gaps:
+2026-02-27 02:40:31,513 - INFO -   1. relationship_orientation: current=0.120, max=0.590, gap=0.470
+2026-02-27 02:40:31,513 - INFO -   2. personal_ethics_over_group_norms: current=0.270, max=0.620, gap=0.350
+2026-02-27 02:40:31,513 - INFO -   3. protagonist_centered_focus: current=0.120, max=0.460, gap=0.340
+2026-02-27 02:40:31,513 - INFO -   4. self_actualization_climax: current=0.240, max=0.540, gap=0.300
+2026-02-27 02:40:31,513 - INFO -   5. moral_emphasis: current=0.430, max=0.460, gap=0.030
+2026-02-27 02:40:31,513 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_1/abduction_analysis.json
+2026-02-27 02:40:31,513 - INFO - 
+Creating ranked prescriptions...
+2026-02-27 02:40:31,514 - INFO - Created 3 ranked prescriptions (3 unique segments)
+2026-02-27 02:40:31,514 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_1/ranked_prescriptions.json
+2026-02-27 02:40:31,514 - INFO -   Total prescriptions: 3
+2026-02-27 02:40:31,514 - INFO - 
+============================================================
+2026-02-27 02:40:31,514 - INFO - ABDUCTION COMPLETE
+2026-02-27 02:40:31,514 - INFO - ============================================================
+2026-02-27 02:40:31,514 - INFO - Features analyzed: 20
+2026-02-27 02:40:31,514 - INFO - Segments to transform: 3
+2026-02-27 02:40:31,514 - INFO - Stop condition: NO - Continue transforming
+2026-02-27 02:40:31,514 - INFO - ============================================================
+2026-02-27 02:40:31,514 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_1/abduction_analysis.json
+2026-02-27 02:40:31,514 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_1/ranked_prescriptions.json
+2026-02-27 02:40:31,514 - INFO - 
+[Step 7/7] Transforming story (top-5 features, mode=multiple)...
+2026-02-27 02:40:31,514 - INFO - ============================================================
+2026-02-27 02:40:31,514 - INFO - STORY TRANSFORMATION
+2026-02-27 02:40:31,514 - INFO - ============================================================
+2026-02-27 02:40:31,514 - INFO - Selected top 0 features:
+2026-02-27 02:40:31,514 - INFO - Total segments to transform: 0
+2026-02-27 02:40:31,515 - INFO - 
+✓ Final transformed story saved to: output/phase2/gpt-4o/forward/input/iteration_1/story_transformed.txt
+2026-02-27 02:40:31,515 - INFO - ✓ Transformation log saved to: output/phase2/gpt-4o/forward/input/iteration_1/transformation_log.json
+2026-02-27 02:40:31,515 - INFO - ✓ Transformation costs saved to: output/phase2/gpt-4o/forward/input/iteration_1/cost_tracking_transformation.json
+2026-02-27 02:40:31,515 - INFO - 
+============================================================
+2026-02-27 02:40:31,515 - INFO - TRANSFORMATION COMPLETE
+2026-02-27 02:40:31,515 - INFO - ============================================================
+2026-02-27 02:40:31,515 - INFO - Features selected: 0
+2026-02-27 02:40:31,516 - INFO - Segments attempted: 0
+2026-02-27 02:40:31,516 - INFO - Segments transformed: 0
+2026-02-27 02:40:31,516 - INFO - Segments skipped (reversals): 0
+2026-02-27 02:40:31,516 - INFO - Total cost: $0.0000
+2026-02-27 02:40:31,516 - INFO - Total tokens: 0
+2026-02-27 02:40:31,516 - INFO - ============================================================
+2026-02-27 02:40:31,516 - INFO - ✓ Story transformed
+2026-02-27 02:40:31,516 - INFO - ✓ Transformation log: output/phase2/gpt-4o/forward/input/iteration_1/transformation_log.json
+2026-02-27 02:40:31,516 - INFO - ✓ Transformation costs: output/phase2/gpt-4o/forward/input/iteration_1/cost_tracking_transformation.json
+2026-02-27 02:40:31,516 - INFO - 
+============================================================
+2026-02-27 02:40:31,516 - INFO - ITERATION 3/3
+2026-02-27 02:40:31,516 - INFO - ============================================================
+2026-02-27 02:40:31,516 - INFO - ✓ Saved current story to: output/phase2/gpt-4o/forward/input/iteration_2/story.txt
+2026-02-27 02:40:31,516 - INFO - 
+[Step 3/7] Surveying story (iteration 2)...
+2026-02-27 02:40:31,517 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:35,231 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:35,234 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:35,234 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:35,234 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:35,235 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:35,236 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:38,640 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:38,641 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:38,641 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:38,641 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:38,641 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:38,642 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:41,139 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:41,146 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:41,146 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:41,147 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:41,150 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:43,012 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:43,015 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:43,015 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:43,015 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:43,016 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:43,017 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:46,469 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:46,472 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:46,473 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:46,473 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:46,474 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:46,475 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:48,680 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:48,681 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:48,681 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:48,681 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:48,682 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:51,688 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:51,690 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:51,691 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:51,691 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:51,692 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:51,693 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:55,023 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:55,034 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:55,034 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:55,034 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:55,035 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:55,036 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:57,267 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:57,272 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:57,273 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:57,273 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:57,274 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:57,275 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:59,282 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:40:59,285 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:40:59,285 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:59,285 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:40:59,286 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:40:59,287 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:02,988 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:02,992 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:02,993 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:02,993 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:02,994 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:41:02,994 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:05,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:05,721 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:05,721 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:05,722 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:05,722 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:41:05,723 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:10,026 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:10,030 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:10,030 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:10,031 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:10,032 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:41:10,032 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:12,564 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:12,567 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:12,567 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:12,567 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:12,568 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:41:12,569 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:14,786 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:14,789 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:14,789 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:14,789 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:14,790 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:41:14,791 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:18,027 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:18,034 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:18,035 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:18,035 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:18,036 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:41:18,036 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:21,287 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:21,288 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:21,289 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:21,289 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:21,289 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:41:21,290 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:24,840 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:24,846 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:24,846 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:24,846 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:24,847 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:41:24,848 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:26,478 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:26,481 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:26,481 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:26,482 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:41:26,482 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:28,637 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:41:28,643 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:41:28,643 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:28,643 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:28,644 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:41:28,645 - INFO - ✓ Survey completed and saved to: output/phase2/gpt-4o/forward/input/iteration_2/survey.json
+2026-02-27 02:41:28,645 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-27 02:41:28,645 - INFO - ✓ Cost tracking saved to: output/phase2/gpt-4o/forward/input/iteration_2/cost_tracking.json
+2026-02-27 02:41:28,645 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-27 02:41:28,645 - INFO - Building ground atoms from survey: output/phase2/gpt-4o/forward/input/iteration_2/survey.json
+2026-02-27 02:41:28,646 - INFO - Created 41 ground atoms
+2026-02-27 02:41:28,646 - INFO - Extracted metadata for 20 features
+2026-02-27 02:41:28,646 - INFO - Saved ground atoms to: output/phase2/gpt-4o/forward/input/iteration_2/ground_atoms.json
+2026-02-27 02:41:28,646 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-27 02:41:28,647 - INFO - Saved segments metadata to: output/phase2/gpt-4o/forward/input/iteration_2/segments_metadata.json
+2026-02-27 02:41:28,647 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-27 02:41:28,647 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-27 02:41:28,647 - INFO - Running PyReason...
+2026-02-27 02:41:28,649 - INFO - Added 20 facts to PyReason
+2026-02-27 02:41:28,691 - INFO - Rules loaded successfully
+2026-02-27 02:41:28,692 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-27 02:41:28,714 - INFO - Reasoning completed
+2026-02-27 02:41:28,714 - INFO - Saving rule traces to: output/phase2/gpt-4o/forward/input/iteration_2/pyreason_traces
+2026-02-27 02:41:28,724 - INFO - ✓ Generated 2 trace files:
+2026-02-27 02:41:28,724 - INFO -   - rule_trace_edges_20260227-024128.csv
+2026-02-27 02:41:28,724 - INFO -   - rule_trace_nodes_20260227-024128.csv
+2026-02-27 02:41:28,725 - INFO - ✓ PyReason traces saved to: output/phase2/gpt-4o/forward/input/iteration_2/pyreason_traces
+2026-02-27 02:41:28,725 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-27 02:41:28,725 - INFO - ============================================================
+2026-02-27 02:41:28,725 - INFO - ABDUCTION ANALYSIS
+2026-02-27 02:41:28,725 - INFO - ============================================================
+2026-02-27 02:41:28,725 - INFO - Loading learned rules...
+2026-02-27 02:41:28,725 - INFO - Loaded 100 learned rules
+2026-02-27 02:41:28,725 - INFO - Parsing trace CSV: output/phase2/gpt-4o/forward/input/iteration_2/pyreason_traces/rule_trace_edges_20260227-024128.csv
+2026-02-27 02:41:28,727 - INFO - Found 20 corpus derivations in trace CSV
+2026-02-27 02:41:28,727 - INFO - Successfully parsed 20 corpus derivations
+2026-02-27 02:41:28,727 - INFO - Analyzing story: input
+2026-02-27 02:41:28,727 - INFO - Calculating confidence gaps...
+2026-02-27 02:41:28,728 - INFO - 
+Current total similarity: 0.501
+2026-02-27 02:41:28,728 - INFO - Potential total similarity: 0.580
+2026-02-27 02:41:28,728 - INFO - Total improvement potential: 0.078
+2026-02-27 02:41:28,728 - INFO - Max gap: 0.380
+2026-02-27 02:41:28,728 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-27 02:41:28,728 - INFO - 
+Top feature gaps:
+2026-02-27 02:41:28,728 - INFO -   1. relationship_framing: current=0.090, max=0.470, gap=0.380
+2026-02-27 02:41:28,728 - INFO -   2. personal_ethics_over_group_norms: current=0.270, max=0.620, gap=0.350
+2026-02-27 02:41:28,728 - INFO -   3. protagonist_centered_focus: current=0.120, max=0.460, gap=0.340
+2026-02-27 02:41:28,728 - INFO -   4. self_reliance: current=0.330, max=0.560, gap=0.230
+2026-02-27 02:41:28,728 - INFO -   5. man_vs_self_world_conflict: current=0.360, max=0.590, gap=0.230
+2026-02-27 02:41:28,728 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_2/abduction_analysis.json
+2026-02-27 02:41:28,728 - INFO - 
+Creating ranked prescriptions...
+2026-02-27 02:41:28,728 - INFO - Created 3 ranked prescriptions (3 unique segments)
+2026-02-27 02:41:28,729 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_2/ranked_prescriptions.json
+2026-02-27 02:41:28,729 - INFO -   Total prescriptions: 3
+2026-02-27 02:41:28,729 - INFO - 
+============================================================
+2026-02-27 02:41:28,729 - INFO - ABDUCTION COMPLETE
+2026-02-27 02:41:28,729 - INFO - ============================================================
+2026-02-27 02:41:28,729 - INFO - Features analyzed: 20
+2026-02-27 02:41:28,729 - INFO - Segments to transform: 3
+2026-02-27 02:41:28,729 - INFO - Stop condition: NO - Continue transforming
+2026-02-27 02:41:28,729 - INFO - ============================================================
+2026-02-27 02:41:28,729 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_2/abduction_analysis.json
+2026-02-27 02:41:28,729 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_2/ranked_prescriptions.json
+2026-02-27 02:41:28,729 - INFO - 
+[Step 7/7] Transforming story (top-5 features, mode=multiple)...
+2026-02-27 02:41:28,729 - INFO - ============================================================
+2026-02-27 02:41:28,729 - INFO - STORY TRANSFORMATION
+2026-02-27 02:41:28,729 - INFO - ============================================================
+2026-02-27 02:41:28,729 - INFO - Selected top 0 features:
+2026-02-27 02:41:28,729 - INFO - Total segments to transform: 0
+2026-02-27 02:41:28,730 - INFO - 
+✓ Final transformed story saved to: output/phase2/gpt-4o/forward/input/iteration_2/story_transformed.txt
+2026-02-27 02:41:28,730 - INFO - ✓ Transformation log saved to: output/phase2/gpt-4o/forward/input/iteration_2/transformation_log.json
+2026-02-27 02:41:28,730 - INFO - ✓ Transformation costs saved to: output/phase2/gpt-4o/forward/input/iteration_2/cost_tracking_transformation.json
+2026-02-27 02:41:28,730 - INFO - 
+============================================================
+2026-02-27 02:41:28,730 - INFO - TRANSFORMATION COMPLETE
+2026-02-27 02:41:28,730 - INFO - ============================================================
+2026-02-27 02:41:28,730 - INFO - Features selected: 0
+2026-02-27 02:41:28,730 - INFO - Segments attempted: 0
+2026-02-27 02:41:28,730 - INFO - Segments transformed: 0
+2026-02-27 02:41:28,730 - INFO - Segments skipped (reversals): 0
+2026-02-27 02:41:28,730 - INFO - Total cost: $0.0000
+2026-02-27 02:41:28,730 - INFO - Total tokens: 0
+2026-02-27 02:41:28,730 - INFO - ============================================================
+2026-02-27 02:41:28,730 - INFO - ✓ Story transformed
+2026-02-27 02:41:28,730 - INFO - ✓ Transformation log: output/phase2/gpt-4o/forward/input/iteration_2/transformation_log.json
+2026-02-27 02:41:28,730 - INFO - ✓ Transformation costs: output/phase2/gpt-4o/forward/input/iteration_2/cost_tracking_transformation.json
+2026-02-27 02:41:28,730 - INFO - 
+============================================================
+2026-02-27 02:41:28,730 - INFO - PHASE 2 FINAL COST SUMMARY
+2026-02-27 02:41:28,730 - INFO - ============================================================
+2026-02-27 02:41:28,731 - INFO - 
+============================================================
+2026-02-27 02:41:28,731 - INFO - PHASE 2 COST SUMMARY
+2026-02-27 02:41:28,731 - INFO - ============================================================
+2026-02-27 02:41:28,731 - INFO - Total stories processed: 1
+2026-02-27 02:41:28,731 - INFO - Total iterations: 3
+2026-02-27 02:41:28,731 - INFO - Total cost: $0.1241
+2026-02-27 02:41:28,731 - INFO - Total tokens: 28,915
+2026-02-27 02:41:28,731 - INFO -   - Input: 22,002
+2026-02-27 02:41:28,731 - INFO -   - Output: 6,913
+2026-02-27 02:41:28,731 - INFO - Cost tracking saved to: output/phase2/gpt-4o/forward/input/cost_tracking_final.json
+2026-02-27 02:41:28,731 - INFO - ============================================================
+2026-02-27 02:41:28,731 - INFO - 
+Phase 2 completed!
+2026-02-27 02:41:28,731 - INFO - Output directory: output/phase2/gpt-4o/forward/input
+2026-02-27 02:41:28,731 - INFO - ============================================================
+2026-02-27 02:41:28,731 - INFO - Execution completed successfully!
+2026-02-27 02:41:28,731 - INFO - ============================================================
+2026-02-27 02:44:35,735 - INFO - ============================================================
+2026-02-27 02:44:35,735 - INFO - CONNECT Project - Phase 2
+2026-02-27 02:44:35,735 - INFO - Problem: forward
+2026-02-27 02:44:35,735 - INFO - ============================================================
+2026-02-27 02:44:35,735 - INFO - 
+============================================================
+2026-02-27 02:44:35,735 - INFO - PHASE 2: TESTING/TRANSFORMATION
+2026-02-27 02:44:35,735 - INFO - ============================================================
+2026-02-27 02:44:35,735 - INFO - 
+[Step 1/7] Loading test story...
+2026-02-27 02:44:35,735 - INFO - Loading story: input.txt
+2026-02-27 02:44:35,735 - INFO - Loaded story: input (214 characters)
+2026-02-27 02:44:35,735 - INFO - ✓ Loaded test story: input
+2026-02-27 02:44:35,735 - INFO - 
+[Step 2/7] Loading learned rules...
+2026-02-27 02:44:35,735 - INFO - ✓ Rules loaded from: /Users/kmukherj/Projects/connect-demo/data/rules/gpt-4o/individualistic/selected_rules.txt
+2026-02-27 02:44:35,736 - INFO - ✓ Output directory: output/phase2/gpt-4o/forward/input
+2026-02-27 02:44:35,736 - INFO - ✓ Cost tracker initialized
+2026-02-27 02:44:35,736 - INFO - 
+============================================================
+2026-02-27 02:44:35,736 - INFO - ITERATION 1/2
+2026-02-27 02:44:35,736 - INFO - ============================================================
+2026-02-27 02:44:35,736 - INFO - ✓ Saved current story to: output/phase2/gpt-4o/forward/input/iteration_0/story.txt
+2026-02-27 02:44:35,736 - INFO - 
+[Step 3/7] Surveying story (iteration 0)...
+2026-02-27 02:44:35,746 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:44:39,583 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:44:39,598 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:44:39,599 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:39,599 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:39,599 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:39,600 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:44:42,609 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:44:42,612 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:44:42,612 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:42,612 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:42,613 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:44:42,614 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:46,502 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:44:46,503 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:44:46,503 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:46,503 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:44:46,503 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:49,622 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:44:49,628 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:44:49,629 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:49,629 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:49,630 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:44:49,630 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:52,702 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:44:52,708 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:44:52,708 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:52,709 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:52,710 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:44:52,710 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:55,232 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:44:55,235 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:44:55,235 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:55,235 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:55,236 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:44:55,237 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:59,095 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:44:59,097 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:44:59,097 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:59,097 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:44:59,098 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:44:59,098 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:02,147 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:02,149 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:02,150 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:02,150 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:02,151 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:02,152 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:06,355 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:06,361 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:06,362 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:06,362 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:06,363 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:06,364 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:10,256 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:10,258 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:10,259 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:10,259 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:10,260 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:10,261 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:13,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:13,495 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:13,495 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:13,496 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:13,497 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:13,498 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:18,546 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:18,549 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:18,549 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:18,549 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:18,550 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:18,551 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:21,930 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:21,932 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:21,932 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:21,932 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:21,933 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:21,934 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:25,614 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:25,616 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:25,617 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:25,617 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:25,618 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:25,618 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:27,802 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:27,810 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:27,810 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:27,810 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:27,811 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:27,812 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:30,838 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:30,840 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:30,841 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:30,841 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:30,842 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:30,843 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:33,763 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:33,770 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:33,771 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:33,771 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:33,772 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:33,772 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:37,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:37,701 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:37,701 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:37,701 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:37,702 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:37,703 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:40,235 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:40,236 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:40,236 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:40,236 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:40,236 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:40,237 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:44,052 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:44,055 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:44,056 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:44,056 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:44,057 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:44,059 - INFO - ✓ Survey completed and saved to: output/phase2/gpt-4o/forward/input/iteration_0/survey.json
+2026-02-27 02:45:44,059 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-27 02:45:44,059 - INFO - ✓ Cost tracking saved to: output/phase2/gpt-4o/forward/input/iteration_0/cost_tracking.json
+2026-02-27 02:45:44,059 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-27 02:45:44,059 - INFO - Building ground atoms from survey: output/phase2/gpt-4o/forward/input/iteration_0/survey.json
+2026-02-27 02:45:44,061 - INFO - Created 41 ground atoms
+2026-02-27 02:45:44,061 - INFO - Extracted metadata for 20 features
+2026-02-27 02:45:44,061 - INFO - Saved ground atoms to: output/phase2/gpt-4o/forward/input/iteration_0/ground_atoms.json
+2026-02-27 02:45:44,061 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-27 02:45:44,062 - INFO - Saved segments metadata to: output/phase2/gpt-4o/forward/input/iteration_0/segments_metadata.json
+2026-02-27 02:45:44,062 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-27 02:45:44,062 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-27 02:45:44,062 - INFO - Running PyReason...
+2026-02-27 02:45:45,870 - INFO - Added 20 facts to PyReason
+2026-02-27 02:45:46,409 - INFO - Rules loaded successfully
+2026-02-27 02:45:46,409 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-27 02:45:49,884 - INFO - Reasoning completed
+2026-02-27 02:45:49,884 - INFO - Saving rule traces to: output/phase2/gpt-4o/forward/input/iteration_0/pyreason_traces
+2026-02-27 02:45:51,212 - INFO - ✓ Generated 2 trace files:
+2026-02-27 02:45:51,213 - INFO -   - rule_trace_nodes_20260227-024546.csv
+2026-02-27 02:45:51,213 - INFO -   - rule_trace_edges_20260227-024546.csv
+2026-02-27 02:45:51,213 - INFO - ✓ PyReason traces saved to: output/phase2/gpt-4o/forward/input/iteration_0/pyreason_traces
+2026-02-27 02:45:51,213 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-27 02:45:51,213 - INFO - ============================================================
+2026-02-27 02:45:51,213 - INFO - ABDUCTION ANALYSIS
+2026-02-27 02:45:51,213 - INFO - ============================================================
+2026-02-27 02:45:51,213 - INFO - Loading learned rules...
+2026-02-27 02:45:51,213 - INFO - Loaded 6 learned rules
+2026-02-27 02:45:51,213 - INFO - Parsing trace CSV: output/phase2/gpt-4o/forward/input/iteration_0/pyreason_traces/rule_trace_edges_20260227-024546.csv
+2026-02-27 02:45:51,215 - INFO - Found 2 corpus derivations in trace CSV
+2026-02-27 02:45:51,216 - INFO - Successfully parsed 2 corpus derivations
+2026-02-27 02:45:51,216 - INFO - Analyzing story: input
+2026-02-27 02:45:51,216 - INFO - Calculating confidence gaps...
+2026-02-27 02:45:51,216 - INFO - 
+Current total similarity: 0.095
+2026-02-27 02:45:51,216 - INFO - Potential total similarity: 0.325
+2026-02-27 02:45:51,216 - INFO - Total improvement potential: 0.230
+2026-02-27 02:45:51,216 - INFO - Max gap: 0.460
+2026-02-27 02:45:51,216 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-27 02:45:51,216 - INFO - 
+Top feature gaps:
+2026-02-27 02:45:51,216 - INFO -   1. inner_journey: current=0.110, max=0.570, gap=0.460
+2026-02-27 02:45:51,216 - INFO -   2. internal_goals: current=0.080, max=0.080, gap=0.000
+2026-02-27 02:45:51,217 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_0/abduction_analysis.json
+2026-02-27 02:45:51,217 - INFO - 
+Creating ranked prescriptions...
+2026-02-27 02:45:51,217 - INFO - Created 4 ranked prescriptions (4 unique segments)
+2026-02-27 02:45:51,217 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_0/ranked_prescriptions.json
+2026-02-27 02:45:51,217 - INFO -   Total prescriptions: 4
+2026-02-27 02:45:51,217 - INFO - 
+============================================================
+2026-02-27 02:45:51,217 - INFO - ABDUCTION COMPLETE
+2026-02-27 02:45:51,217 - INFO - ============================================================
+2026-02-27 02:45:51,217 - INFO - Features analyzed: 2
+2026-02-27 02:45:51,217 - INFO - Segments to transform: 4
+2026-02-27 02:45:51,217 - INFO - Stop condition: NO - Continue transforming
+2026-02-27 02:45:51,217 - INFO - ============================================================
+2026-02-27 02:45:51,217 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_0/abduction_analysis.json
+2026-02-27 02:45:51,217 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_0/ranked_prescriptions.json
+2026-02-27 02:45:51,217 - INFO - 
+[Step 7/7] Transforming story (top-1 features, mode=multiple)...
+2026-02-27 02:45:51,217 - INFO - ============================================================
+2026-02-27 02:45:51,217 - INFO - STORY TRANSFORMATION
+2026-02-27 02:45:51,217 - INFO - ============================================================
+2026-02-27 02:45:51,218 - INFO - Selected top 1 features:
+2026-02-27 02:45:51,218 - INFO -   1. inner_journey: 4 segments
+2026-02-27 02:45:51,218 - INFO - Total segments to transform: 4
+2026-02-27 02:45:51,218 - INFO - 
+[Transformation 1/4]
+2026-02-27 02:45:51,218 - INFO -   Feature: inner_journey
+2026-02-27 02:45:51,218 - INFO -   Segment: The village elders gathered to discuss the persistent drough...
+2026-02-27 02:45:51,218 - INFO -   Target: 3 → 2
+2026-02-27 02:45:51,218 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:52,790 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:52,800 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:52,800 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:52,800 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:52,800 - INFO -   ✓ Transformed (tokens: 280)
+2026-02-27 02:45:52,801 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:52,801 - INFO - 
+[Transformation 2/4]
+2026-02-27 02:45:52,802 - INFO -   Feature: inner_journey
+2026-02-27 02:45:52,802 - INFO -   Segment: As Thabo walked into the heart of the desert, he remembered ...
+2026-02-27 02:45:52,802 - INFO -   Target: 3 → 2
+2026-02-27 02:45:52,802 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:54,083 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:54,085 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:54,086 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:54,086 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:54,086 - INFO -   ✓ Transformed (tokens: 337)
+2026-02-27 02:45:54,087 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:54,087 - INFO - 
+[Transformation 3/4]
+2026-02-27 02:45:54,087 - INFO -   Feature: inner_journey
+2026-02-27 02:45:54,087 - INFO -   Segment: When Thabo returned with the knowledge of the water...
+2026-02-27 02:45:54,087 - INFO -   Target: 3 → 2
+2026-02-27 02:45:54,088 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:56,853 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:56,855 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:56,856 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:56,856 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:56,856 - INFO -   ✓ Transformed (tokens: 432)
+2026-02-27 02:45:56,857 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:56,857 - INFO - 
+[Transformation 4/4]
+2026-02-27 02:45:56,858 - INFO -   Feature: inner_journey
+2026-02-27 02:45:56,858 - INFO -   Segment: Together, they dug where Thabo had shown them, each hand wor...
+2026-02-27 02:45:56,858 - INFO -   Target: 3 → 2
+2026-02-27 02:45:56,858 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:45:59,509 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:45:59,512 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:45:59,512 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:59,512 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:59,513 - INFO -   ✓ Transformed (tokens: 560)
+2026-02-27 02:45:59,513 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:45:59,514 - INFO - 
+✓ Final transformed story saved to: output/phase2/gpt-4o/forward/input/iteration_0/story_transformed.txt
+2026-02-27 02:45:59,515 - INFO - ✓ Transformation log saved to: output/phase2/gpt-4o/forward/input/iteration_0/transformation_log.json
+2026-02-27 02:45:59,516 - INFO - ✓ Transformation costs saved to: output/phase2/gpt-4o/forward/input/iteration_0/cost_tracking_transformation.json
+2026-02-27 02:45:59,516 - INFO - 
+============================================================
+2026-02-27 02:45:59,516 - INFO - TRANSFORMATION COMPLETE
+2026-02-27 02:45:59,516 - INFO - ============================================================
+2026-02-27 02:45:59,516 - INFO - Features selected: 1
+2026-02-27 02:45:59,516 - INFO - Segments attempted: 4
+2026-02-27 02:45:59,516 - INFO - Segments transformed: 4
+2026-02-27 02:45:59,516 - INFO - Segments skipped (reversals): 0
+2026-02-27 02:45:59,516 - INFO - Total cost: $0.0089
+2026-02-27 02:45:59,516 - INFO - Total tokens: 1,609
+2026-02-27 02:45:59,516 - INFO - ============================================================
+2026-02-27 02:45:59,516 - INFO - ✓ Story transformed
+2026-02-27 02:45:59,516 - INFO - ✓ Transformation log: output/phase2/gpt-4o/forward/input/iteration_0/transformation_log.json
+2026-02-27 02:45:59,516 - INFO - ✓ Transformation costs: output/phase2/gpt-4o/forward/input/iteration_0/cost_tracking_transformation.json
+2026-02-27 02:45:59,516 - INFO - 
+============================================================
+2026-02-27 02:45:59,516 - INFO - ITERATION 2/2
+2026-02-27 02:45:59,516 - INFO - ============================================================
+2026-02-27 02:45:59,517 - INFO - ✓ Saved current story to: output/phase2/gpt-4o/forward/input/iteration_1/story.txt
+2026-02-27 02:45:59,517 - INFO - 
+[Step 3/7] Surveying story (iteration 1)...
+2026-02-27 02:45:59,518 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:02,683 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:02,685 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:02,686 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:02,686 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:02,687 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:02,688 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:05,646 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:05,657 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:05,657 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:05,657 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:05,658 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:05,658 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:07,653 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:07,661 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:07,662 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:07,662 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:07,662 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:07,663 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:10,203 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:10,204 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:10,204 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:10,204 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:10,204 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:10,205 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:12,737 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:12,740 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:12,740 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:12,740 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:12,741 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:12,742 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:15,262 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:15,264 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:15,265 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:15,265 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:15,266 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:15,266 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:18,032 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:18,034 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:18,035 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:18,035 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:18,036 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:18,037 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:21,242 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:21,244 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:21,244 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:21,245 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:21,246 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:21,246 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:23,592 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:23,599 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:23,599 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:23,599 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:23,600 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:23,601 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:25,911 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:25,916 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:25,917 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:25,917 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:25,918 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:25,919 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:28,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:28,700 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:28,701 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:28,701 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:28,702 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:28,702 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:33,286 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:33,288 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:33,288 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:33,288 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:33,289 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:33,290 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:36,477 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:36,480 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:36,480 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:36,480 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:36,481 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:36,482 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:39,558 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:39,560 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:39,561 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:39,561 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:39,561 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:39,562 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:42,822 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:42,824 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:42,825 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:42,825 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:42,826 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:42,826 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:46,347 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:46,356 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:46,356 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:46,356 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:46,357 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:46,358 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:49,291 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:49,293 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:49,293 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:49,293 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:49,294 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:49,294 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:52,143 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:52,145 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:52,146 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:52,146 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:52,147 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:52,147 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:54,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:54,607 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:54,607 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:54,608 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:54,609 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2026-02-27 02:46:54,609 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:56,853 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-27 02:46:56,855 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-27 02:46:56,856 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:56,856 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:56,857 - INFO - selected model name for cost calculation: openai/gpt-4o-2024-08-06
+2026-02-27 02:46:56,859 - INFO - ✓ Survey completed and saved to: output/phase2/gpt-4o/forward/input/iteration_1/survey.json
+2026-02-27 02:46:56,859 - INFO - ✓ Survey yielded 20/20 valid feature ratings
+2026-02-27 02:46:56,859 - INFO - ✓ Cost tracking saved to: output/phase2/gpt-4o/forward/input/iteration_1/cost_tracking.json
+2026-02-27 02:46:56,859 - INFO - 
+[Step 4/7] Building ground atoms from survey...
+2026-02-27 02:46:56,859 - INFO - Building ground atoms from survey: output/phase2/gpt-4o/forward/input/iteration_1/survey.json
+2026-02-27 02:46:56,860 - INFO - Created 41 ground atoms
+2026-02-27 02:46:56,860 - INFO - Extracted metadata for 20 features
+2026-02-27 02:46:56,861 - INFO - Saved ground atoms to: output/phase2/gpt-4o/forward/input/iteration_1/ground_atoms.json
+2026-02-27 02:46:56,861 - INFO - ✓ Ground atoms saved: 41 atoms
+2026-02-27 02:46:56,862 - INFO - Saved segments metadata to: output/phase2/gpt-4o/forward/input/iteration_1/segments_metadata.json
+2026-02-27 02:46:56,862 - INFO - ✓ Segments metadata saved: 20 features
+2026-02-27 02:46:56,862 - INFO - 
+[Step 5/7] Running PyReason...
+2026-02-27 02:46:56,862 - INFO - Running PyReason...
+2026-02-27 02:46:56,864 - INFO - Added 20 facts to PyReason
+2026-02-27 02:46:56,867 - INFO - Rules loaded successfully
+2026-02-27 02:46:56,867 - INFO - Running PyReason reasoning (1 timestep)...
+2026-02-27 02:46:56,872 - INFO - Reasoning completed
+2026-02-27 02:46:56,872 - INFO - Saving rule traces to: output/phase2/gpt-4o/forward/input/iteration_1/pyreason_traces
+2026-02-27 02:46:56,878 - INFO - ✓ Generated 2 trace files:
+2026-02-27 02:46:56,878 - INFO -   - rule_trace_nodes_20260227-024656.csv
+2026-02-27 02:46:56,878 - INFO -   - rule_trace_edges_20260227-024656.csv
+2026-02-27 02:46:56,878 - INFO - ✓ PyReason traces saved to: output/phase2/gpt-4o/forward/input/iteration_1/pyreason_traces
+2026-02-27 02:46:56,878 - INFO - 
+[Step 6/7] Running abduction analysis...
+2026-02-27 02:46:56,878 - INFO - ============================================================
+2026-02-27 02:46:56,878 - INFO - ABDUCTION ANALYSIS
+2026-02-27 02:46:56,878 - INFO - ============================================================
+2026-02-27 02:46:56,879 - INFO - Loading learned rules...
+2026-02-27 02:46:56,879 - INFO - Loaded 6 learned rules
+2026-02-27 02:46:56,879 - INFO - Parsing trace CSV: output/phase2/gpt-4o/forward/input/iteration_1/pyreason_traces/rule_trace_edges_20260227-024656.csv
+2026-02-27 02:46:56,880 - INFO - Found 1 corpus derivations in trace CSV
+2026-02-27 02:46:56,880 - INFO - Successfully parsed 1 corpus derivations
+2026-02-27 02:46:56,880 - INFO - Analyzing story: input
+2026-02-27 02:46:56,880 - INFO - Calculating confidence gaps...
+2026-02-27 02:46:56,880 - INFO - 
+Current total similarity: 0.280
+2026-02-27 02:46:56,880 - INFO - Potential total similarity: 0.570
+2026-02-27 02:46:56,880 - INFO - Total improvement potential: 0.290
+2026-02-27 02:46:56,880 - INFO - Max gap: 0.290
+2026-02-27 02:46:56,880 - INFO - Stop condition met: False (threshold: 0.01)
+2026-02-27 02:46:56,880 - INFO - 
+Top feature gaps:
+2026-02-27 02:46:56,880 - INFO -   1. inner_journey: current=0.280, max=0.570, gap=0.290
+2026-02-27 02:46:56,881 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_1/abduction_analysis.json
+2026-02-27 02:46:56,881 - INFO - 
+Creating ranked prescriptions...
+2026-02-27 02:46:56,881 - INFO - Created 4 ranked prescriptions (4 unique segments)
+2026-02-27 02:46:56,881 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_1/ranked_prescriptions.json
+2026-02-27 02:46:56,881 - INFO -   Total prescriptions: 4
+2026-02-27 02:46:56,881 - INFO - 
+============================================================
+2026-02-27 02:46:56,881 - INFO - ABDUCTION COMPLETE
+2026-02-27 02:46:56,881 - INFO - ============================================================
+2026-02-27 02:46:56,881 - INFO - Features analyzed: 1
+2026-02-27 02:46:56,881 - INFO - Segments to transform: 4
+2026-02-27 02:46:56,881 - INFO - Stop condition: NO - Continue transforming
+2026-02-27 02:46:56,881 - INFO - ============================================================
+2026-02-27 02:46:56,881 - INFO - ✓ Abduction analysis saved to: output/phase2/gpt-4o/forward/input/iteration_1/abduction_analysis.json
+2026-02-27 02:46:56,881 - INFO - ✓ Ranked prescriptions saved to: output/phase2/gpt-4o/forward/input/iteration_1/ranked_prescriptions.json
+2026-02-27 02:46:56,881 - INFO - 
+[Step 7/7] Transforming story (top-1 features, mode=multiple)...
+2026-02-27 02:46:56,881 - INFO - ============================================================
+2026-02-27 02:46:56,881 - INFO - STORY TRANSFORMATION
+2026-02-27 02:46:56,881 - INFO - ============================================================
+2026-02-27 02:46:56,881 - INFO - Selected top 0 features:
+2026-02-27 02:46:56,881 - INFO - Total segments to transform: 0
+2026-02-27 02:46:56,882 - INFO - 
+✓ Final transformed story saved to: output/phase2/gpt-4o/forward/input/iteration_1/story_transformed.txt
+2026-02-27 02:46:56,882 - INFO - ✓ Transformation log saved to: output/phase2/gpt-4o/forward/input/iteration_1/transformation_log.json
+2026-02-27 02:46:56,882 - INFO - ✓ Transformation costs saved to: output/phase2/gpt-4o/forward/input/iteration_1/cost_tracking_transformation.json
+2026-02-27 02:46:56,882 - INFO - 
+============================================================
+2026-02-27 02:46:56,882 - INFO - TRANSFORMATION COMPLETE
+2026-02-27 02:46:56,882 - INFO - ============================================================
+2026-02-27 02:46:56,882 - INFO - Features selected: 0
+2026-02-27 02:46:56,882 - INFO - Segments attempted: 0
+2026-02-27 02:46:56,882 - INFO - Segments transformed: 0
+2026-02-27 02:46:56,882 - INFO - Segments skipped (reversals): 0
+2026-02-27 02:46:56,882 - INFO - Total cost: $0.0000
+2026-02-27 02:46:56,882 - INFO - Total tokens: 0
+2026-02-27 02:46:56,882 - INFO - ============================================================
+2026-02-27 02:46:56,882 - INFO - ✓ Story transformed
+2026-02-27 02:46:56,882 - INFO - ✓ Transformation log: output/phase2/gpt-4o/forward/input/iteration_1/transformation_log.json
+2026-02-27 02:46:56,882 - INFO - ✓ Transformation costs: output/phase2/gpt-4o/forward/input/iteration_1/cost_tracking_transformation.json
+2026-02-27 02:46:56,882 - INFO - 
+============================================================
+2026-02-27 02:46:56,883 - INFO - PHASE 2 FINAL COST SUMMARY
+2026-02-27 02:46:56,883 - INFO - ============================================================
+2026-02-27 02:46:56,883 - INFO - 
+============================================================
+2026-02-27 02:46:56,883 - INFO - PHASE 2 COST SUMMARY
+2026-02-27 02:46:56,883 - INFO - ============================================================
+2026-02-27 02:46:56,883 - INFO - Total stories processed: 1
+2026-02-27 02:46:56,883 - INFO - Total iterations: 2
+2026-02-27 02:46:56,883 - INFO - Total cost: $0.1139
+2026-02-27 02:46:56,883 - INFO - Total tokens: 23,691
+2026-02-27 02:46:56,883 - INFO -   - Input: 16,408
+2026-02-27 02:46:56,883 - INFO -   - Output: 7,283
+2026-02-27 02:46:56,883 - INFO - Cost tracking saved to: output/phase2/gpt-4o/forward/input/cost_tracking_final.json
+2026-02-27 02:46:56,883 - INFO - ============================================================
+2026-02-27 02:46:56,883 - INFO - 
+Phase 2 completed!
+2026-02-27 02:46:56,883 - INFO - Output directory: output/phase2/gpt-4o/forward/input
+2026-02-27 02:46:56,883 - INFO - ============================================================
+2026-02-27 02:46:56,883 - INFO - Execution completed successfully!
+2026-02-27 02:46:56,883 - INFO - ============================================================
