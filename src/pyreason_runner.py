@@ -12,41 +12,39 @@ import sys
 from pathlib import Path
 from typing import Dict, List
 
-# pyreason imports pkg_resources (setuptools) at init time.  On Streamlit Cloud
-# uv doesn't install setuptools, so we shim pkg_resources using the stdlib
-# importlib.metadata which provides the same functionality.
-if "pkg_resources" not in sys.modules:
-    try:
-        import pkg_resources  # noqa: F401
-    except ImportError:
-        import importlib.metadata as _md
-        import types
 
-        _shim = types.ModuleType("pkg_resources")
+def _ensure_pkg_resources():
+    """Shim pkg_resources using importlib.metadata if setuptools is missing."""
+    if "pkg_resources" not in sys.modules:
+        try:
+            import pkg_resources  # noqa: F401
+        except ImportError:
+            import importlib.metadata as _md
+            import types
 
-        class _DistributionNotFound(Exception):
-            pass
+            _shim = types.ModuleType("pkg_resources")
 
-        def _get_distribution(name):
-            try:
-                dist = _md.distribution(name)
-            except _md.PackageNotFoundError:
-                raise _DistributionNotFound(name)
-            return dist
+            class _DistributionNotFound(Exception):
+                pass
 
-        _shim.get_distribution = _get_distribution
-        _shim.DistributionNotFound = _DistributionNotFound
-        sys.modules["pkg_resources"] = _shim
+            def _get_distribution(name):
+                try:
+                    dist = _md.distribution(name)
+                except _md.PackageNotFoundError:
+                    raise _DistributionNotFound(name)
+                return dist
 
-try:
+            _shim.get_distribution = _get_distribution
+            _shim.DistributionNotFound = _DistributionNotFound
+            sys.modules["pkg_resources"] = _shim
+
+
+def _import_pyreason():
+    """Lazy-import pyreason and networkx to avoid slow startup."""
     import networkx as nx
-except ImportError:
-    raise ImportError("networkx is required. Install with: pip install networkx")
-
-try:
+    _ensure_pkg_resources()
     import pyreason as pr
-except ImportError:
-    raise ImportError("pyreason is required. Install with: pip install pyreason")
+    return nx, pr
 
 logger = logging.getLogger(__name__)
 
@@ -72,7 +70,7 @@ def to_atom_id(name: str) -> str:
 # NetworkX Graph Creation
 # ==========================================================
 
-def create_networkx_graph(ground_atoms: Dict[str, List[float]]) -> nx.DiGraph:
+def create_networkx_graph(ground_atoms: Dict[str, List[float]]):
     """
     Create NetworkX graph from ground atoms.
 
@@ -84,6 +82,7 @@ def create_networkx_graph(ground_atoms: Dict[str, List[float]]) -> nx.DiGraph:
     Returns:
         NetworkX directed graph
     """
+    nx, _ = _import_pyreason()
     G = nx.DiGraph()
 
     # Extract nodes from individualistic_feature atoms
@@ -130,6 +129,7 @@ def run_pyreason(
         Path to trace directory containing CSV files
     """
     logger.info("Running PyReason...")
+    _, pr = _import_pyreason()
 
     # Create trace directory (clean slate)
     trace_dir = Path(output_dir) / "pyreason_traces"
