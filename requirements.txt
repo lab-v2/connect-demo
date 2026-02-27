@@ -65,6 +65,7 @@ pydeck==0.9.1
 Pygments==2.19.2
 pyparsing==3.3.2
 pyreason==3.3.0
+setuptools
 pytest==9.0.2
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.1
