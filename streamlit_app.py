@@ -1072,7 +1072,7 @@ def run_phase2_transform(
             cmd,
             cwd=BASE_DIR,
             text=True,
-            timeout=600,
+            timeout=6000,
             stdout=sys.stdout,
             stderr=sys.stderr,
         )
