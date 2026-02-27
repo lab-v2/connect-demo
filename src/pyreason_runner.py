@@ -41,8 +41,12 @@ def _ensure_pkg_resources():
 
 def _import_pyreason():
     """Lazy-import pyreason and networkx to avoid slow startup."""
+    import os
     import networkx as nx
     _ensure_pkg_resources()
+    # Disable numba JIT compilation — it hangs on resource-constrained
+    # environments like Streamlit Cloud.  Must be set before numba is imported.
+    os.environ.setdefault("NUMBA_DISABLE_JIT", "1")
     import pyreason as pr
     return nx, pr
 
