@@ -1,6 +1,7 @@
 # NARRATE
 
-NARRATE: Neurosymbolic Abductive Reasoning for Reframing Texts demonstration. A neurosymbolic framework that uses logical inference to transform text to an audience's view.
+NARRATE: Neurosymbolic Abductive Reasoning for Reframing Texts demonstration. A neurosymbolic framework that uses logical inference to transform text to an audience's view. 
+The video of live demonstration of NARRRATE is available at data/demofinal.mp4
 
 ## Run
 
