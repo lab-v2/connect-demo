@@ -79,7 +79,7 @@ SMALL_BOX_HEIGHT = 220
 CHAT_OUTPUT_HEIGHT = 700
 SURVEY_BOX_HEIGHT = 180
 ADDITIONAL_SURVEY_BOX_HEIGHT = 110
-PHASE2_ANALYSIS_ITERATIONS = 1
+PHASE2_ANALYSIS_ITERATIONS = 2
 PHASE2_TOTAL_ITERATIONS = PHASE2_ANALYSIS_ITERATIONS + 1
 
 
@@ -1064,7 +1064,7 @@ def run_phase2_transform(
         "--max-iterations",
         str(PHASE2_TOTAL_ITERATIONS),
         "--top-k",
-        "1",
+        "5",
     ]
     print(f"[TRANSFORM] Running: {' '.join(cmd)}", flush=True)
     try:
