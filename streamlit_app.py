@@ -1691,6 +1691,7 @@ def render() -> None:
             if st.button("Hide Changes", key="hide_transform_text", use_container_width=True):
                 st.session_state.hide_transformed_text = not st.session_state.hide_transformed_text
                 st.rerun()
+            st.caption("If facing rendering issues, click on the Hide Changes button.")
 
     with col3:
         score1, score2, score3 = st.columns(3, gap="small")

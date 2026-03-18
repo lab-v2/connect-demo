@@ -4,6 +4,9 @@ NARRATE: Neurosymbolic Abductive Reasoning for Reframing Texts demonstration. A 
 The video of live demonstration of NARRRATE is available at data/demofinal.mp4
 
 ## Run
+Open-access website: `https://narrate.streamlit.app/`
+
+Or
 
 ```bash
 pip install streamlit
