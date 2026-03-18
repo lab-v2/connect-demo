@@ -79,7 +79,7 @@ SMALL_BOX_HEIGHT = 220
 CHAT_OUTPUT_HEIGHT = 700
 SURVEY_BOX_HEIGHT = 180
 ADDITIONAL_SURVEY_BOX_HEIGHT = 110
-PHASE2_ANALYSIS_ITERATIONS = 2
+PHASE2_ANALYSIS_ITERATIONS = 1
 PHASE2_TOTAL_ITERATIONS = PHASE2_ANALYSIS_ITERATIONS + 1
 
 
@@ -1326,6 +1326,42 @@ def render() -> None:
         .transform-cell-spacer {
             height: 74px;
         }
+        .reframe-loader {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            min-height: 2.5rem;
+            margin-top: 0.15rem;
+            color: #8f3f00;
+            font-size: 0.94rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .reframe-loader-dot {
+            width: 0.72rem;
+            height: 0.72rem;
+            border-radius: 999px;
+            background: #f76900;
+            box-shadow: 0 0 0 rgba(247, 105, 0, 0.35);
+            animation: reframe-pulse 1.1s ease-in-out infinite;
+        }
+        @keyframes reframe-pulse {
+            0% {
+                transform: scale(0.82);
+                opacity: 0.65;
+                box-shadow: 0 0 0 0 rgba(247, 105, 0, 0.35);
+            }
+            70% {
+                transform: scale(1);
+                opacity: 1;
+                box-shadow: 0 0 0 8px rgba(247, 105, 0, 0);
+            }
+            100% {
+                transform: scale(0.82);
+                opacity: 0.65;
+                box-shadow: 0 0 0 0 rgba(247, 105, 0, 0);
+            }
+        }
         div[data-testid="stMetricValue"] {
             font-size: 1.55rem;
             line-height: 1.1;
@@ -1426,6 +1462,8 @@ def render() -> None:
 
     if "hide_transformed_text" not in st.session_state:
         st.session_state.hide_transformed_text = False
+    if "reframe_requested" not in st.session_state:
+        st.session_state.reframe_requested = False
     if "active_story_path" not in st.session_state:
         st.session_state.active_story_path = str(INPUT_STORY_PATH)
     if "active_story_name" not in st.session_state:
@@ -1519,6 +1557,9 @@ def render() -> None:
         with action_col:
             st.markdown("<div class='transform-cell-spacer'></div>", unsafe_allow_html=True)
             send_clicked = st.button("**Reframe**", use_container_width=True)
+            if send_clicked and edited_story_text.strip():
+                st.session_state.reframe_requested = True
+                st.rerun()
         selected_paths = selection_paths(model, scenario)
 
         rules_text = load_text(selected_paths["pyreason_rules"], "")
@@ -1632,26 +1673,6 @@ def render() -> None:
 
     with col2:
         current_story_text = load_text(active_story_path, "")
-        if send_clicked and current_story_text.strip():
-            clear_phase2_output_for_selection(
-                model,
-                scenario,
-                story_name=active_story_name,
-            )
-            save_text(active_story_path, current_story_text.strip() + "\n")
-            save_text(INPUT_STORY_PATH, current_story_text.strip() + "\n")
-            rules_input_path = selected_paths["selected_rules"] if selected_rules_text else selected_paths["pyreason_rules"]
-            ok, response = run_phase2_transform(
-                model,
-                scenario,
-                rules_path=rules_input_path,
-                story_path=active_story_path,
-            )
-            if ok:
-                st.session_state.hide_transformed_text = False
-                st.rerun()
-            st.error(response)
-
         st.markdown(
             "<div style='font-size: 0.95rem; font-weight: 600;'>Reframed Text</div>",
             unsafe_allow_html=True,
@@ -1686,12 +1707,39 @@ def render() -> None:
         st.markdown(transformed_html, unsafe_allow_html=True)
 
         st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
+        run_reframe_now = st.session_state.reframe_requested and bool(current_story_text.strip())
         hide_left, hide_mid, hide_right = st.columns([1, 1.2, 1])
         with hide_mid:
             if st.button("Hide Changes", key="hide_transform_text", use_container_width=True):
                 st.session_state.hide_transformed_text = not st.session_state.hide_transformed_text
                 st.rerun()
             st.caption("If facing rendering issues, click on the Hide Changes button.")
+        with hide_right:
+            if run_reframe_now:
+                st.markdown(
+                    "<div class='reframe-loader'><span class='reframe-loader-dot'></span><span>Reframing...</span></div>",
+                    unsafe_allow_html=True,
+                )
+        if run_reframe_now:
+            clear_phase2_output_for_selection(
+                model,
+                scenario,
+                story_name=active_story_name,
+            )
+            save_text(active_story_path, current_story_text.strip() + "\n")
+            save_text(INPUT_STORY_PATH, current_story_text.strip() + "\n")
+            rules_input_path = selected_paths["selected_rules"] if selected_rules_text else selected_paths["pyreason_rules"]
+            ok, response = run_phase2_transform(
+                model,
+                scenario,
+                rules_path=rules_input_path,
+                story_path=active_story_path,
+            )
+            st.session_state.reframe_requested = False
+            if ok:
+                st.session_state.hide_transformed_text = False
+                st.rerun()
+            st.error(response)
 
     with col3:
         score1, score2, score3 = st.columns(3, gap="small")
